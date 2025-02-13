@@ -4,7 +4,9 @@ import streamlit as st
 from typing import Optional
 from neo4j import GraphDatabase
 from pathlib import Path
-
+import requests
+import subprocess
+import time
 
 
 def neo4j_settings_container(
@@ -22,13 +24,50 @@ def neo4j_settings_container(
                 uri=uri,
                 auth=(user, password),
             ) as driver:
-                try:
-                    driver.verify_connectivity()
-                    st.success("接続に成功しました")
-                except Exception as e:
-                    st.error(f"接続に失敗しました: {e}")
+                with driver.session() as session:
+                    try: 
+                        result = session.run("MATCH (n) RETURN count(n) as count")
+                        count = result.single()["count"]
+                        st.session_state["local"] = True
+                        st.success("接続成功")
+                    except Exception as e:
+                        st.error("接続失敗")
     return uri, user, password
 
+def start_neo4j_in_browser():
+    if st.button("Dockerでneo4jサービスを起動"):
+        st.write("docker-composeを用いてNeo4jサービスを起動しています…")
+        try:
+            # docker-compose.yml に記述された neo4j サービスをバックグラウンドで起動
+            result = subprocess.run(
+                ["docker-compose", "up", "-d", "neo4j"],
+                check=True,
+                capture_output=True,
+                text=True
+            )
+            st.success("Neo4jサービスが正常に起動しました！")
+        except subprocess.CalledProcessError as e:
+            st.error("Neo4j サービスの起動に失敗しました。")
+            st.text("エラー出力:\n" + e.stderr)
+    return 
+
+
+def end_neo4j_in_browser():
+    if st.button("Neo4j サービスを停止"):
+        st.write("docker-compose を用いて Neo4j サービスを停止しています…")
+        try:
+            # docker-compose.yml に記述された neo4j サービスを停止
+            result = subprocess.run(
+                ["docker-compose", "down"],
+                check=True,
+                capture_output=True,
+                text=True
+            )
+            st.success("Neo4j サービスが正常に停止しました！")
+        except subprocess.CalledProcessError as e:
+            st.error("Neo4j サービスの停止に失敗しました。")
+            st.text("エラー出力:\n" + e.stderr)
+    return
 
 def file_settings_container(
     data_dir_value: str,
@@ -92,4 +131,4 @@ def file_settings_container(
 
         
 if __name__ == "__main__":
-    neo4j_settings_container("bolt://localhost:7687", "neo4j", "password")
+    start_neo4j_in_browser()
