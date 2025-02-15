@@ -74,9 +74,8 @@ with st.sidebar:
     st.session_state["neo4j_password"] = password
 
     # OpenAI API Key の入力欄
-    if "openai_api_key" not in st.session_state:
-        openai_api_key = st.text_input("OpenAI API Key", None, type="password")
-        st.session_state["openai_api_key"] = openai_api_key
+    openai_api_key = st.text_input("OpenAI API Key", None, type="password")
+    st.session_state["openai_api_key"] = openai_api_key
 
 
 degradation_type = st.selectbox("劣化の種類を選択", ["アルカリ応力腐食割れ", "クリープ亀裂", "脆化"])
@@ -129,25 +128,13 @@ if prompt := st.chat_input(placeholder="質問を入力してください"):
             auth=(st.session_state["neo4j_user"], st.session_state["neo4j_password"]),
         )
     Visualizer = VisualizeQuery(working_dir, driver)
-    Visualizer.run()
+    nodes, edges = Visualizer.run()
     if st.session_state["local"] is False:
         st.write("Neo4j Browser にアクセスする: [http://localhost:7474/browser/](http://localhost:7474/browser/)")
+    
+    config = Config(height=600, width=800, directed=True, nodeHighlightBehavior=False, highlightColor="#F7A7A6")
+    agraph(nodes, edges, config=config)
 
-
-
-
-
-
-
-
-    # st.session_state["messages"].append({"role": "user", "content": prompt})
-    # st.chat_message("user").write(prompt)
-
-        
-
-    #config = Config(height=600, width=800, directed=True, nodeHighlightBehavior=True, highlightColor="#F7A7A6")
-        # Visualization
-        #agraph(nodes=nodes, edges=edges, config=config)
 
 
 
