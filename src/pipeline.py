@@ -5,6 +5,7 @@ from datetime import datetime
 from components import neo4j_settings_container, file_settings_container, start_neo4j_in_browser
 from neo4j import GraphDatabase
 import xml.etree.ElementTree as ET
+from streamlit_agraph import agraph, Node, Edge, Config
 import re
 
 
@@ -120,7 +121,6 @@ class VisualizeQuery:
         sentence_ids = set()
 
         for sentence in sentences:
-            print(sentence)
             # エンティティIDの抽出
             if "Entities" in sentence:
                 entities_part = sentence.split("Entities")[1].split(";")[0]
@@ -256,6 +256,68 @@ class VisualizeQuery:
                 )
 
             print("Nodes and edges imported successfully!")
+
+    def import_graphml_to_streamlit(self, entity_ids, relationship_ids, sentence_ids):
+        """
+        GraphML ファイルを解析し、Streamlit にインポートする
+        """
+        tree = ET.parse(self.graphml_path)
+        root = tree.getroot()
+
+        # 名前空間の取得
+        namespace = root.tag.split('}')[0].strip('{')
+        ns = {'ns': namespace}
+
+        nodes = []
+        nodes_name = {}
+        
+        for node in root.findall(".//ns:node", ns):
+            node_id = node.get("id")
+            properties = {}
+            properties["id"] = node_id
+            for data in node.findall("ns:data", ns):
+                key = data.get("key")
+                value = data.text.strip('"') if data.text else ""
+                properties[key] = value
+            nodes.append(properties)
+     
+
+        fixed_nodes = []
+        for node in nodes:
+            if node["id"].isdigit():
+                nodes_name[node["id"]] = value=node["d0"]
+            else:
+                nodes_name[node["id"]] = value=node["id"]
+            if node["id"].isdigit() and int(node["id"]) in entity_ids:
+                fixed_nodes.append(Node(id=node["id"], label=node["d0"], shape="circle", color="pink"))
+            elif node["id"] in sentence_ids:
+                fixed_nodes.append(Node(id=node["id"], label=node["id"], shape="circle", color="pink"))
+        
+        edges = []
+        for edge in root.findall(f".//{{{namespace}}}edge"):
+            edge_source = edge.attrib["source"]
+            edge_target = edge.attrib["target"]
+            properties = {}
+            properties["source"] = edge_source
+            properties["target"] = edge_target
+            for data in edge.findall(f"./{{{namespace}}}data"):
+                key = data.attrib["key"]
+                value = data.text.strip('"') if data.text else ""
+                properties[key] = value
+            edges.append(properties)
+
+        fixed_edges = []
+        for edge in edges:
+            if int(edge["d4"]) in relationship_ids:
+                source = edge["source"]
+                target = edge["target"]
+                if source not in [node.id for node in fixed_nodes]:
+                    fixed_nodes.append(Node(id=source, label=nodes_name[source]))
+                if target not in [node.id for node in fixed_nodes]:
+                    fixed_nodes.append(Node(id=target, label=nodes_name[target]))
+                fixed_edges.append(Edge(source=edge["source"], target=edge["target"]))
+
+        return fixed_nodes, fixed_edges
         
     
     def run(self):
@@ -264,8 +326,11 @@ class VisualizeQuery:
         sentences = [line for line in sentences if line.startswith("-")]
         
         entity_ids, relationship_ids, sentence_ids = self.extract_entity_relationship_ids(sentences)
-        self.import_graphml_to_neo4j(entity_ids, relationship_ids, sentence_ids)
+        nodes, edges = self.import_graphml_to_streamlit(entity_ids, relationship_ids, sentence_ids)
         self.driver.close()
+
+        return nodes, edges
+        
 
 
 # テスト
@@ -276,8 +341,9 @@ if __name__ == "__main__":
     assert os.path.exists(working_dir + "/input"), f"Directory not found: {working_dir}/input"
     
     # LightRAGのIndexing
-    Indexing = LightRAGIndexing(working_dir, gpt_4o_mini_complete, "api-key")
-    Indexing.run()
+    API_KEY = os.getenv("OPENAI_API_KEY")
+    Indexing = LightRAGIndexing(working_dir, gpt_4o_mini_complete, API_KEY)
+    #Indexing.run()
 
     # LightRAGのQuerying
     Query = LightRAGQuery(working_dir, Indexing.rag)
@@ -297,7 +363,10 @@ if __name__ == "__main__":
     ## 回答根拠の可視化
     working_dir = os.path.join(working_dir, Query.mode)
     Visualizer = VisualizeQuery(working_dir, driver)
-    Visualizer.run()
+    nodes, edges = Visualizer.run()
+    config = Config(height=600, width=800, directed=True, nodeHighlightBehavior=False, highlightColor="#F7A7A6")
+    agraph(nodes, edges, config=config)
+    
 
     ## Neo4jブラウザにアクセス
     url = "http://localhost:7474/browser/"
