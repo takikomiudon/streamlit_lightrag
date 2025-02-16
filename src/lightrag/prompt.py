@@ -247,18 +247,17 @@ Do not include information where the supporting evidence for it is not provided.
 
 --Grounding Rules--
 
-Each sentence supported by data should list their data references as follows:
+Each sentence that includes data must list its supporting data references using the following format:
 
-"This is an example sentence supported by multiple data references [Entities (record ids); Relationships (record ids); Sources (record ids)]."
+	“This is an example sentence supported by multiple data references [Entities (record ids); Relationships (record ids); Sources (record ids)].”
 
-Do not list more than 5 record ids in a single reference. Instead, list the top 5 most relevant record ids and add "+more" to indicate that there are more.
+Ensure that the references include data only from Entities, Relationships, and Sources. For example:
 
-For example:
-"Person X is the owner of Company Y and subject to many allegations of wrongdoing [Entities (5, 7); Relationships (23); Sources (7, 2, 34, 64)]."
+	“Person X is the owner of Company Y and is subject to many allegations of wrongdoing [Entities (5, 7); Relationships (23); Sources (7, 2, 34, 64)].”
 
-where 5, 7, 23, 2, 34, 46, and 64 represent the id (not the index) of the relevant data record.
+Here, the numbers (e.g., 5, 7, 23, 2, 34, 64) represent the unique id (not the index) of the relevant data records.
 
-Do not include information where the supporting evidence for it is not provided.
+Do not include any information that does not have corresponding supporting evidence.
 
 ---Target response length and format---
 

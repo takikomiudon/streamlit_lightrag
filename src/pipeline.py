@@ -326,6 +326,7 @@ class VisualizeQuery:
         sentences = [line for line in sentences if line.startswith("-")]
         
         entity_ids, relationship_ids, sentence_ids = self.extract_entity_relationship_ids(sentences)
+        self.import_graphml_to_neo4j(entity_ids, relationship_ids, sentence_ids)
         nodes, edges = self.import_graphml_to_streamlit(entity_ids, relationship_ids, sentence_ids)
         self.driver.close()
 
@@ -347,7 +348,7 @@ if __name__ == "__main__":
 
     # LightRAGのQuerying
     Query = LightRAGQuery(working_dir, Indexing.rag)
-    #response = Query.run("脆化の原因は何ですか？")
+    response = Query.run("Please provide the conditions under which Caustic Stress-Corrosion Cracking (CSCC) occurs.")
     #print(response)
 
 
