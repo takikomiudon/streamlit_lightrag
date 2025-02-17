@@ -13,7 +13,7 @@ cd src
 pip install -e .
 cd .. # 元のレポジトリに戻る
 ```
-3. 入力ファイル(txt形式)を適切なパスに配置する。デフォルトでは、`./src/nuclear/アルカリ応力腐食割れ/input`、`./src/nuclear/クリープ亀裂/input`、`./src/nuclear/脆化/input`に格納する必要がある。
+3. 入力ファイル(txt形式)を適切なパスに配置する。デフォルトでは、`./src/nuclear/アルカリ応力腐食割れ/input`、`./src/nuclear/クリープ亀裂/input`、`./src/nuclear/脆化/input`に格納する必要がある。`./src/pdf2txt.py`を実行することで、pdfをtxtに変換できる。
 
 
 ## CUIで実行
