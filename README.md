@@ -34,7 +34,7 @@ export OPENAI_API_KEY="sk-xxxx"
 response = Query.run("Please provide the conditions under which Caustic Stress-Corrosion Cracking (CSCC) occurs.")
 ```
 
-3. コードを実行する。
+4. コードを実行する。
 ```
 python src/pipeline.py
 ```
@@ -56,10 +56,12 @@ Neo4jをローカル(Dockerを使わずに)実行する場合は、チェック�
 <img width="1551" alt="スクリーンショット 2025-02-17 14 29 28" src="https://github.com/user-attachments/assets/807c4ac8-2a92-40f4-98bb-53d9cf72ee3c" />
 6. 回答とともに回答根拠となったグラフが表示される。
 <img width="1525" alt="スクリーンショット 2025-02-17 14 34 45" src="https://github.com/user-attachments/assets/7dc59ab9-1718-4338-8570-bb7415298b39" />
-より詳細なグラフ情報がみたい場合は、接続したNeo4jを参照する。Docker上にNeo4jを起動した場合は http://localhost:7474/browserにアクセスすれば良い。
+より詳細なグラフ情報がみたい場合は、接続したNeo4jを参照する。Docker上にNeo4jを起動した場合は http://localhost:7474/browser にアクセスすれば良い。
+
+7. Docker上でNeo4jを起動していた場合は、`Neo4jサービスを停止`を選択した後に、タブを閉じる。(次回接続した際に、エラーが発生するため。)
 
 ## (Option) RAGASでの評価
-`src/evaluation_ragas.py`を実行すると、評価結果がcsv形式で出力できる。
+`src/evaluation_ragas.py`を実行すると、評価結果がcsv形式で出力される。
 
 
 
