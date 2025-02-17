@@ -33,3 +33,6 @@ openai
 torch
 streamlit
 streamlit_agraph
+nano_vectordb
+neo4j
+
