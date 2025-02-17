@@ -1,4 +1,4 @@
-# LightRAG with Visualization
+# 🚀LightRAG with Visualization
 
 ## 環境構築
 1. レポジトリをcloneする。
@@ -13,7 +13,7 @@ cd src
 pip install -e .
 cd .. # 元のレポジトリに戻る
 ```
-3. 入力ファイル(txt形式)を適切なパスに配置する。デフォルトでは、`./src/nuclear/アルカリ応力腐食割れ/input`、`./src/nuclear/クリープ亀裂/input`、`./src/nuclear/脆化/input`に格納されている。
+3. 入力ファイル(txt形式)を適切なパスに配置する。デフォルトでは、`./src/nuclear/アルカリ応力腐食割れ/input`、`./src/nuclear/クリープ亀裂/input`、`./src/nuclear/脆化/input`に格納する必要がある。
 
 
 ## CUIで実行
@@ -57,6 +57,9 @@ Neo4jをローカル(Dockerを使わずに)実行する場合は、チェック�
 6. 回答とともに回答根拠となったグラフが表示される。
 <img width="1525" alt="スクリーンショット 2025-02-17 14 34 45" src="https://github.com/user-attachments/assets/7dc59ab9-1718-4338-8570-bb7415298b39" />
 より詳細なグラフ情報がみたい場合は、接続したNeo4jを参照する。Docker上にNeo4jを起動した場合は http://localhost:7474/browserにアクセスすれば良い。
+
+## (Option) RAGASでの評価
+`src/evaluation_ragas.py`を実行すると、評価結果がcsv形式で出力できる。
 
 
 
