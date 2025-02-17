@@ -64,7 +64,7 @@ Neo4jをローカル(Dockerを使わずに)実行する場合は、チェック�
 
 6. Docker上でNeo4jを起動していた場合は、`Neo4jサービスを停止`を選択した後に、タブを閉じる。(次回接続した際に、エラーが発生するため。)
 
-## (Option) RAGASでの評価
+## (Optional) RAGASでの評価
 `src/evaluation_ragas.py`を実行すると、評価結果がcsv形式で出力される。
 
 
