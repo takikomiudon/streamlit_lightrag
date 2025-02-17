@@ -45,7 +45,7 @@ python src/pipeline.py
 ## GUI(streamlitアプリ)で実行 
 1. Neo4jを起動する。
    
-Neo4jをローカル(Dockerを使わずに)実行する場合は、チェックボックスにチェックを入れ、ユーザー名、パスワードなどを入力する。
+Neo4jをローカルで(Dockerを使わずに)起動する場合は、以下のようにチェックボックスにチェックを入れ、URI、ユーザー名、パスワードを入力する。
  <img width="1545" alt="スクリーンショット 2025-02-17 14 23 03" src="https://github.com/user-attachments/assets/1f42dc6b-ee72-45f0-98b5-43d760a12d45" />
  Docker上で起動する場合は、Docker Desktopを起動し、`Dockerでneo4jサービスを起動`を選択する。
  ※認証なしのNeo4jが起動されることに注意。
