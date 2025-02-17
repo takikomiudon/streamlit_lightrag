@@ -132,7 +132,7 @@ if prompt := st.chat_input(placeholder="質問を入力してください"):
     if st.session_state["local"] is False:
         st.write("Neo4j Browser にアクセスする: [http://localhost:7474/browser/](http://localhost:7474/browser/)")
     
-    config = Config(height=600, width=800, directed=True, nodeHighlightBehavior=False, highlightColor="#F7A7A6")
+    config = Config(height=600, width=1000, directed=True, nodeHighlightBehavior=False, highlightColor="#F7A7A6")
     agraph(nodes, edges, config=config)
 
 
