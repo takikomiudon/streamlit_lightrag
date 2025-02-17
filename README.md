@@ -48,6 +48,7 @@ python src/pipeline.py
 Neo4jをローカル(Dockerを使わずに)実行する場合は、チェックボックスにチェックを入れ、ユーザー名、パスワードなどを入力する。
  <img width="1545" alt="スクリーンショット 2025-02-17 14 23 03" src="https://github.com/user-attachments/assets/1f42dc6b-ee72-45f0-98b5-43d760a12d45" />
  Docker上で起動する場合は、Docker Desktopを起動し、`Dockerでneo4jサービスを起動`を選択する。
+ ※認証なしのNeo4jが起動されることに注意。
 <img width="1552" alt="スクリーンショット 2025-02-17 14 24 46" src="https://github.com/user-attachments/assets/3068e03f-2629-4680-831e-d83fc2710571" />
 
 2. OpenAI API Keyを入力し、劣化の種類、LLMモデルをそれぞれ選択する。
