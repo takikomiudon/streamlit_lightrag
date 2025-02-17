@@ -17,7 +17,7 @@ cd .. # 元のレポジトリに戻る
 
 
 ## CUIで実行
-1. Neo4jの認証情報を入力する。(356~359行目 in src/pipeline.py)
+1. Neo4jの認証情報を入力する。(in src/pipeline.py)
 ```
 uri = "bolt://localhost:7687"
 username = "neo4j"
@@ -29,7 +29,7 @@ password = "password"
 export OPENAI_API_KEY="sk-xxxx"
 ```
 
-3. クエリを入力する。(351行目 in src/pipeline.py)
+3. クエリを入力する。(in src/pipeline.py)
 ```
 response = Query.run("Please provide the conditions under which Caustic Stress-Corrosion Cracking (CSCC) occurs.")
 ```
