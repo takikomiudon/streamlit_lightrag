@@ -6,7 +6,7 @@ from lightrag.llm import gpt_4o_mini_complete, gpt_4o_complete
 from streamlit_agraph import agraph, Node, Edge, Config
 import os 
 
-from src.components import neo4j_settings_container, file_settings_container, start_neo4j_in_browser, end_neo4j_in_browser
+from src.components import neo4j_settings_container, start_neo4j_in_browser, end_neo4j_in_browser
 from pipeline import LightRAGIndexing, LightRAGQuery, VisualizeQuery
 from neo4j import GraphDatabase
 
