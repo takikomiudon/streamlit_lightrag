@@ -57,9 +57,9 @@ Neo4jをローカル(Dockerを使わずに)実行する場合は、チェック�
 4. 質問を送信すると、ナレッジグラフを使って回答が生成される。
 <img width="1551" alt="スクリーンショット 2025-02-17 14 29 28" src="https://github.com/user-attachments/assets/807c4ac8-2a92-40f4-98bb-53d9cf72ee3c" />
 
-5. 回答とともに回答根拠となったグラフが表示される。
+5. 回答とともに回答根拠となったグラフが表示される。より詳細なグラフ情報がみたい場合は、接続したNeo4jを参照する。Docker上にNeo4jを起動した場合は <http://localhost:7474/browser> にアクセスすれば良い。
 <img width="1525" alt="スクリーンショット 2025-02-17 14 34 45" src="https://github.com/user-attachments/assets/7dc59ab9-1718-4338-8570-bb7415298b39" />
-より詳細なグラフ情報がみたい場合は、接続したNeo4jを参照する。Docker上にNeo4jを起動した場合は <http://localhost:7474/browser> にアクセスすれば良い。
+
 
 6. Docker上でNeo4jを起動していた場合は、`Neo4jサービスを停止`を選択した後に、タブを閉じる。(次回接続した際に、エラーが発生するため。)
 
