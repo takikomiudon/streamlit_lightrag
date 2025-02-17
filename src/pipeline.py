@@ -103,11 +103,14 @@ class VisualizeQuery:
             raise FileNotFoundError(f"Text file not found: {self.txt_path}")
         
         # 正しくNeo4jに接続できるか確認
+        self.neo4j_connection= False
         with self.driver.session() as session:
             try:
                 session.run("MATCH (n) RETURN n LIMIT 1")
+                self.neo4j_connection = True
             except Exception as e:
-                raise ConnectionError("Failed to connect to Neo4j") from e
+                print(f"Neo4jの接続に失敗しました: {e}")
+                self.neo4j_connected = False  # 失敗した場合
 
     def extract_entity_relationship_ids(self, sentences):
         """
@@ -326,7 +329,8 @@ class VisualizeQuery:
         sentences = [line for line in sentences if line.startswith("-")]
         
         entity_ids, relationship_ids, sentence_ids = self.extract_entity_relationship_ids(sentences)
-        self.import_graphml_to_neo4j(entity_ids, relationship_ids, sentence_ids)
+        if self.neo4j_connection:
+            self.import_graphml_to_neo4j(entity_ids, relationship_ids, sentence_ids)
         nodes, edges = self.import_graphml_to_streamlit(entity_ids, relationship_ids, sentence_ids)
         self.driver.close()
 
@@ -353,8 +357,6 @@ if __name__ == "__main__":
 
 
     # 可視化
-    ## Docker上でNeo4jを起動
-    start_neo4j_in_browser()
     uri = "bolt://localhost:7687"
     username = "neo4j"
     password = ""
@@ -365,11 +367,11 @@ if __name__ == "__main__":
     working_dir = os.path.join(working_dir, Query.mode)
     Visualizer = VisualizeQuery(working_dir, driver)
     nodes, edges = Visualizer.run()
-    config = Config(height=600, width=800, directed=True, nodeHighlightBehavior=False, highlightColor="#F7A7A6")
-    agraph(nodes, edges, config=config)
+    # config = Config(height=600, width=1000, directed=True, nodeHighlightBehavior=False, highlightColor="#F7A7A6")
+    # agraph(nodes, edges, config=config)
     
 
     ## Neo4jブラウザにアクセス
-    url = "http://localhost:7474/browser/"
-    print(f"Neo4j Browser: {url}")
+    #url = "http://localhost:7474/browser/"
+    #print(f"Neo4j Browser: {url}")
 

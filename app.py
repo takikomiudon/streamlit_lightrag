@@ -129,7 +129,7 @@ if prompt := st.chat_input(placeholder="質問を入力してください"):
         )
     Visualizer = VisualizeQuery(working_dir, driver)
     nodes, edges = Visualizer.run()
-    if st.session_state["local"] is False:
+    if st.session_state["local"] is False and Visualizer.neo4j_connection == True:
         st.write("Neo4j Browser にアクセスする: [http://localhost:7474/browser/](http://localhost:7474/browser/)")
     
     config = Config(height=600, width=1000, directed=True, nodeHighlightBehavior=False, highlightColor="#F7A7A6")
