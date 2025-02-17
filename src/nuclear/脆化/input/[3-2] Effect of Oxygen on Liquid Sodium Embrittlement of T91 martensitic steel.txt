@@ -1,0 +1,889 @@
+                                                                    Corrosion Science 76 (2013) 441–452
+
+
+
+                                                               Contents lists available at ScienceDirect
+
+
+                                                                    Corrosion Science
+                                                 journal homepage: www.elsevier.com/locate/corsci
+
+
+
+
+Effect of oxygen on liquid sodium embrittlement of T91 martensitic steel
+S. Hémery a, T. Auger a,⇑, J.L. Courouau b, F. Balbaud-Célérier c
+a
+  ECP/MSSMAT, UMR CNRS 8579, Grande voie des vignes, 92295 Chatenay-Malabry, France
+b
+  CEA, DEN, DPC, SCCME, Laboratoire d’Etude de la Corrosion Non Aqueuse, CEA Saclay, F-91191 Gif-sur-Yvette, France
+c
+  CEA, DEN, EC, DADN, CEA Saclay, F-91191 Gif-sur-Yvette, France
+
+
+
+a r t i c l e          i n f o                           a b s t r a c t
+
+Article history:                                         The liquid sodium embrittlement susceptibility of the T91 steel in a standard metallurgical state has been
+Received 14 February 2013                                studied with varying dissolved oxygen levels. The experimental procedure consists of a pre-exposure
+Accepted 5 July 2013                                     wetting step in static sodium before mechanical testing in liquid sodium. The oxygen impurity plays
+Available online 19 July 2013
+                                                         the role of a wetting promoter that facilitates LME of the T91 steel rather than taking part in the fracture
+                                                         process. Brittle grain boundary decohesion is observed using transmission electron microscopy on
+Keywords:                                                focused ion beam prepared foils. This settles the issue about the susceptibility of steels to liquid metal
+A. Steel
+                                                         embrittlement in liquid sodium.
+A. Sodium
+B. TEM
+                                                                                                                           Ó 2013 Elsevier Ltd. All rights reserved.
+C. LME
+
+
+
+
+1. Introduction                                                                          dium medium was then accordingly reported as an inert environ-
+                                                                                         ment. Tensile, creep and fatigue testing in a well controlled
+   The use of liquid sodium is currently considered as coolant for                       sodium chemistry (sodium loop puriﬁed by cold trapping) were la-
+fast nuclear reactors. Because of the potential impact of such envi-                     ter performed by Chopra [13] on austenitic and martensitic steels
+ronment on the components, there is interest in revisiting the                           at working temperatures of a sodium cooled reactor (over 800 K).
+interactions of sodium with structural materials. Its inﬂuence on                        Recently, low cycle fatigue [14] and creep fatigue [15] testing were
+steels has been reviewed recently in [1–3]. Steels, exposed to a li-                     performed in high purity sodium at the temperatures of 823 K and
+quid metal, experience corrosion phenomena and potentially li-                           873 K. These mechanical tests in sodium at high temperature did
+quid metal embrittlement (LME). LME is deﬁned here as a change                           not show any embrittlement issue, strengthening the generally
+in the fracture mode from ductile to brittle. The martensitic T91                        held opinion that sodium is not an embrittling medium for iron
+steel is one of the materials selected for fast reactors due to its high                 based materials. Phenomenological criteria for LME are low mutual
+strength at elevated temperature, its low thermal expansion, its                         solubilities, no intermetallic phases and good wetting [16]. This ap-
+good corrosion and irradiation resistance. The standard metallurgi-                      plies to the Fe/Na couple therefore it could potentially be prone to
+cal state of this material is a tempered martensite obtained after a                     LME. Consequently, one has to be careful about the mechanical
+normalization heat treatment (1 h austenitization at 1323 K fol-                         tests parameters (stress concentration, temperature and strain
+lowed by tempering at 1023 K). In this metallurgical state, T91                          rate) and about the speciﬁc chemistry of sodium (dissolved impu-
+has been found sensitive to LME with liquid indium [4], mercury                          rities and the nature of the liquid metal/solid metal interface). An
+[5] or lead–bismuth eutectic [6–9]. Screening tests with sodium                          extended survey of the test parameters is required to fully assess
+were carried out early in the history of LME phenomenology. A                            the LME susceptibility. These preliminary studies, being limited
+quenched and tempered steel was tested by Rostoker [10] at a sin-                        to a small window of parameters, may have missed the range
+gle temperature (398 K) without the protection of an inert gas. A                        where LME can happen. It could also be an incomplete or absence
+mild low alloy steel was later tested at 423 K and 523 K by Tanaka                       of wetting as Old was already warning about in his LME review
+[11]. Low carbon steel and 316 stainless steel were subsequently                         [17]. Indeed, it was shown with sodium that the wetting behavior
+tested in high purity sodium at 473 K and 573 K by Old [12]. While                       on pure metals (including iron) is totally changed from non-wet-
+the Fe/Na system belongs to the same thermodynamical class than                          ting to total wetting when removing the native oxide by ion bom-
+the Fe/In–Hg–Pb–Bi systems (i.e. low mutual solubilities and no                          bardment [18]. Good wetting is therefore far from warranted,
+intermetallic phases), no embrittlement was reported and the so-                         simply with exposure in a reductive medium such as sodium. Nev-
+                                                                                         ertheless it might occur after long term evolution.
+                                                                                             The ﬁrst signs of embrittlement in a sodium media were estab-
+    ⇑ Corresponding author. Tel.: +33 1 41 13 15 97.                                     lished in tensile tests, precisely on the T91 steel in its standard
+      E-mail address: thierry.auger@ecp.fr (T. Auger).
+
+0010-938X/$ - see front matter Ó 2013 Elsevier Ltd. All rights reserved.
+http://dx.doi.org/10.1016/j.corsci.2013.07.018
+442                                              S. Hémery et al. / Corrosion Science 76 (2013) 441–452
+
+
+metallurgical state [19]. The triggering factor was the presence of            mechanism and a better analysis of fracture surfaces. It is also a
+intentionally added impurities in sodium. In these experiments,                fundamental input for modeling. The T91 steel microstructure is
+addition of NaOH was used to saturate sodium in both oxygen                    a ﬁne and complex martensitic microstructure potentially highly
+and hydrogen (soda decomposes into sodium at temperatures low-                 deformed before fracture. These types of investigations require
+er than 685 K). The authors extended their investigations to vari-             the use of nanoscale resolution tools for a correct assessment.
+ous iron based materials, showing an equally detrimental                       The crack path has therefore been characterized by TEM observa-
+inﬂuence of polluted liquid sodium [20]. Upon puriﬁcation of so-               tion of FIB machined TEM foils from the fracture surface of speci-
+dium by cold trapping (a standard puriﬁcation process) the LME                 mens tested following the approach pioneered in [4]. Chemical
+behavior of these materials could be mitigated. The authors, then,             analysis (EDX and EELS) enables us to discuss the residual chemis-
+suggested that the non-metallic impurities, hydrogen and/or oxy-               try of the crack tip with nanoscale resolution at arrested cracks. It
+gen, are responsible for the ductile to brittle transition observed            is used to assess a potential grain boundary oxidation mechanism
+at temperatures between 423 K and 748 K. With respect to these                 that would be an alternative degradation mechanism to LME.
+impurities, sodium itself was therefore still viewed as an inert
+environment. In such conditions (sodium saturated with soda),
+                                                                               2. Materials and experiments
+the embrittlement phenomenon is temperature and strain rate
+sensitive. It was notably found that increasing the strain rate, as
+                                                                               2.1. Materials
+well as lowering the temperature, leads to a reduction of the inten-
+sity of the embrittlement. It is to be noted that strain rate has the
+                                                                                   The composition of the steel, provided by Industeel, is given in
+same inﬂuence on T91 embrittlement than reported in other liquid
+                                                                               Table 1.
+metals like mercury [5] or lead bismuth eutectic [21], where
+                                                                                   In the as-received state, the material was normalized for 1 h at
+decreasing the testing strain rate also leads to a higher reduction
+                                                                               1323 K and tempered for 1 h at 1023 K. The resulting microstruc-
+of the mechanical properties. The LME susceptibility of metallurgi-
+                                                                               ture is a tempered martensitic microstructure with prior austenitic
+cally modiﬁed T91 has been recently investigated in sodium [22].
+                                                                               grains of 20 lm mean size and martensite tempered laths of
+The authors found LME manifestations at slow strain rate between
+                                                                               0.5 lm mean width. M23C6 carbides decorate prior austenitic
+573 K and 823 K with clear intergranular cracking but only in a
+                                                                               grains and lath boundaries and ﬁner MX precipitates are present
+metallurgically hardened state, obtained by performing an incom-
+                                                                               within the lath and at the boundaries [26]. The average Vickers
+plete tempering at a lower temperature than the one recom-
+                                                                               hardness of the steel is 220 HV. Plane strain condition is more
+mended. Its intensity increases with temperature in a similar
+                                                                               prone to LME than plane stress condition [27]. Therefore, a cylin-
+manner than in the work of Skeldon [19]. While in the standard
+                                                                               drical notched geometry is used to assess the inﬂuence of liquid so-
+T91/Na case, a ductility recovery temperature is reported beyond
+                                                                               dium on the mechanical behavior of T91 steel. This enables testing
+748 K, no ductility recovery is observed with hardened T91. This
+                                                                               in higher triaxiality conditions than in most of the previous studies
+is coherent with the generally observed detrimental inﬂuence of
+                                                                               in liquid sodium. The tensile specimens have a gauge diameter of
+the stress level on LME susceptibility [19]. Indeed, the recovery
+                                                                               4 mm and a gauge length of 15 mm. A notch of 500 lm depth with
+in the standard state has been attributed to the onset of stress
+                                                                               an opening angle of 60° was mechanically machined. Due to differ-
+relaxation at high temperature whereas the stress levels are signif-
+                                                                               ent machining times, samples have a tip radius between 25 lm
+icantly higher in the hardened tempering condition.
+                                                                               and 60 lm. It leads to a slight change in triaxiality between the dif-
+    The review of the known experimental results suggests that the
+                                                                               ferent samples batches. It is not expected to affect the results and
+sensitivity of standard T91 to LME by nominal Na is not yet settled.
+                                                                               the conclusion of this study. The notch is used to hold liquid so-
+Considering each impurity separately, only hydrogen is known to
+                                                                               dium in place providing a convenient test geometry. High purity
+have a detrimental effect on T91 but it is essentially observed at
+                                                                               sodium was provided by Métaux Speciaux. The chemical analysis
+low temperature close to room temperature [23]. For example,
+                                                                               provided by the manufacturer is given in Table 2.
+the hydrogen embrittlement of a similar steel (HT9) is known as
+a function of temperature in a gaseous hydrogen environment
+[24]. No hydrogen embrittlement occurs beyond 473 K on HT9.                    2.2. Experimental procedure
+However one can ﬁnd embrittlement for T91 in polluted sodium
+up to 748 K, almost 300 K above any known hydrogen embrittle-                     The notched tensile specimens have been pre-exposed in static
+ment at short term exposure. While it cannot be completely ex-                 sodium with varying oxygen levels. This step is performed to
+cluded, it is therefore unlikely that hydrogen is the root cause for           promote sodium wetting on T91 when possible. The pre-exposure
+this embrittlement case as also noted by Skeldon [19]. This moti-              setup consists of a glove box system for static corrosion testing
+vates the study presented here that revisits the embrittlement case            under pure inert cover gas condition [28]. The sodium is contained
+of T91 steel in a standard metallurgical state by liquid sodium. As a          in a molybdenum crucible that is disposed within an alcove at the
+check for the hydrogen immunity of T91, the inﬂuence of high                   bottom of a high purity argon glove box. The oven is located
+hydrogen contents in sodium was nevertheless investigated. Since               outside the box around the alcove for safety. The temperature
+a good wetting is necessary to assess the potential LME effect, pre-
+exposure steps were introduced to promote wetting prior to
+                                                                               Table 1
+mechanical testing. Oxygen being an important factor in wetting                T91 martensitic steel composition.
+[25], the oxygen content was varied (three conditions) using chem-
+                                                                                 Element      Cr     Mo     V           Mn     Si        Ni     C       Nb     Fe
+ical processes to qualitatively assess the potential inﬂuence of dis-
+solved oxygen on T91 wettability. Since the wettability depends on               Weight %     8.90   0.89   0.20        0.40   0.24      0.12   0.10    0.08   Balance
+the kinetics of interfacial reactions, various temperatures and
+durations of exposures were then applied in order to look for the
+right wetting conditions. We could perform mechanical tests in                 Table 2
+different wettability states and therefore test the link between               Sodium chemical analysis.
+LME and wettability.                                                             Element             Ca             Cl              Fe              K          Na
+    Knowing the crack path is essential in any environmental frac-
+                                                                                 lg g 1              <2             4               1               4          >99.95%
+ture problem. It leads to a better understanding of the fracture
+                                                                                 S. Hémery et al. / Corrosion Science 76 (2013) 441–452                                         443
+
+
+can be set up to 923 K. The alcove is sealed during exposure with                                              oxygen because the saturation at 383 K is 4  10 4 atomic% (see
+99.9999% pure argon. The glove box has a closed loop argon cover                                               the graph a in Fig. 1 [30]). Re-opening the crucible to insert speci-
+gas system which is constantly puriﬁed by molecular sieves. The                                                mens can only change the content of oxygen and hydrogen impu-
+oxygen and moisture contents of the atmosphere of the glove                                                    rities in a very limited extent due to the short time and the high
+box never exceed 10 4 atomic%. This enables specimen handling                                                  purity of the cover gas. After then the zirconium foil was kept in
+without concern for oxygen and water gaseous reaction. For each                                                the sodium bath and specimens were exposed 160 h at 823 K.
+test, a new lot of high purity sodium is used (after use, the sodium                                           The sodium batch is disposed off at the end of the exposure.
+is disposed off). A puriﬁcation procedure, similar to the one used                                                 The second sodium conditioning is thus obtained after prepar-
+for lead–bismuth eutectic [29], is ﬁrst applied to ensure the lowest                                           ing a new sodium bath in similar manner than described in the
+achievable pollution of the liquid sodium. It consists of a mechan-                                            preparatory procedure. Although the oxygen content is not contin-
+ical scratch of the sodium ingots surfaces before melting into the                                             uously monitored, measurements of the oxygen content at 823 K
+inert crucible inside the glove box. The sodium is then held liquid                                            were carried out occasionally during similar corrosion tests with
+at a temperature of 383 K for 48 h. This is performed to provide en-                                           a sodium oxygen probe (an In/In2O3/Mo reference electrode). The
+ough time for crystallization of impurities at the surface (Na2O,                                              oxygen content was measured at 1  10 3 atomic% after 900 h
+NaH) which are then removed by carefully skimming the free sur-                                                [28] in accordance with the Thorley oxygen solubility relation
+face. This preparatory procedure was used as a basis for all the                                               [30] (graph a in Fig. 1). Tests carried out with this condition will
+exposure conditions.                                                                                           be labeled ‘‘low oxygen sodium’’. The exposure was performed in
+    The ﬁrst sodium conditioning, a sodium batch with a very low                                               this condition for 48 h at 723 K. In addition to the tensile speci-
+content in oxygen, was prepared by the following procedure. The                                                mens, a corrosion specimen, mechanically abraded up to 1200
+oxygen content of the sodium bath is ﬁrst lowered close to the sol-                                            SiC paper, was added in this pre-exposure condition to characterize
+ubility limit at 383 K using the preparatory steps described previ-                                            the evolution of the interface by glow discharge optical emission
+ously. After insertion of a zirconium foil, the sodium batch was                                               spectroscopy (GD-OES). Some specimens were extracted after
+maintained at 873 K for 70 h prior to the specimen exposures.                                                  24 h to investigate the inﬂuence of the duration of the exposure.
+The oxygen content of sodium is then lowered to at least                                                       The same sodium bath was then heated to 823 K for 117 h to inves-
+4.3  10 4 atomic%. Tests carried out with this condition will be la-                                          tigate the inﬂuence of the temperature of the exposure. Some spec-
+beled ‘‘very low oxygen sodium’’. The sodium bath is then brought                                              imens were extracted after 48 h.
+to 383 K and the crucible is opened to introduce the specimens.                                                    To assess a potential inﬂuence of dissolved metallic species,
+Observation of the sodium free surface revealed a highly reﬂective                                             some LME pre-exposures were done at the end of long term so-
+metallic like aspect. This indicated a very low level of dissolved                                             dium corrosion tests (unrelated with this study) with similar oxy-
+
+
+
+                                         (a)                           Oxygen and hydrogen solubilities in liquid sodium
+                                                                                                                     Pre-exposure
+                                                                Handling temperature                                 temperatures
+
+
+                                                            300          400        500            600         700          800           900
+                                                        10000                                                                               10000
+                                                              Oxygen level during corrosion
+                              Solubility (x 10-4 at%)
+
+
+
+
+                                                                testing and pre-exposure in                                                 1000
+                                                         1000
+                                                                     oxygenated sodium
+                                                                                                                                                    1 Hydrogen
+                                                          100                                                                               100
+                                                                                                                                                    2 Oxygen
+                                                           10                                     Oxygen level during corrosion testing     10
+                                                                                                   and pre-exposure in pure sodium
+                                                                   2
+                                                            1                                                                               1
+                                                                   1
+                                                          0.1                                                                               0.1
+                                                            300           400          500        600          700          800           900
+                                                                                             Temperature (K)
+
+
+                                         (b)                                                             (c)
+
+
+
+
+Fig. 1. Some pictures during the corrosion step: (a) Graph of the oxygen solubility in liquid sodium as a function of temperature [30,32], (b) Picture of the reﬂective low
+oxygen sodium bath after 1200 h of corrosion testing, (c) Picture of the oxides covered oxygenated sodium bath after 2500 h of corrosion testing (For interpretation to colours
+in this ﬁgure, the reader is referred to the web version of this paper).
+444                                             S. Hémery et al. / Corrosion Science 76 (2013) 441–452
+
+
+gen content. Corrosion testing was performed from 4200 to 5000 h              not as good as in the pre-exposure setup. This proved to be an efﬁ-
+at 823 K. This brings the iron concentration close to saturation              cient method at low temperature, as parafﬁn is not reactive with
+(0.21  10 4 atomic% at 823 K [31]). The saturation level for                sodium and the potential dissolution of carbon or hydrogen in so-
+other metalloids at such temperature is near 10 4 atomic% but                 dium has not shown any consequence on the behavior of the mate-
+none could be detected conclusively by inductively coupled plasma             rial during tests in high purity sodium. However, this method was
+atomic emission spectroscopy (ICP-AES). After the corrosion tests,            not applied to specimens tested above 473 K due to the vaporiza-
+no change was noticed on the reﬂectivity of the sodium surface                tion and redeposition of parafﬁn above that temperature. The sam-
+at 383 K which still have a highly reﬂective metallic like aspect             ples were then enclosed in two argon ﬁlled polyamide air-tight
+(Fig. 1b). The resulting sodium bath was then re-used for our                 boxes put inside one another to protect them from oxygen and
+pre-exposure step and LME test. No difference in LME susceptibil-             humidity during the transfer to the tensile testing setup. The
+ity was noted therefore we disregard the level of metalloids dis-             mechanical testing setup is presented in Fig. 2. It consists of an
+solved in sodium in our analysis.                                             electromechanical universal testing machine MTS 20/M 100 kN
+    The sodium exposure condition with the highest oxygen con-                equipped with a glove box under ﬂowing argon. The oxygen con-
+tent was set up by adding analytical grade Na2O compound cor-                 tent and the moisture of the cover gas atmosphere are continu-
+responding to 2.88  10 2 atomic%. Unlike the addition of soda                ously monitored in order to start the transfer when the oxygen
+that releases hydrogen, the dissolution of Na2O enables direct                and water vapor partial pressures reach the lowest achievable lev-
+assessment on the potential role of oxygen without interference               els in the current setup (oxygen content <2.5  10 2 atomic%,
+from hydrogen. Na2O was added to a new batch of sodium pre-                   moisture content <5  10 2 atomic%). The specimens are ﬁrst
+pared as the previous ones. Corrosion specimens were then                     mounted on the tensile testing machine while staying inside the
+introduced and tested during 4200 h at 823 K. Here again, we                  transfer glove box. The transfer time was usually less than a quar-
+disregard the change in the level of metalloids due to this long              ter of an hour. A secondary enclosure is then mounted to properly
+time exposure. The pre-exposure wetting step was performed                    isolate the specimen during testing. It is swept by a high purity ar-
+thereafter. Tests carried out with this condition will be labeled             gon ﬂow (alphagaz 2 from AirLiquide quality with certiﬁed oxygen
+‘‘oxygenated sodium’’. It is to be noted that after cooling down              and moisture content <5  10 5 atomic%) that puriﬁes the atmo-
+to 383 K, the surface no longer looked shiny and bright but pre-              sphere. The oxygen content and the moisture inside the secondary
+cipitated Na2O was clearly visible on the surface conﬁrming the               enclosure are monitored during testing using a zircone oxygen sen-
+presence of excess oxygen (Fig. 1c). It is clear that during han-             sor (ZiroxÓ probe) and a moisture analyzer (ShawÓ probe) respec-
+dling, oxygen was oversaturated and that during the pre-expo-                 tively. The tensile tests are started when the oxygen content is less
+sure of 48 h at 723 K, it is expected that oxygen is fully                    than 5  10 4 atomic%. The residual moisture content is less than
+dissolved in sodium providing the dissolved oxygen condition                  5  10 3 atomic% in these conditions. When the atmosphere has
+we are looking for.                                                           been puriﬁed by ﬂowing argon, the assembly is heated by Joule
+    After exposure of the tensile notched specimens, the specimens            effect and the temperature is monitored by a pyrometer (ImpacÓ
+are removed from the crucible. The excess of sodium is mechani-               IP140, spectral range 4.3 lm wavelength) with a precision of
+cally removed under the protection of the cover gas in the glove              ±5 K. Due to the high purity of the cover gas of the secondary
+box and only the sodium ﬁlling the notch is kept. This procedure              enclosure, there is minute amount of contamination by non-metal-
+enables an easy handling of the specimens by limiting the amount              lic impurities of sodium during tensile testing. In the very low and
+of sodium to be dealt with. Traces of oxygen and water that are               low oxygen sodium conditions, the surface was highly reﬂective
+present in the mechanical test mounting glove box atmosphere                  after melting, indicating no absorption of impurities. In the oxy-
+potentially react with solid sodium during the time exposure re-              genated sodium condition, a surface ﬁlm could be seen during
+quired for handling and lead to the formation of traces of Na2O               mechanical testing attesting clearly the presence of Na2O. The
+and NaOH. The ﬁlm formed will dissolve then in the liquid sodium              specimens have been tested either with varying cross-head dis-
+[32], slightly increasing the content of dissolved oxygen and hydro-          placement rates (between 8.3 10 8 m s 1 and 2.5  10 5 m s 1)
+gen. The sodium ﬁlling the notch of these specimens was therefore             and within a temperature range from 398 K up to 673 K.
+covered with a thin ﬁlm of parafﬁn to prevent contamination dur-                  Tests performed under hydrogenated atmosphere were per-
+ing mechanical test mounting where the purity of the cover gas is             formed on specimens exposed to the low oxygen condition.
+
+
+
+
+                                                  Fig. 2. Presentation of the tensile testing setup.
+                                                                                       S. Hémery et al. / Corrosion Science 76 (2013) 441–452                                                     445
+
+
+Hydrogenated sodium was obtained by supplying hydrogenated                                                            3. Results
+argon (Ar + 5%H2) before rising the temperature of the specimen.
+The notched tensile specimen is held at the test temperature for                                                      3.1. Characterization of the sodium–steel interface
+10 min before the tensile test begins to ensure dissolution of
+hydrogen into liquid sodium. The kinetics of hydrogen dissolu-                                                           The native oxide of T91 is a nanometer thick iron–chromium
+tion into liquid sodium is fast enough to guarantee equilibrium                                                       oxide at room temperature. Sodium is seen as a reducing agent
+hydrogen content in liquid sodium at 573 K and 673 K [32]. Such                                                       and dissolution of native oxide scales on steels is taken for granted.
+partial pressure of hydrogen ensures hydrogen saturation of                                                           However corrosion by liquid metals can also lead to the formation
+liquid sodium at 573 K (the saturation concentration of hydrogen                                                      of new phases and modiﬁed layers. GD-OES depth proﬁle for differ-
+is 3.6 atomic% at 573 K in oxygen free sodium and 6.9 atomic%                                                         ent elements was performed on corrosion specimen exposed in
+at 673 K) [33]. With such cover gas condition, the surface quickly                                                    low oxygen sodium. The 2 lm proﬁle after the 48 h of pre-expo-
+becomes grey indicating that NaH is formed. Tests carried out                                                         sure at 723 K (low oxygen sodium) is shown in Fig. 3. Enrichment
+with this condition will be labeled ‘‘hydrogenated sodium’’.                                                          in sodium and oxygen on a thickness of approximately 400 nm is
+   Due to the limited availability of specimens, only two                                                             observed at the interface. The major element, iron, continuously
+mechanical testing conditions (398 K for a crosshead displace-                                                        decreases close to the surface. The formation of NaCrO2 oxide in
+ment rate of 8.3  10 8 m s 1 and 573 K for a crosshead                                                               the sodium/steel systems is expected in our pre-exposure condi-
+displacement rate of 2.5  10 7 m s 1) were tested for all oxy-                                                       tions based on past thermodynamical studies [34]. Because the
+gen condition (very low oxygen, low oxygen and oxygenated                                                             exposure time of our preparation is short, there may be some
+conditions). Most of the specimens were used to carry out a                                                           remaining native oxide scale too thin to be detected. The varying
+complete scan as a function of strain rate and temperature in                                                         proﬁles of iron, chromium, sodium and oxygen suggest an irregular
+the low oxygen condition. A scan for LME susceptibility as a                                                          sodium chromite steel interface. One can notice slight chromium
+function of strain rate in the oxygenated sodium condition and                                                        depletion within an adjacent layer of approximately 200 nm that
+as a function of temperature was performed in the hydrogenated                                                        would be naturally explained by the selective Cr oxidation occur-
+sodium condition. After testing, the specimens were washed                                                            ring during the sodium chromite oxide formation [34,35]. At longer
+with pure ethanol. For each tensile test in sodium, a reference                                                       time exposure, one indeed observes the formation of a thicker NaC-
+test has been performed in high purity argon. Reference speci-                                                        rO2 oxide scale. The extent of sodium penetration in T91 is not
+mens were thermally aged prior testing either in a furnace under                                                      clear as there seems to be a notably high concentration of sodium
+secondary vacuum (<1 mPa) or in static sodium for comparable                                                          up to the T91 matrix zone. The nanoscale characterization of the
+durations. This enables to compare samples with the same ther-                                                        interface is left for future work. The measurement of the carbon
+mal history and to rule out any unexpected aging induced by the                                                       content is qualitative by GD-OES, but it indicates a slight increase
+pre-exposure. The corresponding reference tests after furnace                                                         in concentration that hints at the formation of a carburized layer
+aging were performed in hydrogenated atmosphere using the                                                             up to a depth of about 1.3 lm. The formation of this layer is indeed
+same gas as in hydrogenated sodium tests.                                                                             well known for 9Cr steels in liquid sodium with carbon impurity
+   Fracture surfaces have been characterized by scanning electron                                                     [36,37]. No signiﬁcant mechanical changes are expected to be in-
+microscopy (SEM) using a LEO 1530 FEG-SEM. The composition                                                            duced by such tiny carburized layer. Samples exposed for longer
+proﬁle of the low oxygen sodium corrosion layers have been as-                                                        duration (250 h) were observed by SEM after etching using Mura-
+sessed by GD-OES using the Horiba Jobin–Yvon GD-Proﬁler 2 in                                                          kami’s reagent (1 g K3Fe(CN)6 and 1 g KOH for 10 mL H2O) and
+the radio-frequency mode (30 W and 800 Pa). The Focused Ion                                                           tested by nanoindentation. An increase of the number of carbides,
+Beam (FIB) lift-out has been carried out using a FEI Helios 650 Dual                                                  a coarsening of the existing ones and a slight increase of the hard-
+beam FIB on samples tested in sodium at 523 K and 673 K. The                                                          ness were observed.
+transmission electron microscope (TEM) observations to character-
+ize the crack path and the chemical composition at the crack tip
+                                                                                                                      3.2. Wettability in sodium as a function of the oxygen content and LME
+were carried out with a FEI Titan Chemistem microscope for energy
+                                                                                                                      at 398 K and 573 K
+dispersive X-ray spectroscopy (EDX) and a Jeol JEM-2010 FEF for
+the electron energy loss spectroscopy (EELS) analysis.
+                                                                                                                        As mentioned in the motivation of this study, the wettability
+                                                                                                                      when one starts from the native substrate oxide depends on the
+
+
+                                                            0                            0.5                      1                    1.5               2
+                                                      100                                                                                                    1
+                                                                                                                                                                   Atomic percent of carbon (%)
+
+
+
+
+                                                                                                                                                    Fe
+                                                      80                                                                                                     0.8
+                                 Atomic percent (%)
+
+
+
+                                                                NaCrO2
+
+
+
+
+                                                                                                 Carburized layer
+                                                      60                                                                                                     0.6
+                                                                         Cr depleted
+
+
+
+
+                                                                Na                                                                                  C
+                                                                            layer
+
+
+
+
+                                                      40                                                                                                     0.4
+
+
+                                                      20                                                                                                     0.2
+                                                                                                             Cr
+                                                                Mo                                                                              O
+                                                       0                                                                                                     0
+                                                            0                            0.5                      1                    1.5               2
+                                                                                                          Depth (µm)
+
+Fig. 3. GDOES proﬁle of 2 lm depth from the surface of a corrosion specimen after 48 h at 723 K in low oxygen sodium (For interpretation to colours in this ﬁgure, the reader
+is referred to the web version of this paper).
+446                                                               S. Hémery et al. / Corrosion Science 76 (2013) 441–452
+
+
+kinetics of interfacial reactions (dissolution, phase change). Various                           wettability of T91. Since we found an oxide layer in that condition,
+temperatures and durations of exposures were thus applied for the                                wetting takes place on the in situ built oxide. LME at 398 K is only
+pre-exposure conditions. The analysis of qualitative visual estima-                              observed after an exposure time of 117 h while it can be observed
+tion of wetting, mechanical tests results and SEM observations of                                after only 48 h of exposure if the test is performed at 573 K. Other
+the fracture surface are reported in Table 3.                                                    exposure conditions in sodium led to a similar mechanical behav-
+   After extraction of the specimens from the very low oxygen so-                                ior than reference tests performed in argon and ductile cracking
+dium bath, there was no sodium ﬁlm adherent on the specimens                                     mode. This suggests that LME is coincident with a good wetting
+gauge length (some sodium remained in the notch). This hints that                                of the specimen. Typical force-cross head displacement curves ob-
+no wetting was achieved in this exposure condition while the pres-                               tained at constant cross head displacement rates of 2.5 10 7 m
+ence of a remaining sodium drop still enabled to carry out a                                     s 1 and at a temperature of 573 K are shown in Fig. 4.
+mechanical test in a meaningful way. The samples were mechani-                                       In the oxygenated sodium condition, specimens extracted from
+cally tested (in sodium and reference sample) at a temperature of                                the sodium bath were fully covered by liquid sodium after 48 h
+398 K with a crosshead displacement rate of 8.3  10 8 m s 1 and                                 exposure at 723 K. The sets of specimens tested in very low oxygen
+at a temperature of 573 K with a crosshead displacement rate of                                  and low oxygen sodium did not show any LME at 398 K after a sim-
+2.5  10 7 m s 1 (slightly higher there to avoid sodium vaporiza-                                ilar duration and temperature of exposure. This therefore consti-
+tion before the end of the test). No difference could be seen for                                tutes an interesting test condition for any possible role of
+the mechanical behavior and the fracture surface between the                                     oxygen. The specimens exposed to oxygenated sodium were tested
+reference test in argon and the test performed in sodium.                                        at 398 K at a crosshead displacement rate of 8.3  10 8 m s 1. A
+   For the specimens exposed in low oxygen sodium at 723 K for                                   change in the fracture mode is observed in this condition, particu-
+24 h, the results are the same than the very low oxygen sodium                                   larly on the fracture surface that will be described later. Due to the
+condition. No adherent sodium ﬁlm is present on the specimens                                    notched geometry, the mechanical data are analyzed by computing
+and no embrittlement was observed. The results started to vary                                   the fracture energy J obtained by integrating the load – cross head
+while increasing the temperature of the pre-exposure or the tem-                                 displacement raw curves . The relative fracture energy(RE) is calcu-
+perature of the mechanical test. At an exposure duration of 48 h at                              lated using the ratio of the fracture energy in sodium and the ref-
+723 K, one could observe one case showing partial wetting (a so-                                 erence fracture energy in argon. The results for all oxygen levels
+dium ﬁlm was partially covering the specimen) and LME was ob-                                    are presented in Fig. 5 to compare directly all sodium conditions.
+served at 573 K but not at 398 K. At an exposure temperature of                                      Tests at temperatures of 473 K, 523 K and 673 K for a crosshead
+823 K, the wettability started to be qualitatively different from                                displacement rate of 2.5  10 7 m s 1 were also performed. At
+the previous conditions. After 48 h of exposure, an adherent so-                                 523 K and below, the difference between tests conducted in low
+dium ﬁlm covers part of the specimen. The coverage was integral                                  oxygen sodium and in argon is not signiﬁcant. The load–displace-
+after 117 h exposure. This shows that a full wetting of the speci-                               ment curves do not show any evidence of embrittlement at these
+men occurred between 48 h and 117 h exposure at 823 K. There-                                    temperatures either. However, at temperature over 523 K, one
+fore, an increase of the exposure duration enhances the                                          can notice a signiﬁcant reduction of RE suggesting an occurrence
+
+
+Table 3
+Analysis of qualitative visual estimation of wetting, results of mechanical tests performed at 398 K for a crosshead displacement rate of 8.3  10 8 m s 1 and 573 K for a crosshead
+displacement rate of 2.5  10 7 m s 1 and SEM observations of the fracture surface as a function of the duration, the temperature and the oxygen content of the exposure.
+
+  [O2 ] (10 4 atomic%)                             Exposure duration (h)                  Exposure temperature (K)                    Wetting                     LME at 398 K
+  <4.3                                              160                                    823                                         No                          No
+  10                                                24                                     723                                         No                          No
+  10                                                48                                     723                                         No                          No
+  10                                                48                                     723                                         Partial                     No
+  10                                                48                                     823                                         Partial                     No
+  10                                                117                                    823                                         Yes                         Yes
+  288                                               48                                     723                                         Yes                         Yes
+
+
+
+
+                                                    0              0.2              0.4               0.6                  0.8            1
+                                             6000                                                                                             6000
+
+                                                                                                                                 T91 Ar
+                                             5000                                                                                             5000
+
+                                             4000                                                    T91 Na                                   4000
+                                  Load (N)
+
+
+
+
+                                             3000                                                                                             3000
+
+                                             2000                                                                                             2000
+
+                                             1000                                                                                             1000
+
+                                                0                                                                                             0
+                                                    0              0.2              0.4               0.6                  0.8            1
+                                                                            Cross head displacement (mm)
+
+Fig. 4. Comparison of the force versus cross-head displacement of tensile tests of T91 steel at 573 K and 2.5  10 7 m s 1 in sodium. ‘‘T91 Na’’ stands for test in low saturated
+sodium, and ‘‘T91 Ar’’ stands for test in argon of vacuum aged specimen (48 h at 723 K).
+                                                            S. Hémery et al. / Corrosion Science 76 (2013) 441–452                                                     447
+
+
+                                        300       400           500      600        700          800
+                                      1.2                                                          1.2
+                                                                                                               Relative fracture energy in low
+                                       1                                                           1           oxygen sodium
+
+                                      0.8                                                          0.8         Relative fracture energy in
+                                                                                                               oxygenated sodium
+
+                                RE
+                                      0.6                                                          0.6
+                                                                                                               Relative fracture energy in very
+                                      0.4                                                          0.4         low oxygen sodium
+
+                                      0.2                                                          0.2         Relative fracture energy in low
+                                                                                                               oxygen sodium under
+                                       0                                                           0           hydrogenated atmosphere
+                                       300        400           500      600        700          800
+                                                           Temperature (K)
+
+Fig. 5. Relative fracture energy as a function of temperature at 2.5  10 7 m s 1 for temperatures from 473 K to 673 K and 8.3  10 8 m s 1 for a temperature of 398 K as a
+function of the sodium condition.
+
+
+
+of LME. The degree of embrittlement is increasing with tempera-                              head displacement rates, but such conditions enable a comparison
+ture as RE decrease. Ductility recovery reported in [19] over                                with the oxygenated sodium condition. The specimens exposed to
+748 K could not be observed. The test was performed but fast so-                             oxygenated sodium were thus similarly tested at 398 K at several
+dium vaporization (due to its high vapor pressure) rules out the                             displacement rates (8.3  10 8 m s 1, 3.3  10 7 m s 1, 1.7
+measurement given the limited amount of sodium available in                                   10 6 m s 1 and 8.3  10 6 m s 1). A similar effect of strain rate
+our setup.                                                                                   is observed with a ductility recovery at high strain rate as observed
+                                                                                             in the low oxygen sodium condition at 673 K. The width of the
+                                                                                             brittle area on the fracture surface increases while reducing
+3.3. Inﬂuence of the strain rate in the embrittlement regime                                 displacement rate.
+
+    The inﬂuence of strain rate has been ﬁrst investigated at 673 K,
+the temperature at which the LME effect is maximum (Fig. 5). The                             3.4. Results of tests in hydrogenated sodium
+cross-head displacement rate was tested from 2.5  10 7 m s 1 up
+to 2.5  10 5 m s 1. The corresponding load–displacement curves                                 Tests in hydrogenated sodium were performed at 573 K and
+show a degradation of the mechanical properties in sodium as the                             673 K and at a cross-head displacement rate of 2.5  10 7 m s 1.
+strain rate is decreased. The relative fracture energy RE is plotted in                      The reduction in fracture energy of the specimens is presented in
+Fig. 6. It decreases with decreasing strain rate. At the cross head                          Fig. 5 to compare directly with the results obtained in the low oxy-
+displacement rate of 2.5  10 5 m s 1, T91 in sodium behaves,                                gen sodium condition. Both tests consistently resulted in a slightly
+from a mechanical point of view, like the reference test in argon.                           higher embrittlement than in the low oxygen sodium condition.
+Therefore, there exists a recovery of a ductile behavior at high                             The large increase in dissolved hydrogen did not affect signiﬁcantly
+strain rate possibly indicative of a rate limiting process for the                           the embrittlement. One can also notice that reference specimens
+LME mechanism. The maximum embrittlement was observed at                                     tested in hydrogenated atmosphere did not show any mechanical
+673 K and a displacement rate of 2.5  10 7 m s 1 with a reduction                           properties reduction. SEM observations showed a similar fracture
+of 51% of RE. In the strain rate regime where brittle cracking occurs,                       surface to the one observed in low oxygen sodium, suggesting a
+the embrittlement is strain rate sensitive with a maximum inten-                             similar operating cracking mode. The crack length is not modiﬁed
+sity at low strain rate. A similar investigation was performed at                            between hydrogenated and non-hydrogenated condition. One
+398 K for crosshead displacement rates of 8.3  10 8 m s 1 and                               would expect that increasing the level of hydrogen would dramat-
+2.5  10 7 m s 1. No embrittlement has been noticed at both cross-                           ically affect the brittle fracture. Instead we found a limited effect.
+
+
+                                         10 -8          10 -7         10 -6          10 -5          10 -4
+                                      1.2                                                              1.2
+
+                                        1                                                                1
+                                                                                                                 Relative fracture energy at
+                                      0.8                                                                0.8     398 K (low oxygen sodium)
+                                 RE
+
+
+
+
+                                      0.6                                                                0.6     Relative fracture energy at
+                                                                                                                 398 K (oxygenated sodium)
+                                      0.4                                                                0.4
+                                                                                                                 Relative fracture energy at
+                                      0.2                                                                0.2     673 K (low oxygen sodium)
+
+
+                                        0                                                              0
+                                        10 -8           10 -7         10 -6          10 -5          10 -4
+                                                 Cross head displacement rate (m/s)
+
+Fig. 6. Relative fracture energy as a function of cross head displacement rate at 673 K and 398 K after a 48 h exposure at 723 K in low oxygen sodium and at 398 K in
+oxygenated sodium.
+448                                                         S. Hémery et al. / Corrosion Science 76 (2013) 441–452
+
+
+3.5. Fracture mode: fractography and TEM analysis                                         modes. The ﬁrst one initiating at the notch in contact with liquid
+                                                                                          sodium propagates in a brittle fracture mode. The fracture at the
+    Fractographic observations of reference specimens tested in ar-                       center of the specimen proceeds by standard ductile void growth
+gon (Fig. 7) show the expected ductile fracture mode with void                            followed by void linkage.
+dimples covering the fracture surface. The thermal aging treatment                            Based on mechanical properties analysis the difference between
+carried out on reference samples did not modify either the micro-                         the tests in low oxygen and oxygenated sodium seems limited
+structural features or the fracture behavior of T91. For the speci-                       (Fig. 5). Nevertheless, the SEM observation of the fracture surface
+mens that fractured mechanically in an identical manner than                              reveals that brittle cracking occurs also at low temperature
+reference specimens (specimens tested at 398 K, 473 K and one                             (398 K) but only in oxygenated sodium. The fracture surface is sim-
+at 573 K after a 48 h exposure at 723 K in low oxygen sodium con-                         ilar to the brittle one found in low oxygen sodium at higher test
+dition), the fracture surface presents a ductile aspect. However,                         temperature. Some typical brittle fracture surfaces are presented
+some shallow cracks, which are not observed for the reference tests                       in Fig. 8. The fracture pattern is therefore similar to the one ob-
+in argon, are scattered on the fracture surface. For the specimens                        served at higher temperature in our tests and in Skeldon’s work
+that fractured in a brittle manner, the fracture surface morphology,                      when soda was added to sodium [19], but only oxygen was added
+usually coined quasi cleavage, is similar to the one reported by                          to sodium in this case.
+Skeldon [19]. A ﬂat ring of several hundred microns width originat-                           In order to clarify the fracture mode at the microstructural le-
+ing from the surface of the notch indicates a change in the failure                       vel in our experimental conditions, three electron transparent
+mode in the area in contact with the liquid metal (Fig. 7a and b). Its                    samples for TEM were prepared by focused ion beam (FIB). They
+width is large compared to the width of the corrosion affected lay-                       were extracted from the brittle zone of two specimens tested in
+ers. Consequently, the corroded layer cannot be the cause for the                         low oxygen sodium at 523 K (TEM 1) and 673 K (TEM 2 and 3)
+modiﬁcation of the mechanical behavior. Crack branching is rarely                         at a crosshead displacement rate of 2.5  10 7 m s 1. The
+observed, except at the end of the brittle cracked area when the                          embrittling effect, as measured by RE, is large with the sample
+crack reaches the central part of the specimen. The width of the                          tested at 673 K, while it is not measurable for the one tested
+brittle zone increases with temperature revealing faster crack                            at 523 K. In order to keep an entire crack with its surrounding
+propagation rates with higher temperature. Decreasing the strain                          microstructure into the FIB machined sample, an isolated crack
+rate leads to a greater width of the brittle area in accordance with                      branching area was selected on a ﬂat area. To avoid any effect
+the reduction in fracture energy. Using the SEM crack depths                              that could come from machining the notch, the extraction area
+observations, load–displacement curves and tests durations, the                           was located at distances from 20 lm to 300 lm from the notch
+average crack propagation rate can be estimated. At a cross-head                          tip. A platinum or tungsten strip (both were used) was deposited
+displacement rate of 2.5  10 6 m s 1 and a temperature of                                on the fracture surface (Fig. 9a) to extract a sample containing
+673 K, the apparent crack propagation rate is of the order of 10 6                        the underlying crack, perpendicularly to the fracture surface.
+m s 1. This is the fastest sub-critical crack propagation rate ob-                        Both sides were ion milled to unveil the crack network
+served. For every specimen tested, the facture surface at the center                      (Fig. 9b). Before the ﬁnal ion thinning step for electron transpar-
+of the specimen is covered with dimples coming from the ﬁnal                              ency, the samples were transferred on a copper grid for the ﬁrst
+ductile fracture. Indeed, for such geometry with high stress triaxi-                      lift out and a molybdenum grid for the two other lift out
+ality at its center, cracking is known to initiate both at the surface                    (Fig. 9c). Since the sodium inside the crack had been eliminated
+and at the center of the specimen. There is clearly a competition                         during the ethanol washing, the cracks are free of remaining
+between two propagating cracks of the two competing fracture                              metallic sodium and are exposed to air oxidation.
+
+
+
+
+Fig. 7. SEM micrographs of the fracture surface of T91 tested at 573 K and 2.5  10 7 m s 1: (a and b) Brittle fracture near the surface for a specimen tested after a 48 h
+exposure at 723 K in low oxygen sodium and its position on the fracture surface, (c and d) ductile fracture near the surface of a specimen tested in argon and its position on
+the fracture surface.
+                                                             S. Hémery et al. / Corrosion Science 76 (2013) 441–452                                                          449
+
+
+
+
+Fig. 8. SEM micrographs of the fracture surface of T91 tested at 398 K and 8.3  10 8 m s 1: (a) Brittle fracture near the surface for a specimen tested after a 48 h exposure at
+723 K in oxygenated sodium and (b) ductile fracture near the surface of a specimen tested after a 48 h exposure at 723 K in low oxygen sodium.
+
+
+
+
+Fig. 9. Subsequent steps of sample 1 preparation using FIB: (a) platinum strip deposition at the estimated position of the underlying crack tip, (b) sides milling of the sample
+revealing the subjacent crack network, (c) electron transparent sample placed on the copper grid.
+
+
+
+   The transversal cut obtained during sample preparation reveals                          been made in cases of LME of T91 in contact with indium or
+the existence of a subjacent crack network (Fig. 9b). The fracture                         lead–bismuth eutectic [4]. With a thorough look at the fracture
+process is therefore more complex than one would deduce from                               surface by SEM (not shown here), the occurrence of these crack
+SEM investigation. A dark ﬁeld TEM image of the transverse cut                             branching events is not rare. We then deduce that intergranular
+is presented in Fig. 10a. It clearly shows that the crack path is                          or interlath decohesion is the main cracking mode with low oxygen
+either interlath or intergranular. Diffraction patterns (Fig. 10b)                         sodium.
+from each side of the crack conﬁrmed this interpretation. The local                            The EDX analysis performed at high magniﬁcation on the sam-
+level of deformation was not estimated but well formed disloca-                            ple tested in low oxygen sodium at 523 K (Fig. 11) has been used to
+tions cells are clearly seen on the dark ﬁeld image. The T91 steel                         characterize the chemical composition at the crack tip. The cartog-
+was plastically deformed before the crack ﬁnds its way in the                              raphy of oxygen reveals a higher concentration as a thin layer on
+microstructure following an intergranular path. It is therefore clear                      the crack lips. It is most likely due to the native oxide built on
+that two processes concurrently occurs namely standard plastic                             the surface of the sample during air exposure. As EDX measures
+deformation and the sodium induced cracking process. The condi-                            the oxygen along the thickness of the TEM lift out, in 2D projection,
+tions for further crack propagation must have ceased at the sam-                           this appears as a surconcentration. Areas away from the edge of the
+pled area and the crack stopped in place. These typical                                    crack tip were analyzed. There is not any detectable oxygen along
+observations are true of the three FIB lift out that were performed                        boundaries in the prolongation of the crack tip. One complication
+which all contained at least one crack. The same conclusion has                            was that when a copper grid was used (TEM 1) the potential
+
+
+
+
+Fig. 10. (a) Dark ﬁeld image of the crack path for T91 tested in low oxygen sodium at 523 K (sample 1) taken on a FIB lay-out, (b) diffraction patterns at various locations
+along a crack branch revealing interlath or intergranular crack path through crystalline disorientation (sample 1).
+450                                                      S. Hémery et al. / Corrosion Science 76 (2013) 441–452
+
+
+
+
+Fig. 11. EDX map of the crack tip of the FIB sample 1 extracted from the fracture surface of a specimen tested in low oxygen sodium at 523 K and 2.5  10 7 m s 1 (For
+interpretation to colours in this ﬁgure, the reader is referred to the web version of this paper).
+
+
+
+presence of sodium cannot be assessed using EDX as the X-ray                           at 723 K. At the same time, exposure in low oxygen sodium at
+peaks of copper (copper atoms on the TEM sample scattered during                       the same temperature led to a ductile fracture case. This suggests
+the ﬁnal thinning to obtain electron transparency) and gallium                         an inﬂuence of the oxygen content of the liquid sodium on LME
+(implanted by the FIB) unfortunately overlap with the EDX sodium                       susceptibility. As a matter of fact, a further lowering of the oxygen
+peak. The multiple analyses that were performed on the two other                       content resulted in a normal ductile fracture even when the expo-
+samples (where a molybdenum grid was used instead) did not de-                         sure temperature has been increased (823 K in very low oxygen so-
+tect any sodium beyond the crack tips. In order to check the pres-                     dium). The interface analysis by GDOES (performed for the low
+ence of oxygen, an EELS elemental map was performed for the TEM                        oxygen condition) showed that there exists a complex layered
+2 and 3 tested at 673 K (Fig. 12). The oxygen was detected using                       structure between liquid sodium and T91. The presence of an oxide
+the 532 eV Ka ray. No oxygen was found beyond of the crack tip                         scale (sodium chromite and potentially some native oxides) is a
+by this complementary analytical means. The level of sensitivity                       byproduct of our pre-exposure wetting step. Oxygen dissolved in
+of EDX or EELS analysis is of the order of 0.1%. This does not pre-                    sodium (even in a low amount such as in the low oxygen sodium
+clude a thin layer of oxygen diffusion at the grain boundary. This                     condition) leads to the built-up of an oxide layer preventing inti-
+would require however an extremely high grain boundary oxygen                          mate metallic contact between the steel and sodium. Intimate con-
+diffusion coefﬁcient.                                                                  tact between liquid and solid metal is usually thought to be an
+                                                                                       essential condition to observe LME, while complex dependence
+                                                                                       of the oxide nature have been shown to have an inﬂuence on the
+4. Discussion
+                                                                                       occurrence of LME [38,39]. Several studies have been carried out
+                                                                                       on wetting of iron, nickel, chromium and stainless steels by liquid
+   In very low oxygen sodium, no embrittlement is reported at
+                                                                                       sodium [40,41]. On iron and nickel, the native oxides are reduced
+398 K after 160 h exposure at 823 K. The results in low oxygen so-
+                                                                                       by sodium. Increasing the oxygen content dissolved in liquid so-
+dium for similar mechanical tests conditions also showed a ductile
+                                                                                       dium enhances the dissolution kinetics. Therefore dissolved oxy-
+behavior except after 117 h exposure time at 823 K. This illustrates
+                                                                                       gen acts as a strong wetting promoter on iron and nickel [40].
+the inﬂuence of the exposure duration on the LME susceptibility in
+                                                                                       The wetting behavior of liquid sodium on chromium is different.
+that condition. The oxygenated sodium exposure condition in-
+                                                                                       The native chromium oxide is reduced and the ternary sodium
+duced a change in the fracture mode at 398 K after 48 h exposure
+
+
+
+
+  Fig. 12. EELS map of the crack tip of the FIB sample 2 extracted from the fracture surface of a specimen tested in low oxygen sodium at 673 K and 2.5  10 7 m s 1.
+                                                  S. Hémery et al. / Corrosion Science 76 (2013) 441–452                                        451
+
+
+chromite compound forms. This is also found in the exposure of                  at such a temperature has an effect on the T91 plasticity which
+stainless steel to sodium where an outer layer of NaCrO2 is formed.             probably also occurs in this case [42]. Considering the low oxygen
+The native oxide layer present on the surface of T91 steel (iron                tests, the possible sources of hydrogen in our experiment are an
+chromium spinel) is not stable in sodium at the temperature of                  uptake during pre-exposure at 723 K in sodium or a source coming
+pre-exposure but, as in stainless steels, NaCrO2 oxide is formed                from contamination during handling. The ﬁrst possibility is ex-
+at the surface. In these conditions, one should not attribute the               cluded by the tests of specimens performed in low oxygen sodium
+good observed wetting by sodium of the T91 steel to come from                   at 398 K and 473 K. The tensile tests do not show any brittle crack-
+intimate contact. Instead, it can result from wettability on a com-             ing occurrence. An effect of hydrogen uptake during pre-exposure
+plex oxide layer. It is known in this case that the oxygen partial              on fracture would also imply that the tests performed in high pur-
+pressure inﬂuences the wettability [25]. It is startling that embrit-           ity sodium at low temperature should display embrittlement but
+tlement is coincident in our results with the onset of wetting of the           this is not observed. Moreover, oxygen additions in sodium in pres-
+specimens by sodium. Whenever an incomplete wetting is ob-                      ence of dissolved hydrogen lead to the formation of hydroxide ions
+tained, a ductile behavior of T91 in liquid sodium is observed. This            [31,43]. One important consequence is that it reduces the hydro-
+is a key element in understanding the LME susceptibility observed               gen content of the liquid sodium. As the susceptibility of the
+here which, we believe, is triggered by a change in wettability with            embrittlement increases in oxygenated sodium, we conclude that
+the change in oxygen concentration. The high initial content of                 hydrogen cannot be the embrittling specie involved in this study.
+oxygen of sodium then changes the contact conditions such that                      One alternative explanation from the observation of brittle
+it opens the way for LME.                                                       cracking in sodium is a stress corrosion cracking (SCC) by soda
+    Faster reactions kinetics involved in oxides reduction, inﬂu-               which has been reported on 9Cr steel [44]. According to this work,
+enced by oxygen content, could be responsible for the evolution                 the crack propagation rates are dependent on NaOH content. In or-
+of the interface, leading to wetting depending on physico-chemical              der to reproduce the crack rates observed in the present study at
+conditions. In addition, this would be well supported by the inﬂu-              573 K, an equivalent of 8  103 mol m 3 NaOH concentration
+ence of the duration and the temperature of the applied exposure                would be required. We are conﬁdent that large amounts of NaOH
+conditions. Such behavior shows that oxygen is highly inﬂuencing                are excluded by our experimental procedure. The fracture case re-
+the wettability of T91 in a similar way to iron, rather than stainless          ported here bears no resemblance to such SCC phenomenon. More-
+steel [40]. This is probably due to the different native oxide scales,          over, the EDX and EELS maps performed on the FIB samples do not
+which have to be dissolved in sodium enabling wetting to occur.                 show any oxygen ahead of the captured crack tips, which is com-
+Further detailed investigations of the wettability as a function of             monly observed in case of SCC of steels [45]. This excludes the po-
+the oxygen content, the oxide composition and its evolution in                  tential occurrence of internal oxidation at the scale investigated
+temperature would be of interest for this system.                               and at a level above the sensitivity of these techniques. Therefore
+    The detailed TEM observations on FIB lift outs from arrested                the hypothesis that dissolved oxygen could be responsible for
+cracks next to the fracture surface reveal an interlath or intergran-           cracking in sodium presently lacks experimental support.
+ular crack path. Unlike the often used quasi-cleavage fracture                      The potential role of oxygen on wetting leads us to reconsider
+mode [19], it is an interface embrittlement case (at least at the               the role of NaOH addition in the results reported in [19]. Soda
+scale investigated here). The correct interpretation of fractography            decomposition in sodium also provides dissolved oxygen in so-
+is complicated by the very complex ﬁne martensitic microstructure               dium. As the temperature is raised, large amount of oxygen can
+and the relatively high level of plastic deformation reached before             be dissolved by this reaction path, thereby leading to a similar
+ﬁnal cracking. The observation of arrested cracks by TEM lead to                interface evolution. We suggest that the embrittlement case in
+similar results to the one obtained in [4]. High plastic deformation,           [19] is due to sodium while the added NaOH compound would en-
+as well as ﬁne microstructure, leads to ubiquitous fracture surface.            hance the wettability by increasing the amount of dissolved oxy-
+Only TEM investigations on FIB lift out lead to the correct fracture            gen. These results are then strictly compatible with the tests
+mode assessment. This clariﬁes the fracture mode of T91 in so-                  reported here. However, they differ by the contamination source
+dium, suggesting that diffusion of sodium at grain boundaries                   to get oxygenated sodium, either Na2O addition or NaOH addition.
+could be a driving force for LME. This is indeed already known to                   The preliminary tests of steels in sodium failed to detect LME
+occur for iron between 773 K and 1073 K [46].                                   [10–13]. The tests parameters (strain rate, temperature and chem-
+    A question arise from these results: is there a possible inﬂuence           istry) were presumably not adequate. The mechanical testing was
+of impurities on the fracture process itself taking place at grain              either carried out in a high temperature range where ductility
+boundaries? The sole inﬂuence of impurities in the fracture process             recovery occurs [13] or carried out using tensile geometries and
+in sodium would imply that the contact with metallic sodium is                  strain rates leading to high deformation rates incompatible with
+fundamentally different from the contact with other liquid metals               the observation of any effect [10–12].
+(Hg, In, Pb Bi) which is doubtful. Let us consider each of the impu-
+rities separately.
+    Tests performed under hydrogenated atmosphere showed that                   5. Conclusion
+hydrogen slightly increases embrittlement. Hydrogen contributes
+to the embrittlement when dissolved in sodium while it has no ef-                   The present work enabled us to reassess liquid sodium embrit-
+fect during short gaseous exposures for the reference tests. As a               tlement of T91 steel. The experimental procedure used here con-
+consequence, the low oxygen sodium used at 573 K was certainly                  sists of a pre-exposure wetting step in sodium followed by a
+not saturated in hydrogen. Otherwise there would be no difference               mechanical test on a cylindrical notched geometry. The results
+between low oxygen and hydrogenated sodium. Given the fact that                 show that T91 in its standard metallurgical state can be embrittled
+the preparatory steps are similar at 573 K and 673 K, one can ex-               by sodium and that the dissolved oxygen inﬂuences the wettabil-
+pect similar hydrogen content at the two temperatures. However,                 ity, a necessary requirement for LME. Although it was not investi-
+the degree of embrittlement increases with temperature. This indi-              gated in previous searches for LME, the interface between liquid
+cates that hydrogen is not the specie involved in the embrittle-                sodium and T91 is greatly modiﬁed during sodium exposure even
+ment. Furthermore, the main features of fracture remain                         for short time (48 h at 723 K). An oxide layer, as well as corrosion
+unmodiﬁed compared to the low oxygen condition (crack length                    affected layers, results from pre-exposure in our conditions. Inﬂu-
+and fracture mode). It has already been observed that hydrogen                  ences of dissolved hydrogen and oxygen have been studied
+452                                                          S. Hémery et al. / Corrosion Science 76 (2013) 441–452
+
+
+separately for the ﬁrst time (oxygenated and hydrogenated sodium                                creep-fatigue behaviour of Modiﬁed 9Cr–1Mo ferritic–martensitic steel, Nucl.
+                                                                                                Eng. Des. 241 (2011) 2807–2812.
+conditions). The addition of hydrogen did not change fundamen-
+                                                                                           [16] B. Joseph, M. Picat, F. Barbier, Liquid metal embrittlement: a state-of-the-art
+tally LME and it is unlikely to be the embrittling specie operating                             appraisal, Eur. Phys. J. – Appl. Phys. 5 (1999) 19–31.
+here. An oxygen role into the cracking mechanism is not supported                          [17] C.F. Old, Liquid metal embrittlement of nuclear materials, J. Nucl. Mater. 92
+by TEM analysis of crack tip chemistry. TEM observations of FIB                                 (1980) 2–25.
+                                                                                           [18] M. Barlow, P.J. Planting, Wetting of metal surface by alkali liquid metals,
+lift-outs extracted from the fracture surface enabled to identify                               Zeitschrift fur Metallkunde 60 (1969) 719–722.
+the crack path as interlath and intergranular. Quasi-cleavage is                           [19] P. Skeldon, J.P. Hilditch, J.R. Hurley, D.R. Tice, The liquid metal embrittlement
+not the cracking mode operating in this case. The lath and grain                                of 9Cr steel in sodium environments and the role of non-metallic impurities,
+                                                                                                Corros. Sci. 36 (1994) 593–610.
+boundary diffusion of sodium or the grain boundary sodium pene-                            [20] J.P. Hilditch, J.R. Hurley, P. Skeldon, D.R. Tice, The liquid metal embrittlement
+tration as a wetting ﬁlm could be an essential ingredient of the                                of iron and ferritic steels in sodium, Corros. Sci. 37 (1995) 445–454.
+LME mechanism in steels.                                                                   [21] Z. Hamouche-Hadjem, T. Auger, I. Guillot, D. Gorse, Susceptibility to LME of
+                                                                                                316L and T91 steels by LBE: effect of strain rate, J. Nucl. Mater. 376 (2008)
+    The results are in agreement with prior Skeldon’s work, pro-                                317–321.
+vided one understand the role of impurities on the sodium wetta-                           [22] O. Hamdane, J. Bouquerel, I. Proriol-Serre, J.-B. Vogt, Effect of heat treatment
+bility [19]. He recalled that the lack of awareness of LME for steels                           on liquid sodium embrittlement of T91 martensitic steel, J. Mater. Process.
+                                                                                                Technol. 211 (2011) 2085–2090.
+in liquid sodium applications may be explained, to a certain extent,                       [23] C.A. Hippsley, N.P. Haworth, Hydrogen and temper embrittlement in 9Cr–1Mo
+by the design and fabrication procedures that ensure low stress on                              steel, Mater. Sci. Technol. 4 (1988) 791–802.
+components. It is to be noticed that in the case of the T91 steel in                       [24] J.M. Hyzak, R.E. Stoltz, Hydrogen compatibility of HT-9 martensitic stainless
+                                                                                                steel, J. Nucl. Mater. 103–104 (1981) 877–882.
+contact with liquid metals, all the known cases lead to an inter-
+                                                                                           [25] N. Eustathopoulos, M.G. Nicholas, B. Drevet, Wettability at High Temperatures,
+granular or interlath fracture mode. This cracking mode seems to                                Pergamon, Oxford, 1999.
+be generic whatever the liquid metal which leads us to assume that                         [26] S.P. Lynch, Metal-induced embrittlement of materials, Mater. Charact. 28
+they should all share the same atomic scale mechanism. The de-                                  (1992) 279–289.
+                                                                                           [27] J.M. Vitek, R.L. Klueh, Precipitation reactions during the heat treatment of
+tails of triggering LME depend upon the speciﬁc physico-chemistry                               ferritic steels, Metall. Trans. A 14A (1983) 1047–1055.
+of each system.                                                                            [28] J.-L. Courouau, F. Balbaud-Célérier, V. Lorentz, T. Dufrenoy, Corrosion by liquid
+                                                                                                sodium of materials for sodium fast reactors: the CORRONa testing device, in:
+                                                                                                International Congress on Advances in Nuclear Power Plants (ICAPP ’11), Nice,
+                                                                                                France, 2011, paper 11152.
+Acknowledgements                                                                           [29] J.-L. Courouau, Chapter 4: Chemistry control and monitoring systems, in:
+                                                                                                Handbook on Lead-bismuth Eutectic Alloy and Lead Properties, Materials
+    This work is part of a French program developed for Generation                              Compatibility, Thermal–hydraulics and Technologies, NEA/OECD, 2007, pp.
+                                                                                                129–177.
+4 sodium-cooled fast breeder reactors. Financial support by the
+                                                                                           [30] A.W. Thorley, Solubility of oxygen in sodium, UKAEA NRL-R-1043(R) (1989).
+CEA-Generation 4/Structural material project (P. Dubuisson, F. Dal-                        [31] S.P. Awasthi, H.U. Borgstedt, An assessment of solubility of some transition
+le), as well as the GEDEPEON program are gratefully acknowl-                                    metals (Fe, Ni, Mn and Cr) in liquid sodium, J. Nucl. Mater. 116 (1983) 103–
+                                                                                                111.
+edged. Dominique Delille from FEI is thanked for the help
+                                                                                           [32] T. Gnanasekaran, Thermochemistry of binary Na–NaH and ternary Na–O–H
+provided with the Titan Chemistem. M. Tabarant (CEA Saclay) is                                  systems and the kinetics of reaction of hydrogen/water with liquid sodium – a
+thanked for performing the GD-OES analysis. Gilbert Le Gal is                                   review, J. Nucl. Mater. 274 (1999) 252–272.
+thanked for machining the specimens and help in designing part                             [33] A.C. Whittingham, An equilibrium and kinetic study of the liquid sodium–
+                                                                                                hydrogen reaction and its relevance to sodium–water leak detection in LMFBR
+of the experimental setup.                                                                      systems, J. Nucl. Mater. 60 (1976) 119.
+                                                                                           [34] S. Rajendran Pillai, H.S. Khatak, J.B. Gnanamoorthy, Formation of NaCrO2 in
+                                                                                                sodium systems of fast reactors and its consequence on the carbon potential, J.
+References                                                                                      Nucl. Mater. 224 (1995) 17–24.
+                                                                                           [35] A.W. Thorley, The corrosion of iron in sodium and the inﬂuence of alloying
+                                                                                                elements on its mass transfer behavior, in: H.U. Borgstedt (Ed.), Materials
+ [1] K. Natesan, Meimei Li, O.K. Chopra, S. Majumdar, Sodium effects on mechanical
+                                                                                                Behavior and Physical Chemistry in Liquid Metal Systems, Plenum Press, New
+     performance and consideration in high temperature structural design for
+                                                                                                York, 1982, pp. 19–35.
+     advanced reactors, J. Nucl. Mater. 392 (2009) 243–248.
+                                                                                           [36] T. Ito, S. Kato, M. Aoki, E. Yoshida, T. Kobayashi, Y. Wada, Evaluation of
+ [2] T. Furukawa, S. Kato, E. Yoshida, Compatibility of FBR materials with sodium, J.
+                                                                                                carburization and decarburization behavior of Fe–9Cr–Mo ferritic steels in
+     Nucl. Mater. 392 (2009) 249–254.
+                                                                                                sodium environment, J. Nucl. Sci. Technol. 29 (1992) 367–377.
+ [3] D. Gorse-Pomonti, V. Russier, Liquid metals for nuclear applications, J. Non-
+                                                                                           [37] A. Saltelli, O.K. Chopra, K. Natesan, An assessment of carburization–
+     Cryst. Solids 353 (2007) 3600–3614.
+                                                                                                decarburizatton behaviour of Fe–9Cr–Mo steels in a sodium environment, J.
+ [4] M.L. Martin, T. Auger, D.D. Johnson, I.M. Robertson, Liquid–metal-induced
+                                                                                                Nucl. Mater. 110 (1982) 1–10.
+     fracture mode of martensitic T91 steels, J. Nucl. Mater. 426 (2012) 71–77.
+                                                                                           [38] T. Auger, Lorang, S. Guérin, J.-L. Pastol, D. Gorse, Effect of contact conditions on
+ [5] L. Medina-Almazán, T. Auger, D. Gorse, Liquid metal embrittlement of an
+                                                                                                embrittlement of T91 steel by lead–bismuth, Journal of Nuclear Materials 335
+     austenitic 316L type and a ferritic–martensitic T91 type steel by mercury, J.
+                                                                                                (2004) 227–231.
+     Nucl. Mater. 376 (2008) 312–316.
+                                                                                           [39] T. Auger, I. Serre, G. Lorang, Z. Hamouche, D. Gorse, J.-B. Vogt, Role of oxidation
+ [6] T. Auger, G. Lorang, Liquid metal embrittlement susceptibility of T91 steel by
+                                                                                                on LME of T91 steel studied by small punch test, J. Nucl. Mater. 376 (2008)
+     lead–bismuth, Scr. Mater. 52 (2005) 1323–1328.
+                                                                                                336–340.
+ [7] G. Coen, J. Van den Bosch, A. Almazouzi, J. Degrieck, Investigation of the effect
+                                                                                           [40] C.C. Addison, The Chemistry of the Liquid Alkali Metals, John Wiley and Sons,
+     of lead–bismuth eutectic on the fracture properties of T91 and 316L, J. Nucl.
+                                                                                                New York, 1984.
+     Mater. 398 (2010) 122–128.
+                                                                                           [41] B. Longson, A.W. Thorley, The wetting behavior of some alloys based on iron, nickel,
+ [8] Z. Hadjem-Hamouche, T. Auger, I. Guillot, Temperature effect in the maximum
+                                                                                                and chromium in liquid sodium, in: Chemical Society (Ed.), The Alkali Metals,
+     propagation rate of a liquid metal ﬁlled crack: The T91 martensitic steel/Lead–
+                                                                                                Special Publication, vol. 22, Chemical Society, London, 1967, pp. 153–166.
+     bismuth eutectic system, Corros. Sci. 51 (2009) 2580–2587.
+                                                                                           [42] S. Guerin, J.-L. Pastol, C. Leroux, D. Gorse, Synergy effect of LBE and
+ [9] B. Long, Y. Dai, Investigation of LBE embrittlement effects on the fracture
+                                                                                                hydrogenated helium on resistance to LME of T91 steel grade, J. Nucl. Mater.
+     properties of T91, J. Nucl. Mater. 376 (2008) 341–345.
+                                                                                                318 (2003) 339–347.
+[10] W. Rostoker, J.M. McCaughey, H. Marcus, Embrittlement by Liquid Metals,
+                                                                                           [43] H. Katsuta, K. Furuwaka, Hydrogen behavior at low concentration in liquid
+     Rheinhold, New York, 1960.
+                                                                                                sodium, in: S.A. Jansson (Ed.), Chemical Aspects of Corrosion and Mass
+[11] M. Tanaka, H. Fukunaga, J. Soc. Mater. Sci. 18 (1969) 411–417.
+                                                                                                Transfer in Liquid Sodium, American Institute of Mining, Metallurgical, and
+[12] C.F. Old, P. Trevena, Preliminary investigations into the possibility of liquid
+                                                                                                Petroleum Engineers, New York, 1973, pp. 351–363.
+     metal embrittlement of some ferrous alloys by sodium and lithium, U.K.A.E.A.,
+                                                                                           [44] B. Poulson, Caustic cracking of 9Cr 1Mo steel at 300 C, Corros. Sci. 22 (1982)
+     1979.
+                                                                                                473–486.
+[13] O.K. Chopra, Effects of sodium and lithium environments on mechanical
+                                                                                           [45] Y.H. Lu, Q.J. Peng, T. Sato, T. Shoji, An ATEM study of oxidation behavior of SCC
+     properties of ferrous alloys, J. Nucl. Mater. 115 (1983) 223–238.
+                                                                                                crack tips in 304L stainless steel in high temperature oxygenated water, J.
+[14] R. Kannan, R. Sandhya, V. Ganesan, M. Valsan, K. Bhanu Sankara Rao, Effect of
+                                                                                                Nucl. Mater. 347 (2005) 52–68.
+     sodium environment on the low cycle fatigue properties of modiﬁed 9Cr–1Mo
+                                                                                           [46] A.V. Tomilov, G.V. Shcherbedinskii, A Study of Diffusion of Sodium and
+     ferritic martensitic steel, J. Nucl. Mater. 384 (2009) 286–291.
+                                                                                                Potassium in Iron, Soviet Mater. Sci.: a Transl. Fiziko-khimicheskaya
+[15] R. Kannan, V. Ganesan, K. Mariappan, G. Sukumaran, R. Sandhya, M.D. Mathew,
+                                                                                                Mekhanika Materialov/Acad. Sci. Ukrainian SSR 3 (1968) 187–189.
+     K. Bhanu Sankara Rao, Inﬂuence of dynamic sodium environment on the
+

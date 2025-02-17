@@ -1,0 +1,1745 @@
+              Nordisk                Nordisk       Pohjoismainen         Nordic
+              kerne-                 karn-         ydin-                 nuclear
+              sikkerheds-            sakerhcts-    turvallisuus-         safety
+              forskning              forsknirg     tuikimus              research
+
+
+
+RAK-2                                             NKS/RAK-2(95)TR-C1
+
+
+                                                                   DK9700032
+
+
+
+
+    Description of the Prototype Fast Reactor
+                   at Dounreay
+
+
+
+                             S. E. Jensen
+
+                            P. L. Olgaard
+
+
+                 Rise National Laboratory
+                DK-4000 Roskilde, Denmark
+
+
+
+
+                            December 1995
+Abstract
+The Prototype Fast Reactor (PFR) at Dounreay, UK, started operation in 1975 and was closed
+down in 1994. The present report contains a description of the PFR nuclear power plant, based
+on information available in literature and on information supplied during a visit to the plant.
+The report covers a description of the site and plant arrangement, the buildings and structures,
+the reactor core and other vessel internals, the control system, the main cooling system, the
+decay heat removal system, the emergency core cooling system, the containment system, the
+steam and power conversion system, the fuel handling system, plant safety features, the control
+and instrumentation systems and the sodium purification systems.
+
+The report was prepared as part of the NKS RAK-2 programme.
+
+
+
+
+   NKS/RAK-2(9#)TR-C1
+   ISBN 87-550-2265-0
+
+   Graphic Service, Riso, 1996
+
+   The report can be obtained from:
+   NKS Secretariat                     Phone:        +45 46 77 40 45
+   P.O.Box 49                          Fax:          +45 46 35 92 73
+   DK-4000 Roskilde                    http://www.risoe.dk/nks
+   Denmark                             e-mail: annette.lemmensfSi.risc
+                       List of Contents
+
+                                                              Page
+1. INTRODUCTION                                                1
+1.1. The Dounreay Nuclear Power Development Establishment .    1
+2 . SUMMARY OF DESIGN DATA                                     2
+5. TECHNICAL DESCRIPTION                                        5
+5.1. Site and Plant Arrangement                                 5
+5.2. Buildings and Structures                                   7
+5.3. Reactor Core and other Vessel Internals                    9
+5.4. Reactivity Control System                                 14
+5.5. Reactor Main Cooling System                              16
+5.5.1. System Information                                     16
+5.5.2. Reactor Vessel and Primary Cooling System              18
+5.5.3. Secondary Cooling System                               20
+5.5.4. Reactor Coolant Pumps                                  20
+5.5.5. Steam Generators                                       23
+5.5.6. Sodium-Water Interaction in Steam Generators . . . .   25
+5.6. Decay Heat Removal System                                26
+5.7. Emergency Core Cooling System                            26
+5.8. Containment System                                       30
+5.9. Steam and Power Conversion System                        32
+5.10. Fuel and Component Handling and Storage Systems . . .   32
+5.11. Safety Features                                         34
+5.12. Control and Instrumentation Systems                     37
+5.13. Sodium Purification System                              38
+5.14. Electrical Power System                                 39
+6. References                                                 39
+ 1. INTRODUCTION
+
+ 1.1. The Dounreay Nuclear Power Development Establishment
+
+
+ The Dounreay Nuclear Power Development Establishment is one of
+ the research centers of the UK Atomic Energy Authority. It is
+ situated at the northern coast of Scotland in Caithness, about 10
+ km west of the town of Thurso (cf. fig. 1.1). It was established
+ in 1955.
+
+
+      C * [ » Wl-31)
+
+
+
+
+                                                M      0 \K     -A',-.Y .
+                                                ..MMiumit   ^   -   Routes
+
+
+
+
+Fig. l.l. Map of northern Scotland with Dounreay marked by arrow.
+      Dounreay has been the principal center for the British
+development of fast reactors. Two fast power reactors have been
+built at Dounreay. Firstly the Dounreay Fast Reactor (DFR) with
+an electric power of 15 MW (60 MWC) which started operation in
+1960 and in 1962 became the first fast reactor power plant to
+supply electicity to a national grid. The DFR was closed down in
+1977. In 1975 the second fast reactor, the Prototype Fast Reactor
+(PFR) was connected to the grid. It had an electric power of 250
+MW. It was closed down in 1994.
+      In addition to the two fast reactor power plants a fuel
+reprocessing plant to process fast reactor fuel was built at
+Dounreay. The plant has also been used to reprocess highly
+enriched fuel from research reactors.
+      In addition to the fast reactor facilities a research
+reactor, the Dounreay Materials Testing Reactor, a heavy water
+reactor of 10 MW, was commissioned in 1958 and closed down in
+1969. Dounreay has also been the center of the British develop-
+ment of submarine propulsion reactors, i.e. pressurized water
+reactors. Two prototype reactors have been built and operated at
+Dounreay, PWR-1 and PWR2. These have been used for testing the
+plants and their components as well as new fuel loadings. In 1984
+PWR-1 was closed down and converted to a full-size test rig where
+loss-of-coolant accidents could be tested. The tests lasted for
+4 years. The PWR2-facility, called Shore Test Facility (STF) is
+provided with the same reactor plant as the Vanguard class
+submarines. It is a new, all British design.
+
+
+
+2. SUMMARY OF DESIGN DATA
+
+Below a summary of design data is presented. It should be pointed
+out that the data have been obtained from various sources and are
+for that reason not necessarily consistent. Where significantly
+different values have been found the newest is given first and
+the older afterwards in parenthesis.
+Power
+Thermal power:                      6 3 0 MWt
+Gross electric power:               2 5 0 MWe
+Net electric power:                 2 3 5 MWe
+Gross efficiency:                   39.7%
+Net efficiency:                     37.3%
+
+
+Core
+Core height:                        0.915 m
+Core diameter:                      1.47 m
+Thickness of top axial blanket:     0.45 (0.102) m
+Thickness of bottom axial blanket   0.457 m
+Outer diameter of radial blanket:   1.84 m
+Fuel inventory:                     4.1 t
+PuO2 inventory:                     0.9 (1.1) t
+U02 inventory:                      3.2 t
+Number of fuel assemblies:          78
+Number of elements in inner zone:   28 (31, 30)
+Number of elements in outer zone:   44 (47, 48)
+Specific power:                     230 kW/kg Pu+U
+Average core power density:         380 kW/1
+
+
+Fuel Assemblies
+Fuel material:                      PuO2+UO2
+Average fuel "enrichment":          25 wt% Pu
+Inner core zone "enrichment":       23.5 (22) wt% Pu
+Outer core zone "enrichment":       32.3 (28.5) wt% Pu
+Number of rods per assembly:        325
+Fuel pellet diameter:               5 mm
+Active length of rods:              0.915 m
+Total length of rods:               2.25 m
+Cladding material:                  20% CWM 316
+Cladding thickness:                 0.381 mm
+Outer cladding diameter:            5.84 (5.58) mm
+Average burn-up:                    75 000 MWcd/t Pu+U
+Fuel rod lattice type:              Triangular
+Outer shape of assembly:            Hexagonal
+Length across shroud:                    142 mm
+Shroud material:                         Stainless steel
+Assembly lattice type:                   Triangular
+Assembly lattice pitch:                  144.8 mm
+Total assembly length:                   3 .81 m
+Maximum fuel rating:                     420 W/cm fuel rod
+Average fuel rating:                     259 W/cm fuel rod
+
+
+Reflector
+Number of radial breeder assemblies      51
+Number of reflector assemblies:          81
+
+Control
+Number of control rod positions:         5
+Number of shut-off rod positions         6
+Number of safety rod positions:          1
+
+
+Reactor Vessel
+Vessel diameter:                         13.2 m
+Inside vessel diameter:                  12.24 m
+Vessel depth:                            15.2 m
+Wall thickness:                          12.7 mm
+Vessel material:                         Stainless steel
+
+Primary Circuit
+Number of cooling loops:                 3
+Number of primary pumps:                 3
+Pump head:                               8.22 kg/cm2
+Coolant:                                 Na
+Mass flow:                               3.3 (2.92) t/s
+Flow velocity:                           6 m/s
+Core inlet temperature:                  414 (400) °C
+Core outlet temperature:                 562°C
+Max cladding temperature;                700°C
+Outlet pressure:                         6.8 kg/cm2
+Number of steam generators:              3 groups
+Mass of Na in reactor tank (prim, cir.): 919 (905) t
+Secondary Circuit
+Number of secondary pumps:                3
+Pump head:                                4.50 kg/cm2
+Steam generator inlet temperature:        532 (540) °C
+Steam generator outlet temperature:       370 (360) °C
+Mass of Na in secondary circuit:          226 (222) t
+
+
+Turbine Generator
+Number of turbo-generators:               1
+HP turbine inlet temperature:             538 (516) °C
+HP turbine inlet pressure:                161.7 (159) kg/cm2
+HP turbine steam flow:                    237 (250) kg/s
+Reheat steam pressure at IP turbine:      27.4 kg/cm.,22
+Steam mass flow:                          854 t/hr
+Boiler feed water temperature:            288°C
+Condenser sea water inlet temperature:    8.9 °C
+Condenser sea water outlet temperature:   20°C
+Generator rating:                         250 MWe
+Revolutions per minute:                   3000
+
+
+
+5. TECHNICAL DESCRIPTION
+
+5.1. Site and Plant Arrangement
+
+
+The site of the Dounrey Establishment is as mentioned in section
+1 situated at the northern coast of Scotland. The area around the
+site is flat with the rock close to the surface. At the end of
+World War 2 an RAF airfield was built at the site.
+      The plant arrangement is shown in fig. 5.1.1. Most of the
+plant is situated in one large building complex, but the sodium
+store and the seawater pumps for the condenser cooling system are
+placed in seperate buildings.
+      The main building complex contains the reactor, the steam
+generators, the turbo-generator hall, the control room and a
+facility with shielded caves for partly dismantling and initial
+examination of the irradiated fuel assemblies. The reason for the
+                              Site layout
+
+
+
+
+1. Administration building
+2. Control room
+3. Reactor building
+4. Steam generator building
+5. Turbo-generator building
+C). S o d i u m store
+7. Seawalcr pump-house
+
+
+   Fig.    5.1.1. Plant arrangement of the Prototype Fast Reactor
+
+
+shielded caves is that the one of the major objectives of the PFR
+was to test various designs of fuel assemblies. Also a number of
+auxiliary plants are situated in the main building. The lay-out
+of this building is shown in fig. 5.1.2.
+      The reactor, steam generators and turbo-generator are
+placed as closely together as possible to minimize pipe and cable
+runs and simplify staffing during operation.
+      The reactor is of the so-called pool type design, i.e. the
+full primary circuit with reactor, coolant pumps and intermediate
+heat exchangers submerged in the sodium pool in the reactor
+vessel (see fig. 5.1.3). The reactor lid or roof structure
+carries all the components of the primary circuit so that the
+reactor vessel carries only the weight of the sodium. The use of
+liquid sodium as the primary and secondary circuit coolant means
+that the reactor vessel is virtually unpressurized. A slight
+overpressure is maintained in the gas volume above the sodium to
+ensure that any gas leakage will be outwards.
+                                                       Blanket gas
+                                                       clean-up plant
+                                                                        Ventilation plant building
+                            Steam generator building
+  Generator
+  transformer
+
+
+
+
+                                                                            Decontamination facilities
+
+
+
+
+ Diesel generator
+ building
+
+
+
+
+                                                                                Administration building
+
+                                                            Main entrance
+
+
+                    Fig. 5.1.2. Lay-out of PFR main building.
+
+
+      The secondary sodium circuit transports the heat from the
+intermediate heat exchangers to the steam generators. Here steam
+is produced and sent to the turbine. This arrangement means that
+any leak in the steam generator will only affect the non-radio-
+active sodium of the secondary circuit.
+
+
+5.2. Buildings and Structures
+
+The reactor is situated in a steel framed building, clad with
+pre-cast concrete panels to give the desired strength and low
+PFR heat removal and steam plant
+ 1. Turbine                          11. Intermediate heat exchanger
+ 2. Evaporator                       12. Reheater
+ 3. Boiling water circulating pump   13. Steam condenser
+ 4. Steam drum                       14. Cooling water
+ 5. Superheater                          (inlet and outlet)
+ 6. Secondary sodium pump                a. Sea water — in
+ 7. Sodium expansion tank                b. Sea water — out
+ 8. Operating floor                  15. Generator
+ 9. Primary sodium pump
+10. Core
+
+
+
+                    Fig. 5.1.3. The PFR nuclear power plant
+
+
+ leakage rate.
+      The reactor vessel is placed in a concrete lined vault
+which rests on the natural rock below ground level. This means
+that it is only necessary to provide radiation shielding in
+upwards direction. This shielding consists of the reactor roof
+structure, consisting of a sufficiently thick concrete plate.
+      Above the core the roof structure contains a rotating
+shielding plug, used in connection with refueling. The gas-tight
+seal between the rotating plug and the roof structure is a
+cylindrical plate moving in a circular runnel filled with
+mercury. This arrangement is called a dip-seal. The rotating plug
+is, due to a number of penetrations, of extra thickness and
+filled with iron shots and epoxy resin to improve its shielding
+effectiveness.
+5.3. Reactor Core and other Vessel Internals
+
+
+The reactor core consists of 78 fuel assemblies. It is divided
+into two zones with different enrichments. The inner zone con-
+tains about 2 8 fuel assemblies with a plutonium/uranium content
+of 22%/78%. The outer zone contains about 44 assemblies with a
+plutonium/uranium content of 2 8.5%/71.5%. The higher plutonium
+content of the outer zone results in a more uniform power density
+distribution in radial direction. The total content of plutonium
+and of uranium in the core is about 1 and 3 tons, respectively.
+      A cross section of a typical rector core loading is shown
+in fig. 5.3.1. At the center there is a guide tube for instru-
+
+
+
+
+    Reflector assemblv
+
+    Radial breeder assemblv
+
+    Outer zone
+0   fuel assemblv
+
+    Shut-off rod
+
+    Inner zone
+    fuel assembly
+    Guide tube
+    (instrumentation)
+
+    Control rod
+
+    Experimental assembly
+
+
+               Fig. 5.3.1. Typical core lay-out for PFR.
+
+
+mentation, and this tube is surrounded by the inner zone fuel
+assemblies. Next comes the outer zone fuel assemblies. At the
+interface between the two zones 5 control rods and 6 experimental
+                               10
+
+assemblies are placed. Additional instrumentation guide tubes
+exist in various positions of the reactor. Outside the outer zone
+comes the radial breeder assemblies and finally the reflector
+assemblies. 5 shut-off rods are placed at the interface between
+the outer core zone and the radial breeder assemblies.
+      The standard fuel element is 3.81 m long. At the outside it
+is provided with a hexagonal shroud (wrapper) with a distance of
+142 mm across the flats. It contains 325 fuel rods, each with an
+outer diameter of 5.84 mm and about 2.25 m long. The fuel
+material is (Pu+U) O2-pellets and the cladding a stainless steel
+alloy. The cladding thickness is 0.381 mm. The rods are arranged
+in a triangular lattice. The rods are at intervals supported by
+honeycomb grids. The active length of the fuel pins, i.e. the
+plutonium containing length, is 0.915 m.
+      Above and below the active length the fuel rods contain a
+top and bottom blanket section of depleted UO2-pellets, and below
+the bottom blanket section the rods are provided with a 1190 mm
+long fission gas plenum to limit the pressure build-up inside the
+cladding tubes. Above the top blanket section of the fuel rods
+and inside the hexagonal shroud a cluster of 19 shorter rods
+containing depleted UO2-pellets is situated. This cluster is part
+of the top blanket; the rods which have a diameter of 19 mm, are
+provided with heavy fins which swirl the outlet coolant to mix it
+before a coolant sample is taken out of the reactor to detect any
+failed fuel pin. This detection system is based on a measurement
+of delayed neutrons,- signals from the individual assemblies and
+from the bulk coolant are provided. The detection system will
+automatical initiate a reactor shut-down if a serious fuel
+failure is detected on a two-out-of-three basis. At the top the
+assemblies are provided with a gag and a circular handling head.
+      At the bottom the fuel assembly is provided with a spike
+assembly and a inlet filter. An assembly is shown in fig. 5.3.2.
+      Initially the burn-up target for the PFR fuel assemblies
+was the fissioning of 7.5% of the heavy nuclei of the fuel
+(corresponding to 62000 MWd/t), but this target has gradually
+been surpassed by design improvements. Fuel irradiation in PFR
+                                                        11
+
+
+                                                                                        Lilting lugs
+
+
+
+
+                                                                                        Orientation bar
+
+
+
+                                                                                         Sodium vtnts lor cooling during
+                                                                                         post irradiation fuel handling
+
+                                                                                       - Orien
+                                                                                         Sodium lakt off for
+                                                                                         bunt pin detection
+                                                                                         Sealed housing for
+                                                                                         BPD spring
+                                                                                 Top
+                                                                                       . M/B pin upper end grid
+
+
+
+                                                                                         Mu*r breeder pin
+                                                                                       "** Wrapper tube shoulder
+
+                                                                                       _, M/B pin lower end grid
+
+                                                                                         Fuel pin upper end grid
+
+
+
+
+                                                                                         Wrapper
+
+                                                                                         Fuel pin
+
+
+                                                                   Upper axial   f       Corner post
+
+
+
+                                                         U         blanket
+                                                                   pellets , .
+                                                                                         Honeycomb grid
+
+
+
+
+                                                               \
+                                                                                 u
+                                                                   Core
+                                                                   fuel
+                                                                   pellets
+
+
+                                                        S-A/
+
+
+                                          Fission gas
+                                          plenum
+                                                         ffl
+                                                               • Fuel
+                                                                 platform.
+
+
+
+
+Simplified cutaway diagram
+of fuel assembly                 Bottom                                                   Filler
+
+ 1. Top (at                                                                               Spikt bending aar
+ 3. Axial breeder
+ 1. Cnd
+ 4. Wrapper
+ 5. Fuel pins                                                                             Ball ioint
+ S. Spike assembly
+ T. Filter                                                                                Soikt ooltom bearing cup
+ I. Depleted uranium breeder
+ 9. Mixed uranium/ pluunmim
+    oxide fuel
+10. Depleted uranium breeder
+II. Gas plenum
+
+
+
+                        Fig. 5.3.2. PFR fuel assembly and fuel pin.
+                                            12
+
+has proved that fissioning of 15% of the heavy nuclei can be
+achieved and 20% (168000 MWd/t) seems within reach. Some 93000
+fuel pins have been irradiated in PFR with only a few pin
+failures.
+      Various cladding materials have been studied, e.g. advanced
+optimized austenitic steels, ferritic steels and Nimonic alloys.
+The best results were obtained with Nimonic PE16 cladding.
+      The plutonium enrichment and the isotopic composition of
+plutonium of the fuel assemblies varies with time. In fig. 5.3.3.
+              34i
+                                  Plutonium enrichment
+
+
+              33
+
+
+
+
+                                                    % Pu in plutonium
+
+
+
+
+                                              ISO
+                                         % Pu       in plutonium
+
+
+
+
+                           % Pu       in plutonium
+              2S
+                   '   2   3      4     5   6     7   8     9       10
+                                      Number of core cycles
+ Fig. 5.3.3. PFR core plutonium enrichment versus core cycles.
+
+this variation is shown for outer zone assemblies. It is seen
+from fig. 5.3.3. that the enrichment increases with the number of
+core cycles, but the content of 239Pu decreases somewhat while the
+content of 240Pu increases and so does that of 241Pu and 242Pu.
+      The radial breeder assemblies are externally identical to
+                                13
+the fuel assemblies. The breeder assemblies contain 85 wire-
+wrapped rods with a diameter of 13.5 mm. These rods are depleted
+U02-rods, clad by stainless steel. They are also provided with a
+fission gas plenum below the U02-section. The breeder assemblies
+were initially designed for fissioning of 1% of the heavy
+nuclides (8000 MWd/t), but the highest burn-up achieved was 3% of
+the heavy nuclides or 25000 MWd/t.
+      The reflector assemblies are filled with steel rods which
+serve to reduce the neutron leakage out of the reactor and
+thereby increase the breeding ratio.
+       It should be noticed that the PFR served as a test bed for
+fuel assembly development, and therefore the fuel loading varied
+to accomodate the experimental needs.
+      The fuel assemblies are installed in the core in groups of
+six around a leaning post which may contain a control rod or a
+guide tube. By use of an offset mechanism at the grid plate below
+the fuel assemblies the assembly wrappers are forced against the
+leaning post. This construction prevents vibrations of the free-
+standing assemblies.
+       The reactor core as shown in fig. 5.3.1 is surrounded by a
+neutron shield consisting of 6 rows of steel tubes filled with
+graphite. This shield prevents the neutrons from reaching the
+sodium of the secondary cooling circuit. This means that the
+sodium of the secondary circuit does not become radioactive.
+       The sodium coolant flows upwards through the fuel assem-
+blies, and the flow will exert upward thrust on the assemblies.
+This thrust is balanced by use of a hydraulic hold-down design.
+No mechanical hold-down design is provided, but fuel instrumenta-
+tion tubes, suspended from the rotating shield plug, limits any
+possible rise of the assemblies.
+       The reactor and shielding arrangement is surrounded by a
+"reactor jacket" or a steel skirt which extends almost to the
+bottom of the reactor vessel. The upper part of the jacket
+carries 3 pairs of intermediate heat exchangers (i.e. 6 IHX) . The
+jacket is clad with quilted stainless steel insulation packs and
+separates the hot sodium leaving the core from the cooler sodium
+leaving the intermediate heat exchangers.
+                                 14
+
+5.4. Reactivity Control System
+
+
+The core is controlled by use of 5 tantalum (Mk I) control rods
+and 5 boron carbide (Mk II) shut-off rods. Initially the central
+position of the core was used for a safety rod. The control rods
+are placed at the interface between the inner and the outer zone.
+The shut-off rods are placed around the perifery of the outer
+zone. After operational experience with these two types of
+control rods had been obtained, it was decided that the tantalum
+rods should not be further developed, and that future rods for
+the PFR should be of the boron carbide type.
+      The control rods are worth between 16 and 17 dollars and
+the worth of the shut-off rods is 7 dollars. The reactor can not
+be made critical before all 5 shut-off rods are fully withdraw
+from the core. The reactor will be shut down if any 3 of the 10
+rods are inserted into the core. A total of 3000 rod drops has
+performed and on no occation did any rod fail to respond as
+intended. The control rods have a lifetime of 530 equivalent full
+power days (efpd) and the lifetime of the shut-off rods is 1760
+efpd. All rods of either type may not be changed at one time. If
+all control rods are withdrawn at maximum speed, the reactivity
+increase will be 2.64 cents/s. The resulting power increase will
+be stopped either by the power deviation trip or by the core
+outlet temperature trip. In none of these cases will the maximum
+cladding temperature exceed 740°C and sodium boiling as well as
+fuel melting will be avoided by a large margin.
+      The boron carbide rods contain inside a hexagonal wrapper
+of PE16 Nimonic alloy a cluster of 19 absorber pins. These pins
+consist of stainless steel cladding tubes containing cylindrical
+boron carbide pellets. The cladding tubes are on the inside
+coated with copper to prevent diffusion of boron from the pellets
+into the cladding with consequent embrittlement. Helium gas,
+produced by neutron capture in 10B, is vented into the sodium
+through a lute tube and plenum at the top of the pins. The pins
+are cooled by a sodium flow up through the pin cluster. A boron
+carbide control rod is shown in fig. 5.4.1.
+                                                 15
+
+
+
+                                             Top end •
+                                             cap
+
+
+                           Ballast
+                           weights
+
+                           Coolant
+                           outlet ports
+      Hexagonal
+      wrapper
+
+
+
+
+                                             Lute -
+                                             inner                             Wire
+                                                                               wrap\
+                                             tube
+
+
+
+                                                                . Vent
+                                                                  hole
+                                                                           pellet        Support
+                                             B4C pellet _   _
+                                                                           No. 35      ' piece
+                                             No. 1
+
+                                                                           Bottom
+                                          Cladding tube —
+                          -Coolant                                         end cap
+     Guide spike-
+                           inlet ports
+
+
+
+                    (a)                                                  (b)
+
+
+
+  Fig. 5.4.1. PFR Mk II control rod: (a) rod housing (b) pin.
+
+
+      The Mk II boron carbide pins used 20% cold-worked M316
+steel cladding tubes of 21.5 mm external diameter and 1 mm wall
+thickness with a 0.15 mm inside copper lining. The boron carbide
+pellet stack length is 88 cm and the pellet diameter 19 mm. Later
+pin designs have different dimensions, but the general design was
+similar. However, the cladding material was PE16 Nimonic alloy in
+the later versions. In Mk IV the pins were bottom vented by use
+of the diving bell principle.
+      The drive mechanisms for the all absorber rods are situated
+on and above the rotating shielding plug. Both the rods and the
+drop-off magnets may be removed for maintenance. The rods are
+attached to the drive mechanisms by a bayonet connection. This
+means that the rods can be detached and remain in the core when
+the rotating shielding plug is moving during refueling. A
+sweeping arm is used to ensure that all control rods have been
+disconnected before the rotating plug is moved. The control rods
+                               16
+are moved by screw and nut motors, driven through a reduction
+gear. The connection between the nut and the absorber rod is
+arranged by use of a magnetic assembly, so that the rod can be
+dropped into the core in case of an emergency.
+      During refueling both the control and the shut-off rods are
+delatched and remain in the core. The safety rod could remain
+outside the core during refueling, ready for insertion.
+
+
+5.5. Reactor Main Cooling System
+
+5.5.1. System Information
+
+The main cooling system consists of the primary sodium circuit,
+three independent secondary sodium circuits, and three steam
+generators delivering steam for one turbo generator unit (see
+fig. 5.5.1) .
+      The main data for the circuits are the following.
+
+
+      Primary and Secondary Sodium Heat Transfer System:
+
+
+      Reactor vessel inside diameter                 12.24 m
+      Temperature at core inlet                      400cC
+      Temperature at core outlet                     562°C
+      Temperature at steam generator inlet           532°C
+      Temperature at steam generator outlet          370°C
+      Flow through core and breeder                   2923 kg/s
+      Total flow for three secondary circuits         2923 kg/s
+      Pump heads, three primary pumps                 8.22 kg/cm2
+      Pump heads, three secondary pumps               4.50 kg/cm2
+      Sodium weight in reactor vessel                 905 t
+      Sodium weight in secondary circuit              222 t
+
+
+      Turbine System:
+
+
+      Steam temperature at HP and IP TSV's            516°C
+      Steam pressure a t HP TSV                       161.7 kg/crtf
+      Reheat steam pressure at IP TSV                 27.4kg/ctrr
+                                                                       De-aerator
+Thermal syphon                                                             85 ft
+ heat exchanger                                                      Pump
+                                                                 . Evaporator
+
+
+
+
+                                                                                              H.P. Turbine   I.P. Turbine
+
+
+
+
+                              Sodium expansion tank                                                                                    ^Make-up supply
+                                                      => H.P. ieed water heaters
+                                                                                                                                              ea water in
+                                                                                                                                             Condenser
+            Operating floor
+                                                                                                                                             Sea water out
+                                                       To condenser
+                                                                                    Turbine                          Condensate
+                                                                                                                     polishing plant
+                                                      Discharge pump                Direct contact feed heater and pumps
+
+
+
+
+                                              Fig. 5.5.1. PFR reactor, heat removal and steam plant.
+                               18
+     Steam flow in HP turbine                          2 4 9 . 9 kg/s
+     Min. steam flow at which full superheat
+      and reheat temps. are maintained                 20%
+      Boiler feed water temperature                    2 8 8 °C
+      Condenser pressure                               25 mm Hg
+      Condenser sea water temp, inlet                  8 . 9 °C
+      Condenser sea water temp, outlet                2 0 . 0°C
+
+
+       TSV is the turbine stop valve. The whole of the primary-
+circuit is contained within the stainless steel vessel (pool
+tank) . The primary circuit is divided into a cold pool and a hot
+pool, separated by the "reactor jacket".
+      Three main pumps circulates sodium from the cold pool
+through the reactor core and the neutron shield to the internal
+heat exchangers (IHX) where it is cooled to 400°C before retur-
+ning to the cold pool.
+      The secondary circuit consists of three independent loops,
+each comprising two internal heat exchangers (IHX) in the pool
+vessel, one main pump and one steam generator.
+      The evaporators and the heat exchangers of the              steam
+generating system are vertically mounted "U"-tube units.
+
+5.5.2 Reactor Vessel and Primary Cooling System
+
+
+The reactor pool tank is a cylindrical stainless steel vessel,
+12.2 m diameter and 15.2 m deep with 12.7 mm wall thickness.
+It is suspended from the fixed roof structure (see fig. 5.5.2.1) .
+All components inside the core are also suspended from the roof,
+thus minimizing the stresses on the vessel.
+      The reactor vessel is surrounded by a safety vessel or a
+leak jacket, made up of low alloy steel. This leak jacket is also
+suspended from the roof. The purpose of the jacket is to limit
+the drop of the liquid metal level in the reactor vessel,
+following a sodium leak in the vessel.
+      A major design problem, to limit the thermal stress in the
+upper part of the vessel, was solved by graduating the thickness
+of the isolation giving an acceptable axial temperature gradient
+                                        19
+
+
+
+
+             A.    Sodium pump motor (3)     K.   Rotating shield
+             B.    Primary sodium pump (3)   L.   Biological shield
+             C.    Charge machine console    M.   Stainless steel insulation
+              D.   Charge machine            N.   Diagrid support structure
+             E.    Rotor                     0.   Primary vessel
+              F.   Control rod drives        P.   Leak jacket and insulation
+             G.    Control rods              Q.   Diagrid
+              H.   Core                      R.   Secondary sodium pipes
+             J.    Neutron shield            S.   Intermediate heat exchanger
+
+
+
+Fig. 5.5.2.1. Vertical cross section of PFR reactor vessel
+                               20
+
+from the sodium surface to the roof.
+      The core grid plate, the core and the neutron shield are
+carried by a cylindrical and downwards conical structure, welded
+to the roof.
+      The IHX units (fig. 5.5.2.2) transfer heat from the primary
+radioactive sodium circuit to the three secondary non-radioactive
+circuits.
+      The PFR has 6 IHX units, each designed to transfer 100 MWt.
+The IHX units are of the counterflow shell and tube type
+containing 1540 tubes each. The tube outside diameter is 19 mm,
+and they are 4.57 m long.
+      Primary sodium flows through the tubes, and expansion
+between the tubes and the shell is accommodated by sinusoidal
+bends on the tubes.
+      The IHX units are suspended from the reactor roof. Each
+unit contains a coil for decay heat removal through the NaK
+circuit (see section 5.7. Emergency Core Cooling System).
+
+
+5.5.3. Secondary Cooling System
+
+The PFR operates with three secondary sodium cooling loops and a
+tertiary steam/water system. One secondary system comprises the
+secondary part of two intermediate heat exchangers (IHX), a
+secondary coolant pump, an expansion tank, and the primary part
+of the corresponding evaporator/reheater/superheater       (Fig.
+5.5.1) .
+
+
+5.5.4. Reactor Coolant Pumps
+
+
+The primary circuit is provided with three mechanical sodium
+pumps. These pumps are of a vertical construction with the double
+inlet type impeller placed at the bottom of the sodium pool.
+      The main characteristics are:
+
+
+      Flow rate:                                 84,000 1/min.
+      Discharge:                                 8.9 kg/cm2
+      Working temperature:                       43 0 °C
+                                   21
+
+
+
+
+         C L shield
+
+
+
+
+                      Primary sodium
+
+
+
+
+Fig. 5.5.2.2. PFR intermediate heat exchanger,
+                               22
+
+      Speed variation by hydraulic coupling:     5:1
+
+
+      The rotating part of the pumps is supported by a con-
+ventional roller bearing at the top of the pump head, and by a
+sodium lubricated hydrostatic bearing just above the impeller.
+Sodium is fed to this bearing from the pump discharge casing. The
+bearing material is stellite 6.
+      An oil lubricated face seal provide a leak tight barrier
+between the reactor cover gas (argon) and the atmosphere. At one
+occasion oil from the seal (and from the roller bearing?) leaked
+into the sodium pool in a total amount of about 200 1. This
+incident necessitated a full clean up of the primary circuit.
+      The pumps are driven by normal squirrel cage induction
+motors. A speed variation of 5:1 is obtained by hydraulic
+couplings. Adequate shut-down circulation is provided by running
+the main pumps with pony-motors.
+      The pumps are designed with close attention to avoid noise.
+In designing the pumps special care has been taken to avoid noise
+from the impeller blades. High frequency noise caused by
+cavitation can be confused by that produced by boiling sodium,
+and thus disturb the instrument recordings. By careful shaping of
+the impeller blades, high frequency noise has been reduced.
+      The secondary pumps are vertical pumps of the centrifugal
+type, with a mixed flow impeller delivering sodium at an angle to
+the pump axis. The coolant flow is straightened in a bowl type
+diffuser.
+      The main characteristics are:
+
+      Flow rate:                    75,000 1/min.(one pump)
+      Discharge:                    4.5 kg/cm2
+      Working temperature:          370 °C
+
+
+      The pumps are driven by induction motors. Maximum speed is
+960 rev/min. This speed can be reduced by the hydraulic coup-
+lings. The pumps are equipped with pony motors for shut down
+operation.
+                                23
+5.5.5. Steam Generators
+
+
+The PFR has three independent secondary loops. Each secondary
+loop is connected to a 200 MW steam generator. The steam
+generator is the plant component which, next to the reactor,
+contains the greatest technical innovations. The three secondary
+loops with steam generators are entirely separated from each
+other with the exception of common dumping and clean-up faciliti-
+es .
+      Fig. 5.5.1 shows one secondary loop, comprising evapora-
+tor, reheater, and superheater. Fig. 5.5.5.1 shows the evapora-
+tor, reheater, and superheater in some detail.
+      During the early operation the steam generators, in
+particular the evaporators, gave rise to leakage problems. The
+tube/tubeplate weld design could not be stress relieved after
+fabrication and a number of weld leaks developed. After some tube
+plugging and attempts of shot peening the problem was solved by
+bypassing the welds by use of a sleeving technique.
+About 1000 welds on each of the 3 evaporators were sleeved.
+      Similar welds were used in the austenitic stainless steel
+superheater and reheater units. During the early operation leaks
+occured in two superheaters and one reheater unit. The leaks
+caused stress-corrosion cracking in the tube-plate material. The
+superheaters were returned to service after repair, but in the
+case of the reheater the cracking was so severe that the plant
+was started without it. Because of concern for new leaks - which
+did not materialize - a new design was developed which eliminated
+the welds between tube and tube-plate and which used ferritic
+tube bundles. The first of these units, a reheater, was installed
+in 1984.
+      Cracking of welds between the stainless steel plates of the
+superheaters and reheaters was also experienced. The problem was
+caused by delayed reheat cracking. It was managed by novel repair
+methods.
+       Steam from the superheater enter the High Pressure turbine
+(H. P. turbine) at 161.7 kg/cm2 and 516°C. Outlet steam from the H.P
+turbine is reheated at 27 kg/cm2 to 538°C before entering the
+                                                24
+
+
+
+
+                           2 Level gauges                 2 Level gauges
+                           sodium outlet side             sodium inlet side
+ Hydrogen detector                                                 2 Inlet              Hydrogen
+    2 Inlet                                                        side sodium          detector
+    side sodium                                          Hydrogen level
+    level gauges •                                       detector
+Tubeptate                                                    2 Outlet side |
+ assembly                                                    sodium level
+
+
+                                                        2 Reaction
+                              6 Sodium outle                lesonNa                    6 Sodium
+       /                         ^ d i u                      side                    L / outlets
+2 Outlet _                             out
+side sodium                                                                              -Bellows
+level gauges
+
+
+
+                                                       2 Sodium/water
+                                                       reaction nozzles
+
+
+
+
+                                                                                      =8-Water
+                                                                                         injection
+
+                                                                                       pin nozzle
+
+Water                                                                     Sodium in
+Injection-&=
+                                                                          REHEATER
+  Tubes^
+                                                        Sodium Inlets
+                                                      from superheater
+                     I
+               Sodium in
+         SUPERHEATER                                 EVAPORATOR
+
+
+
+
+               Fig. 5.5.5.1. PFR steam generator heat exchangers.
+                               25
+Intermediate Pressure turbine (I.P.turbine). Steam from the
+I.P.turbine goes directly to the Low Pressure turbine (L.P.turbi-
+ne) .
+      All the heat exchangers of the steam generator are
+vertically mounted shell and "U"-tube units. The evaporator
+employs parallel flow, while reheater and superheater operate
+with counter flow. The evaporator tube and tube-plate material is
+2.25% Cr, 1% Mo, niobium stabilized steel. The superheater and
+reheater tube material is 316 type stainless steel
+
+5.5.6. Sodium-Water Interactions in Steam Generators
+
+A severe sodium-water reaction, caused by a tube rupture, results
+in a pressure increase in the secondary system. This increase
+will operate relief devices fitted to each unit. These devices
+consist of nickel membranes, supported by hinged plates. The
+pressure increase will break the membrane.
+      Hydrogen detectors fitted to the sodium side of the steam
+generators as seen in fig. 5.5.5.2 will at a predeterminated
+level isolate both the sodium and the water/steam system from the
+rest of the plant and also dump the water side. Following such an
+occurrence the plant is able to restart operation on two steam
+raising units at reduced power.
+      It is important to detect a leak in one of the exchangers
+at a very early state, because instantly after a rupture the
+following chemical reaction will take place:
+      a)    2Na + 2H2O -» 2NaOH + H2 (35 k.cal/mole)
+      b)    2Na + H20 -» NaO + H2    (31 k.cal/mole)
+      c)    2Na + H2 -* 2NaH
+      The dominating reaction is a) . The reaction products of
+these reactions, in particular of a) are very corrosive.
+      The high pressure and temperatures produced by a Na-H,O-
+reactions give rise to a pressure chock which breaks the rupture
+disc after about 10 millisec, and the sodium enters the pressure
+suppression line on its way to the dump tank.
+      Until February 1987 steam generator tube failure tests in
+large sodium rigs seemed to indicate that an initial tube failure
+                                 26
+
+would only propagate to about six neighbouring tubes during the
+time it takes to stop the accident by depressurization and
+dumping of the water and sodium reactants. Thus the reactor
+design basis was limited to this level of a steam generator
+damage.
+      In February 1987 a superheater tube failure, due to tube
+fretting under sodium caused by flow-induced vibrations, led to
+the failure of 40 tubes, but the large safety margins enabled the
+plant to survive with no other damage than the tubes themselves.
+The accident led to a revision of the safety analysis, and it was
+recommended to replace the tube bundles of the superheater and
+reheater by an improved design.
+      The figures 5.5.6.1. to 5.5.6.5 tell the story about the
+repair techniques for the PFR steam generator exchangers.
+      To be forewarn of such problems, acoustic monitoring
+systems have been developed and shown to be effective to detect
+vibration problems.
+
+
+5.6. Decay Heat Removal System
+
+The decay heat of the reactor following a shut-down is removed by
+the main cooling system.
+      Pony motors on the main pumps take up the drive at a about
+10% of full speed to provide adequate circulation in the systems.
+      The decay heat removal system proved difficult to operate
+during the transient following a steam plant and turbine trip,
+and the NaK systems (see section 5.7) became the operationally
+preferred system for decay heat removal.
+
+
+5.7. Emergency Core Cooling System
+
+
+The PFR is as mentioned above a pool type fast breeder reactor.
+The basic idea of the pool type reactor is that it is very
+unlikely that a "Loss of Coolant Accident" should happen. There
+are three reasons for this:
+
+
+l)    The whole primary cooling system is submerged in the pool
+        PFR EVAPORATOR REPAIR SLEEVE                                          STEAM GENERATOR
+                                                                         Vessel Repair Techniques - 1987
+                                                                    DEFECT FOUND -        Reheater 2 - Leaker
+                                                                                          Reheater 1 • Ultrasonic Detection
+                                                                                          Superheater 2 - Ultrasonic Detection
+                                   _   EXPLOSIVE WELD                 PLANT STATE —       Tube Bundles removed
+                                       TYPICALLY O.S"LONG
+                                                                                          Vessels cleaned of sodium
+                                                                                          Internal vessel access
+
+
+
+
+                                                                                    I
+                                                                               DEFECT FOUND                            f\
+                                                                                                                   DEFECT REMOVED
+                                                                                                                                    to
+
+
+
+
+                                                                                                               WELD BUILT UP
+
+           EXISTING
+           STEAM TUBE        ORIGINAL WELD
+           1 " O/DIA -
+                                                                          BACKING PLATE
+
+ 3.5"
+                             BRAZE STOP GROOVE
+                                                                               INSIDE VESSEL
+                             BRAZE CIRCUPS
+
+
+
+
+              BRAZED JOINT                                  FINAL INSPECTION LEVEL -      Ultrasonic Examination
+                 ZONE                                                                     Radiography
+                                                                                          Dye penetrant lest
+
+Fig. 5.5.6.1. Evaporator repair sleeve                       Fig. 5.5.6.2. Vessel repair 1987.
+                  STEAM GENERATOR
+             Vessel Repair Technique - 1988                                    VESSEL WALL
+        DEFECT FOUND     -   Rehealer 1 - Leaker
+                             Superheater 2 - Ultrasonic Detection
+                              ( grown )
+
+         PLANT STATE —       Tube bundles In vessel
+                             No Internal access to vessel                                      NOZZLE
+                             Vessels argon padded
+
+
+
+
+                                  i—                        1
+                             j'
+                                                     3
+                                                  CUTTER
+                                                                                                                        to
+
+                              ^\
+                                                                                                                        00
+                                                                                                        NOZZLE CAP TO
+                                                                                                        BE WELDED ON
+
+
+
+
+                                                                                COUPON REMOVED
+
+FINAL INSPECTION LEVEL       Full volumetric Inspection                          Defect Repair Method
+                             Gamma Radiography
+                             Dye penelranl test
+
+    Fig. 5.5.6.3. Vessel repair 1988 I                              Fig. 5.5.6.4. Vessel repair 1988 II
+                              29
+
+
+                                                  PRESSURE GAUGE
+
+
+
+
+                                                       ARGON OUTLET
+
+
+
+
+                                                   GLOVE BOX
+
+                                    ARGON INLET
+
+
+                     METHOD OF COUPON REMOVAL
+
+             Fig. 5.5.6.5. Vessel repair 1988 III
+
+tank. Any leak in the primary system is unable to lower the
+sodium level in the pool.
+
+2)   The main pool tank is surrounded by a safety tank, which
+     should guarantee that a "Loss of Coolant Accident" which
+     leads to the uncovering of the core is almost impossible.
+
+3)   The sodium circuits are not pressurized, and a temperature
+     increase of almost 400°C is possible before boiling takes
+     place.
+
+The large amount of sodium present in a large pool type reactor
+like PFR is arranged to provide natural circulation by convec-
+tion, and the heat capacity guarantees that even without any
+decay heat removal system or emerging cooling system available,
+                               30
+
+it takes many hours before the sodium temperature in the pool and
+in the core approaches the boiling point of sodium.
+      The PFR has four independent residual heat removal systems,
+which can be divided into two groups.
+      The first group involves a thermal syphon coil included in
+every intermediate heat exchanger unit. These coils are part of
+three independent NaK loops, releasing the residual heat to the
+atmosphere via NaK/air heat exchangers, and by natural convec-
+tion. The NaK loops are designed to maintain safe temperatures
+within the primary circuit in the event of power supply failure.
+The nominal decay heat removal of this system from the reactor is
+5 MW. The heat transfer capability can be increased by operating
+fans. (See fig. 5.5.1) . The freezing point of the NaK mixture
+used at the PFR is about -11°C. This is quite sufficient for the
+location at the Dounreay site, where temperature below 0°C is
+rather infrequent.
+      The second group is based on flow of atmospheric air by
+natural circulation around the safety vessel. This flow will cool
+the vessel before leaving the reactor vault through the annular
+channel around the upper part of the tank (see fig. 5.7.1.). The
+inlet channel to the vault comprises a water cooled heat ex-
+changer, called the cold finger. It is not known whether the
+capacity of the natural circulation air cooling system (with - or
+without the cold finger) is sufficient to serve as the only
+emergency core cooling system.
+      Studies in the U.S.A. have shown that natural convection of
+air through the spacing between reactor safety vessel and reactor
+pit is sufficient to remove the decay heat from a pool type
+sodium cooled fast breeder reactor.
+
+
+5.8. Containment Systems
+
+
+Unlike light water reactors the PFR primary circuit and the
+reactor vessel does not contain hot water under high pressure.
+Further in case of pump failure natural circulation of the sodium
+together with the significant heat capacity of the sodium pool
+and auxiliary heat removal systems will ensure adequate cooling
+                                                  31
+
+
+
+
+                            S«COn1»fV SOnjm WOO
+
+
+
+
+      Heat
+      Exchanger ( « 3 pairs )
+
+
+
+
+        Fig. 5.7.1. PFR shutdown and heat removal systems
+
+of the reactor.
+      This means that the requirements of the reactor containment
+are very different from and less strict than those of light water
+reactors. For example any leak in the primary system will not
+result in a high pressure build-up in the reactor building.
+      The reactor tank with the primary cooling system, the 6
+intermediate heat exchangers and most of the 3 secondary cooling
+systems (including the 3 secondary cooling pumps) are placed in
+the reactor building. The steam generators, one for each
+secondary circuit, are placed in the steam generator building
+next to, but outside the reactor building. Thus there are no high
+pressure cooling system inside the reactor building.
+      The PFR plant comprises 2 barriers between the core and the
+surroundings. The first barrier is the reactor vessel and the
+leak jacket together with the reactor roof structure with the
+                               32
+liquid metal seals. The second barrier is the reactor building.
+      The primary containment of the reactor system consists of
+the stainless steel reactor vessel which has no penetrations
+below the level of the liquid sodium. It is enclosed in a close-
+fitting thermally insulated outer tank, and both tanks are
+suspended from the reactor roof.
+      The secondary containment is the reactor building which is
+designed to contain the pressure and activity release which might
+result from a reactor or a fuel handling accident. The building
+is a steel structure clad with concrete panels, sealed to each
+other and to the frame by polysulphite. It is designed to with-
+stand an internal pressure of 20" water gauge. The leak rate is
+below 50% per day at 4" water gauge.
+      The associated ventilation system, which in the event of an
+incident automatically takes the air of the reactor hall through
+a clean up plant, keeps the pressure in the building below the
+external pressure. This prevents the release of unfiltered air.
+
+5.9. Steam and Power Conversion Systems
+
+
+The PFR operates with one turbine generator, comprising a high
+pressure turbine, an intermediate pressure turbine and two low
+pressure turbines (fig. 5.5.1).
+      The turbine generator is in line with the reactor building
+to avoid the danger of turbine missiles hitting it directly.
+      The high pressure turbine works with superheated steam at
+a pressure of 161 kg/cm and temperature of 516°C. The medium
+pressure turbine works with reheated steam at 2 7.4 kg/cm2. The
+pressure and temperature before the low pressure turbines are not
+known.
+      The generator is a 2 pole 3000 rev./min. hydrogen-water
+cooled machine. It is 3 phase machine with a main voltage (phase
+to phase) of 17,000 volt and a current rating of 10,000 A.
+
+
+5.10. Fuel and Component Handling and Storage Systems
+
+
+All refueling is performed when the reactor is shut-down. It is
+                                 33
+done by use of the rotating shield plug above the core and a rod-
+shaped refueling machine which penetrates from the plug down into
+the reactor vessel close to the top of the fuel assemblies. Fixed
+to the machine by means of movable arms is a vertical chute (see
+fig 5.10.1.) . By rotation of the plug and movement of the chute
+
+
+
+
+                            GAMMA MONITORING THIMBLE
+
+
+
+
+                                                                                      i'l
+
+
+
+
+                                                               Charge machine with chute fully
+                                                       retracted and at maximum radius
+
+
+  Fig. 5.10.1. Reactor vessel with transfer rotor and charge
+      machine.
+
+
+arms the chute may be placed above any of the reactor assemblies,
+and the assembly may be pulled up into the chute. Next the chute
+                               34
+
+with the assembly is moved out of the reactor area to the top of
+a transfer rotor (a Lazy Susan arrangement), and the assembly is
+deposited in a carrier in the rotor. The rotor is rotated to a
+new position which contains a new fuel assembly. This assembly is
+picked by the chute and is transfered to the reactor. The spent
+fuel assembly is stored in the rotor until the decay heat has
+been reduced to 15 kW. This means a storage period of about one
+month for an assembly with a burn-up of about 10% of the heavy
+nuclides. During the storage in the rotor the assembly is cooled
+by the liquid sodium.
+      It should be remembered that all handling of assemblies in
+side the reactor tank is performed under liquid sodium with no
+possibility of visual control. However, an under-sodium viewer
+using 1 MHz ultrasonic signals have been used successfully at
+PFR. A number of scans of the top of the core have been made and
+excellent pictures obtained.
+      After the storage period in the rotor the assembly is
+transfered to the irradiated fuel cave for examination and later
+transfer to the reprocessing plant. This transfer and also the
+introduction of new fuel into the system is demonstrated in fig.
+5.10.2. The cave is provided with a number of sodium tanks for
+fuel transfer, storage, examination and disassembly under sodium.
+The temperature of the sodium in these tanks is by means of
+electric heating and thermostatically control kept at 100-150°C.
+
+
+5.11. Safety Features
+
+A number of safety features of the PFR has already been mentio-
+ned, but a summery of these features will be presented in this
+section.
+      The reactor core has a negative temperature coefficient due
+to the Doppler effect and thermal expansion of -0.91 cents/°C
+which will counteract any divergence of the chain reaction. Also
+the power coefficient is negative. A consequence of the negative
+coefficients is that should all secondary circuit heat transfer
+be lost and the control system fails to shut off the reactor
+while the reactor is running at full power and the primary pumps
+                              35
+
+
+
+
+    Discharge Mask
+
+
+
+
+ PFR fuel transfer route
+
+
+
+
+Fig. 5.10.2. PFR fuel transfer route from fuel facility to
+reactor (new fuel) and from reactor to fuel caves (spent fuel).
+                                36
+continue to work, the reactor will shut itself down at a primary
+circuit temperature of about 600°C. If the primary power system
+is lost and the control system fails to trip the reactor while
+operating at full power, the reactor power will be reduced to 20%
+of full power within 200 s, i.e. within the primary pump run-down
+time. Further heating-up of the system will shut the reactor
+down, but there may be some benign fuel pin failures in the
+process.
+      Loss of electric power supply to PFR will shut off the
+reactor, and the primary pumps will run down. Due to the
+installation of flywheels the pump speed halving time is 10s, and
+the pumps will stop after about 200s. Before that the pump pony
+motors which are driven from guarantied supplies, will take over.
+The pony motors will maintain a pumping speed of 10%. One pump at
+10% will be enough to remove the decay heat. If all pony motors
+fail the sodium temperature of the core will rise as compared to
+sodium temperature of the outer pool. Hereby natural circulation
+will transport the decay heat from the core to the pool. From
+here the heat can be transf ered to the atmosphere by means of the
+decay heat rejection system. The transition from pumped flow to
+natural circulation has been demonstrated through experiments
+with the plant, and the decay heat was removed without the outlet
+assembly temperatures exceeded normal operating levels.
+      The reactor operates at a pressure only slightly above
+atmospheric pressure.
+      The stainless steel reactor vessel is surrounded by a leak
+jacket that will prevent the sodium level from dropping below the
+top of the reactor core in case of a leak in the reactor vessel.
+      The large pool of sodium in which the reactor is submerged
+provides a large thermal inertia. In case of a failure of the
+ordinary heat removal system, three independent, continuously
+operating, passive decay heat removal systems will remove the
+decay heat from the reactor.
+      The introduction of the secondary cooling circuit prevents
+the radioactive sodium of the primary cooling circuit from
+getting in contact with water/steam in case of a leak in the
+steam generator.
+                               37
+      It has been estimated that the primary containment barrier,
+the leak jacket and the roof structure, can withstand an internal
+explosion of 200 MJ. It has also been estimated that the most
+severe accident - all control rod dropping out of the core in
+free fall due to failure of the core support structure - will
+produce much less energy before the dispersal of the fuel will
+make the reactor subcritical. Recriticality in connection with a
+core melt-down is also considered very unlikely.
+      Should radioactivity escape to the reactor hall through the
+roof structure, the low leakage from the hall and the filters of
+the post-accident clean-up plant will ensure that the release to
+the atmosphere will be very small.
+
+5.12. Control and Instrumentation Systems
+
+
+In general the control and instrumentation systems of the PFR are
+similar to those used in other nuclear power systems. The central
+feature of the control and instrumentation system is an on-line
+computer, supervising the operation of the plant. The control
+system consists of two identical sub-systems which work together,
+but either of which is able to sustain plant operation. In case
+both sub-systems fail the reactor will be shut down. The system
+processes about 4000 plant instrument outputs. From this input
+the system can provide
+
+
+      - Plant operation data, displayed on computer screens in
+        the control room.
+
+      - Control information for the two main automatic control
+        loops, reactor outlet temperature controlled by movement
+        of a control rod and steam pressure at the turbine stop
+        valve controlled by variation of the speeds ot the
+        primary and the secondary sodium pumps.
+
+
+      - Records of plant performance.
+
+
+      - Supervising operations such as refueling.
+                                    38
+5.13. Sodium Purification System
+The required purity levels of the sodium of the primary circuit
+and of the secondary systems are maintained by means of "cold
+traps". Cold trap purification is used because some elements in
+the in-core structural materials dissolve in the sodium coolant
+during normal operation. The cold traps are placed in bypass
+lines connected to the main sodium loops.
+       In the cold traps the sodium temperature is reduced to a
+minimum of 110°C. At this temperature the impurities (hydrides
+and oxides) are removed by crystallisation on the packing materi-
+al of the cold traps (stainless steel wire mesh). The packings
+are replaced when they start to plug. A cold trap for the PFR can
+accumulate about 100 kg of impurities, corresponding to a service
+life of about 20 months of the packings.
+       The cold trap of the primary loop is placed inside a
+shielded compartment together with a 7 kg/sec pump and a rege-
+nerative heat exchanger (economizer). The cold traps are a double
+wall vessel, about 1.5 m in diameter and 4.9 m long. The inner
+vessel is made out of 18.8.1 stainless steel and the outer vessel
+out of 2.25 Cr-l Mo steel. The lower part of the outer vessel is
+provided with 300 cooling fins and an air jacket on the outside.
+       Air cooling reduces the temperature of the sodium from
+14O°C (outlet temperature of the economizer) to about 110°C which
+is the inlet temperature of the packing.
+       The sodium enters at the top of the cold traps and flows
+down through the annulus between the outer and the inner vessel
+walls. The air cooling is applied to outside of the outer wall.
+At the bottom the flow is reversed, and the sodium flows upwards
+through the central channel and outwards (in radial direction)
+through the wire mesh packing.
+       The cold traps are designed to reduce the sodium impuriti-
+es to 5-10 ppm. In a typical sodium purification system the
+following elements are monitored:
+           Boron, carbon, 137Cs, clorine, chromium, hydrogen, 131 I, 132 I,
+133
+    I, 135 I, iron, lithium, manganese, nickel, nitrogen, oxygen,
+plutonium, tritium and uranium.
+                                 39
+5.14. Electrical Power System
+The PFR plant is provided with a 300 MW generator which produces
+up to 250 MWe. The electrical power is sent to Beauly near
+Inverness, approximately 100 miles to the south, by use of an 275
+kV overhead transmission line.
+
+
+6. REFERENCES
+
+Adams,E.R., Gregory,C.V. and Henderson,J.D.C.: The safety of the
+prototype fast reactor. Nucl. Energy, Vol.31, June 1992, No.3,
+185-191.
+
+Bishop,J.F.: Power from plutonium: fast         reactor     fuel. Nucl.
+Energy, Vol.20, Feb.1981, No.l, 31-48.
+
+Bishop, J.F. and Kemp,E.F.: Fuel and fuel for PFR. Nucl. Engr.
+Int. Aug. 1971, 643-645.
+
+
+Brocklehurst,J.E. et al. : The performance of boron carbide
+control rod pins in Prototype Fast Reactor. Nucl. Energy, Vol.23,
+June 1984, No.3, 179-189.
+
+
+Broomfield,A.M.: Introductory address - PFR: a retrospective.
+Nucl. Energy, Vol.33, Aug.1994, No.4, 245-248.
+
+Cambell,R.H.: Construction and engineering of PFR. Nucl. Engr.
+Int. Aug.1971, 636-642.
+
+
+Edmonds,E. and Higginson,P.R.: Irradiated fuel cave at Dounreay
+prototype fast reactor. Nucl. Energy, Vol.19, Dec.1980, No.6,
+439-447.
+
+
+Evans,A.D.: PFR station control and instrumentation. Nucl. Engr.
+Int. Aug.1971, 641-642.
+
+
+Henry,K.J.:   Technical   description   of   PFR.   Nucl.   Engr.   Int.
+                               40
+
+Aug. 1971, 632-636.
+
+Holloway,N.J. and Perry,A.: A PRA-based safety case for licensing
+Che prototype fast reactor. International Fast Reactor Safety
+Meeting. Am. Nucl. Soc. Vol. IV, 23-32.
+
+
+Moore,R.V.: The Dounreay Prototype Fast Reactor. Nucl. Engr. Int.
+Aug.1971, 629.
+
+
+Newton,T.D.: Role of core neutronic parameter measurements in
+monitoring the reactivity of the Prototype Fast Reactor at
+Dounreay. Nucl. Energy, Vol.31, June 1992, No.3, 231-238.
+
+
+Scott,R.W.: PFR components. Nucl. Engr. Int. Aug.1971, 646-650.
+
+
+Waltar,A.E and Reynolds,A.B.: Fast breeder reactors. Pergamon
+Press, 1981.
+
+Status of liquid metal cooled fast breeder reactors. IAEA,
+Vienna, 1985. Technical report series No. 246.
+
+
+The Prototype Fast Reactor. Dounreay UKAEA, Nov. 1986, 10 pages.
+                        Distribution of RAK-2.3 reports:
+
+DENMARK:
+                                                  Heikki Sjovall
+Danish Nuclear Inspectorate                       Teollisuuden Voima Oy
+attn: Louise Dahlerup                             FIN-27160Olkiluoto
+      Dan Kampmann                                Finland
+Datavej 16
+DK-3460 Birkerod
+Denmark                                           ICELAND:
+Riso National Laboratory                          Tord Walderhaug
+attn: Erik Nonbol (6 copies)                      Geislavarnir rikisins
+      S. E. Jensen                                Laugavegur 118D
+      B. Majborn                                  IS-150 Reykjavik
+P.O. Box 49                                       Iceland
+DK-4000 Roskilde
+Denmark
+                                                  NORWAY:
+Kaare Ulbak
+SIS
+                                                  Sverre HornkjOl
+Frederikssundsvej 378
+                                                  Statens Stralevern
+DK-2700 Bronshoj
+                                                  P.O. Box 55
+Denmark
+                                                  N-1345 Osteras
+                                                  Norway
+FINLAND:                                          Geir Meyer
+                                                  IFE/Halden
+Prof. Heikki Kalli (2 copies)                     P.O. Box 173
+Lappeenranta University of Technology             N-1751Halden
+P.O. Box 20                                       Norway
+FIN-53851 Lappeenranta
+Finland                                           Per I Wethe
+                                                  IFE/Kjeller
+VTT Energy                                        P.O. Box 40
+attn: Ilona Lindholm (3 copies)                   N-2007 Kjeller
+      Lasse Manila                                Norway
+      Risto Sairanen
+      Esko Pekkarinen
+P.O. Box 1604
+                                                  SWEDEN:
+FIN-02044 VTT
+Finland
+                                                  Kjell Andersson
+                                                  Karinta-Konsult
+Hannu Ollikkala (2 copies)
+                                                  Box 6048
+Finnish Centre of Radiation &
+                                                  S-183 06 Taby
+Nuclear Safety (STUK)
+                                                  Sweden
+P.O. Box 14
+FIN-00881 Helsinki
+                                                  Jean-Pierre Bento
+Finland
+                                                  KSUAB
+                                                  Box 1039
+Prof. Rainer Salomaa
+                                                  S-61129Nyk6bing
+Helsinki University of Technology
+                                                  Sweden
+Department of Technical Physics
+FIN-02150Espoo
+Finland
+Statens Kärnkraftinspektion (SKI)      Magnus Kjellander
+attn: Wiktor Fried (3 copies)          KSUAB
+       Oddbjörn Sandervâg              Box 1039
+       Lennart Carlsson                S-61129Nyköbing
+       Christer Viktorsson             Sweden
+S-10658 Stockholm
+Sweden                                 Petra Lundström
+                                       IVO International Oy
+Prof. Jan-Olof Liljenzin               FIN-01019 IVI
+Chalmers Tekniska Högskola             Finland
+S-41296 Göteborg
+Sweden                                 Gustav Löwenhielm
+                                       FKA
+Studsvik EcoSafe AB                    Forsmarks Kraftgrupp AB
+attn: Lars Nilsson (2 copies)          S-742 03 östhammar
+       Lennart Devell                  Sweden
+S-61182Nyköbing
+Sweden                                 Lasse Reiman
+                                       Finnish Centre of Radiation &
+Royal Institute of Technology          Nuclear Safety (STUK)
+attn: Prof. Bai Raj Sehgal             P.O. Box 14
+       Prof. Jan Blomstrand            FIN-00881 Helsinki
+       Dr. Ingemar Tiren               Finland
+Brinellvägen 60
+S-10044 Stockholm                      Egil Stokke
+Sweden                                 IFE/Halden
+                                       P.O. Box 173
+Statens Strâlsakerhetsinstitut (SSI)   N-1751 Halden
+attn: Jan Olof Snihs (2 copies)        Norway
+       Jack Valentin
+S-17116 Stockholm                      Jan-Anders Svensson
+Sweden                                 Barsebäck Kraft AB
+                                       Box 524
+Yngve Waaranperä                       S-246 25 Löddeköpinge
+ABB Atom AB                            Sweden
+S-72163 Vesterâs
+Sweden                                 Björn Wahlström
+                                       VTT Automation
+                                       P.O. Box 13002
+REFERENCE GROUP FOR THE RAK            FIN-02044 VTT
+PROGRAMME;                             Finland
+
+Björn Thorlaksen                       Povl L. Olgaard (3 copies)
+Danish Nuclear Inspectorate            Riso National Laboratory
+Datavej 16                             P.O. Box 49
+DK-3460 Birkerod                       DK-4000 Roskilde
+Denmark                                Denmark
+
+Markku Friberg
+Industriens Kraft TVO                  EXECUTIVE SECRETARY:
+FIN-27160 Olkiluoto
+Finland                                Torkel Bennerstedt
+                                       NKS
+Gert Hedner                            PL 2336
+Statens Kärnkraftinspektion (SKI)      S-76010Bergshamra
+S-10658 Stockholm                      Sweden
+Sweden
+

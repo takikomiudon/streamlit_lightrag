@@ -1,0 +1,584 @@
+      Nuclear Technology
+
+
+
+
+      ISSN: 0029-5450 (Print) 1943-7471 (Online) Journal homepage: www.tandfonline.com/journals/unct20
+
+
+
+
+Caustic Stress Corrosion Cracking of Inconel-600,
+Incoloy-800, and Type 304 Stainless Steel
+
+G. J. Theus
+
+To cite this article: G. J. Theus (1976) Caustic Stress Corrosion Cracking of Inconel-600,
+Incoloy-800, and Type 304 Stainless Steel, Nuclear Technology, 28:3, 388-397, DOI: 10.13182/
+NT76-A31521
+
+To link to this article: https://doi.org/10.13182/NT76-A31521
+
+
+
+
+       Published online: 10 May 2017.
+
+
+
+       Submit your article to this journal
+
+
+
+       Article views: 24
+
+
+
+       View related articles
+
+
+
+
+                      Full Terms & Conditions of access and use can be found at
+             https://www.tandfonline.com/action/journalInformation?journalCode=unct20
+CAUSTIC STRESS CORROSION                                                                                                REACTORS
+
+
+CRACKING OF INCONEL-600,
+INCOLOY-800, AND TYPE 304                                                                                       KEYWORDS: lnconel-600, Inco-
+                                                                                                               loy-800. Type 304 stainless steel,
+                                                                                                               stress corrosion, cracks, sodium
+STAINLESS STEEL                                                                                                hydroxides, aqueous solutions,
+                                                                                                               corrosive effects, high tempera-
+                                                                                                               ture, cover gas, hydrogen, mix-
+G. J. T H E U S    Babcock & Wilcox                      Company                                                tures, nitrogen
+Research   and Development    Division,                  Alliance    Research   Center
+1562 Beeson Street, Alliance,    Ohio                   44601
+
+
+
+
+R e c e i v e d A u g u s t 8, 1975
+A c c e p t e d f o r P u b l i c a t i o n O c t o b e r 16, 1975
+
+
+
+                                                                                  caustic stress   corrosion  cracking.     Moreover,
+                                                                                  many metallurgical variables,   which promote or
+     High-temperature     electrochemical    tests have                           retard caustic cracking, are the same as those
+resulted    in the stress     corrosion    cracking of                            conditions that promote or retard     high-tempera-
+Inconel-600 and Incoloy-800 (registered            trade-                         ture high-purity water failures—particularly     in
+marks, International Nickel Company), and Type                                    the case of Inconel-600.
+304 stainless steel in caustic solutions.         Results
+show that stress     corrosion     cracking of these
+alloys can he prevented or accelerated by varying
+their electrochemical      potential.   To a certain
+extent, the same effect can be achieved by altering                               INTRODUCTION
+the gas atmosphere above the test solution from a
+pure nitrogen cover gas to a mixture of 5% Hg and                                    Caustic stress corrosion cracking of nuclear
+95% N2. The effect of the cover gas can then be                                   steam generator tubing material is a major source
+negated by adjusting the specimen's        electrochemi-                          of concern to both steam generator manufacturers
+cal potential either to cause or to inhibit stress                                and utility owners of nuclear power plants. Past
+corrosion cracking.     These types of experiments                                history shows that many recirculating pressurized
+lead to a better determination        of the boundary                             water reactor (PWR) nuclear plants operating with
+conditions within which stress corrosion cracking                                 either phosphate or all volatile water treatments
+of the alloys occurs.                                                             have ejqperienced caustic stress corrosion crack-
+      Some specifics of the test results reveal that                              ing of the tubing/"® The intrusion of caustic in
+ in deoxygenated     caustic solutions,     Inconel-600                           the secondary water has been variously attributed
+ cracks intergramilarly at mildly anodic potentials;                              to condenser leaks, uncontrolled phosphate treat-
+Incoloy-800 cracks transgranularly         at reduced                             ment,® sodium leakage or breakthrough from con-
+potentials    (at or near the open circuit     potential)                         densate polishing demineralizers, or water-sodium
+and inter granularly at highly oxidizing potentials;                              interaction for sodium-cooled fast breeder reac-
+and cracking is mixed         (transgranular/intergranu-                          tors. Caustic stress corrosion cracking of alloys
+ lar) for Type 304 stainless steel at or near the                                 used for steam generator tubing has already been
+open circuit potential.     The severity of cracking                              extensively i n v e s t i g a t e d in laboratory ejqjeri-
+for both Inconel-600 and Incoloy-800 in deoxy-                                    ments. Many of these investigations, reviewed in
+genated caustic solutions is reduced by giving the                                Refs. 7 and 8, are discussed below.
+ materials a simulated post-weld heat treatment                                      Previously, most laboratory investigations of
+ (IISOT for 18 h). Test results on Inconel-600                                    stress corrosion cracking have required long test
+ show that high-carbon (0.06%) material           cracks                          periods before cracking initiated—especially for
+ less severely than low-carbon (0.02%) material, in                               high-nickel alloys. However, high-temperature
+ both the simulated post-weld heat-treated        condi-                          electrochemical techniques, combined with a suit-
+ tion and the mill-annealed    condition.                                         able cracking environment and severely stressed
+      The results we obtained with the           electro-                         specimens, will crack austenitic alloys (even
+ chemical corrosion techniques agree with results                                 high-nickel alloys) within a few days. Using this
+obtained usir^ conventional corrosion methods for                                 combination of test techniques, we can compare
+the reactions of various alloys, evaluate metallur-          the solution and remain above the solution at the
+gical heat treatments, and determine the effect of           start of the test was either 100% N2 or 5% H2 plus
+an alloy's chemical composition in a fraction of             95% Nz.
+the time previously expended.                                   Most testing was done in a 1-gal autoclave with
+   This paper briefly describes these test tech-             a nickel 200 liner that protects the autoclave from
+niques, reports some of the results of our labora-           corrosion damage. The autoclave is divided into
+tory investigations, and compares these results              six compartments, each with a platinum or nickel
+with other laboratory results that used more                 reference electrode that permits simultaneous
+conventional test techniques. Finally, correla-              testing of six specimens. A few stress corrosion
+tions between caustic stress corrosion cracking              cracking tests were conducted in a 1-liter auto-
+data and high-purity water cracking data are                 clave with a single reference electrode. This
+made, especially for Inconel-600 and Incoloy-800.            autoclave permitted sequential testing of a non-
+                                                             stressed cylindrical specimen and simultaneous
+                                                             testing of two stressed specimens. The autoclaves
+MATERIALS, EQUIPMENT, AND                                    were used as the counter electrode.
+EXPERIMENTAL PROCEDURES
+                                                                Details of the electrochemical and electronic
+   The materials, equipment, and experimental                equipment as well as the testing procedure that
+procedures used during our investigations are                was followed are given in Ref. 9.
+briefly described below. A more complete and
+detailed description has been provided by Cels.®
+                                                             RESULTS
+Materials and Specimens
+                                                                 Figure 1 presents a schematic anodic polariza-
+   The alloys tested were Inconel-600, Incoloy-              tion curve of a metal exhibiting active-passive
+800, and Type 304 stainless steel. Their chemical            behavior," Stress corrosion cracking is known
+compositions are given in Table I.                           to occur in the three transitional areas repre-
+   The stress corrosion specimens used in these              sented by the cross-hatched regions of Fig. 1.
+tests were spring-loaded bent strips or longitudi-           Cracking does not necessarily occur, however, in
+nal sections of tubes fashioned after those de-              all regions for all alloys in all solutions. There-
+scribed by Uhlig and Lincoln^" and described in              fore, controlled potential tests using the spring-
+detail by Cels.® These specimens were very                   loaded specimens were run on the various alloys
+severely stressed specimens in which cracks,                 to determine the potential values that resulted in
+once initiated, will propagate rapidly. Cylindrical          stress corrosion cracking. All tests were run at
+specimens were used for the anodic polarization              550°F (289''C) in 10% NaOH (unless stated other-
+tests.                                                       wise) using either the slow potential scan (1 mV/h)
+                                                             technique or by maintaining a constant potential.
+Solution and Test Equipment
+                                                             Deaeration with 5% Hj and 95% N^
+   Solutions of caustic soda were made up on a
+weight percent basis, e.g., 10% NaOH represents                 In tests using a cover gas of 5% H2 and 95% Nz,
+10 g of NaOH plus 90 g of water. The concentra-              cracking of the three alloys, all in the mill-an-
+tion used during these tests was usually 10%                 nealed conditions, could be achieved in a matter of
+NaOH, but limited testing was done in 2% NaOH                a few days when the applied potential was within
+solutions. The gas atmosphere used to deaerate               the cracking regions. These potential regions.
+
+
+
+                                                         TABLE I
+                                       Chemical Composition of Test Materials
+
+     Alloy         Heat No.     C     Mn      S          P    Si     Cr      Ni      Fe     Cu      Co     A1      Ti
+
+ Inconel-600       M5442      0.04    0.38   0.006   0.007   0.11   15.71   74.42    8.60   0.03   0.049   0.28   0.24
+                   M6895      0.059   0.31   0.002   0.005   0.17   15.35   76.57    bal    0.01   0.026   0.18   0.22
+                   90092      0.023   0.25   0.001   0.004   0.22   16.38   75.51    bal    0.01   0.04    0.05   0.24
+ Incoloy-800       HH4537A    0.06    0.81   0.007   —       0.30   20.36   32.45   44.95   0.27    —      0.39   0.38
+ Type 304
+                   334379     0.07    1.09   0.008   0.03    0.52   18.55    9.45    bal    0.44    —      —      —
+ stainless steel
+                                                                      served in similar test times if the applied poten-
+                      PITTING                                         tials were not within the cracking regions.
+                                                                         Incoloy-800 cracked transgranularly at small
+                                                                      anodic potentials (60 to 100 mV) and intergran-
+                                                                      ularly (Fig. 5) at high anodic potentials (750 to
+                                                                      900 mV). Type 304 stainless steel cracked in a
+                                                                      mixed transgranular/intergranular mode (Fig. 6)
+                                                                      at very small applied potentials (30 mV). The
+                                                                      upper potential regions for the cracking of Type
+          h-
+          Z                PASSIVITY                                  304 stainless steel were not investigated.
+          LU                                                              Inconel-600 could be made to crack intergran-
+          H
+          o                                                           ularly (Fig. 7) at moderately high anodic potentials
+          a.                                                          (150 to 240 mV). At very high applied potentials
+                                                                      (700 to 850 mV), Inconel-600 did not crack but
+                                                                      instead showed a general overall wastage attack.
+
+                                                                      Deaeration with 100% N2
+
+                                                                         In tests using a cover gas of 100% N2, mill-
+                                                                      annealed Incoloy-800 c r a c k e d transgranularly
+                                                                      (Fig. 8) without an applied potential, whereas
+-CORR                                                                 mill-annealed Inconel-600 did not crack unless a
+
+                    CATHODIC
+                    PROTECTION
+
+                            CURRENT DENSITY
+Fig. 1.        Zones 1, 2, and 3 for s t r e s s corrosion cracking
+                                                                           1.0     -                          COVER GAS:
+               on polarization curve.                                                                         5% H2 IN N2
+
+
+
+listed in Table II, are represented by the c r o s s -                     0.8     -
+hatched areas in Figs. 2, 3, and 4, for Type 304
+stainless steel, Inconel-600, and Incoloy-800, r e -
+spectively. (The anodic polarization curves of
+Figs. 2, 3, and 4 are schematic curves, but the                            0.6    -
+potential scale was obtained using test data from
+the cylindrical specimens.) Cracking was not ob-                      z
+                                                                      lU
+
+                                                                      O    0.4
+                              TABLE II
+   Potential Regions for S t r e s s Corrosion Cracking in
+            I NaOH at 550°F with a Cover Gas of
+                      5% H2-95% N2                                         0.2     -
+                           Potential Range        Cracking
+      Alloy®                    (mV)''            Morphology
+
+  Type 304                     Above 30          Mixed
+  stainless steel
+  Inconel-600                 150 to 240        Intergranular
+  Incoloy-800                  60 to 100        Transgranular
+  Incoloy-800                 Above 750         Intergranular                             102          10-=         10^
+
+® All alloys in the mill-annealed condition.
+                                                                                       CURRENT DENSITY (mA/cm^)
+''All potentials are measured with r e s p e c t to the open          Fig. 2.    Cracking zone for Type 304 s t a i n l e s s steel
+  circuit potential that equals zero, (£corrosion= 0) for this                   shown with r e s p e c t to an anodic polarization
+  electrochemical system.                                                        curve in 10% NaOH solution at 550 °F.
+     1.0    -                                                    1.0
+
+
+
+                                                                                       c
+                                      COVER GAS:
+                                      5% H2 IN N2
+
+
+     0.8    -                                                    0.8
+
+                                                            >
+
+     0.6    -                                               <    0.6
+<                                                           I-
+I-                                                          Z
+                                                            LU
+                                                                                                    COVER GAS:
+z                                                                                                   5% H2 IN N2
+LU
+S    0.4
+Q.                                                          2    0.4
+
+
+
+
+                                                                 0.2
+
+
+
+
+                                                                                  1            1          1
+                   lO-'        10-^            10'                               10^          10'        10^
+
+                C U R R E N T DENSITY (mA/cm^)                              C U R R E N T DENSITY (mA/cm^)
+Fig. 3.    Cracking zone for Inconel-600 shown with r e -   Fig. 4.    Cracking zones for Incoloy-800 shown with
+           spect to an anodic polarization curve in 10%                r e s p e c t to an anodic polarization curve in
+           NaOH solution at 550"F.                                     NaOH solution at 550 °F.
+
+
+
+
+potential of ~100 mV was applied. Cracking of               Effect of Carbon Concentration
+Incoloy-800 could be prevented by anodically
+polarizing the specimen out of the cracking region.            The effect of carbon concentration on the stress
+                                                            corrosion cracking behavior of Inconel-600 was
+Effect of Simulated Post-Weld Heat Treatment                tested in both the simulated post-weld heat-treated
+                                                            and mill-annealed conditions. The test solution
+   Inconel-600 and Incoloy-800 specimens were               was 10% NaOH at 550°F (289°C) and the potential
+given simulated post-weld heat treatments (stress           scan was 3 mV/h between +175 and +210 mV.
+relief prior to bending) for 18 h at 1150°F (621°C).        Comparing Fig. 11 (0.02% C) with Fig. 12 (0.06% C)
+Both mill-annealed and stress-relieved materials            reveals that the crack depth for the low carbon
+were tested simultaneously in 10% NaOH at 550°F             mill-annealed material is greater than that for the
+(289°C). For Inconel-600 an applied potential test          high carbon mill-annealed material. This im-
+with a 5% Ha—95% N2 cover gas was employed,                 proved cracking resistance for high carbon ma-
+whereas Incoloy-800 was tested under open circuit           terial was also o b s e r v e d in the Inconel-600
+conditions with a 100% N2 cover gas. In both                material that had received the simulated post-weld
+cases, the stress relief heat treatment consider-           heat treatment.
+ably reduced the cracking severity. Comparing
+Fig. 9 with Fig. 7 shows the improvement obtained           Effect of Caustic Concentration
+by heat treating Inconel-600. Comparing Fig. 10
+with Fig. 8 reveals the same general improvement              Limited tests on Inconel-600 and Incoloy-800
+for Incoloy-800.                                            were conducted in 2% NaOH solutions at 550°F
+   m i '
+
+
+
+
+Fig. 5.   Incoloy-800, heat HH4537A, mill-annealed, 10%
+          NaOH at 550° F for 4 days, 5% H2 in N2 cover        Fig. 7.   Inconel-600, heat M5442, mill-annealed,
+          gas, specimen potential +750 to +850 mV at                    NaOH at 550''F for 5 days, 5% Hg in Ng cover
+          1.0 mV/h, 5% nital etch, at 500x.                             gas, specimen potential +150 to +214 mV at 0.5
+                                                                        mV/h, H3PO4 + 10% oxalic etch, at 200x.
+
+
+
+
+Fig. 6.   Type 304 stainless steel, heat 334379, m i l l -    Fig. 8.   Incoloy-800, heat HH4537A, mill-annealed, 10%
+          annealed, 10% NaOH at 550°F for 2 days, 5% Hz                 NaOH at 550°F for 5 days, N2 cover gas, open
+          in N2 cover gas, specimen potential +30 to +80                circuit potential, H3PO1 + 10% oxalic etch, at
+          mV at 1 mV/h, 70 H N 0 3 - 3 0 H2O etch, at lOOx.             200x.
+Fig. 9.   Iiiconel-600, heat M5442, 1150°F for 18 h, 10%                                Fig. 11. Inconel-600 (0.023% C), heat 90092, m i l l - a n -
+          NaOH at 550°F for 5 days, 5% Ha in Nz cover                                            nealed, 10% NaOH at 550°F for i day, 5% H2 in
+          gas, specimen potential +150 to +214 mV at                                             N2 cover gas, specimen potential +175 to +210
+          0.5 mV/h, H3PO4 + 10% oxalic etch, at 200x.                                            mV at 3 mV/h, H3PO4 etch, at 400x.
+
+
+
+
+Fig. 10. Incoloy-800, heat HH4537A, 1150°F for 18 h,                                    Fig. 12. Inconel-600 (0.059% C), heat M6895, m i l l - a n -
+         10% NaOH at 550°F for 5 days, N2 cover gas,                                             nealed, 10% NaOH at 550°F for 5 day, 5% H2 in
+          o p e n c i r c u i t p o t e n t i a l , H3PO1 + 10% o x a l i c e t c h ,             Ng c o v e r   g a s , + 1 7 5 t o +210   mV   at 3 m V / h ,
+          a t 200X.                                                                               H3PO4 etch, at 400x.
+over a one-week period. Cracking was observed         than Incoloy-800 or austenitic stainless steels in
+under approximately the same conditions (i.e.,         deoxygenated caustic solutions.
+electrochemical potential, scan rate, test duration,      In oxygenated caustic solutions the opposite
+cover gas, etc.) that resulted in cracking when        conclusion may be drawn from the small amount
+similar tests were conducted in 10% NaOH solu-        of available test data. Copson et al.^® found that
+tions. However, the cracks for both alloys were       increasing the chromium concentration of high-
+not nearly as deep nor as numerous as those           nickel alloys improved their resistance to stress
+observed after testing in 10% NaOH solutions.          corrosion cracking in aerated 50 and 90% caustic
+                                                       solutions at 572°F (300°C). Similarly, Truman
+                                                      and Perry" observed the beneficial effects of
+DISCUSSION                                             increasing the chromium concentration as well as
+                                                      the detrimental effect of increasing the nickel
+   The test results obtained by using electrochem - concentration in tests done in 50% NaOH at 572°F
+ical techniques in high-temperature caustic solu- (300°C) with oxygen o v e r p r e s s u r e .                    Finally,
+tions are generally in excellent agreement with Mcllree and Michels^® have reported that high-
+the data obtained by others using conventional long chromium alloys (Incoloy-800) are more resistant
+term open circuit tests. Moreover, much of the to attack in aerated 50% sodium hydroxide solu-
+caustic data correlates well with the results tions over a temperature range of 543 to 630°F
+obtained in high-temperature high-purity water (284 to 332°C) than are high-nickel alloys (In-
+tests.                                                conel-600).
+                                                          Data presented earlier in this paper indicate
+Relative Cracking Resistance of lnconel-600,          that at moderately oxidizing potentials (~+150 mV)
+lncoloy-800, and Type 304 Stainless Steel             Inconel-600 will crack in caustic solutions while
+                                                      Incoloy-800 will not crack under these same test
+   In deaerated caustic solutions at high tempera- conditions. The applied electrochemical potential
+tures, our results showed that Inconel-600 r e - has essentially the same effect as the oxygen in
+quired anodic polarization to a moderately high the previously cited references. Therefore, our
+potential to induce stress corrosion cracking. data are in agreement with Refs. 16, 17, and 18,
+Incoloy-800 and Type 304 stainless steel required         However, our data also show that at highly
+no polarization or only slight anodic polarization oxidizing potentials (~+750 mV) Incoloy-800 will
+to induce failures under otherwise identical test crack intergranularly while Inconel-600 shows
+conditions. Under these test conditions, Mconel- wastage attack. Intergranular cracking of Incoloy-
+600 displayed the greatest, Incoloy-800 the next 800 in caustic solutions has been reported pre-
+greatest, and Type 304 stainless steel the least viously,^®'^'^" but the test conditions under which
+resistance to caustic stress corrosion cracking. this mode of attack has occurred have not always
+   Wilson and Aspden^'^^'^^ concluded from their been well defined. Higher corrosion rates have
+stress corrosion cracking tests in 10 and 50% also been noted for Inconel-600 than for Incoloy-
+caustic solutions at 600°F (316°C) that Inconel-600 800 in aerated caustic solutions.^® These findings
+was least susceptible to cracking in deoxygenated are also in general agreement with our test
+solutions. The other alloys (Incoloy-800, 300- results wherein Inconel-600 showed severe wast-
+series austenitic stainless steels) became in- age.
+creasingly more s u s c e p t i b l e with decreasing     Completely correlating the resistance of these
+nickel content. Indig" compared Inconel-600 with three alloys to cracking in high-purity water with
+Incoloy-800 in deaerated 5% NaOH at 600°F (316°C) their resistance to cracking in caustic solutions is
+using a constant extension rate (0.001 in./h) tech- difficult because not enough test data or field
+nique. He found that Inconel-600 resisted stress e3q)erience are available for Incoloy-800. Aus-
+corrosion cracking in these tests while Incoloy- tenitic stainless steels and Inconel-600 have often
+800 failed from stress corrosion cracking after failed in laboratory tests in high-purity water.
+220 h. Stieding" tested Inconel-600, Incoloy-800, Many of these failures are reviewed in Refs. 5, 7,
+and Type 347 stainless steel in 35% NaOH at 572°F ' 8, 21, and 22. In general, austenitic stainless
+(300°C). He found that one of three stainless^steel steels fail readily if sensitized, severely stressed,
+specimens cracked after 100 h of test time and and e x p o s e d to high-temperature oxygenated
+that two of six Incoloy-800 specimens cracked w a t e r s . L i k e w i s e , I n c o n e l - 6 0 0 h a s b e e n r e p o r t e d
+after 160 h. Neither the Inconel-600 specimens to fail ui both oxygenated and deoxygenated high-
+nor the remaining specimens of the other alloys temperature waters, though not as readily as the
+cracked after 4500 h of testing. Therefore, there stainless steels. In all cases, Inconel-600 had to
+appears to be general agreement that Inconel-600 be severely stressed and often a crevice had to be
+is more resistant to stress corrosion cracking
+                                                      incorporated in the test specimen. The high-purity
+water corrosion of Incoloy-800 has not been as             Domian et al.,^'' and Pocock and Levstek^® have
+extensively investigated and, therefore, reported          shown that sensitized Inconel-600 is less suscep-
+failures are not as numerous as for the other              tible to attack than as-received material or
+alloys. However, Incoloy-800 is also susceptible           material that had been given a special thermal-
+to stress corrosion cracking in water containing           mechanical processing treatment.
+neither halides nor caustics.                                  Others^®'^®"®^ have reported no significant dif-
+    In a program that tested many alloys in 550°F          ference in cracking behavior between as-received
+(289°C) water containing 36 ppm O2, Clark et al,'®         and as-received plus sensitized specimens. This
+observed failures in furnace-sensitized austenitic         was usually because few, if any, specimens failed
+stainless steels by intergranular stress corrosion         in the high-purity water tests reported in these
+cracking. In addition, one of two furnace-sensi-           references. This is also true for Incoloy-800,
+tized Incoloy-800 specimens also failed because of         which has been tested to a much lesser extent.
+intergranular cracking. The stress applied to that         However, most of the available data do show that
+specimen was 75% of the 550°F (289°C) ultimate             giving a simulated post-weld heat treatment to
+tensile strength, and failure occurred after only          Iticonel-600 has a beneficial effect on its r e s i s -
+353 h of test time. Similar tests by Blanchet et           tance to stress corrosion cracking. Unfortunately,
+al.^^ and Coriou et al.^"* did not fail Incoloy-800        similar data for Incoloy-800 are not available.
+and similar alloys in their high-purity water tests
+using nonsensitized material.
+    In conclusion, it generally can be stated that         Beneficial Effect of High Carbon
+austenitic stainless steels are the least resistant        Concentrations for Inconel-600
+to stress corrosion cracking of the three materi-
+als in high-purity water. This is also the case
+for caustic stress corrosion cracking. However,               Our data showed that high carbon concentrations
+the comparison of high-purity water failures with          help to reduce the severity of caustic cracking for
+caustic failures (where Inconel-600 is more r e -          both the mill-annealed and the mill-annealed plus
+sistant than Incoloy-800) cannot be made for these         stress-relieved material. Supportive data for this
+two alloys because of insufficient data for Incoloy-       result in caustic solutions are not conclusive. In
+800 in high-purity water.                                  fact, Mcllree et al.^® found that high carbon
+                                                           (0.074%) had a seemingly deleterious effect on
+                                                           Inconel-600 in the mill-annealed plus s t r e s s - r e -
+Beneficial Effect of a Simulated Post-Weld Heat            lieved condition on tests conducted in 50% caustic
+Treatment for the High-Nickel Alloys                       solutions. However, they also reported that high
+                                                           carbon (0.075%) with high sulfur (0.015%) appeared
+    Giving a stress relief heat treatment to a s - r e -   to have a beneficial effect.
+ceived specimens of Inconel-600 and Incoloy-800                High-temperature high-purity water tests con-
+(prior to stressing) reduced the severity of stress        ducted by Coriou et al.^^ on Inconei-600 specimens
+corrosion cracking. Similar results have been              with normal (0.040%) or low (0.002%) carbon con-
+reported previously in tests conducted in deoxy-           centrations originally revealed that the carbon
+genated caustic solutions. Wilson and Aspden^^'^®          level had no effect on its ability to withstand
+found that sensitizing both alloys at 1200°F (649°C)       stress corrosion cracking. However, subsequent
+for 10 h reduced their susceptibility to cracking.         testing noted the deleterious behavior of low-
+This treatment was especially beneficial to In-            carbon material, especially in the stress-relieved
+conel-600.                                                 condition.^^ Very little difference in failure times
+    Mcllree et al.^® tested as-received and a s - r e -    (all failed) were recorded for the as-received and
+ceived plus typically furnace stress-relieved (i.e.,       the as-received plus sensitized low carbon speci-
+ '-600°C) Inconel-600 specimens in deaerated 50%           mens, whereas the sensitized high-carbon alloys
+NaOH solutions and reported that all specimens             did not fail after 10 000 h of test time. In addition.
+failed to varying degrees. Wagner et al.^® tested          Rentier and Welinsky^® foimd a much higher fre-
+similarly heat-treated specimens in oxygen con-            quency of intergranular stress corrosion cracking
+taining 5% NaOH and reported no failures. How-             failures in one of three heats of Inconel-600 in
+ever, the test duration was only 700 h. Therefore,         their high-purity water tests. This heat had a
+these results neither support nor refute our               carbon concentration of 0.025% while the other two
+results on the beneficial effect of stress relief.         heats had higher carbon concentrations of 0.05%
+    Post-weld heat treatment of Inconel-600 has            and 0.06%. Therefore, available high-purity water
+also been shown to provide increased stress cor-           data do support the claim that Inconel-600 with
+rosion resistance in high-temperature high-purity          high carbon concentrations is more resistant to
+water tests. Van Rooyen,® Blanchet et al.,^^               cracking than low carbon material.
+SUMMARY AND CONCLUSIONS                                                  4. C. F. CHENG, "International S t r e s s A s s i s t e d Cor-
+                                                                        rosion Cracking of Austenitic Alloys in Water Cooled
+    This paper has presented the results of an                          Nuclear R e a c t o r s , " presented at the 5th European
+                                                                        Cong. Corrosion, P a r i s , France (Sep. 24-28, 1973).
+electrochemical investigation into the relative
+caustic stress corrosion cracking resistance of
+Inconel-600, Incoloy-800, and Type 304 stainless                          5. D. VAN ROOYEN, "Review of the S t r e s s Corrosion
+steel. The effects of oxidizing potential, heat                         Cracking of N i - C r - F e Alloys, Especially Alloy 6 0 0 , "
+treatment, and alloy chemistry were studied. A                          WAPDT-2578, Westinghouse E l e c t r i c Corporation; also,
+                                                                        presented at the National Association of Corrosion Engi-
+literature search shows that our electrochemical
+                                                                        n e e r s ' Annual Corrosion Research Mtg. (Mar. 1974).
+data are in agreement with data obtained using
+conventional c o r r o s i o n t e s t i n g techniques.
+Furthermore, the search also reveals that many                           6. W. D. FLETCHER and L. F. PICONE, "Secondary
+of the variables affecting high-purity water fail-                      Water Treatment of PWR Steam G e n e r a t o r s , " presented
+                                                                        at the Int. Water Conf. Engineers Society of Western
+ures have the same effect on failures in caustic
+                                                                        Pennsylvania, Pittsburgh, Pennsylvania (Oct. 24-26,
+media. Combining our findings with those of the                         1972).
+literature search yields the following general con-
+clusions:
+                                                                          7. R. M. LATANISION and R. W. STAEHLE, " S t r e s s
+   1. In deoxygenated caustic solutions, Inconel-                       Corrosion Cracking of Iron-Nickel-Chromium A l l o y s , "
+600 i s more resistant to stress corrosion cracking                     Proc. 1967 Conf. Fundamental   Aspects of Stress   Cor-
+than alloys of lesser nickel content. Not enough                        rosion Cracking, Ohio State University, Columbus, Ohio
+                                                                        (1969).
+data for Incoloy-800 in high-purity water are
+available to make a good comparative evaluation
+with Inconel-600, although both alloys are superior                      8. G. J. THEUS and R. W. STAEHLE, "Review of
+to austenitic stainless steels.                                         S t r e s s Corrosion Cracking and Hydrogen Embrittlement
+                                                                        in Austenitic F e - C r - N i A l l o y s , " paper presented at the
+   2. A simulated post-weld heat treatment im-                          Int. Conf. S t r e s s Corrosion Cracking and Hydrogen E m -
+proves the cracking resistance of both Inconel-600                      brittlement of Iron B a s e Alloys, Firminy, France (June
+and Incoloy-800 in caustic solutions. This state-                       1973).
+ment also holds true for Inconel-600 in high-purity
+deoxygenated water.
+                                                                           9. J. R. CELS, " S t r e s s Corrosion Cracking of Stain-
+   3. A relatively high carbon concentration im-                        l e s s Steel and Nickel Alloys at Controlled Potentials in
+proves the cracking resistance for Inconel-600 in                       10% Caustic Soda Solutions at 550°F," paper presented
+                                                                        at the 148th Meeting of the Electrochemical Society,
+both deoxygenated caustic and high-purity water                         Dallas, T e x a s (Oct. 5-10, 1975); s e e also, BAW-RDTPA-
+solutions.                                                              75-10, Babcock & Wilcox Company (1975); also, to be
+                                                                        published in the J. Electrochem.       Soc.
+
+                       ACKNOWLEDGMENTS
+                                                                        10. H. H. UHLIG and J. LINCOLN, Jr., J.                     Electro-
+    The author e x p r e s s e s h i s gratitude to J. R. C e l s for   chem Soc., 106, 325 (1958).
+directing part of the r e s e a r c h program, to J. V. Monter
+and J. P. Sorenson for skillfully performing the e x p e r i -
+ments, to T. A. McNary, D. W. Koch, and D. F. Levstek                   11. R. W. STAEHLE, "Prediction and Experimental
+for their helpful suggestions and d i s c u s s i o n s , and to the    Verification of the Slip Dissolution Model for S t r e s s
+Babcock & Wilcox Company for p e r m i s s i o n to publish             Corrosion Cracking of Low Strength A l l o y s , " presented
+ttie information.                                                       at the Int. Conf. S t r e s s Corrosion Cracking and Hydro-
+                                                                        gen Embrittlement of Iron B a s e Alloys, Firminy, France
+                                                                        (June 1973).
+                            REFERENCES
+
+  1. S. H. BUSH and R. L. DILLON, " S t r e s s Corrosion               12. I. L. W. WILSON and R. G. ASPDEN, "Caustic
+in Nuclear S y s t e m s , " paper presented at the Int. Conf.          S t r e s s Corrosion Cracking of Iron-Nickel-Chromium
+S t r e s s Corrosion Cracking and Hydrogen Embrittlement               A l l o y s , " presented at the Int. Conf. S t r e s s Corrosion
+of Iron B a s e Alloys, Firminy, France (June 1973).                    Cracking and Hydrogen Embrittlement of Iron Base
+                                                                        Alloys, Firminy, France (June 1973).
+ 2. The Westinghouse Steam Generator Symp., P i t t s -
+burgh, Pennsylvania (Apr. 1973).
+                                                                        13. I. L. W. WILSON and R. G. ASPDEN, "The Influence
+  3. M. HEISE, " C o r r o s i o n of Inconel-600 Steam Gen-            of Specimen Type and Metallurgical Structure on the
+erator Tubes in Phosphate Containing F e e d w a t e r , "              Caustic S t r e s s Corrosion Cracking of Some Stainless
+presented at the 165th CEFA Seminar—Nuclear R e a c -                   A l l o y s , " paper No. 109, Corrosion/75, Toronto, On-
+t o r s , B r u s s e l s (Feb. 1975).                                  tario, Canada (1975).
+14. M. E. INDIG, "Caustic Cracking in Hot Aqueous and            25. A. R. McILREE, H. T. MICHELS, and P. E. MORRIS,
+Superheated Steam Environments," Corrosion     Problems          "Effects of Variations of Carbon, Sulfur and Phosphorus
+in Energy Conversion and Generation, C. S. TEDMON,               on the Corrosion Behavior of Alloy 600,"       Corrosion
+Jr., Ed., The Electrochemical Society, Inc., Princeton,          Problems   in Energy Conversion and Generation, C. S.
+New Jersey (1974).                                               TEDMON, Jr., Ed., The Electrochemical Society, Inc.,
+                                                                 Princeton, New Jersey (1974).
+15. L. STIEDING, discussion, paper No. 25, "Applica-
+tion of Alloy 800 in PWRs," Brit. Nucl. Energy Soc.
+                                                                 26. G. H. WAGNER, H. SCHENK, and H. SPAHN, "Some
+Materials Conf. (Sep. 25-26, 1974).
+                                                                 Results on the Low Temperature Sensitization of In-
+                                                                 conel 600," discussion at the Int. Conf. Stress Corrosion
+16. H. R. COPSON, D. VAN ROOYEN, and A. R. MclL-
+                                                                 Cracking and Hydrogen Embrittlement of Iron Base
+REE, "Stress Corrosion Behavior of N i - C r - F e Alloys
+                                                                 Alloys, Firminy, France (1975).
+in High Temperature Aqueous Solutions," Proc. 5th Int.
+Congr. Metallic Corrosion, Tokyo, Japan (May 1972).
+                                                                 27. H. A. DOMIAN, R. H. EMANUELSON, L. KATZ,
+17. J. E. TRUMAN and R. PERRY, "The Resistance to                L. W. SARVER, and G. J. THEUS, "Effect of Micro-
+Stress Corrosion Cracking of Some C r - N i - F e Austenitic     structure on the Stress C o r r o s i o n Cracking of a
+Steels and Alloys," Br. Corros. J., 1, 60 (1966).                N i - C r - F e Alloy in High Purity Water," paper to be
+                                                                 presented at the National Association of Corrosion
+18. A. R. McILREE and H. T. MICHELS, "The Corro-                 Engineers/76, Houston, Texas (Mar. 1976).
+sion Behavior of Austenitic Alloys in High Temperature
+Caustic Solutions," presented at the National A s s o c i a -
+tion of Corrosion Engineers' Annual Corrosion Research           28. F. J. POCOCK and D. F. LEVSTEK, "Once-Through
+Mtg. (Mar. 1974).                                                Steam Generators (OTSG) Materials and Water Chem-
+                                                                 istry," paper presented to the XIX Nuclear Conference,
+19. Ph. VERDONl and L. COLOMBIER, "Corrosion In-                 Rome, I t a l y (Mar. 21-22, 1974); see also, BAW-
+tergranulaire de I'lnconel 600, de I'lncoloy 800 et des          RDTP74-9, Babcock & Wilcox Company (1974).
+a c i e r s Inoxydables I.C.L. 473 BC et I.C.L. 167 C.N.,"
+paper presented at the 16th CEFA Sem.—Corrosion in
+                                                                 29. F. W. PEMENT and N. A. GRAHAM, "Stress Cor-
+Water C o o l e d Nuclear Reactors, Behavior of In-
+                                                                 rosion Cracking in High Purity Water," Corrosion
+conel-600, Incoloy-800, and Stainless Steel, B r u s s e l s ,
+                                                                 Problems in Energy Conversion and Generation, C. S.
+Belgium (Feb. 24-26, 1975).
+                                                                 TEDMON, Jr., Ed., The Electrochemical Society, Inc.,
+                                                                 Princeton, New Jersey (1974).
+20. "Austenitic Stainless Steels Resistant to Stress
+Corrosion Cracking," Sumitomo Metal Industries, Ltd.,
+Japan (1972).                                                    30. W. E. BERRY, E. L. WHITE, and W. K. BOYD,
+                                                                 "Stress Corrosion Cracking of Sensitized Stainless
+21. R. L. COWAN, n and C. S. TEDMON, Jr., "Inter-                Steels in Oxygenated High Temperature Water," Cor-
+granular Corrosion of Iron-Nickel-Chromium Alloys,"              rosion, 29, 451 (1973); see also, BMI-1927, Battelle
+Advances in Corrosion Science and Technology, Vol. 3,            Memorial Institute (June 1972); see also, paper No. 104,
+M. G. FONTANA and R. W. STAEHLE, Eds., Plenum                    Corrosion/73, Annaheim, California (1973).
+P r e s s , New York (1973).
+
+22. J. BLANCHET, H. CORIOU, L. GRALL, C. MAHIEU,                 31. W. L. CLARK and G. M. GORDON, "Investigation of
+C. OTTER, and G. TURLUER, "Influence De Divers                   Stress Corrosion Cracking Susceptibility of F e - N i - C r
+Parametres Sur La Fissuration Intergranulaire Des                Alloys in Nuclear Reactor Water Environments," Cor-
+Alliages Inconel 600 et X750 Dans I'Eau Pure a Haute             rosion, 29, 1 (1973); see also, 5th Int. Cong. Metallic
+Temperature," presented at the Int. Conf. Stress Cor-            Corrosion, Tokyo, Japan (May 1972).
+rosion Cracking and Hydrogen Embrittlement of Iron
+Base Alloys, Firminy, France (June 1973).
+                                                                 32. H. CORIOU, L. GRALL, P. OLIVIER, and H. WIL-
+                                                                  LERMOZ, "Influence of Carbon and Nickel Content on
+23. W. L. CLARKE, J. C. DANKO, and G. M. GORDON,
+                                                                  Stress Corrosion Cracking of Austenitic Stainless Alloys
+"Stress Corrosion Cracking Behavior of Newer Iron-
+                                                                 in Pure or Chlorinated Water at 350°C," Proc. 1967
+Chromium-Nickel A l l o y s at 550°F in High Purity
+                                                                  Conf. Fundamental Aspects of Stress Corrosion     Crack-
+Water," Corrosion Problems in Energy Conversion and
+                                                                 ing, Ohio State University, Columbus, Ohio (1969).
+Generation, C. S. TEDMON, Jr., Ed., The Electrochemi-
+cal Society, Inc., Princeton, New Jersey (1974).
+                                                                 33. R. M. RENTLER and 1. H. WELINSKY, "Effect of
+24. H. CORIOU, L. GRALL, C. MAHIEU, and M. PELAS,                HNOa-HF Pickling on Stress Corrosion Cracking of
+"Sensitivity to Stress C o r r o s i o n and Intergranular       N i - C r - F e Alloy 600 in High Purity Water at 660°F,"
+Attack of High Nickel Austenitic Alloys," Corrosion, 22,         WAPD-TM-944, Westinghouse E l e c t r i c Corporation
+280 (1966).                                                      (Oct. 1970).
+

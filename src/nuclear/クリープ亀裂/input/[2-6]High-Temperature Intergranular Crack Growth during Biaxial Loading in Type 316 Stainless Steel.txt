@@ -1,0 +1,472 @@
+Transactions of the Japan Institute of Metals, Vol. 27, No. 12 (1986), pp. 960 to 967
+
+
+
+
+                              High-Temperature                            Intergranular                   Crack            Growth
+                             during        Biaxial        Loading                 in Type             316 Stainless                   Steel
+
+                              By Tadashi            Hasegawa*,             Kazuo Ishii** and Takao                             Yakou*
+
+                Effects of the biaxial tensile state of stress on the crack growth                            behaviour,      and   the local deformation
+        and     cavitation    near the crack        tip were     studied      during       straining     of type 316       stainless steel by          tension     at
+        923K      and   a strain   rate   of 4×10‑6s‑1.        The    crack      growth      rate   reached      a constant      value    after   an    initial ac‑
+
+        celeration for a given loading condition, and the steady state crack growth rate increased noticeably with
+        increasing degree of biaxial state of stress. Under a higher degree of stress biaxiality, a more developed
+        work-hardened    state due to a higher strain rate, and more frequent cavitation were found to occur in a
+        crack    tip region    (several     100μm     in size)    where    the     stress    (and   strain)     was   concentrated.         Further,      the    size
+
+         of this crack tip region itself tended to become smaller. The increase in the steady state crack growth rate
+         with increasing stress biaxiality was able to be explained phenomenologically     from these findings on the
+        local deformation     and cavitation ahead of the crack.
+                                                                     (ReceivedJuly 22, 1986)
+
+                Keywords: type 316 stainless steel, high temperature, intergranular  crack growth, biaxial tensile
+                    state of stress, local deformation  ahead of crack, grain-boundary     cavitation
+
+
+
+                                                                                       may      change    significantly,       depending         on
+                        Ⅰ
+                        .     Introduction                                             whether     the deformation       there     is elastic     or
+                                                                                       nonelastic.    At the present stage of investiga-
+   For its engineering importance, experiments                                         tion,   the knowledge        and understanding             of
+on the high-temperature creep crack growth                                             microscopic      mechanisms         of     creep      crack
+have been carried out on a wide variety of                                             growth is still incomplete,      especially   in the case
+materials under various conditions(1)-(7). In                                          where the deformation            at the crack tip is
+these studies, the crack growth was most                                               nonelastic;    local plastic deformation        ahead of
+suitably characterized by some loading                                                 the crack will subsequently       lead to stress relaxa-
+parameters such as the stress intensity factor,                                        tion, to blunting       of the crack front and to
+the net section stress, or the modified J-integral                                     work hardening        as well as grain-boundary
+or the C* parameter. At present, however, it                                           cavitation.
+seems yet impossible to predict which                                                      In a previous work(16) in which local distribu-
+parameter should be used for a given material                                          tion of mechanical       properties     and microstruc-
+or creep condition. Further, several models for                                        ture ahead        of the crack       were    studied     in
+describing the creep crack growth have been                                            austenitic     steels  at 923K,         Hasegawa       and
+proposed(8)-(14),
+                most of which are based on con-                                        Ilschner found that the stress was concentrated
+tinuum mechanics consideration on the stress                                           and the cavitation       occurred     in a rather    large
+distribution and cavitation at the crack tip.                                             area   ahead         of the    crack        (several         100μm       in size),
+
+They were recently summalized by Evans(15)                                                and proposed        that    the growth     of existing
+However, the assumptions and/or idealization                                              cracks depended       on the establishment      of both
+used in the models may or may not be valid for                                            a critical state of work hardening       and a critical
+a loading condition of a material; for example,                                           state of cavitation      in this crack tip region.    In
+the stress and strain field ahead of the crack                                            other words, the crack growth only occurs if a
+                                                                                          certain amount      of work hardening        is accom-
+ *   Department of Mechanical Engineering
+                                               , Tokyo Uni-
+                                                                                          panied   by a critical value of cavitation,       and
+     versity of Agriculture    and Technology,  Koganei-shi,
+                                                                                          vice versa.
+     Tokyo 184, Japan
+**   Graduate Student                                                                        It may be reasonably      expected that, because
+                          , Tokyo University of Agriculture
+     and Technology                                                                       of the so-called     Poisson's     effect, the tensile
+          High-Temperature        Intergranular       Crack   Growth   during      Biaxial       Loading      in Type     316 Stainless      Steel              961
+
+
+stress in a specimen         which has been clamped
+under tension becomes higher by simultaneous
+application     of tensile stress along the direction
+normal     to the tensile axis, i.e. under a biaxial
+state of stress. The situation         may be the same
+after nonelastic      tensile deformation         and even
+during    deformation       at a constant      strain rate.
+Further,    this may hold even at the tip of crack
+which exists normal to the tensile axis. Natural-
+ly, such a higher tensile stress at the crack tip
+may lead to a more developed             work-hardened
+state there.     Moreover,       a calculation      using a
+finite element method on an elasto-plastic              solid
+has shown that an area at the crack tip, where
+the stress level exceeds the yield stress and the
+plastic flow occurs, becomes    smaller with in-
+creasing degree of biaxial state of stress(17)(18).
+Regarding the cavitation, on the other hand, it
+has been deduced from theoretical arguments
+that cavity nucleation and growth rates may
+increase as the multiaxiality of stress in-
+creases(19)(20).
+              All the predictions mentioned above
+certainly suggest a higher rate of crack growth
+under a biaxial (or multiaxial) tensile state of
+stress, compared with uniaxial stressing.
+   In the present work, effects of stress biaxiali-
+ty on the behaviour of high-temperature
+intergranular crack growth was studied ex-
+perimentally in type. 316 stainless steel. Fur-
+ther, local deformation and cavitation near the
+tips of cracks which had grown under varied
+biaxial tensile states of stress were examined.
+The objective of this work is to investigate
+whether and how, compared with uniaxial
+stressing, the crack growth is accelerated under
+a biaxial tensile state of stress. To make clear
+the effect of stress biaxiality on the crack                              Fig. 1 Specimen configuration for biaxial tension tests.
+                                                                            (a) The whole of specimen and (b) the gauge part. unit:
+growth behaviour would be important from                                    mm. Specimens were deformed by tension along y-direc-
+the viewpoint of practical designing of metallic                                tion   at    a     nominal      strain‑rate       εy=4×10‑6s‑1,                with
+
+high-temperature components.                                                    simultaneous           tensile loading        along x-direction.
+
+
+             Ⅱ
+             .     Experimental           Procedure                        biaxial tension tests were machined from the
+                                                                           sheet (Fig. 1). the gauge part (part A) had a
+   Type 316 austenitic stainless steel was used                            thickness of 1mm, a width of 6mm and a
+in the present work. The composition         by                            gauge length of 10mm. For crack growth ex-
+mass% was as follows: Ni 10.42, Cr 16.73, Mo                               periments, a perforated notch with a length of
+2.08, C 0.06, Si 0.62, Mn 0.98, P 0.03 and S                               1mm           and       a    tip   angle      of     60°   was         introduced
+
+0.002.                                                                     parallel to x-direction (i.e. normal to the tensile
+   After a solution treatment of a cold-rolled                             axis) in the centre of the gauge part by spark
+sheet at 1373K for 0.5h, flat specimens for                                errosion machining. The average grain size was
+962                                                     Tadashi           Hasegawa,         Kazuo    Ishii       and    Takao       Yakou
+
+
+ 〜50μm
+                   ,    and      carbides         or     precipitates                 could
+ not be observed by optical and transmission
+ electron microscopy before mechanical testing.
+    The specimens were deformed at 923K in air
+ by tension along y-direction (Fig. 1) with an
+ Instron-type machine at a crosshead speed cor-
+responding               to a nominal              strain          rate     of   4×10‑6
+
+S-1. Intergranular fracture was found to occur
+in the same type of steel under comparable test
+conditions(21).For biaxial testing, the specimen
+was simultaneously subjected to a constant
+force Fx (up to 574N) along x-direction
+through thin parts (0.3mm in thickness, part
+B) on both sides of the gauge. Even the max-
+imum nominal stress in x-direction (57.4 MPa)
+is far less than the 0.2% proof stress of the                                                       Fig.     2     Tensile       force      in     y‑direction       Fy‑elongation             Δl (or
+
+present        material              at 923K       (〜206            MPa).         Hence,               time       t) curves         for   varied      tensile     forces     in   x‑direction      Fx
+
+in deformation                   stages where the crack growth                                          (type      316     steel,     T=923K,           εy=4×10‑6s‑1).
+
+was studied,                  the plastic  strain in x-direction
+was negligibly    small compared   with that in y-                                                  concentrated only in the vicinity of the crack,
+direction  and will not be taken into considera-                                                    and the ligament (the cross section between the
+tion in the present work. Further,     it might be                                                  crack tip and the specimen edge) was not
+worthwhile    to mention here that, in unnotched                                                    deformed    uniformly;    nominal   stress and
+specimens,    the central  part of the gauge was                                                    nominal strain averaged over the ligament are
+deformed               rather        uniformly          up    to〜20%               strain           meaningless.                    This         is   the       reason           why      Fy‑Δl
+
+in y-direction.                                                                                     curves are given, instead     of nominal    stress-
+    The change in the crack length during defor-                                                    nominal strain curves. As seen in the figure, Fy
+mation     was measured         with a micrometer-                                                  initially increases   and then decreases    almost
+telescope    through  a hole in the furnace        wall.                                            linearly after reaching a maximum     value. Such
+   The local strain       distribution     around      the                                          a behaviour                 as the      Fy     vs Δl curve             was       correlated
+
+crack was determined       by introducing     previous-                                             with         the       microscopic                 evidence:             A       crack      ap-
+ly an array        of microhardness       indentations                                              pears at the notch root when Fy assumes a max-
+(weight:           5g)        with      a   spacing          of      200μm            on      a     imum value; thereafter,    it grows gradually,   cor-
+specimen surface and by measuring       the change                                                  responding    to a decrease     in Fy. It is further
+in the spacing    between   them after deforma-                                                     seen that the maximum       of Fy and the decreas-
+tion.                                                                                               ing rate of Fy increase with increasing      Fx.
+   For optical inspection, longitudinal   cross sec-                                                   It should be noticed here that Fx=0 does not
+tions       were       prepared          by    polishing            down         to 1μm             necessarily              mean          σx=0          (σx:local             stress     at    the
+
+diamond abrasive. A 4% H3PO4 acqueous solu-                                                         crack tip in x-direction). Even during uniaxial
+tion was used for electrolytic etching.                                                             stressing of plate specimens, a biaxial tensile
+                                                                                                    state of stress may be introduced into a crack
+        Ⅲ
+        .     Experimental                  Results          and      Discussion
+                                                                                                    tip area because of a stress concentration
+                                                                                                    there(22).           Further,          an additional                   tensile       σx may
+
+                                                                                                    appear for the specimen                                 shape adopted                 in the
+   1.        Crack         growth           behaviour
+                                                                                                    present experiment, because the contraction in
+   Force           in     y‑direction Fy‑elongation                               Δl       (or      x-direction which would be caused by tensile
+time t) curves for various values of Fx are given                                                   straining along y-direction is suppressed by the
+in Fig. 2. During high-temperature    straining of                                                  existence of part B (see Fig. 1). Although , un-
+notched specimens       of austenitic   steels, as                                                  fortunately,   we cannot     estimate    accurate
+reported previously(16), stress (and strain) was                                                    values         of     σx at the          crack          tip   at present            , it may
+                High-Temperature               Intergranular            Crack          Growth        during        Biaxial      Loading       in Type       316 Stainless         Steel               963
+
+
+                                                                                                        4. Figures 4(a) and (b) are for Fx=0 and 574N,
+                                                                                                        respectively. It can be seen that a slightly larger
+                                                                                                        εy is concentrated                     in    a smaller            region         ahead          of
+
+                                                                                                        the        crack        for     Fx=574N               than       for   Fx=0N.
+                                                                                                              In     Fig.       5(a),     εyfor       the     same        specimens              as     in
+
+                                                                                                        Fig. 4 is plotted                   as a function                of the distance d
+                                                                                                        from the crack                     tip measured                 along x-direction
+                                                                                                        (i.e.       the      crack        growth         direction).           Values            of     εy
+
+                                                                                                        for Fx=574N          are larger and decreases      more
+                                                                                                        rapidly with d than those for Fx=0N.
+                                                                                                           During     high-temperature      straining   of type
+                                                                                                        316 steel, as was found in a previous work(16) or
+                                                                                                        will be expected        from the critical strain frac-
+                                                                                                        ture criterion(23)(24), the largest tensile strains de-
+
+
+Fig.    3    Variation      of    crack    length      a with       time       t for    varied
+
+   tensile    forces     in x‑direction        Fx    (type    316     steel,     T=923K,
+
+    εy=4×10‑6S‑1).
+
+
+
+
+be reasonable               to presume                that,        in the first              ap-
+proximation,               σx may         increase            linearly            with       Fx.
+Hence, in the present work, a value of Fx itself
+will be used as a measure for a biaxial state of
+stress.
+   Both the time needed for the crack genera-
+tion at the notch root and the subsequent crack
+growth behaviour                      at a very early stage (crack
+length a<〜0.2mm)                                showed              some               scatter
+
+from specimen to specimen,     due presumably   to
+inaccuracy  of the initial notch shape. Figure 3
+shows the variation   of carck length a with time
+tin     later     stages        (a≧0.2mm).                   For      each        value         of
+
+Fx, the crack length    tends   to increase    first
+slowly and then rapidly    at a constant  rate for
+a>〜0.8mm;                       the   crack         growth          rate       reaches           a
+
+constant value in the steady state after an ini-
+tial acceleration. Similar findings of steady
+state crack growth under constant strain-rate
+conditions have also been reported in Cu-1
+mass%Sb(13)and Discalloy(2). It is clearly seen
+from the figure that the crack growth rate
+da/dt in the steady state increases with in-
+creasing Fx, i.e. with increasing degree of stress
+biaxiality.
+       2.     Local        strain      and       strain        rate        near        the
+                rack      tip                                                          c
+                                                                                                         Fig. 4           Distribution        of    tensile     strain    εy in    the    vicinity        of
+       The      distribution              of     local         tensile           strain          εy
+                                                                                                              crack       tip (along      longitudinal         direction,      i.e. tensile       direc‑
+ ahead of the crack, which has grown into the                                                                 tion.       (a)   Fx=0N         and     (b)     Fx=574N           (type      316        steel,
+
+ steady state, along y-direction is given in Fig.                                                             T=923K,             εy=4×10‑6s‑1,               crack      length a=〜0.9mm).
+964                                                            Tadashi          Hasegawa,       Kazuo Ishii and Takao           Yakou
+
+                                                                                                      dεy/dt        shows         a   tendency         to     keep     a        constant
+                                                                                                      value       in the     crack      tip region          (several       100μm               in
+
+                                                                                                      size),       and       subsequently             decreases             as d in-
+
+
+
+
+Fig.      5     Distribution           of    (a) tensile          strain   εy and     (b) tensile
+
+    strain       rate        dεy/dt     in    the     vicinity        of   crack     tip    (along
+
+    transverse           direction,          i.e.    crack        growth     direction)      (type
+
+    316       steel,    T=923K,              εy=4×10‑6s‑1, a=〜0.9mm).
+
+
+
+termined   close to the crack tip did not depend
+on the crack length in the steady state. This
+fact may imply that the distribution       of strain
+ahead of the crack also remains unchanged       dur-
+ing the steady state growth.    If this is the case,
+a      local           strain         rate        dεy/dt            can     be      estimated
+
+from            Fig.         5(a)     as      a     difference             in    εy between
+
+neighbouring two points devided by the time
+which is necessary for the steady state crack
+growth of 0.2mm (the spacing between inden-                                                           Fig.    6    Optical      micrographs       showing       a crack         tip    area    of
+tations).              The      distribution                 of     d εy/dt      obtained        in      type     316   steel   (T=923K,         εt=4x10‑6s‑1             and         a=〜0.9
+
+this way is given in Fig. 5(b). For a given Fx,                                                          mm). (a) Fx=0N               and (b) Fx=574N.
+                High-Temperature             Intergranular       Crack     Growth     during Biaxial Loading       in Type 316 Stainless        Steel        965
+
+creases.        A    similar        distribution         of   dεy/dt       at the
+
+crack tip has been reported      previously in type
+316 steel(25). Further, it should be noticed that,
+at     the     crack        tip,    dεy/dt       is   much        higher      for
+
+Fx=574N              than for Fx=0N.
+
+      3.      Cavitation            near the crack tip
+   Information  on cavitation may be obtained
+from Fig. 6(a) and (b), which are optical
+micrographs showing a crack tip area for Fx=0
+and 574N, respectively. The principal findings
+from these photographs      may be presented as
+follows:
+   (1) Cavities form in a region surrounding
+the        crack,        several      100μm         in   size.     More       fre‑      Fig. 7 Variation    of Vickers microhardness        Hv               with
+quent cavitation occurs in a smaller region                                                distance d from crack tip along transverse direction              (i.e.
+                                                                                          crack   growth    direction)   (type   316   steel,   T=923K,      εy=
+ahead of the crack for Fx=574N than for
+                                                                                          4×10‑6s‑1,       a=〜0.9mm).
+Fx=0N.
+   (2) Observation after etching showed that
+most of cavities formed on grain boundaries,                                            those for an elasto-plastic           solid(28) and to the
+resulting in a basically intergranular fracture                                         computer       calculations       of Vitek(29). Another
+mode.                                                                                   observation      to be made in Fig. 7 is that a more
+   (3) The crack opening angle(26)(27) becomes                                          developed      work-hardened         state is attained       in a
+smaller and consequently the crack front                                                smaller area ahead of the crack for a higher
+becomes sharper with increasing Fx. This obser-                                         value of Fx.
+vation may correspond to a previous calcula-                                                To the authors'       knowledge,       little experimen-
+tion(17)(18)
+          that the crack opening displacement                                           tal estimation      of the stress concentration           at the
+decreases with increasing degree of stress biax-                                        crack tip has been presented            hitherto,    although
+iality.                                                                                 a considerable          progress      in the theoretical
+                                                                                        description      of stress and strain around               creep
+      4.      Work hardening near the crack tip                                         cracks has recently          been achieved(8)(29)(30) The
+   As reported previously(16), a linear relation-                                       amount      of stress concentration          can possibly be
+ship held in type 316 steel between the flow                                            estimated      from Fig. 7 as a ratio of Hv at the
+stress at 923K and the Vickers microhardness                                            crack tip to Hv at the position               far away from
+measured at room temperature after deforma-                                             the crack. It takes small values 1.2-1.3,                  being
+tion. Hence, a value of Vickers microhardness                                           in good agreement             with previously         obtained
+(weight: 5g) will be used here as a measure of                                          values in austenitic        steels at 923K by different
+the local flow stress and/or the local degree of                                         methods(16). The values of 1.2-1.3                 are much
+work hardening.                                                                          smaller    than     those    dealt with in the linear
+   Figure 7 shows the variation of microhard-                                            elastic fracture      mechanics,      due presumably           to
+ness Hv with a distance d from the crack tip                                             the ductility    of the present material.         Further,      it
+along the crack growth direction (x-direction).                                          may be seen from Fig. 7 that the amount                        of
+It is obvious from the figure that, admittedly                                           stress concentration          tends     to become        larger
+with some scatter, the flow stress is held almost                                        under a higher degree of biaxial state of stress.
+ constant           in    a crack      tip   area     (several      100μm        in
+                                                                                            5.    Causes for acceleration                of carck         growth
+ size), then falls off rapidly in going away from
+                                                                                                   nder biaxial loading                                   u
+ the crack. Similar distribution      of crack tip
+ stresses has been reported for type 316 steel by                                           Main effects of biaxial loading   on the local
+ Barnby and Nicholson(25). Further, the curves                                           deformation    and cavitatidn  ahead of the crack
+ shown in Fig. 7 are qualitatively similar to                                            are summarized     as follows:   Under   a higher
+    966                                               Tadashi    Hasegawa,         Kazuo   Ishii     and     Takao       Yakou
+
+
+    degree of biaxial tensile state of stress, in the                                      stresses)              are held constant                     in the crack              tip
+    crack tip region,                                                                      region.          In     contrast,          the    tensile     strain     εy decreas‑
+
+       (1) both larger strain and strain rate are at-                                      ed continuously in going away from the crack
+    tained (Figs. 4 and 5),                                                                tip (Fig. 5(a)). Taking into consideration that
+       (2) a more developed work-hardened       state                                      the       local        strain       rate     dεy/dt         also    remained           ap‑
+
+    is established (Fig. 7)                                                                proximately constant in the crack tip region
+    and                                                                                    (Fig. 5(b)), the above facts certainly indicate
+        (3) more frequent cavitation occurs (Fig.                                          that the local deformation ahead of the crack
+    6).                                                                                    is under the steady state. Hence, a higher strain
+    Further, at the same time,                                                             rate, of course, leads to a more developed
+        (4) the size of the crack tip region, where                                        work-hardened state. Namely, the finding(2) is
+    the deformation    and cavitation are concen-                                          just a consequence of the finding(1), and both
+    trated, becomes smaller (Figs. 4, 6 and 7).                                            of them indicate a larger amount of the hard-
+    We will consider in this section how these                                             ness parameter under biaxial loading, com-
+    findings can be correlated      with the crack                                         pared with uniaxial loading. On the other
+    growth rate, although detailed origins of the                                          hand, regardless of how cavities were formed,
+    occurrence of these phenomena are still open                                           the finding(3) means a larger amount of the
+    to question.                                                                           damage parameter. Therefore, it may be con-
+        In a previous    work by Hasegawa       and                                        cluded that a higher rate of crack growth dur-
+    Ilschner(16), an empirical parameter was pro-                                          ing biaxial loading is ascribed partly to a
+    posed   for   high-temperature                              intergranular              higher C value.
+    crack growth.                                                                             Another factor which also affects the crack
+          C≡(σ‑σmin)×(D‑Dmin) for                                       constant           growth behaviour may be the size of the crack
+    strain‑rate         tests.   Here,          σ   and    D    represent          the     tip region where the elastic energy supplied by
+    "hardness"           and "damage"                 parameters
+                                                                        , respec-          straining is consumed by the plastic deforma-
+    tively,       and   σmin and         Dmin       are   minimum           valueS         tion and cavitation: The smaller the size of this
+    of these parameters                   necessary             for the crack              region is, the less the energy consumption will
+    growth. Under a given loading condition, the                                           be, and the crack will grow faster in a more
+    crack can propagate       further   only when a                                        brittle manner. As mentioned in the finding (4),
+    critical C value has been reached ahead of the                                         the size of this region tended to become smaller
+    crack. Further,     it may be a reasonable                                             with increasing biaxiality of stress; this may
+    presumption that the crack will grow faster in                                         contribute partly to the acceleration of the
+    a loading condition where a higher C value is                                          crack growth.
+    attained in the crack tip region, that is, when                                           In conclusion, at least phenomenologically,
+    the crack propagates through a more severely                                           a higher crack growth rate under a higher
+    work-hardened      matrix      containing  more                                        degree of biaxial tensile state of stress can be ex-
+    cavities.                                                                              plained from the findings (1) to (4) mentioned
+       One might argue that whether the crack can                                          above.
+    propagate further or not should depend on a
+    stress level ahead of the crack, even if a critical                                                                           .     Summary
+
+    C value has been attained at the crack tip. This
+    may be certainly true, and one should take this                                            Center             notched  flat specimens    of type 316
+    into account when a stress is changed in a creep                                       stainless             steel were deformed     at 923K and a
+    test or a strain rate in a constant strain-rate                                        strain          rate     of     4×10‑6s‑1             under         varied     biaxial
+
+    test. During continuous      straining as in the                                       tensile states of stress. The growth behaviour
+    present experiment,     however, a stress level                                        of cracks originating from notches, and the
+    (i.e. flow stress) at the crack tip is naturally                                       local deformation      and cavitation near the
+    reflected in the hardness parameter, being not                                         crack tips were studied by experimentation.
+    an independent variable.                                                               Main results are summarized as follows:
+       As seen in Fig. 7, Hv values (and hence flow                                              (1)        For       a given               loading           condition,          the
+
+
+
+
+Ⅳ
+               High-Temperature     Intergranular      Crack    Growth    during   Biaxial   Loading   in Type   316 Stainless   Steel   967
+
+
+crack growth rate reaches a constant value                                    (5) S. Taira, R. Ohtani and T. Kitamura: J. Eng. Mater.
+after an initial acceleration. The crack growth                                    Technol., Trans. ASME, 101 (1979), 154.
+rate in the steady state increases with increas-                               (6) V. M. Radhakrishnan and A. J. McEvily: J. Eng.
+                                                                                   Mater. Technol., Trans. ASME, 102 (1980), 200.
+ing biaxiality of stress.
+                                                                               (7) K. Sadananda and P. Shahinian: Metal Sci., 15 (1981),
+   (2) The stress (and strain) is concentrated                                     425.
+into      a   region     several   100μm        in   size   ahead    of        (8) H. Riedel and J. R. Rice: in Fracture Mechanics,
+the crack. The amount of stress concentration                                      ASTM STP 700, p. 112, ASTM, Philadelphia, (1980).
+into this crack tip region is quite small (1.2-                                (9) J. L. Bassani and F. A. McClintock: J. Solids Struct.,
+                                                                                   17 (1980), 479.
+1.3); it tends to become larger with increasing                              (10) C. Y. Hui and H. Riedel: Intern. J. Fract., 17 (1981),
+biaxiality of stress.                                                              409.
+   (3) After the crack has grown into the                                    (11) D. S. Wilkinson and V. Vitek: Acta Met., 30 (1982),
+steady state, the following phenomena are                                           1723.
+found locally in the crack tip region: Under a                               (12) J. W. Hutchinson: Acta Met., 31 (1983), 1079.
+                                                                             (13) J. C. Earthman, J. C. Gibeling and W. D. Nix: Acta
+higher degree of biaxial tensile state of stress,                                  Met., 33 (1985), 805.
+(a) both larger strain and strain rate are attain-                           (14) V. Tvergaard: Acta Met., 34 (1986), 243.
+ed, (b) a more developed work-hardened state                                 (15) H. E. Evans: in Mechanisms of Creep Fracture,
+is established and (c) more frequent cavitation                                    Elsevier Appl. Sci. Pub., London (1984), p. 195.
+occurs.                                                                      (16) T. Hasegawa and B. Ilschner: Acta Met., 33 (1985),
+                                                                                    1151.
+   (4) The size of the crack tip region itself                               (17) T. Hoshide, A. Yamada and K. Tanaka: J. Soc.
+tends to become smaller with increasing biax-                                      Mater. Sci. Japan, 32 (1983), 528.
+iality of stress.                                                            (18) R. Yuuki, H. Kitagawa, K. Tohgo and M. Tanabe:
+                                                                                   Trans. Japan Soc. Mech. Eng., A51 (1985), 2057.
+   (5) The increase in the steady state crack
+                                                                             (19) A. C. Cocks and M. F. Ashby: Metal Sci., 14 (1980),
+growth rate with increasing degree of biaxial                                       395.
+tensile state of stress (see (1)) can be explained,                          (20) B. J. Cane: Metal Sci., 15 (1981), 302.
+at least phenomenologically,      from the findings                          (21) R. Ohtani and S. Taira: J. Eng. Mater. Technol.,
+(2) to (4).                                                                         Trans. ASME, 101 (1979), 369.
+                                                                             (22) G. E. Dieter: in Mechanical Metallurgy, McGraw-
+    Acknowledgments                                                                 Hill, New York (1976), p. 284.
+                                                                              (23) F. A. McClintock and G. R. Irwin: in Fracture
+   The authors would like to thank Mr. K.                                           Toughness Testing and its Application, ASTM STP
+ Nemoto for his help in measuring microhard-                                        381, ASTM, Philadelphia (1965), p. 84.
+ ness. Prof. T. Yamamoto kindly allowed us to                                 (24) S. Floreen and R. H. Kane: Met. Trans., 7A (1976),
+                                                                                      157.                                        1
+ use a microhardness tester.
+                                                                              (25) J. T. Barnby and R. D. Nicholson: J. Mater. Sci., 12
+                              REFERENCES                                            (1977), 2099.
+                                                                              (26) F. A. McClintock: Intern. J. Fract., 4 (1968), 101.
+  (1) R. D. Nicholson and C. L. Formby: Intern. J. Fract.,                    (27) D. J. Gooch, J. R. Haigh and B. L. King: Metal Sci.,
+      11 (1975), 595.                                                               11 (1977), 545.
+  (2) J. D. Landes and J. A. Begley: in A Fracture                            (28) A. S. Tetelman and A. J. McEvily: in Fracture of
+      Mechanics Approach to Creep Crack Growth, ASTM                                Structural Materials, John Wiley, New York (1967),
+      STP 590, ASTM, Philadelphia, (1976) p. 128.
+                                                                                    p. 64.
+  (3) R. Koterazawa and T. Mori: J. Eng. Mater. Technol.,                     (29) V. Vitek: Intern. J. Fract., 13 (1977), 39.
+      Trans. ASME, 99 (1977), 298.                                            (30) H. Riedel: in Creep in Structures, ed. by A. R. S.
+  (4) K. Ohji, K. Ogura, Y. Katada, M. Takemoto and H.                               Ponter and D. R. Hayhurst, Springer, Berlin, (1981),
+      Nakajima: J. Soc., Mater. Sci. Japan, 27 (1978), 69.                           p. 504.
+

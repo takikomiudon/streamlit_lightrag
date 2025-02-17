@@ -1,0 +1,559 @@
+International Journal of Fracture, Vol. 9, No. 2, June 1973                                                          199
+Noordhoff International Publishing- Leiden
+Printed in The Netherlands
+
+
+
+Crack propagation under creep conditions in a quenched                                                 chromium
+I molybdenum steel
+M. J. S I V E R N S A N D A. T. P R I C E
+Central Electricity Generatin9 Board (Midlands), Scientific Services Dept:, Nottingham, England
+(Received December 14, 1971)
+
+
+
+
+SUMMARY
+Crack growth rates have been measured in single edge-notched specimens of 2¼ Cr 1 Mo steel loaded in tension at
+565 °C. It is shown that the creep crack growth rate in tests of up to about 2,000 hours duration can be described
+in terms of the sharp crack stress intensity factor. A correlation is obtained over five orders of magnitude in crack
+growth rate and the relationship of these results to conventional creep tests is discussed. For the particular test con-
+ditions the time required to initiate a crack from a notch is not significant compared with the total times for specimens
+to fail. Under some conditions high rates of stable crack growth rate can be obtained. The work has obvious potential
+in the assessment of the integrity of components which contain defects and operate under creep conditions. A possible
+application of the data to the analysis of a particular thermal fatigue situation is suggested.
+
+
+
+1. Introduction
+
+Many technological problems arise in the manufacture of large pressure vessels and pipework
+used by the C.E.G.B. in the steam circuit of power generating plant. Much of the plant operates
+at about 565 °C and is fabricated from low alloy creep resisting ferritic steels usually joined with
+2¼ Cr 1 Mo steel weld metal. These components can contain cracks or crack-like defects result-
+ing from fabrication, particularly by welding. The current codes of practice, British Standard
+1113, 1966 and ASME Boiler and Pressure Vessel Code, 1969, contain inspection procedures
+intended to ensure good weld quality and do not l~ermit detectable crack-like defects. These
+criteria are undoubtedly too conservative in many situations and there are strong economic
+incentives to operate plant containing defects at least for limited periods. However, there is
+virtually no information that can be used to assess quantitatively the life of components con-
+taining defects and there is an urgent need for information on the growth of defects under creep
+conditions so that possible amendments to the existing codes can be proposed.
+   Hitherto, creep studies have been concerned with the mechanisms and conditions leading to
+the onset of tertiary creep resulting from the formation and linkage of wedge-shaped cracks or
+cavities on grain boundaries. Many theories have been advanced to explain the general de-
+terioration of creep strength in terms of specific mechanisms and these are well documented
+[1, 2, 3]. However, direct studies of crack growth under conditions leading to quantitative
+descriptions of creep behaviour are relatively few [-4, 5] and the present work was undertaken
+to measure crack growth rates in an attempt to investigate the application of fracture me-
+chanics where creep conditions exist. Some observations on this work have been made [6] ;
+the present paper and comments are concerned with analysis of the data and its interpretation
+in terms of the mechanics of crack growth.
+
+2. Materials
+
+Two pieces of 2¼Cr 1 Mo steel pipe about 300 mm o.d. and 50 mm wall thickness were obtained
+from a piping contractor; compositions are given in Table 1 and some mechanical properties
+at room temperature and 565°C in Table 2. Radial slices approximately 8 mm thick and 250
+mm long were taken heat treated at 1350°C for five minutes and oil quenched to simulate a
+
+                                                                                Int. Journ. of Fracture, 9 (1973) 199-207
+20O                                                                                      M. J. Siverns, A. T. Price
+
+TABLE 1
+Chemical Composition
+
+              C          Mn       Si        S         P           Cr     Ni       Mo         Cu            V
+
+Pipe 1        0.13       0,46     0.52      0,009     0.013       2.30   0.13     0.92       0.15          0.10
+Pipe 2        0.13       0,49     0.53      0,010     0.011       2.35   *        0.95       *             *
+
+* Not analysed.
+
+
+TABLE 2
+Mechanical Properties
+
+Temperature          Heat                                 Strain         Limit of                   Ultimate tensile
+°C                   treatment                            rate min- t    proportionality            strength M N . m - 2
+                                                                         M N . m -2
+
+ 20                  Solution treated at 1350°C for       10 -2          819                        1231
+                     5 min and oil quenched
+565                  Solution treated at 1350°C for       10 -4          460                         618
+                     5 min and oil quenched
+565                  Solution treated at 1350°C for       10 -3          600                         770
+                     5 rain and oil quenched
+ 20                  As above and tempered at             10 -4          464                         645
+                     690°C for 1 hr
+565                  As above and tempered at             10-4           280                         370
+                     690°C for 1 hr
+565                  As above and tempered at             10- 3          600                        --
+                     690°C for 1 hr
+
+
+
+material condition comparable to that existing in the heat-affected zone of a weld. The resulting
+average grain diameter was 0.6 mm as measured by the linear intercept method.
+   2¼ Cr 1 Mo steel was chosen for this investigation because it is used in the wrought form for
+pipes, and as weld metal for joining other low alloy ferritic steels such as ½ Cr ½ Mo ¼ V in
+C.E.G.B. plant operating at about 565 °C. Previous work [7, 8] on the short term mechanical
+properties of this material has shown that it can have low ductility and in this condition it is
+susceptible to cracking. The use of 2¼ Cr 1 Mo steel in a low ductility form was also attractive
+experimentally because the electrical potential method of crack length measurement used in
+this work would be relatively unaffected by specimen deformation. For similar reasons, it might
+be expected that linear elastic fracture mechanics could be used to describe crack growth rate
+in this material.
+
+3. Experimental
+
+The need to monitor the extension of pre-existing cracks has stimulated interest in techniques
+for measuring crack growth and in particular the measurement of crack length using potential
+drop across a crack has received detailed attention [9]. This technique has been used hereto
+monitor crack growth. The method consists of passing a direct current through a notched or
+cracked specimen and measuring the electrical potential across the notch or crack ; this can
+then be related to the crack length using curves computed by Gilbey and Pearson or by direct
+calibration.
+  Test pieces were machined from the heat treated blanks to the form and dimensions shown
+in Fig. 1. In addition, some specimens were machined to a width, W, of 15 ram. Tests were
+carried out with various constant loads at 565 °C in air using lever-loaded creep machines.
+
+Int. Journ. of Fracture, 9 (1973} 199-207
+Crack propagation under creep conditions in a quenched 2¼ Cr 1 M o steel                                 201
+
+
+   _I                                     i
+ B 5 o~..I   ',   I                        )         [   I   I   I
+                                     200 u~(no m ~               ,
+
+
+
+
+Figure 1. Form and dimensionsof a typicaltest-piece.
+
+Pin-load specimens were electrically isolated from the machine frames. A direct current of
+about 15 A was used and the electrical potential across the notch was monitored continuously
+using a millivolt recorder. Some tests were interrupted and specimens sectioned to determine
+the true crack length. During the work it was decided to conduct some tests at constant stress
+intensity factor and this was achieved by reducing the applied load as the crack grew. In two
+tests, cracked specimens were unloaded and heat treated at 700°C for three hours in air to
+simulate the effect of a post weld stress relief; the specimens were then reloaded and the tests
+continued.
+
+4. Results
+
+Fracture occurred by an intergranular mode along prior austenite grain boundaries. In the
+most highly stressed test piece small areas were observed which could have been transgranular
+failure of original austenite grains or intergranular failure between bainite platelets. On a
+macroscopic scale the crack grew from the notch in a direction at right angles to the applied
+stress and specimens finally fractured by shear. Comparisons between cracks measured
+optically and by the electrical potential technique showed that the true position of the crack
+front was determined to within about _+0.06 mm. However, in the present tests, when the crack
+initiated from the notch, the electrical potential across the crack was affected by the local
+orientation of the crack plane until the crack had grown away from the probe positions. For
+this reason the results refer to cracks which extend more than 0.12 mm beyond the notch tip.
+Inspection of the test records indicated that the crack initiation period was small.
+  A typical crack growth curve is presented in Fig. 2 and, without implying a particular
+
+
+
+    $.O
+
+
+
+    7.O
+
+
+
+    6.o
+
+
+
+!,c
+    4C
+
+
+
+    a'C
+                      J
+                          TIME, P¢
+Figure 2. Typicalcrack growthcurve.
+
+                                                                     Int. Journ. of Fracture, 9 (1973) 199-207
+202                                                                                  M. J. Sioerns, A. T. Price
+
+mode of crack growth, it is clear that such curves can be smoothed. The crack growth rates were
+determined by taking tangents at suitable crack lengths. Results from a typical test are shown
+in F.kg.3 where crack growth rate is presented as a function of the opening mode stress intensity
+facto~ K, calculated assuming the sharp crack formula [10] :
+                    K = a a~f(a/W)
+where tr is the applied gross stress, a is the total length of notch plus crack and W is the specimen
+width.
+        t42
+
+
+
+        ~63
+
+
+
+
+                     /
+7
+    I
+        164
+
+    !
+
+
+         166
+                        I     I    I     I   [   I    I   I   I
+               IO      tS    20    30   40 50                 I00
+                    STRESS INTENSITY FACTOR kin 11-3/2
+Figure 3. Relationship between crack growth rate and stress intensity factor, from Fig. 2.
+
+
+
+
+T~ ~63
+
+
+!
+
+
+        16s
+
+
+
+
+        166
+
+              ,o      ,'s   ,'o   ao    ,~o so ....           ,oo
+                    STRESS INTENSITY FACI~R MNm-312
+Figure 4. Crack growth rate versus stress intensity factor, mean line data.
+
+   The results from several tests are given in Fig. 4 where only the mean lines have been plotted.
+For comparison crack growth rate is plotted as a function of net section stress in Fig. 5. The
+dotted lines in Figs. 4 and 5 relate to the crack growth rates found in the two tests in which the
+stress intensity factor was kept constant. It is considered that the crack growth rates in these
+tests were essentially constant within the limits of experimental accuracy. Curves relating initial
+stress intensity factor and gross section stress to failure time are presented in Fig. 6.
+
+Int. Journ. o f Fracture, 9 (1973) 199-207
+Crack propa#ation under creep conditions in a quenched 2¼ Cr 1 Mo steel                                                                                  203
+
+      ,6 j
+
+
+
+
+             TESTS AT CONSTANT
+             STRESS INTENSITY
+
+
+
+
+      163
+
+
+
+i la4
+
+
+
+
+      ~661
+             IOO         150 2OO        3OO    4OO    600
+
+                   NET SECTION STRESSMNm'2
+Figure 5. Crack growth rate versus net section stress, mean line data.
+                                                                                          SOO
+                    50
+                             ~                         O GROSS SECTIONSTRESS              4O0
+                    40
+                                    ~N                 • INITIAL STR~'~ INTENSITY          3O:)
+INITIALSTRESS 3 0                                        FACTOR                                   GROSSSECTION
+INTENSITY                                                                                         S T R ~ MNm'2
+FACTOR                                                                                     200
+
+MNm
+                    IS
+                             ~   L~E
+                                                              FOR GROSSSECTIONSTRES
+                                                                                           150
+
+
+                                 LINE FOR INITIAL             ~
+                    ro
+
+
+
+
+                                                                                           50
+
+
+
+
+                                                                                          30
+
+
+                                    i          ~        i         ,      ,           i
+                          iO-I      iO O       IO I     IO2       IO 3   fO4      IOs    IO 6
+                                               TIME TO FAILURE,HOURS
+Figure 6. Initial stress intensity factor and gross section stress versus time to failure.
+
+  The two test pieces which were unloaded, heat treated at 700 °C and retested both failed
+rapidly by shear deformation.
+  Table 3 shows hardness values for specimens after failure and values are included for the
+original material before and after tempering at 700 °C for three hours.
+TABLE 3
+Typical Hardness Results
+
+Condition                               Total time at                          Test duration,            VPN3o
+                                        565 °C, hours                          hours
+
+Quenched                                   0                                     0                       385--415
+Quenched and                               0                                     0                       200
+tempered
+Creep tested                              1.7                                    1.4                     382
+                                         24                                      0.23                    274
+                                         28                                     24.4                     330
+                                         84                                     50                       272
+                                        120                                    120                       238
+
+
+                                                                                                                    Int. Journ. o f Fracture, 9 (1973) 199-207
+ 204                                                                         M. d. Siverns, A. T. Price
+
+5. Discussion
+
+5.1. Crack Growth Behaviour
+
+The results for typical tests can be described adequately by straight lines on log-log plots of
+crack growth rate against stress intensity or net section stress. It is evident from Figs. 4 and 5
+that better correlation is achieved using stress intensity factor. In terms of net section stress the
+results for all tests appear as a family of approximately parallel lines whereas lines relating
+crack growth rate to stress intensity factor can be contained within a scatter band of about one
+order of magnitude in crack growth rate. The tests carried out on specimens at constant stress
+intensity factor support this interpretation although not excluding other relationships.
+   The correlation with stress intensity factor extends over about five orders of magnitude in
+crack growth rate and a reasonable description of the results is given by the equation:
+       da/dt = AK"                                                                                   (1)
+where da/dt is the crack growth rate and K is the sharp crack stress intensity factor. When
+da/dt is in m/hr and K in M N . m -~ linear regression analysis gives A as 8.1 × 10-12 and n as
+5.2. The differences in slopes in individual tests are probably within the limits of the experimen-
+tal techniques. The extent of the correlation is somewhat surprising since Table 3 shows that
+the material has undoubtedly been tempered by exposure at 555 °C so that the mechanical
+properties of the material would have altered during testing. In particular in the short term tests
+the material properties would be similar to those for quenched material, whereas in the long
+term tests they would be nearer to those of fully tempered material, see Table 2. It therefore
+appears that the metallurgical condition of the material does not markedly influence the crack
+growth rate in these tests. This conclusion might seem to conflict with the view that creep strength
+is dependent upon metallurgical structure. However, collected data [l l] indicate that at a
+particular stress an order of magnitude in time to rupture includes all results for 2¼ Cr 1 Mo
+steel formed and heat treated in various ways. Indeed, in conventional creep tests, cracks
+comparable with those in the present tests are found only during the tertiary stage. It is this
+stage which is relevant here but little information exists in the literature because tertiary creep
+data are not used in design.
+   The correlation between stress intensity factor and crack growth rate should be regarded
+as empirical at present. However, the high value of 5.2 obtained for the index, n, in equation 1
+suggests a similarity with conventional creep testing where creep strain rate 4, is related to the
+applied stress, a, by the well known equation:
+         = B o~                                                                                      (2)
+where B and m are constant. This is clearly a subject for further investigation and tests involving
+a wider range of crack and specimen geometries and other systems of stress application are
+required to define the limits of applicability.
+    Strictly interpreted, the stress intensity factor defines the stress-strain distribution close to
+the crack tip in an elastic body. A creep situation is difficult to interpret in these terms. On initial
+loading, a notional plastic zone of linear dimensions proportional to (K/ar) 2 will be formed
+[12], where ar can be taken as the flow stress at an appropriate loading rate. In the test conduct-
+ed here and usually in creep tests, the stresses applied are low compared with time-independent
+flow stresses, so that the plastic zone size corrections would be small. Creep relaxation will
+occur at the crack tip in a manner dependent upon the original stress gradient while maintain-
+ing compatibility with elastic and creep strains away from the crack. The high stress dependence
+of creep strain and the distribution of stress will ensure that the concentration of deformation
+in the vicinity of the crack tip is at least an order of magnitude greater than that in the matrix.
+In this case it is possible that displacements in the matrix of the material will contribute relatively
+little to the fracture process. Generally such a criterion would not be valid in a creep situation
+although the total matrix deformation prior to the onset of tertiary creep in medium term tests
+
+Int. Journ. of Fracture, 9 (1973} 199-207
+Crack propagation under creep conditions in a quenched 2¼ Cr 1 Mo steel                             205
+
+would not exceed about 5 ~ in the type of steel used here. The objection to the use of linear
+elastic fracture mechanics, here, is that general deformation destroys the elastic stress/strain
+distribution near the crack tip. This objection is overcome if a mechanism exists whereby a
+sharp crack situation is continuously regenerated. In the present case cracking is intergranular
+and following each small increment of crack growth successive positions of the crack front can
+be considered as sharp crack situations. The instantaneous stress distribution following each
+increment of crack growth will be defined by the particular value of K. Any prior deformation
+will affect K only through alterations in the macroscopic stress field and these effects will be
+minimal. Thus for any particular position of the crack front creep relaxation will occur initially
+from the linear elastic stress distribution so that creep damage ahead of the crack may be ex-
+pected to have functional dependence upon K.
+   A less progressive approach would be to suppose that a function involving a, a and a/W
+embodies those parameters that control crack extension so that with the normal scatter of data
+a log-log plot would achieve correlation ; indeed in studies of fatigue crack growth it has been
+shown that when data is obtained over limited ranges, quite different relationships between
+crack growth rate, a and a can describe results [13, 14, 15].
+
+5.2. Crack Initiation and Final Failure
+
+The test records of electrical potential drop across the notch were not reliable until the crack
+had grown to about 0.12 mm so that there is uncertainty concerning crack initiation periods.
+In this work the sensitivity of the method for determining crack length has been continuously
+improved. The most recent results indicate that the time for crack initiation from a notch is
+small compared with the time to failure. During initial crack growth over about 0.12 mm from
+the notch tip it appears that a decreasing rate of crack growth is obtained; when equilibrium
+conditions are achieved the crack growth rate can be described as in equation 1. Mechanistically
+therefore it appears that crack initiation occurs soon after loading, although phenomenologi-
+cally a decreasing rate of crack growth rate is equivalent to a period required for crack initia-
+tion. This is being investigated in more detail.
+   Stable crack growth by an essentially intergranular mode continued until the remaining
+cross sectional area was unable to sustain the applied load. The final failure event was by shear
+deformation to the sides and/or back faces of specimens. Shear failures of the heat treated and
+retested specimens illustrate the influence of time-independent flow stress on the failure event.
+From the results a minimum value of plane strain fracture toughness, Ktc, can be estimated,
+assuming the criterion [10] that plane strain conditions exist when the test piece thickness is
+greater than 2.5 (K/try)2.
+   From Table 2, taking a v the yield stress, as between 300 MN. m - 2, and 600 MN. m - 2 values
+of about 13 MN. m- ~ and 26 MN. m- ~ are obtained.Averaging these it can be inferred that the
+plane strain fracture toughness of the material at 565 °C exceeds about 20 MN. m-~. However,
+this value should only be used as a guide since where time dependent plastic relaxation can
+occur the criterion for plane strain may not apply. In practice, a knowledge of Klc may not be
+as useful for the assessment of creep situations as it is in lower temperature applications, be-
+cause high rates of stable creep crack growth can be achieved ; it may be more appropriate to
+choose a stress intensity at which some particular crack growth rate is reached.
+
+5.3. Some Implications and Applications
+
+The present data relate to crack growth rates from defects causing failure in up to about 2 × 103
+hours, while components for elevated temperature application in the power generating in-
+dustry have a design life requirement of l0 s hours. It is therefore important to extend the work
+to determine the range over which the correlation between crack growth rate and stress
+intensity holds. In general terms, crack growth rates of the order of 10-s-10- ~ m/hr corre-
+spond to creep failure in about 10- 5 hours. Thus if there is a stress intensity below which crack
+
+                                                                Int. Journ. of Fracture, 9 (1973) 199-207
+206                                                                         M. J. Siverns, A. T. Price
+
+growth does not occur for 2¼ Cr 1 Mo steel, its value would not be greater than about 2 M N .
+m - ~ based on linear extrapolation of the data in Fig. 4. Therefore finite crack growth rates are
+likely to exist at low stress intensity factors so that extrapolation of the data can be used to
+estimate the rate of growth of defects in Components. It may be noted that where estimates are
+based on crack growth data the uncertainty regarding the period of crack initiation would
+cause the life to be underestimated by a factor not greater than two.
+   From Fig. 6 it can be seen that the time to failure is related to the initial stress intensity factor.
+This arises because the life can be estimated from the crack propagation data by integrating
+equation 1 with appropriate values for the constants. When n is large most of the life is spent
+propagating the crack a small distance from the notch as can be seen from Fig. 2. Therefore
+when crack initiation is negligible time to failure will be related to initial stress intensity
+factor. Using linear regression analysis the equation relating time to failure, ty, and initial
+stress intensity factor, K, in fig. 6 is:
+        tf =   1.9 x 10s K - s.4                                                                      (3)
+where tf is in hours and K is in MN. m -~. The correlation between gross section stress and time
+to failure in Fig. 6 is not unexpected because the variation of initial geometries was small. It is
+anticipated that the curve would be displaced with major increases in notch depth.
+   The results of the crack growth studies could have application to the behaviour of materials
+when subjected to thermal stress. This is of great practical interest, particularly in the power
+generating and gas turbine industries. One form of loading regime is a reversed strain cycle with
+the load maintained at or near its maximum tensile value for several hours at elevated tempera-
+tures [16, 17]. Here fatigue and creep mechanisms both contribute to crack growth and crack
+initiation can be relatively easy. It is instructive to compare the present results with those ob-
+tained in studies of fatigue. Crooker and Lange [-18] have collated data on fatigue crack
+growth rates in steels as described by the stress intensity factor. Graphs similar to Fig. 4 are
+obtained and for low strength, plain carbon and low alloy steels a narrow scatter band covers
+the data. The values of the exponent vary between 2 and 4 and typical values of crack growth
+rate a r e 10 - 7 and 10 -s m/cycle at about 33 M N . m -~ and 66 M N . m -~ respectively. For
+the creep situation the exponent is about 5 and the corresponding growth rates are about
+2 x 10 -4 m/hr and 3 x 10 -2 m/hr; furthermore significant creep crack growth occurs at low
+stress intensity factors where fatigue crack growth is negligible. It is clear that in such a thermal
+fatigue situation the contribution of creep extension to the crack growth rate will be several
+orders of magnitude greater than that of fatigue if the two processes can be considered to
+act independently. Admittedly, the fatigue data were obtained from room temperature tests,
+but since the increment of fatigue crack growth per cycle is related to the plastic strain at the
+crack tip on loading, any increase in crack growth rate should be dependent upon the variation
+of yield strength of the material with temperature ; for creep resistant steels this would be un-
+likely to produce even an order of magnitude increase in crack growth rate. This suggests that
+creep crack growth would be rate controlling in these combined fatigue and creep situations.
+It might be informative to apply the approach to high strain fatigue tests with hold time which
+attempt to simulate particular thermal fatigue cycles. If applicable, certain high strain fatigue
+situations could be analysed by using creep crack growth data alone, thereby simplifying testing
+procedures and possibly facilitating extrapolation of data to realistic service conditions for
+example those involving two-shift operation in power stations. The practical applications of
+this work are of great importance and it is to be extended to investigate crack growth rates at
+lower stress intensities, different crack and specimen geometries and other systems of stress
+applications. Other metallurgical conditions and materials also require study.
+
+6. Conclusions
+
+Creep crack growth rates for 2¼ Cr 1 Mo steel have been correlated with the stress intensity
+factor thereby extending the use of fracture mechanics to high temperature situations. This
+Int. Journ. of Fracture, 9 (1973) 199-207
+Crack propagation under creep conditions in a quenched 2¼ Cr 1 Mo steel                                                207
+
+work has clear application to the assessment of defects in components and is potentially of
+great economic value to the power generating industry. Information of this type should allow
+defect standards based on fitness for purpose to be formulated and the integrity ofcomponents
+containing defects to be assessed quantitatively
+
+Acknowledgement
+This paper is published by permission of the Director-General, C.E.G.B., Midlands Region.
+
+REFERENCES
+
+ [1] F. Garofalo, Fundamentals of Creep and Creep Rupture in Metals, Collier-Macmillan Ltd., (1966).
+ [2] A. J. Kennedy, Processes of Creep and Fatigue in Metals, Oliver and Boyd (1962).
+ [3] D. A. Woodford and R. M. Goldhoff, Mat. Sci. Eng., 5 (1969/70) 303.
+ [4] J. A. Williams, Phil. Mag., 20 (1969) 635.
+ [5] U. Lindborg, Acta. Met., 17 (1969) 157.
+ [6] M. J. Siverns and A. T. Price, Nature, 228 (1970) 760.
+ [7] W. Barr and M. J. Siverns, British Welding d., 14 (1967) 238.
+ [8] A. T. Price and M. J: Siverns, Metal Construction (1970) 239.
+ [9] D. M. Gilbey and S. Pearson, Royal Aircraft Establishment Tech. Rep. 66402 (1966), (obtainable from Her
+      Majesty's Stationary Office, London).
+[1(3] W. F. Brown and J. E. Srawley, ASTM Spec. Tech. Pub. No. 410 (1966).
+[11] R. F. Johnson, M. J. May, R. J. Truman and J. Mickleraith; ISI Pub. 97 (1966) 229.
+[12] G. R. Irwin, Proceedings of the 7th Sagamore Ordnance Materials Research Conference, Syracuse University
+      Research Institute, (1960) p. IV-63.
+[13] A. K. Head, Phil. Mag., 44 (1953) 925.
+[14] N. E. Frost and D. S. Dugdale, J. Mech. Phys. Solids, 6 (1958) 92.
+[15] P.C. Paris and ic. Erdogan, Trans. ASME 85 (1963) 121.
+[l 6] A. Coles, G. J. Hill, R. A. T. Dawson and S. J. Watson, Thermaland High-Strain Fatigue International Conference,
+      The Metals and Metallurgy Trust (1967) Monograph and Report No. 325, 270.
+[17] R. A. T. Dawson, W. J. Elder, C. J. Hill and A. T. Price, Ibid., 239.
+[18] T. W. Crooker and E. A. Lange, Fatigue of of Welded Structures Conference (The Welding Institute) (1970) 243.
+
+
+
+RI~SUMI~
+On a mesur~ les vitesses d'accroissement de fissures dans des 6prouvettes ~ entaille simple et lat&ale d'aciers 2¼ Cr
+1 Mo soumis "2 traction/l la temptrature de 565 degrts C. On montre que la vitesse de propagation des fissures de
+fluage au cours des essais sur des durtes allant jusqu'~t 2.000 h peut ~tre exprimte par un facteur d'intensit6 de con-
+traintes/l l'extrtmit6 d'une fissure aigfie. La corrtlation trouvte s'ttablit sur cinq ordres de grandeur de la vitesse de
+propagation. On discute la relation entre ces rtsultats et ceux obtenus par des essais de fluage conventionnels.
+   Pour les conditions sp~cifiques de l'essai, le temps ntcessaire h l'amorgage de la fissure Apartir d'une entaille n'entre
+pas en ligne de compte par rapport au temps total ntcessaire A la rupture. Sous certaines conditions, on peut observer
+des vitesses 61evtes lots de la propagation stable d'une fissure.
+   Ces travaux effectuts contribuent manifestement A rtsoudre le probl~me de la v~rification de l'inttgrit6 d'un
+616ment contenant des dtfauts et soumis ~tdes conditions de fluage. Une application possible de ces donntes/t l'analyse
+d'un cas particulier de fatigue thermique est suggtrte.
+
+ ZUSAMMENFASSUNG
+Es wurde die RiBfortpflanzungsgeschwindigkeit in 2¼ Cr 1 Mo-Stahlproben mit einem Seitenkerb, welche bei einer
+Temperatur von 565°C einer Zugspannung ausgesetzt wurden, gemessen. Man konnte zeigen, dab die Fortpflan-
+zungsgeschwindigkeit yon Dauerstandsrissen bei Versuchen die bis zu 2000 Stunden dauern dureh einen Spannungs-
+intensit~itsfaktor an der ExtremiSt eines spitzen Risse~ beschrieben werden kann.
+   Es wird eine Korrelation fiber ffinf GrGBenordnungen der RiBfortpflanzungsgeschwindigkeit aufgestellt und der
+Zusammenhang zwischen diesen Ergebnissen und den konvantionellen Dauerstandsversuchen wird erl[iutert.
+   Fiir die gegebenen Versuchsbedingungen ist die fiir die RiBbildung an einem Kerb erforderliche Zeit im Vergleich
+zu der zum Bruch ffihrenden Gesamtdauer unbedeutend. Unter gewiss~ Bedingungen konnte ffir die gleichm~iBige
+Riflfortpflanzung hohe Geschwindigkeiten erzielt werden. Diese Arbeit enth~ilt eindeutige MGglichkeiten zur Prfifung
+der Integrit~it von Elementen mit Defekten welehe Dauerstandsbedingungen ausgesetzt sind. Es wird auf eine mtg-
+liche Anwendung der Ergebnisse auf die Analyse eines speziellen Falles von W~irmeermfidung hingewiesen.
+
+
+
+
+                                                                                 Int. Journ. of Fracture, 9 (1973) 199-207
+

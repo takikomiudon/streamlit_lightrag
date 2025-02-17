@@ -1,0 +1,845 @@
+                                                            Corrosion Science, Vol. 36, No. 4, pp. 593~10, 1994
+~ )       Pergamon                                                                        Elsevier Science Ltd
+                                                                                      Printed in Great Britain.
+                                                                                     oo10-938x/94 $6.(~1+ o.oo
+
+
+                                        0010-938X(93)E0008-F
+
+
+  THE LIQUID METAL EMBR1TTLEMENT                                               OF 9Cr STEEL
+ IN S O D I U M E N V I R O N M E N T S AND THE                               ROLE OF NON-
+                      METALLIC IMPURITIES
+
+             P. SKELDON,* J. P. H I L D I T C H , t J. R. HURLEY'l" and D. R. TICEt
+
+         *Corrosion and Protection Centre, UMIST, PO Box 88, Manchester M60 1QD, U.K.
+                      t A E A Technology, Risley, Warrington WA3 6AT, U.K.
+
+
+Abstract--Liquid metal embrittlement (LME) of 9Cr steel has been studied in sodium environments, to
+which 0-50 w/o NaOH was added, at temperatures between 150 and 525°C. LME occurred under dynamic
+straining with increasing severity from 150-450°C by a quasi-cleavage mode of fracture. At a slightly
+higher temperature, which depended on strain rate, there was a transition in behaviour and LME did not
+occur. The steel was resistant to LME under constant load except at temperatures below the transition
+temperature when stresses were high enough to cause significant creep. LME could be greatly reduced, or
+eliminated, either by cold-trapping or hot-trapping the sodium; thus it is inferred that a non-metallic
+impurity species is involved in the cracking mechanism. For environmental conditions typical of sodium-
+cooled nuclear plants, the occurrence of LME only in the post-UTS region of the stress-strain curve, i.e. in
+the region of non-uniform elongation and approach to failure, indicates that it is not directly relevant to
+plant design.
+
+
+                                          INTRODUCTION
+LIQUID metal embrittlement (LME) is a subject that has attracted the attention of
+research workers for many years, although it has been studied less than other forms
+of environmentallyinduced embrittlement. It is also apparent that certain metals can
+induce cracking at temperatures lower than their melting points and that LME is an
+aspect of the broader phenomenon of metal-induced embrittlement (MIE). Several
+reviews of MIE are available to which the reader is referred for discussions of the
+mechanistic models that have been proposed to explain its occurrence. 1-3
+    While a number of systematic studies have been carried out examining the role of
+environmental composition on LME, these have largely addressed the effects of
+alloying additions to the embrittling metal. 4'5 The authors are unaware of any
+detailed studies of the effects of non-metallic contaminants although many liquid
+metals are reactive towards covering atmospheres. It has, however, been noted that
+the presence of oxygen may inhibit wetting of specimens by liquid metal environ-
+ments thereby affecting susceptibility to LME, and that LME may be facilitated by
+preparing environments under vacuum. 6,7
+    In the present work, an examination has been made of the influence of non-
+metallic contaminants on LME of 9Cr steel by sodium using cold-trapping and hot-
+trapping to reduce the concentrations of non-metallic species. Such steel is of interest
+in the nuclear industry for the construction of steam generators of sodium-cooled fast
+reactors. From the results it is inferred that a non-metallic species is essential for
+embrittlement to occur, i.e. that high purity sodium does not cause LME of the steel.
+   Manuscript received 27 September 1993.
+
+                                                    593
+594                                             P. SKELDONet al.
+
+
+
+
+                                                                 t
+                                                                 __ _.__i12.5
+
+                                     1.0
+
+
+
+
+                                                                           A
+
+
+
+
+                                                   14.0
+          FIG. 1.     Tensile specimen with dimensions in mm; standard specimen A = 27 mm; modi-
+                                           fied specimen A = 165 mm.
+
+
+                                      EXPERIMENTAL               METHOD
+Materials and specimens
+    A niobium- and vanadium-strengthened 9Cr steel (ASME SA 213 Grade T91, subsequently referred
+to in this paper as 9Cr steel) was obtained as tubing of 16 mm OD and 2 mm wall thickness, that had been
+normalized at 1050°C and tempered at 780°C for 1 h, from which standard and modified tensile specimens
+were manufactured (see Fig. 1). The modified specimens were used to pre-treat the sodium by cold-
+trapping as described in the following section. 9Cr steel adaptors were welded to the top and bottom of
+each specimen to contain the test environment within the bore and to make connections to pull-bars for
+tensile testing. During welding, the gauge lengths were surrounded by a water-cooled copper coil to keep
+their temperature below 300°C. A hole penetrated the top adaptor (which could later be closed by welding
+a lid to the adaptor), to allow filling of the specimens with the test environments. Details of the
+composition of the steel are given in Table i.
+
+Test environments
+    Untreated. The test environments comprised high purity sodium [with respect to metallic contaminants
+(Table 2)], and Na-NaOH mixtures prepared with analytical grade NaOH. High purity argon was used for
+control tests (<0.4 vpm 02, <1 vpm H20 ). Specimens and environments were prepared in a glovebox
+under a high purity argon atmosphere. The glovebox was equipped with rotary and diffusion pumps and
+could be evacuated to <0.1 Pa before being filled with argon. Sodium was fed directly into the glovebox, at
+a temperature of ~ 150°C, from a stainless steel storage system containing about 201 of sodium.
+    The Na-NaOH environments were formed either by directly adding the components to the specimen
+
+
+                                   TABLE 1.   COMPOSITIONOF 9Cr STEEL (W/O)
+
+      C         Cr         Mn       Mo        Ni          Nb       N       P       Si       S        V
+
+  0.096         8.6        0.42     0.96      0.25        0.08    0.031   0.005   0.28    0.012     0.22
+                                           Liquid metal embrittlement of 9Cr steel                                                      595
+
+                                        TABLE 2.       COMPOSITION OF SODIUM (ug g 1)
+
+                                                                   AI, Ba, Ca, Cd, Cr, Co, Cu, Li,
+                               K        C1       Fe        Sn       Mg, Ni, P, Pb, Si, Sr, V, Zn
+
+                              104       17        6       <10                          <5
+
+
+
+or by mixing the components at 400°C for 48 h in a sealed stainless steel capsule. The capsule was then
+opened in a glovebox and the contents stored under argon, in a stainless steel vessel, for later use. No
+significant difference was found between tests using environments prepared by the two methods. The
+sealing of capsules and specimens was carried out using welding facilities within the glovebox.
+
+    Pre-treated. Non-metallic contaminants in the sodium, derived from (i) the contamination in the
+sodium supply, (ii) the glovebox atmosphere and (iii) oxide/hydroxide films and adsorbed moisture on
+specimens, were controlled by either hot- or cold-trapping. Removal of non-metallic contaminants by hot-
+trapping involved heating a standard specimen containing zirconium foil and sodium in an argon-filled
+stainless steel capsule at 650°C for 72 h. Non-metallic contaminant removal by cold-trapping was effected
+by cooling the lower end of a modified tensile specimen for 48 h prior to a tensile test, while the gauge
+length was maintained at 400°C, to precipitate impurities that were in excess of their solubility at the
+lowest temperature (the saturation temperature).
+
+Tensile tests and post-test examination
+    Specimens were tested either at a constant load or at a slow strain rate using 100 kN Mayes and
+Schenck servo-electric test machines, in force or displacement control, respectively. The latter tests,
+unless otherwise stated, were carried out at a nominal strain rate of 10-~' s-~ . The specimens were
+contained in leak-tight, flexible, stainless steel test sections through which argon flowed (Fig. 2). Test
+temperatures, which were measured by thermocouples attached to the gauge lengths, were in the range
+150-525°C. The modified specimens were contained in a similar, but longer, test section, which was cooled
+at one end to establish a temperature gradient for cold-trapping. Thermocouples were also attached to the
+ends of the specimens to measure the cold-point temperature. After testing the specimens were
+decontaminated using methylated spirits, washed in demineralized water, rinsed in acetone and then
+dried. They were then examined using an Hitachi $520 scanning electron microscope.
+
+Determination of the oxygen content of untreated sodium
+    The oxygen content in the untreated sodium was measured using the distillation technique8 for one
+specimen following a slow strain rate test at 400°C. Immediately after fracture, the test section was
+transferred to a glovebox and the specimen removed under a high purity argon atmosphere. The lower
+half of the specimen, containing sodium, was placed in a hydrogen-fired nickel crucible which was then
+sealed in a stainless steel distillation pot. The distillation pot was removed from the glovebox and
+connected to a distillation rig. The sodium was vacuum distilled at 350°C for 8 h and collected on a water-
+cooled cold finger. The oxygen content of the sodium was inferred from the alkalinity of washings of the
+nickel crucible and the specimen, which was determined by titration, and the weight of the sodium.
+Analytical facilities were not available for measuring the hydrogen concentration in the sodium.
+
+                                              EXPERIMENTAL                   RESULTS
+        The influence of the environmental composition on susceptibility to LME at
+400°C was studied in slow strain rate tests using sodium containing 0-50 w/o NaOH.
+T h e s u s c e p t i b i l i t y t o L M E w a s a s s e s s e d b y c o m p a r i n g t h e e l o n g a t i o n a t f a i l u r e , el,
+w i t h t h a t o f a c o n t r o l s p e c i m e n t e s t e d i n a r g o n , elc, i.e. el/elc x 100. T h e e l o n g a t i o n s
+of the specimens were about 50% lower than that of a control specimen, and
+i n d e p e n d e n t o f t h e a m o u n t o f N a O H ( F i g . 3). C r a c k s w e r e r e a d i l y o b s e r v a b l e
+around the fracture surface of the specimens running on planes normal to the applied
+s t r e s s , i n d i c a t i n g t h a t t h e loss o f e l o n g a t i o n w a s a s s o c i a t e d w i t h L M E o f t h e s t e e l .
+E l s e w h e r e t h e f r a c t u r e s u r f a c e e x h i b i t e d s h e a r lips a n d m i c r o v o i d c o a l e s c e n c e t h a t
+596                                    P. SKF.LDONet al.
+
+
+
+                                                                LOAO
+
+
+
+                    putt bar                                      argon outlet
+
+                                                                                         gasket seat
+                argon inlet
+
+
+
+
+       specimen end p l u g / ado                                 welded Lid
+
+                      seat weld                                   filler     hole
+
+
+                                                                           enw ronment
+
+                                                                           tensile    specimen
+
+                                                                           flexible     bellows
+
+
+
+      specimen end plug I adaptor                                 seat weld
+
+
+                                                                   7            _ rotatable       flange
+
+
+                                                                                      f~xed flange
+
+        gland and olive
+        penetration
+
+
+                  thermocouple
+
+
+                                                                 LOAD
+
+
+                                      FIG. 2.   Test section.
+
+
+ are characteristic of a normal ductile fracture of the steel. The stress-strain curves for
+ specimens tested in the control and sodium environments were practically coincident
+ until shortly before fracture of the specimen (Fig. 4). The fractures occurred at
+ stresses close to the ultimate tensile strength (UTS) of the control specimens.
+     Further tests to investigate the effect of t e m p e r a t u r e on L M E utilized an
+ environment p r e p a r e d with 5 w/o N a O H . As discussed later, the solubility of N a O H
+ in sodium at low t e m p e r a t u r e s is limited, so not all of the N a O H would have gone
+ into solution. The elongation of the steel at a strain rate of 10 -6 s -1 diminished
+ steadily with an increase in t e m p e r a t u r e between 150 and 450°C (Fig. 5). (A check
+ was m a d e that the observed effect was not due to an increased ease of wetting at
+ higher t e m p e r a t u r e s by first exposing a specimen to the environment at 400°C for
+ 24 h before testing it at 150°C. The specimen behaved in the same m a n n e r as one
+                                Liquid metal embrittlement of 9Cr steel                                        597
+
+
+                       70
+
+
+
+
+                       60
+
+
+
+                                X
+
+                       50
+
+
+                  8
+
+                  E
+                  o
+
+                  uJ
+
+
+
+
+                       30
+
+
+
+
+                       20              l           I                           I            I       I
+
+                            O         10          20                           30          ~0       50
+                                                   NtlOH (w/0)
+
+FIG. 3.       The results of slow strain rate tests (el~el c × 100), at 10 6 S 1 of 9Cr steel in
+                         sodium, containing up to 50 w/o N a O H , at 400°C.
+
+
+
+
+    600 -
+                                                       \\
+
+
+
+
+   ~6
+    [3-
+
+
+
+
+    -4-                                                      I
+                                                             t            .pollufed        sodium
+
+                                                                      I
+                                                                     I
+                                                                 I
+
+
+
+                                                                          I
+                                                                           I
+          0
+              0                            o'.1                                     o'.2                 o.~
+                                                       St-rain
+
+FIG. 4.       Typical stress-strain curves for slow strain rate tests, at 10-6 s-I , of 9Cr steel in
+                  sodium, containing up to 50 w/o NaOH, and in argon, at 400°C.
+598                                              P. S~ELDON et al.
+
+             100
+
+
+             90
+                                                                                                                  X
+
+
+
+
+             80                             ""   X
+
+
+
+
+                                                        \
+
+             70                                                 \
+                                                                    \
+
+                                                                        X
+             60                                                         X\
+                                                                             \
+                                                                                 \
+                                                                                     \
+                                                                                         \
+             50
+       =.,                                                                                        \
+                                                                                                      \
+                                                                                                          \
+
+
+
+      lad
+
+
+              3O
+
+
+             20
+
+
+             10
+
+
+                             I        I          !          I           I                     I               I        I    I
+
+                   100               ZOO                300                                  t, O0                    500
+
+                                                 Temperoture                (*C)
+
+      Fin. 5.      The results of slow strain rate tests (el~el c × 100), at l0 -6 s 1, of 9Cr steel in
+                               sodium, containing 5 w/o N a O H , at 150-525°C.
+
+
+
+which had not been pre-exposed.) There followed a sharp transition in behaviour
+between 450 and 475°C, with the elongation recovering in this temperature range. A
+series of additional tests was carried out to examine whether this strongly
+temperature-dependent behaviour was influenced by strain rate. On increase of the
+strain rate to 10 -5 s -1 the transition was displaced to a temperature about 25°C
+higher (Fig. 6). Below the transition temperature, at 400°C, the elongation de-
+creased progressively with reduction of strain rate from 10 .5 to 10 . 7 s -1.
+    Cracks were observed in all the tests in sodium containing 5 w/o N a O H that were
+carried out at temperatures below the transition temperature. The reduced
+elongations of the steel caused by LME could be correlated with the area of cracking
+on the fracture surface (Fig. 7). At temperatures ~<250°C the cracks were shallow,
+and specimens fractured in the post-UTS region of the stress-strain curve, but at
+higher temperatures the cracks were deeper and at 400 and 450°C the wall thickness
+of the gauge length was penetrated. At the latter temperature, the cracks occupied
+virtually the whole of the fracture surface and fractures occurred in the pre-UTS
+portion of the stress-strain curve. No cracks were found on specimens tested at
+                                   Liquid metal embrittlement of 9Cr steel                                                             599
+
+
+                100
+
+
+                                                                                                                             I
+                                                                                                                         /
+
+                                                                                                                     I
+                90
+                                                                                                                it
+
+
+
+                                                                                                            I
+                                                                                                        I
+                80
+                                                                                                    I
+
+                                                                                                '               10 "s s- I
+                                                                                            I
+
+                                                                                        I
+                70
+         A
+                                                                                    /
+                                                                                /
+                                                                            /
+                                                                        /
+                                                              -Ig~
+                60
+          tJ
+          ==
+          o
+                                                           10"6 s - I
+                50
+
+
+
+
+                l.O
+
+
+
+
+                30             10-7 s-1
+
+                           l               I        i            I                                          I                     I
+
+
+                         t~O0             ~25      t,SO       t,75                              500                              SZS
+
+                                                Temperature    (*C}
+
+      Flo. 6.   The results of slow strain rate tests (el/el~ × 100) of 9Cr steel in sodium, containing
+                              5 w/o NaOH, at strain rates of 10-7-10 5 s-l.
+
+
+temperatures above the transition temperature. The cracks produced at tempera-
+tures below the transition temperature were transgranular and had the typical
+appearance of quasi-cleavage; they had a finer, more brittle appearance at lower
+temperatures (Fig. 8). At 150°C intragranular secondary cracks were also present.
+The cracks s o m e t i m e s initiated at stress-raising defects on the bore surface which
+remained from tube manufacture (Fig. 9), but on other occasions no initiating
+feature was discernible. Examination of specimens tested in other sodium environ-
+ments showed that the fractography was independent of the N a O H content of the
+environment.
+    The crack growth rate at 400°C was estimated from the depth of the deepest crack
+and the time period following separation of the stress-strain curves recorded for the
+control and the test environments, which was assumed to correspond to the time of
+crack growth. The results showed that the crack growth rate increased with increase
+in the applied strain rate from about 1 0 - S m s -1 at an applied strain rate of 10 -7 s -
+to about 1 0 - 6 m s -a at an applied strain rate of 10 -5 s -1.
+    A series of additional tests was conducted at 400°C in which hot- and cold-
+600                                 P. SKELDONet al.
+
+trapping of the sodium was carried out in order to lower the concentration of non-
+metallic impurities. Both methods of purifying the sodium resulted in the elongation
+of the steel recovering at 400°C (Fig. 10). Cold-trapping became more effective in
+reducing the susceptibility of the steel to L M E as the saturation temperature was
+reduced and accordingly as the solubility of non-metallic impurities was decreased.
+The cold-trapped sodium still caused very shallow cracking at the lowest saturation
+temperature employed, but the extent of cracking was greatly reduced compared
+with that in untreated sodium. Identical behaviour could be obtained using sodium
+sampled from a corrosion loop operating at 550°C, which had been cold-trapped at
+150°C for 10,000 h. In this case the only significant contamination in the sodium
+during tensile tests arose from residual moisture in the glovebox and any films on the
+specimen. Therefore it is unlikely that any other types of species, e.g. a metallic
+impurity, rather than a non-metallic species, was implicated in the LME. Hot-
+trapping led to a small increase in elongation compared with the control specimen,
+probably due to the additional tempering during the hot-trapping treatment, and no
+cracks due to L M E were observed on the fracture surface or along the gauge length.
+A specimen subjected to an identical thermal treatment as in hot-trapping but
+subsequently filled with untreated sodium suffered similar L M E as the normal alloy,
+indicating that microstructural changes in the steel during the hot-trapping treatment
+were of no consequence to the elimination of LME.
+    The results of constant load tests in sodium to which 5 w/o N a O H was added are
+shown in Fig. 11. L M E only occurred at temperatures below the transition when the
+stresses were high enough to cause average creep rates of - 5 × 10 -7 S-1. At lower
+temperatures and lower stresses, when the average creep rates were < 2 × 10-8 s-1,
+or at a temperature above the transition, cracks did not initiate, at least within the
+test durations, which was normally 100 h except for one test at 400°C which was
+continued for 500 h.
+
+                                   DISCUSSION
+    The behaviour of 9Cr steel in liquid sodium environments, observed in the
+present work, was similar in several respects to L M E of low alloy steels in other
+liquidmetal environments. Thus, the susceptibilityto cracking was dependent on the
+temperature of the sodium and sensitive to the applied strain rate and the mode of
+loading, and there was a sharp transitionfrom low ductilityto ductile behaviour at
+high temperature. 3 It appears that cracking in sodium requires the agency of
+non-metallic impurities since itcan be reduced in severityor eliminated by lowering
+the non-metallic impurity concentration in the sodium by either cold- or hot-
+trapping.
+    The principal non-metallic impurities of importance to materials performance in
+liquid sodium are carbon, hydrogen and oxygen. Their solubilitiesin sodium which
+depend exponentially on temperature, have been determined by a number of
+investigators. For the present purposes reference is made to the solubility ex-
+pressions of Thorley and Hobdell for carbon, 9 of Whittingham for hydrogen, I° and
+of Thorley for oxygcn.ll Carbon can be discounted as a factorin L M E because ithas
+an extremely low solubilityin the temperature range of current interest,for instance
+the value deduced at 150°C from higher temperature solubilitymeasurements isonly
+_10-6 ~g g-1.9 In contrast, hydrogen and oxygen have appreciable solubilitiesin
+liquid sodium, which arc broadly similar at low temperatures when expressed in
+                                                (b)                                     1ram
+
+
+
+
+FIG. 7. Views of fracture surfaces of 9Cr steel tested, at 10 -6 s - l , in sodium containing 5
+w/o NaOH. (a) Typical fracture above the transition temperature. (b) Top view of fractured
+spccimen tested at 475°C--no quasi-cleavage. (c) Top view of fractured specimen tested at
+400°C---30% quasi-cleavage. (d) Top view of fractured specimen tested at 450°C-
+                                -100% quasi-cleavage.
+
+
+
+
+                                             601
+FIG. 8. Examples of quasi-cleavage on 9Cr steel tested, at 10-6 s-l, in sodium containing 5
+w/o NaOH (arrows indicate the direction of crack growth): (a) 150°C; (b) 250°C; (c) 400°C;
+                                       (d) 450°C.
+
+
+
+
+                                            602
+FIG. 9.   Crack initiation sites on 9Cr steel tested, at 10-6 s-1 , in sodium containing 5 w/o
+             N a O H : (a) At 'score' marks left from tube drawing; (b) at a 'pit'.
+
+
+
+
+                                            603
+                                      Liquid metal embrittlement of 9Cr steel                                 605
+
+                   120
+                                  _       x
+
+                   110
+
+                                                      x
+                   100
+
+
+                   90
+
+
+           ~       80
+           °
+            c:
+            0
+           .....   70
+            "
+            CI
+            c:
+            0
+           .... 60
+           ~
+
+
+
+
+                                      x    cold trapped
+                    50
+                                      o hot trapped                                   x
+                                                                                      •
+                                                                                      •
+                   40
+
+
+                   30
+                         0                100             200         300             400            500
+                                                Saturation Temperature I O( )
+
+      FIG. 10.      The results of slow strain rate tests (elJelc x 1(0), at 10- 6 S-I, of9Cr in sodium, at
+                                 400"C, following either hot- or cold-trapping.
+
+
+
+atomic concentrations. 1O · 11 They probably exist as H- and 0 2- ions solvated by Na+
+ions. When these ions are present together OH- is formed by the equilibrium
+reaction: 12
+                                                                                                              (1)
+    Between 3000 e and 500o e, about 5-15% of the total amount of oxygen in sodium
+is associated with OH- when the hydrogen concentration is 1 j.1g g-I.13 The addition
+of NaOH to the sodium supplements the existing H- and 0 2- concentrations by
+reacting according to: 14,15
+                                                                                                              (2)
+and
+                                      2Na + NaOH ~ Na20 + NaH.                                                (3)
+    However, the addition of NaOH to untreated sodium can only affect the
+concentration of the principal dissolved non-metallic impurities at temperatures
+above the saturation temperatures for H- and 0 2- of the untreated sodium. These
+saturation temperatures were estimated for the untreated sodium, assuming the
+606                                          P. SKELDON et al.
+
+
+                         600
+
+
+
+                                                   \          •
+                         550           0               \      •
+                                                           ,
+                                       0
+                                                             ,
+                                                              .....
+
+                         500                                 d'"
+
+                                       0
+
+                                                                            c
+                         450                                                0
+                                                                            +­
+                  "
+                 0..                                                        Vl   <11
+                                                                                 en
+                 :l:                                                        C
+                                                                            a ac
+                                                                            L
+                                                                            +­
+                  .
+                                                                                 L
+                  '"'"   400
+                  ....
+                 ....
+                 VI
+
+
+
+
+                         350
+
+
+
+                         300                                                                 o
+
+
+
+                         250;------,,------,------+------+------,
+                               300     350         400                450              500       550
+
+                                               Temperature (.( I
+      FIG. 11. The results of constant load tests of 9Cr steel in sodium containing 5 wlo NaOH.
+      (Tests of unfailed specimens stopped at 100 h, except *500 h; solid circles indicate fracture.)
+
+
+worst-case possible contamination of the sodium from the glovebox atmosphere and
+adsorbed moisture and passive films on the specimens, to be 280°C and 400°C for
+hydrogen and oxygen, respectively. The latter was consistent with a value of 335°C
+deduced from the oxygen concentration in sodium of 150l1g g-], that had been
+measured for one specimen tested at 400°C, by the distillation technique. 8 Since less
+than 1 w/o NaOH provides sufficient hydrogen and oxygen to saturate the sodium
+with both H- and 0 2 - at 400°C the sodium environments that were formed at 400°C,
+by addition of 1-50 w/o NaOH, were essentially invariant, i.e. saturated with both
+H- and 0 2 -. This explains the similar effects of the environments on LME of the
+steel. The susceptibility of the steel to LME in deliberately contaminated environ­
+ments was also practically the same as that in untreated sodium, indicating that
+sufficient non-metallic impurities were already available in the untreated sodium and
+that further increases in their concentrations through additions of NaOH were
+unimportant.
+    Cold-trapping and hot-trapping the untreated sodium, both of which are effective
+means ofreducing the H- and 0 2 - concentrations in liquid sodium, ]6,17 decreased
+the susceptibility of the steel to LME. The results suggested that the threshold
+                           Liquid metal embrittlement of 9Cr steel                    607
+
+concentrations of non-metallic impurities in sodium for initiating LME are similar at
+150 and 400°C, i.e. ~0.2.ug g-I of hydrogen or ~8.ug g-I of oxygen at 150°C, and
+~0.6.ugg-1 of hydrogen or ~15.ugg-1 of oxygen at 400°C. (These values were
+derived from the solubilities of hydrogen and oxygen in the isothermal test in sodium
+containing 5 wlo NaOH at 150°C, and from the cold-trapping experiment at a
+saturation temperature of 180°C.) Note, however, that the activities of the impurities
+at these threshold concentrations are higher at the lower temperature. The concen­
+tration of hydrogen in the sodium following hot-trapping was not determined, but
+would certainly have been less than these threshold levels; while in the authors'
+experience this treatment reduces the oxygen concentration in sodium below the
+limit of detectability by the distillation technique, i.e. < l.ug g-I.
+    The effect of temperature on the susceptibility to LME in sodium, to which 5 wlo
+NaOH had been added prior to testing, can be related to the increase in the solubility
+of non-metallic impurities with increase in the sodium temperature and the acceler­
+ation of thermally driven processes in the LME mechanism. The latter presumably
+includes the supply of non-metallic impurities to the crack tip by diffusion and
+possibly the diffusion away from the crack tip of reaction products, which may well
+control the crack growth rate. The crack growth rate increased with the applied strain
+rate, possibly partly due to the higher stresses during crack growth at the faster strain
+rates because of the greater crack initiation strains. The sharp transition in behav­
+iour, that occured at ~450°C, was coincident with the onset of stress relaxation
+during the slow strain rate tests, which was evident by a reduction in work hardening
+to a relatively low level above the transition temperature. Testing at a higher strain
+rate diminished the effect of stress relaxation and hence caused the transiton to occur
+at a higher temperature. Further, in the vicinity of the transition temperature, the
+tensile strength of the steel was declining relatively rapidly such that a critical stress
+level for LME may not have been attainable above the transition temperature.
+    The condition of the steel surface following exposure to the sodium environments
+was not examined in detail. At lower temperatures the steel emerged with a very
+bright metallic appearance, but at the highest temperature, it appeared matt grey
+due to corrosion of the surface. No significant studies have been reported of the
+corrosion of steels by sodium at low temperatures, relevant to the temperature range
+of LME of 9Cr steel, primarily because it has not been of any great technological
+interest. However, it is clear from the results of corrosion tests in flowing sodium at
+higher temperature that the corrosion rates must be exceedingly low over much of
+the temperature range of current concern. If!
+    During the initial stages of exposure, liquid sodium would have reduced the pre­
+existing passive film on the steel. Thereafter, sodium chromite, a relatively insoluble
+phase, and soluble iron species would form by reaction of the steel with the oxygen
+and sodium. 19.20 Sodium ferrate films are not expected to form under the current test
+conditions,21 although some doubts have been expressed about the reliability of the
+thermodynamic data. 22 It seems unlikely that a continuous layer of sodium chromite
+would develop, particularly at low temperature, because of the low concentration of
+chromium in the alloy.23 Non-metallic species in the sodium could be chemisorbed
+on exposed areas of the steel surface, possibly forming a dipolar layer with sodium.
+Structured layers of Na-O have been reported on transition metals in other
+contexts. 24 If the relevant non-metallic species was oxygen, such a layer may be a
+pre-cursor to iron corrosion which is thought to occur via a soluble Fe-O-Na
+608                                P. SKELDON et al.
+
+complex. 2o Certainly sodium chromite is not essential to LME since in unpublished
+work the authors have shown that cracking of both lower chromium and chromium­
+free steels can also occur in impure sodium environments. The subsequent possible
+effects of adsorption/chemisorption processes in LME have been well-discussed in
+the literature with respect to both enhanced shear and decohesion models. 1-3.25
+    Since the corrosion of iron is thermally activated and dependent on the concen­
+tration of oxygen in sodium 18 it is possible that crack growth may occur by a
+dissolution mechanism. The corrosion rates on unstrained ferrous alloys are far too
+low to account for the observed crack growth rates, however, and therefore
+dissolution would have to be accelerated at the crack tip possibly by mechanisms
+analogous to those proposed by Galvele for stress corrosion 26 and by Robertson for
+LME.27 Time-dependent processes appear to be involved in crack initiation since the
+fracture strain in sodium environments was found to decrease with decrease in the
+strain rate and hence increasing test duration. This suggests that a chemical step may
+be important to crack initiation. One possibility may be preferential corrosion by the
+sodium at lath boundary carbides of the tempered martensite which produces fine
+fissures. This would result in local stress enhancement and assist crack initiation as
+evident by the observed initiation at tube defects. However, carbides do not seem to
+be essential to crack growth since in a lower alloy steel, in which the crack path was
+both intergranular and transgranular, the crack propagated through low carbon
+ferrite grains by cleavage.
+    The main finding of the present work is that LME can be eliminated or reduced in
+sodium by cold- or hot-trapping, indicating that non-metallic impurities are essential
+to LME of steel in liquid sodium. The nature of the experiments precludes
+identifying any particular mechanism of LME, or uneq uivocally confirming a role for
+a particular non-metallic impurity. While the embrittling non-metallic species has
+not been uniquely identified, the weight of evidence possibly favours oxygen rather
+than hydrogen. Oxygen is well-established as an important factor in the corrosion of
+ferrous alloys by liquid sodium and assists their wetting; such processes are promoted
+by an increase in temperature. In contrast, the usual hydrogen embrittlement
+mechanisms cause greatest susceptibility to cracking at lower temperatures. 28
+Another factor of note relevant to the preparation of the environment is the
+relatively high equilibrium partial pressure of hydrogen above H- saturated sodium,
+compared with the equilibrium partial pressure of oxygen above 0 2- saturated
+sodium, which favours retention of oxygen rather than hydrogen by the sodium as a
+result of the reaction with residual moisture in the glovebox atmosphere according
+to:
+                                                                                   (4)
+    At low temperatures, of about 150°C, at which sodium environments were
+poured into specimens, the equilibrium partial pressures of hydrogen and oxygen are
+-2 x 10- 6 atm and -3 x 10- 89 atm and the hydrogen and oxygen solubilities are 0.2
+and 8.ugg-1Y,JO Thus, oxygen will be retained by the sodium, in solution and as
+Na20, while NaH will only precipitate when sufficient hydrogen has been generated
+to reach the saturation partial pressure of hydrogen. If it is assumed that most of the
+oxygen in the sodium is derived from moisture, the equivalent amount of hydrogen
+generated can be calculated. Thus, for a measured oxygen concentration of
+150 .ug g -1 the hydrogen generated could only have increased the partial pressure of
+                              Liquid metal embrittlement of 9Cr steel                            609
+
+hydrogen in the glove box by ~2 x 10- 6 atm, i.e. similar to the equilibrium partial
+pressure for NaH precipitation at 150°C. Therefore it is probable that the H­
+concentration in the sodium was actually < 1 ,ug g -1. If hydrogen was the active
+species, cold-trapping would only have been effective at temperatures below the
+corresponding saturation temperature, i.e. <195°C, which was not the case.
+    The results of the current work are the first conclusive evidence of LME of steel
+by liquid sodium (although 9Cr steel has been found to suffer LME in liquid
+lithium)?9 The successful use, over many years, of low alloy steels in the nuclear
+industry for containing sodium can be explained by the care exercised in the control
+of environmental purity, normally by cold-trapping the sodium, which prevents
+injurious concentrations of impurities arising, and the avoidance of the combination
+of very high stresses and dynamic straining that appear to be necessary to initiate
+LME. Typically, saturation temperatures of sodium in nuclear plants are maintained
+at ~150°C, corresponding to relatively low concentrations of non-metallic impuri­
+ties. The present experimental results for these conditions indicate LME only occurs
+under the severe loading conditions of slow strain rate tests, i.e. in the post-UTS
+region of the stress-strain curve at the approach to the control failure strain, which
+are not relevant to plant design.
+
+                                        CONCLUSIONS
+    1. Under conditions of dynamic straining, 9Cr steel is susceptible to liquid metal
+embrittlement in liquid sodium that is contaminated by non-metallic impurities.
+Cracks are transgranular and have the characteristics of quasi-cleavage. For environ­
+mental purities typical of sodium-cooled nuclear plants, embrittlement only occurs
+under the severe loading conditions of slow strain rate tests, i.e. in the post-UTS
+region of the stress-strain curve at the approach to the control failure strain, which
+are not relevant to the plant design.
+    2. The susceptibility to embrittlement increases with increase of temperature
+between 150 and 450°C. Above this range there is a sharp transition in behaviour and
+LME does not occur. The temperature for this transition moves to a slightly higher
+temperature with increase of strain rate; the transition is coincident with the onset of
+stress relaxation during testing.
+    3. The susceptibility to embrittlement can be eliminated or reduced by cold- or
+hot-trapping indicating that embrittlement is entirely dependent on the presence of
+non-metallic impurities.
+
+Acknowledgement-The work was funded by the U.K. Department of Trade and Industry as part of the
+European Fast Reactor Collaborative Research and Development Programme.
+
+                                         REFERENCES
+ 1. S. P. LYNCH, Mater. Characterization 28,279 (1992).
+ 2. C. F. OLD, Metal Sci. Aug, 433 (1980).
+ 3. N. S. STOLOFF, Environment-induced Cracking of Metals, p. 31. NACE, Wisconsin (1988).
+ 4. M. W. MUCEK and N. N. BREYER, Embrittlement by Liquid and Solid Metals (ed. M. H. KAMDAR), p.
+    133. The Metallurgical Society of AIME (1982).
+ 5. M. H. KAMDAR (ed.), Embrittlement by Liquid and Solid Metals, p. 149. The Metallurgical Society of
+    AIME (1982).
+ 6. D. N. FAGER and W. F. SPURR, Corrosion 26,409 (1970).
+ 7. I. G. DMUKHOVSKAYA and U. U. POPOVICH, Fiz. Khim. Mekh. Mater. 15,64 (1979).
+ 8. J. A. J. WALKER, E. D. FRANCE and W. T. EDWARDS, Analysis 90, 727 (1965).
+610                                        P. SKELDON et al.
+
+ 9. A. W. THORLEY and M. R. HOBDELL, IAEA Int. Working Group on Fast Reactors, Specialists
+    Meeting, Harwell, U.K. (1979).
+10. A. C. WHImNGHAM, J. Nuclear Mater. 60, 119 (1976).
+11. A. W. THORLEY, UKAEA NRL-R-1043(R) (1989).
+12. P. HUBBERSLEY, P. F. ADAMS, R. J. PULMAN, M. G. DOWN and A. E. THUNDER, J. Less Common
+    Metals 49, 253 (1976).
+13. C. A. SMITH and A. C. WHITTINGHAM, Materials Behaviour and Physical Chemistry in Liquid Metal
+    Systems (ed. H. U. BORGSTEDT), p. 365. Plenum Press, Karlsruhe (1981).
+14. A. C. WHImNGHAM, C. A. SMITH, P. A. SIMM and R. J. SMITH, Second Int. Conf. on Liquid Metals in
+    Energy Production, Session 16, p. 38. Richland, Washington (1980).
+15. C. F. KNIGHTS and A. C. WHITTINGHAM, Materials Behaviour and Physical Chemistry in Liquid Metal
+    Systems (ed. H. U. BORGSTEDT), p. 287. Plenum Press, Karlsruhe (1981).
+16. A. W. THORLEY and A. C. RAINE, Int. Symp. on the Alkali Metals, Special Publication No. 22, p. 374.
+    The Chemical Society (1967).
+17. W. HAUBOLD, J. JUNG, K-L. SCHILLINGS, Second Int. Conf. on Liquid Metal Technology in Energy
+    Production, Session 15, p. 1. Richland, Washington (1980).
+18. A. W. THORLEY and C. TYZACK, IAEA Conf. on Alkali Metal Coolants, Vienna, p. 97 (1967).
+19. I. W. CAVELL and M. G. NICHOLAS, J. Nuclear Mater. 95, 145 (1980).
+20. A. W. THORLEY, Materials Behaviour and Physical Chemistry in Liquid Metal Systems (ed. H. U.
+    BORGSTEDT), p. 19. Plenum Press, Karlsruhe (1981).
+21. N. P. BHAT and H. U. BORGSTEDT, J. Nuclear Mater. 158,7 (1988).
+22. A. W. THORLEY, A. BLUNDELL and J. A. BARDSLEY, Materials Behaviour and Physical Chemistry in
+    Liquid Metal Systems (ed. H. U. BORGSTEDT), p. 5. Plenum Press, Karlsruhe (1981).
+23. R. C. NEWMAN, T. M. FOONG and K. SIERADZKI, Carras. Sci. 28, 523 (1988).
+24. G. E. RHEAD, Appl. Surf. Sci. 47,35 (1991).
+25. S. P. LYNCH, Advances in the Mechanics and Physics of Surfaces (eds R. M. LATANISION and T. E.
+    FISCHER), Vol. 2, p. 265. Harwood Academic Publishers (1983).
+26. J. R. GALVELE, Carras. Sci. 27, 1 (1987).
+27. W. M. ROBERTSON, Trans. Metals Soc. AIME 236,1478 (1966).
+28. T. LIVNE, X. CHEN and W. W. GERBERICH, Scripta Metall. 20, 659 (1986).
+29. J. E. CORDWELL, BNES Conf. on Liquid Alkali Metals, p. 177. Nottingham (1973).
+

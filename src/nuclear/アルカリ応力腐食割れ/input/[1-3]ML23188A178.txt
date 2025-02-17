@@ -1,0 +1,2856 @@
+                DANU-ISG-2023-01
+
+Material Compatibility for non-Light Water Reactors
+
+              Interim Staff Guidance
+
+                       2023
+                                      DANU-ISG-2023-01
+
+                     Material Compatibility for non-Light Water Reactors
+
+                                     Interim Staff Guidance
+
+
+
+
+           ADAMS Accession No.: ML23188A178
+OFFICE   NRR/DANU/UTB1           QTE                NRR/DRO/IRAB(PM)   NRR/DANU/UTB1
+NAME     ROber                   Azariah-Kribbs     CCauffman          MAudrain
+DATE     7/12/2023               4/21/2022          7/13/2023          7/12/2023
+OFFICE   NRR/DANU/UTB1/BC        NRR/DNRL/NPHP/BC   RES/DE/CIB/BC      NRR/DANU/UARP/BC
+NAME     GOberson                MMitchell          RIyengar           SLynch
+DATE     7/17/2023               7/14/2023          8/3/2023           7/31/2023
+OFFICE   OGC                     NRR/DANU/D
+NAME     VaiseyB                 MShams
+DATE     9/18/2023               9/18/2023
+                                     OFFICIAL RECORD COPY
+                               INTERIM STAFF GUIDANCE
+
+        MATERIAL COMPATIBILITY FOR NON-LIGHT WATER REACTORS
+
+                                     DANU-ISG-2023-01
+
+PURPOSE
+
+This document provides interim staff guidance (ISG) to assist the U.S. Nuclear Regulatory
+Commission (NRC) staff in reviewing applications for construction and operation of non-light
+water reactor (non-LWR) designs, including power and non-power reactors. The guidance in
+this document identifies areas of staff review that could be necessary for a submittal seeking
+to use materials allowed under American Society of Mechanical Engineers (ASME) Boiler
+and Pressure Vessel Code (ASME Code), Section III, “Rules for the Construction of Nuclear
+Facility Components,” Division 5, “High Temperature Reactors” (Section III-5) (ASME,
+2017). Section III-5 specifies the mechanical properties and allowable stresses to be used
+for design of components in high-temperature reactors (HTRs). However, as stated in
+Section III-5, HBB-1110(g), the ASME Code rules do not provide methods to evaluate
+deterioration that may occur in service as a result of corrosion, mass transfer phenomena,
+radiation effects, or other material instabilities. This ISG identifies information that the staff
+should consider as part of its evaluation of a non-LWR application to review applicable
+design requirements including environmental compatibility, qualification, and monitoring
+programs for safety-related, safety-significant, and, as needed, non-safety-related
+structures, systems, and components (SSCs). The actual information necessary for
+reviewing qualification and monitoring programs would depend on many factors, such as
+plant design, importance to safety of structures, systems, and components, specific
+environments, and maturity of research in a given area. The staff should consider these
+concepts for non-LWR applications for construction permits or operating licenses under Title
+10 of the Code of Federal Regulations (10 CFR) Part 50, “Domestic Licensing of Production
+and Utilization Facilities,” and non-LWR applications for design certifications, combined
+licenses, standard design approvals, or manufacturing licenses under 10 CFR Part 52,
+“Licenses, Certifications, and Approvals for Nuclear Power Plants.”
+
+BACKGROUND
+
+In its review of non-LWR applications, the NRC evaluates whether structural materials will
+allow components to fulfill design requirements for the design life, or that adequate
+surveillance and monitoring programs are in place. Regulations in 10 CFR Part 50 and
+10 CFR Part 52 include requirements for material qualification and performance monitoring.
+The staff identified the need for guidance on appropriate qualification, performance
+monitoring methods, and in-service inspection to support the staff reviews of applications for
+a construction permit or operating license under 10 CFR Part 50 or for a design certification,
+combined license, standard design approval, or manufacturing license under
+10 CFR Part 52 that proposes to use materials allowed under ASME Section III, Division 5.
+
+New fabrication methods present different material considerations for staff reviews. As an
+alternative to conventional manufacturing processes (e.g., forging, castings), an applicant
+may propose components fabricated with advanced manufacturing technologies (AMTs),
+such as laser powder bed fusion or directed energy deposition additive manufacturing.
+These techniques can produce materials with different microstructures or types of defects
+DANU-ISG-2023-01                                                                         Page 2 of 21
+
+
+    than those of conventional metal manufacturing. Postprocessing requirements may also
+    differ. Therefore, it is important that appropriate controls on manufacturing be applied to
+    ensure that components with acceptable properties are manufactured and that proper
+    testing is conducted to confirm material properties. The information related to AMTs that the
+    staff would need to review depends on many factors, including the maturity of the AMT
+    process in codes and standards, applicable precedents, as well as the safety and risk
+    significance of the intended use of the component. The NRC is in the process of developing
+    both generic (NRC, 2021a) and AMT-specific guidelines (e.g., NRC, 2021b) for considering
+    the following elements of a submittal that may use AMT components: quality assurance
+    (QA), AMT process qualification, supplemental qualification testing, production process
+    control and verification, and performance monitoring.
+
+    Non-LWRs present operational environmental challenges to material performance due to
+    differences in operating temperatures and types of coolants from currently operating light
+    water reactors (LWRs). Operating temperatures of non-LWRs may be significantly higher
+    than those currently used in nuclear power plants. Non-LWRs may operate in temperature
+    ranges corresponding to the creep regime in which deformation may occur with applied
+    stress. The NRC developed Regulatory Guide (RG) 1.87, Revision 2, “Acceptability of
+    ASME Code, Section III, Division 5, ‘High Temperature Reactors,’” issued January 2023
+    (NRC, 2023a; NRC, 2023b; NRC, 2022a), which endorses the use of Section III-5, with
+    conditions. Section III-5 considers mechanical and thermal stresses due to cyclic operation
+    and high-temperature creep in air; however, it does not cover degradation that may occur in
+    service as a result of radiation effects, corrosion, erosion, thermal embrittlement, or
+    instability of the material.1 Another consideration is that the coolants used in non-LWRs are
+    significantly different from those used in LWRs. These coolants may be liquid metals (e.g.,
+    sodium, lead), liquid salts with or without fuel, helium, or possibly other coolants not yet
+    considered. These different coolant environments may increase susceptibility to material
+    corrosion, degradation mechanisms, and irradiation effects. Studies have identified the gaps
+    in knowledge that exist for some of these coolant types and the impact on the materials
+    being considered in the construction and operation of these non-LWR nuclear power plants
+    (NRC, 2003; INL, 2006; ANL, 2017; ORNL, 2019; NRC, 2021c; NRC, 2021d; NRC, 2021e;
+    EPRI, 2019a; EPRI, 2019b; EPRI, 2020a; EPRI, 2020b). This ISG provides NRC staff
+    guidance in reviewing materials areas that are not covered by ASME Section III, Division 5.
+    The ISG identifies information the staff should consider in its review related to materials
+    qualification. It also indicates where monitoring and surveillance may be appropriate to be
+    relied upon to ensure component integrity.
+
+    As noted above, the variety of coolants proposed for non-LWR designs create unique
+    operating environments for reactor materials and components. This ISG provides non-
+    plant-specific guidance for non-LWRs in the discussion section below. In addition, Parts 1, 2,
+    and 3 of this ISG provide technology-specific guidance for molten salt reactors (MSRs),
+    liquid metal reactors, and high-temperature gas-cooled reactors, respectively.
+
+    APPLICABILITY
+
+    This ISG is applicable to NRC staff reviews of applications for non-LWR designs, including
+    power and non-power reactors, for permits, licenses, certifications, and approvals under
+    10 CFR Parts 50 and 52. As stated in the Commission’s Policy Statement on the Regulation
+    of Advanced Reactors (73 FR 60612; October 14, 2008), advanced designs are expected to
+
+1      ASME Code, Section III, Division 5, paragraph HAA-1130, “Limits of These Rules”
+DANU-ISG-2023-01                                                                    Page 3 of 21
+
+
+  provide enhanced margins of safety; use simplified, inherent, passive, or other innovative
+  means to accomplish their safety and security functions; or both.
+
+  Qualification of non-Code materials is outside the scope of this ISG. However, if an applicant
+  adequately qualifies a material to Section III Division 5 rules, the staff should ensure the
+  considerations in this ISG are addressed when reviewing compatibility of these materials
+  with the respective environments.
+
+  GUIDANCE
+
+  Current Regulatory Framework
+
+  Under 10 CFR 50.34(a)(3)(i), 10 CFR 52.47(a)(3)(i), and 10 CFR 52.79a(4)(i), applicants
+  must include principal design criteria (PDC) for the facility.
+
+  Appendix A, “General Design Criteria for Nuclear Power Plants,” to 10 CFR Part 50 applies
+  to LWRs but is also considered to be generally applicable to other types of nuclear power
+  units and is intended to provide guidance in establishing the principal design criteria for such
+  units.
+
+  For non-LWRs, RG 1.232, “Guidance for Developing Principal Design Criteria for Non-Light
+  Water Reactors,” issued March 2018 (NRC, 2018), provides proposed guidance for the
+  development of PDCs for non-LWR designs. The RG also describes the NRC’s proposed
+  guidance for modifying and supplementing the general design criteria to develop PDC that
+  address two specific non-LWR design concepts: sodium-cooled fast reactors and modular
+  high-temperature gas-cooled reactors. The following criteria are related to material
+  qualification for structural materials:
+
+  •      Advanced Reactor Design Criterion (ARDC) 4, Sodium Fast Reactor Design
+         Criterion (SFR-DC) 4, and Modular High Temperature Gas-Cooled Reactor Design
+         Criterion (MHTGR-DC) 4 states, in part, that SSCs important to safety shall be
+         designed to accommodate the effects of and to be compatible with the environmental
+         conditions associated with normal operation, maintenance, testing, and postulated
+         accidents.
+
+  •      ARDC 14 states that the reactor coolant boundary shall be designed, fabricated,
+         erected, and tested so as to have an extremely low probability of abnormal leakage,
+         of rapidly propagating failure, and of gross rupture.
+
+  •      ARDC 30, and MHTGR-DC 30 states, in part, that components that are part of the
+         reactor coolant boundary shall be designed, fabricated, erected, and tested to the
+         highest quality standards practical.
+
+  •      ARDC 31 states, in part, that when stressed under operating, maintenance, testing,
+         and postulated accident conditions, (1) the reactor coolant boundary behaves in a
+         nonbrittle manner and (2) the probability of rapidly propagating fracture is minimized.
+
+  •      ARDC 32 states that components that are part of the reactor coolant boundary be
+         designed to permit periodic inspection and functional testing of important areas and
+         features to assess their structural and leak-tight integrity and have an appropriate
+         material surveillance program for the reactor vessel.
+DANU-ISG-2023-01                                                                     Page 4 of 21
+
+
+  •      SFR-DC 71 states, in part, that necessary systems shall be provided to maintain the
+         purity of primary coolant sodium and cover gas within specified design limits.
+
+  •      SFR-DC 74 states, in part, that SSCs containing sodium shall be designed and
+         located to avoid contact between sodium and water and to limit the adverse effects
+         of chemical reactions between sodium and water on the capability of any SSC to
+         perform any of its intended safety functions.
+
+  •      SFR-DC 75 states that components that are part of the intermediate coolant
+         boundary shall be designed, fabricated, erected, and tested to quality standards
+         commensurate with the importance of the safety functions to be performed.
+
+  •      SFR-DC 76 states that the intermediate coolant boundary shall be designed with
+         sufficient margin so that, when stressed under operating, maintenance, testing, and
+         postulated accident conditions, (1) the boundary behaves in a nonbrittle manner and
+         (2) the probability of rapidly propagating fracture is minimized.
+
+  •      SFR-DC 77 states that components that are part of the intermediate coolant
+         boundary shall be designed to permit (1) periodic inspections and functional testing
+         of important areas and features to assess their structural and leak-tight integrity
+         commensurate with the system’s importance to safety and (2) an appropriate
+         material surveillance program for the intermediate coolant boundary.
+
+  Although RG 1.232 does not contain design criteria specifically for MSRs, many of the
+  criteria in the ARDC and some SFR-DC will likely apply to MSRs. Additionally, an applicant
+  using an MSR design may propose additional design criteria not discussed in RG 1.232.
+  Additionally, while RG 1.232 does not explicitly consider non-LWR non-power reactors, the
+  design criteria listed above may be used to inform the development of PDC related to
+  material qualification for structural materials at non-LWR non-power reactors.
+
+  The staff should confirm that sufficient information with regards to materials qualification,
+  mitigation strategies, performance monitoring, and surveillance programs is provided to
+  demonstrate established facility specific PDCs are satisfied.
+
+  Discussion
+
+  Qualification and Performance Monitoring
+
+  This ISG identifies information that the staff should consider during its review of applications
+  using ASME Section III, Division 5 qualified materials. An SSC’s performance should be
+  demonstrated through a combination of materials qualification programs, supplemental
+  testing, and performance monitoring and surveillance programs, which collectively provide
+  assurance that a component will meet the design requirements over its intended design life
+  in the applicable operating environment.
+
+  Quality assurance (QA) is a process followed to ensure that a component adheres to quality
+  requirements (e.g., a program meeting the criteria in Appendix B, “Quality Assurance
+  Criteria for Nuclear Power Plants and Fuel Reprocessing Plants,” to 10 CFR Part 50).
+  Attributes of a QA program include procedures, recordkeeping, inspections, corrective
+  actions, and audits. QA programs establish requirements for process qualification and
+  production process control, and possibly also establish requirements for supplemental
+DANU-ISG-2023-01                                                                               Page 5 of 21
+
+
+    testing, performance monitoring, and surveillance programs. The staff should confirm that
+    an appropriate QA program was followed when reviewing a materials qualification program2.
+
+    The selection of structural materials for the reactor design should consider effects on the
+    materials properties and allowable stresses due to interactions with the operating
+    environment. Materials qualification and monitoring programs should include testing
+    conducted, or use of historical data collected, in an environment simulating the anticipated
+    operating environment for the reactor, including chemical environment, temperatures, and
+    irradiation. It is incumbent upon the applicant to demonstrate that data is directly applicable
+    to the plant design and environment. Testing or historical data should account for
+    uncertainties in the environment, material composition, fabrication methods, and operating
+    conditions. The scope of this testing should include safety-related component materials,
+    safety-significant component materials, and, as needed, non-safety related component
+    materials whose failure could impact critical design functions. Testing should be conducted
+    to determine if materials properties and allowable stresses meet applicable codes and
+    standards or other design requirements. If necessary, appropriate reduction factors should
+    be applied to the materials properties and allowable stresses from the applicable design
+    codes and/or design specifications.
+
+    Performance monitoring and surveillance programs are used in tandem to ensure that the
+    component will continue to meet its design requirements until the end of its intended design
+    life. While performance monitoring typically consists of inspections or examinations to
+    confirm adequate performance and to identify unacceptable degradation, it may also include
+    aging management programs or post-service evaluations. Examples of this type of
+    performance monitoring that could be appropriate include chemistry, temperature, or flow
+    monitoring, as well as wall thickness measurements. Surveillance programs include
+    examination of test coupons and components removed from the reactor over the licensed
+    operating period. Data gathered from surveillance programs provides physical data which is
+    then used to help construct and benchmark models for predicting the degradation of
+    components within the reactor. For components for which there is little data on performance
+    in similar operating environments and conditions, performance monitoring and surveillance
+    programs could be an acceptable way to show that the component will maintain its intended
+    function throughout the design life. A component with a significant design margin or one that
+    has demonstrated acceptable performance under similar operating environments and
+    conditions may require less rigorous performance monitoring and surveillance programs.
+    The staff review should include performance monitoring and surveillance programs for SSCs
+    that are not planned to undergo periodic inspections and/or functional testing.
+
+    Qualification and performance monitoring should be targeted to provide a holistic aging
+    management strategy over the intended design life of the components. ASME Section XI-2
+    provides one method for developing a comprehensive aging management strategy, subject
+    to NRC acceptance of the proposed program. The NRC endorsed ASME Section XI-2,
+    subject to certain conditions, for use by non-LWR applicants and licensees in RG 1.246,
+    “Acceptability of ASME Code, Section XI, Division 2, ‘Requirements for Reliability and
+    Integrity Management (RIM) Programs for Nuclear Power Plants,’ for Non-Light Water
+
+2
+    While a quality assurance program description is not required to be submitted or approved as part of
+    a non-power reactor operating license application, as part of its review of an application, the staff will
+    determine whether a non-power reactor applicant considered how to appropriately qualify materials to
+    support the design and licensing of facilities as part of the development of managerial and
+    administrative controls to be used to assure safe operation, as required by 10 CFR 50.34(b)(6)(ii).
+DANU-ISG-2023-01                                                                    Page 6 of 21
+
+
+  Reactors,” issued October 2022 (NRC, 2022b). ASME Section XI-2 requires an applicant to
+  develop strategies for inspection, monitoring, and repairing SSCs throughout the design
+  lifetime. Although RG 1.246 proposes one method the NRC finds acceptable, applicants
+  may propose other methods.
+
+  General Degradation Mechanisms
+
+  Below are degradation mechanisms that are likely to apply across different reactor designs,
+  operating environments, and materials. The degradation mechanisms identified reflect the
+  current state of knowledge. As additional operating experience and laboratory testing
+  become available, the way in which each identified degradation mechanism should be
+  addressed may change and new degradation mechanisms may be identified. In the
+  meantime, the staff should evaluate whether applicants have adequately addressed the
+  following general degradation mechanisms for various reactor environments.
+
+  Carburization
+
+  Formation of chromium carbides promotes carburization of structural alloys which can
+  increase degradation rates of these materials (Chan 2018, NRC, 2003, NRC 2021d, NRC
+  2021e Sridharan, 2019). As noted in the design specific appendices below, there are
+  different causes for carburization or decarburization depending on the environment and
+  other materials present in the design. The staff should review interactions between graphite
+  and carbon impurities in the coolant with metals to ensure that qualification, monitoring,
+  surveillance, or inspection programs address potential carburization.
+
+  Corrosion
+
+  The staff should ensure that corrosion is assessed as a function of temperature; time;
+  microstructure; coolant composition and chemistry; and coolant flow conditions, including,
+  as appropriate, synergistic effects of irradiation. Additionally, localized corrosion, galvanic
+  effects, leaching, erosion/wear, and coolant solubility-driven corrosion effects should be
+  considered. The staff should confirm that applicants also considered appropriate mitigation
+  strategies, performance monitoring, and surveillance programs to ensure that SSCs affected
+  by corrosion continue to satisfy the design criteria for the facility.
+
+  Creep and Creep-Fatigue
+
+  The staff should ensure that changes to the materials properties and allowable stresses of
+  ASME Code Section III-5, or other applicable design codes, are assessed as a function of
+  irradiation time, temperature, and environment. Affected properties include the time-
+  dependent allowable stress (St), rupture stress (Sr), creep-fatigue diagram, fatigue curves,
+  and isochronous stress-strain curves. The staff should verify that applicants also consider
+  appropriate mitigation strategies, performance monitoring, and surveillance programs to
+  ensure that SSCs affected by creep-induced degradation mechanisms continue to satisfy
+  the design criteria.
+DANU-ISG-2023-01                                                                    Page 7 of 21
+
+
+  Environmentally Assisted Cracking
+
+  The staff should ensure that environmentally assisted cracking mechanisms are assessed,
+  including stress corrosion cracking (SCC), intergranular cracking (IGC), and fatigue
+  cracking. Based on operating experience and laboratory studies conducted in LWRs, it is
+  expected that environmentally assisted cracking is most likely to be significant in weld metal
+  or in the heat-affected zone. It is important that component design minimizes the potential
+  for crack initiation and that that there is sufficient flaw tolerance to fabrication and service
+  cracking. The staff should verify that applicants also consider appropriate mitigation
+  strategies, performance monitoring, and surveillance programs to ensure that SSCs affected
+  by environmentally assisted cracking continue to satisfy the design criteria.
+
+  Flow-Induced Degradation (e.g., Abrasion, Erosion, Cavitation)
+
+  The staff should ensure that abrasion and erosion of SSCs in contact with the coolant are
+  assessed as a function of temperature, time, microstructure, coolant composition and, as
+  appropriate, chemistry and coolant flow conditions. In addition to potentially undergoing
+  activation, thus contributing to the coolant’s activation level, erosion products from SSCs
+  have the potential for depositing elsewhere in the coolant flow path, affecting coolant flow
+  patterns and local heat transfer properties. Additionally, staff should ensure pumps are
+  qualified and tested under operating conditions and coolant flow paths and flow rates are
+  evaluated to minimize the potential for cavitation. The staff should confirm that applicants
+  also consider appropriate mitigation strategies, performance monitoring, and surveillance
+  programs to ensure that SSCs affected by abrasion and erosion continue to satisfy the
+  design criteria.
+
+  Flow-Induced Vibration
+
+  The staff should evaluate the effects of coolant flow-induced vibrations, which may cause
+  fretting and fretting-assisted fatigue. In addition, the staff should confirm that the flow-
+  induced excitations do not have a frequency close to the natural frequency of the system.
+  The staff should confirm that applicants also considered appropriate mitigation, performance
+  monitoring, and surveillance programs to ensure that SSCs affected by flow-induced
+  vibration continue to satisfy the design criteria.
+
+  Irradiation
+
+  The staff should evaluate data on the effects of neutron irradiation on materials, including
+  mechanisms such as irradiation-assisted creep, irradiation embrittlement, irradiation
+  assisted SCC, helium embrittlement (Briggs, 1969), and decreased resistance to oxidation.
+  The staff should also evaluate the potential for irradiation-induced swelling in alloys,
+  particularly for alloys containing appreciable amounts of nickel. Asymmetrical irradiation can
+  potentially change component dimensions or mechanical properties such that they no longer
+  meet their design function(s). As such, irradiation effects on such components must be
+  considered. In addition, the staff should consider how activation and fission products in the
+  coolant may accelerate or introduce new irradiation-assisted degradation mechanisms. The
+  staff should verify that applicants also consider appropriate performance monitoring and
+  surveillance programs to ensure that SSCs affected by irradiation continue to satisfy the
+  design criteria. Test specimens within the reactor that can be withdrawn (e.g., coupon
+  specimens irradiated during reactor operations) and tested throughout the operating phase
+DANU-ISG-2023-01                                                                    Page 8 of 21
+
+
+  of the reactor could be an appropriate supplement to a materials qualification program; for
+  example, to support longer lifetimes or supplement areas with minimal existing data.
+
+  Guidance related to the irradiation and oxidation of graphite is provided in RG 1.87, Rev 2
+  “Acceptability of ASME Code, Section III, Division 5, ‘High Temperature Reactors,’” issued
+  January 2023 (NRC, 2023a), which endorses ASME Code Section III, Division 5, subject to
+  limitations and conditions. NUREG-2245, “Technical Review of the 2017 Edition of ASME
+  Code, Section III, Division 5, ‘High Temperature Reactors,’” issued January 2023 (NRC,
+  2023b), contains the technical basis for RG 1.87. It should be noted that, in general,
+  irradiation induced changes to graphite material properties will undergo a reversal (i.e.,
+  increasing values will change to decreasing values) with increasing received neutron dose
+  after reaching the “turnaround dose”. Turnaround dose is the critical dose level where this
+  change occurs and indicates when the graphite material irradiation induced dimensional
+  volumetric densification reverses to a volumetric expansion behavior. For example, the
+  strength of irradiated graphite will increase gradually as the dose increases up to the
+  turnaround dose and then will rapidly decrease as dose continues to increase. The
+  exception to this irradiated material behavior is thermal diffusivity, which experiences an
+  immediate and significant decrease in value followed by a gradual decrease in value with
+  increasing accumulated dose after reaching the turnaround dose.
+
+  Stress Relaxation Cracking
+
+  The staff should ensure that the potential for stress relaxation cracking (SRC) is assessed.
+  As per RG 1.87, applicants should submit a plan for addressing SRC. Also called “reheat
+  cracking,” SRC is a mechanism that causes accelerated creep cracking in the weld
+  heat-affected zone due to relaxation of residual stresses. It can lead to premature failure of
+  components in high-temperature service. Several factors, including, but not limited to, weld
+  residual stresses, cold work, larger grain sizes, multiaxial stresses, notches, and constraints
+  caused by the weld joint design, promote SRC. SRC occurs in austenitic alloys within
+  specific temperature ranges characteristic for each individual alloy (Colwell and Shargay,
+  2020; Shoemaker et al., 2007; van Wortel, 2007; Miller, 1998; API, 2017; NRC, 2019;
+  ASME, 2020; ASME, 2021). Factors to reduce susceptibility include heat treatments, control
+  of alloy composition, control of grain size, and controls on welding (Colwell and Shargay,
+  2020; van Wortel, 2007; Shoemaker et al., 2007). The staff should confirm that applicants
+  consider appropriate preventive measures during design, construction, and operation, such
+  as in the event of post-startup weld repairs.
+
+  Thermal Aging
+
+  The staff should evaluate whether the application adequately addresses the effects of
+  thermal aging on metallic components over the design life of the reactor. Microstructural
+  changes as a result of thermal aging are known to result in changes to the mechanical
+  properties of metallic alloys—specifically, a decrease in ductility and fracture toughness.
+  Thermal aging may also result in a decrease of corrosion resistance due to the formation of
+  metallic carbides involving elements expected to form protective oxide layers.
+
+  The staff should verify that applicants consider appropriate mitigation strategies,
+  performance monitoring, and surveillance programs to ensure that SSCs affected by thermal
+  aging continue to satisfy the design criteria. If surveillance testing coupons are to be used to
+  measure the effect of thermal aging on the mechanical properties of metallic components,
+DANU-ISG-2023-01                                                                     Page 9 of 21
+
+
+  the conditions chosen should be the most conservative, which may not necessarily be at the
+  highest operating temperatures.
+
+  Thermal Emissivity
+
+  Emissivity is important in calculating heat transfer during operation and accident scenarios,
+  and generally, higher emissivity is desired to assist in radiating heat (NRC, 2021c). Surface
+  roughness can affect emissivity. In addition, the thermally grown surface oxide or carbide
+  can affect emissivity.
+
+  The staff should confirm that applicants have considered the impact of exposure to the
+  coolant or ambient air at elevated temperatures on the emissivity of materials if the reactor
+  design specifications rely on thermal emissivity (e.g., for heat rejection). Considerations
+  should include changes to emissivity due to prolonged exposure during normal operating
+  conditions and changes induced under accident conditions.
+
+  Thermal Fatigue and Transients
+
+  The staff should evaluate whether an application adequately addresses thermal fatigue and
+  transients. These include: (1) the effects of startup testing, which may introduce additional
+  thermal fatigue damage for which the plant was not designed; (2) the potential for thermal
+  striping and thermal stratification, which may occur when coolant streams at different
+  temperatures mix in the vicinity of a component (e.g., a heat exchanger or nozzle); and (3)
+  load following, which may increase the potential for thermal fatigue. To minimize the
+  potential for thermal striping or stratification, the staff should ensure that the application
+  addresses the system design and operational criteria for components with the potential of
+  thermal expansion mismatch caused by the mixing of coolant flows at different
+  temperatures. The staff should ensure that very high cycle fatigue due to thermal striping
+  has been adequately addressed by the applicant.
+
+  The staff should also consider potential thermal transients (including startup and shutdown)
+  and the impacts on the reactor that are not addressed through ASME Code design rules.
+  For example, operational experience has shown that thermal transients in HTRs can loosen
+  shrink-fit components. The staff should confirm that applicants also consider appropriate
+  mitigation strategies, performance monitoring, and surveillance programs to ensure that
+  SSCs affected by thermal fatigue and transients continue to satisfy the design criteria.
+
+  The staff should verify that, whenever applicable, synergistic effects of thermal fatigue,
+  vibratory fatigue, and creep-fatigue are addressed by the applicant.
+
+  Coolant Flow, Wear, and Fretting
+
+  The staff should consider the potential impacts of the specific coolant environment on wear
+  and fretting, particularly in heat exchangers and steam generators. Reactor operation may
+  be affected by tribological effects such as friction, wear and fretting. Depending on the
+  reactor design, the interaction between the coolants (as a result of wear and fretting) in the
+  primary, secondary, and steam-generating loops may have adverse consequences for the
+  reactor. For example, fretting of steam generator tubing in sodium fast reactors has
+  historically caused tube leaks that resulted in highly exothermic sodium-water reactions.
+DANU-ISG-2023-01                                                                    Page 10 of 21
+
+
+  Due to the soft nature of graphite and composite core components, the coolant flow as well
+  as any entrained particles in the coolant may induce wear. Important factors for the staff to
+  consider during its review include the coolant density, coolant velocity, and whether dust or
+  small particulates from previous wear could be present.
+
+  General Materials Issues
+
+  Below are materials topics that are likely to apply to a variety of reactor designs, coolants,
+  and materials. The issues identified reflect the current state of knowledge. As additional
+  operating experience and laboratory testing become available, the way in which each
+  identified issue should be addressed may change and new issues may be identified. The
+  staff should evaluate whether applicants have adequately addressed the following design
+  neutral materials issues as appropriate for their specific application and design.
+
+  Advanced Manufacturing Technologies
+
+  The staff should evaluate whether an application containing AMT components considers
+  (1) the differences between the AMT and traditional manufacturing methods; (2) the safety
+  significance of the identified differences; (3) the aspects of each AMT that are not currently
+  addressed by codes and standards or regulations; and (4) the impacts of the proposed
+  reactor type, operating conditions, and material on the AMT qualification and performance. It
+  is particularly important that an application fully addresses AMT material performance at
+  high temperatures. Limited studies have shown long-term creep, fatigue, and creep-fatigue
+  properties may be reduced compared to wrought material values (INL 2020, INL 2021). The
+  staff should confirm that applicants also consider appropriate mitigation strategies,
+  performance monitoring, and surveillance programs to ensure that SSCs fabricated by
+  AMTs continue to satisfy the design criteria.
+
+  Metallic Materials Qualification
+
+  The staff should verify that metallic materials to be used in structural components in all
+  reactor designs have been qualified for use in a representative environment. Specifically, the
+  metallic materials should be tested under conditions representative of the anticipated
+  operating environment in terms of temperature, impurity levels, and the potential for
+  oxidation, carburization, decarburization, and other degradation mechanisms, as
+  appropriate, resulting from the reactor environment. The staff should review metallic
+  cladding (ORNL, 2021) to ensure it is qualified in a representative environment with
+  additional considerations given to adherence to their metallic substrate and galvanic
+  coupling. The staff should confirm that applicants also consider appropriate mitigation
+  strategies, performance monitoring, and surveillance programs to ensure that metallic
+  materials and coatings continue to satisfy the design criteria.
+
+  Ceramic Insulation
+
+  The staff should evaluate whether an application adequately addresses environmental
+  effects of ceramic insulation. The staff should confirm an application considers chemical
+  compatibility of ceramic insulation with the coolant (Sauvage, 1979) and the potential for off-
+  gassing from ceramic insulation. The staff should be aware that off-gassing may affect the
+  performance of sensors located near the insulation during operational, anticipated
+  operational occurrences and accident conditions (Guidez, J. and Prèle, G., 2017).
+DANU-ISG-2023-01                                                                    Page 11 of 21
+
+
+  Dissimilar Metal Welds
+
+  Section III-5 provides stress rupture factors to account for the reduced creep strength of
+  welds for the five materials approved for use in Class A, high-temperature components, but
+  these factors do not generally apply to dissimilar metal welds (DMWs), such as welds
+  between ferritic low-alloy steels and austenitic alloys. These bimetallic welds may have
+  creep lifetimes less than those of either the ferritic low-alloy steel or austenitic alloy
+  (EPRI, 2020a). Different coefficients of thermal expansion for the weld constituents and
+  high-temperature solid-state diffusion driven compositional gradients in different alloys are
+  two examples of metallurgical phenomena that can contribute to the reduced lifetime of
+  DMWs. Therefore, the staff should evaluate whether the potential lower lifetimes of DMWs,
+  particularly between ferritic low-alloy steels and austenitic alloys, have been adequately
+  addressed. The staff should verify that applicants have also considered appropriate
+  mitigation strategies, performance monitoring, and surveillance programs to ensure that
+  DMWs continue to satisfy the design criteria.
+
+  Monolithic Silicon Carbide, Carbon-Carbon Composites, and Silicon Carbide Composites
+
+  The thermomechanical properties, irradiation behavior, and corrosion resistance of
+  monolithic silicon carbide (SiC), carbon-carbon composites (C/C) and silicon carbide
+  composites (SiC/SiC), will depend on the manufacturing method, porosity, and chemical
+  purity (ORNL, 1995; Snead, 2007; ORNL, 2018).
+
+  The staff should be aware that nonmetallic composites have the potential for use in non-
+  LWR designs. The 2021 edition of ASME Section III, Division 5, provides a qualification
+  program for nonmetallic composites, which the staff should consider in the review of these
+  materials; however, the staff has not reviewed or endorsed this portion of the Code at the
+  time of writing this ISG (ASME, 2021).
+
+  The variability of properties of SiC/SiC will include all the processing parameters affecting
+  monolithic SiC for the constituent parts of the composite, e.g., the fibers, matrix, and
+  fiber/matrix interface in addition to synergistic effects between the constituent parts of the
+  composite.
+
+  The NRC staff should review the compatibility of composites with the coolant environment
+  based on the factors discussed above. The staff should confirm that applicants consider
+  appropriate monitoring, and surveillance programs to ensure that SSCs fabricated with
+  these composites continue to satisfy the design criteria.
+
+  Gaskets and Seals
+
+  The staff should verify when reviewing the application that all gaskets and seals are
+  chemically compatible with the coolant and consider the consequences of corrosion
+  products from the gaskets and seals entering the coolant as well as the consequences of
+  gasket/seal failure on the reactor operation. The staff should also verify that applicants
+  consider appropriate mitigation, performance monitoring, and surveillance programs to
+  ensure that gaskets/seals in contact with coolant continue to satisfy the design criteria.
+DANU-ISG-2023-01                                                                      Page 12 of 21
+
+
+  Reactor-Specific Guidance, Part 1: Molten Salt Reactors
+
+  Below are additional degradation considerations likely to apply to MSRs that the staff should
+  consider in its review. MSR designs fall into two categories: liquid fuel and solid fuel. In a
+  liquid-fuel MSR, the fissile material is directly dissolved in the coolant. In a solid-fuel MSR,
+  the fissile material and fission products are typically contained within a TRISO (tristructural
+  isotropic particle fuel) fuel particle, which could be in a prismatic graphite compact or
+  pyrolytic graphite sphere. Additionally, relatively small quantities of fission products may be
+  present in the molten salt coolant. MSRs can use a fast neutron or thermal neutron
+  spectrum. Both types of MSR designs operate at near ambient pressures. Molten salt is
+  generally corrosive to traditional metallic SSCs. Corrosion can be enhanced by galvanic
+  coupling and, in the case of liquid-fuel MSRs, interactions with fissile material and fission
+  products. The Molten Salt Reactor Experiment prototype at Oak Ridge National Laboratory
+  is the only reported example of an operational power MSR (EPRI, 2019a). This section
+  offers details on the design and/or environment specific aspects of the general degradation
+  mechanisms described in the “General Degradation Mechanisms” section above. The staff
+  should evaluate whether applicants have adequately addressed the following materials
+  issues, including plans to monitor, evaluate, and mitigate degradation.
+
+  Graphite
+
+  Graphite-salt compatibility considerations include fluorination of the graphite and formation
+  of carbides (uranium carbide, chromium carbide, and others), as well as potential infiltration
+  of molten salt into the graphite (NRC, 2021d). The staff should confirm that graphite
+  qualification, monitoring, surveillance, or inspection programs address any potential
+  chemical compatibility issues, as applicable.
+
+  Formation of chromium carbides promotes carburization of structural alloys, which can
+  increase degradation rates of these materials (Chan 2018, NRC 2021d). The staff should
+  review interactions between graphite and metals to ensure that qualification, monitoring,
+  surveillance, or inspection programs address potential carburization.
+
+  The staff should evaluate whether the application adequately addressed the potential for
+  formation of uranium and other metal carbides on graphite, and subsequent deleterious
+  effects on reactor materials (EPRI, 2019a; NRC, 2021d).
+
+  The staff should evaluate whether the application adequately addressed the potential for
+  enhanced corrosion caused by graphite in contact with metallic materials. Increased
+  corrosion of the stainless steel has been observed when graphite and 316L stainless steel
+  are present in the same electrochemical environment (Qiu et al., 2020).
+
+  The staff should evaluate whether the application adequately addressed whether the
+  porosity or grain size of the graphite components allows for salt infiltration. If so, the effects
+  of salt intrusion into the graphite should be assessed to determine if this causes any
+  cracking or flaw generation in the graphite, thereby shortening the effective life of the
+  graphite.
+
+  The staff should evaluate whether the application adequately addressed the potential for
+  molten salt to accelerate the wear, abrasion, and/or erosion between graphite components.
+  The staff should verify that applicants also considered appropriate mitigation strategies,
+DANU-ISG-2023-01                                                                     Page 13 of 21
+
+
+  performance monitoring, and surveillance programs to ensure that SSCs fabricated with
+  graphite continue to satisfy the design criteria.
+
+  Materials Considerations
+
+  The staff should evaluate whether the application adequately addressed the potential for
+  additional degradation concerns in liquid fueled MSRs when the fissile material is dissolved
+  in the coolant. Fission products will also contribute to the contaminants in the liquid salt and
+  must be considered in the effects on materials wetted by the salt.
+
+  The staff should evaluate whether the application adequately addressed the potential for
+  tellurium (Te)-induced cracking in structural alloys and evaluate mitigation strategies,
+  performance monitoring, and surveillance programs to ensure that SSCs satisfy the design
+  criteria. Te has led to IGC of nickel-based alloys (ORNL, 1977; ORNL, 1978). Based on
+  electron probe microanalysis, X-ray diffraction, and transmission electron microscopy
+  (Ignatiev, 2013), Te-induced IGC is likely caused by preferential diffusion of Te along the
+  grain boundaries, followed by formation of the brittle metallic telluride compounds on the
+  grain boundaries and the interface of intergranular carbides.
+
+  The staff should evaluate whether the application adequately addressed whether radiation
+  damage to the molten salt could increase its corrosivity due to radiolytic decomposition of
+  the salt over applicable temperature ranges, which may lead to deleterious effects on
+  structural performance. Recombination rates were shown to be fast relative to radiolytic
+  decomposition at high temperatures but not at lower temperatures (ORNL, 1970).
+
+  The staff should evaluate whether the application adequately addressed whether corrosion
+  products from structural alloys could affect degradation rates for SiC/SiC composites used
+  as structural components (excluding fuel, as this is not within the scope of this guidance).
+  For example, chromium carbides may be formed by Cr3+ from Hastelloy N which may cause
+  accelerated corrosion of SiC (ORNL, 2018).
+
+  The staff should confirm that applicants also considered appropriate mitigation strategies,
+  performance monitoring, and surveillance programs to ensure that SSCs in all environments
+  continue to satisfy the design criteria.
+
+  Salt Composition
+
+  The staff should evaluate whether the application adequately addressed the effects of salt
+  composition on the degradation of metallic and nonmetallic materials due to molten salt,
+  which may lead to deleterious effects on structural performance due to increasing the
+  likelihood of crack initiation or a reduction in strength or ductility. The staff should consider
+  the effects of oxidizing impurities, as well as the impact of reducing agents. Oxidizing
+  impurities include fission products (although these may be limited in a fluoride salt cooled
+  high-temperature reactor design), as well as water and air, and tritium for salts that contain
+  lithium (EPRI, 2019a; NRC, 2021d). Tritium can increase the corrosivity of a lithium-bearing
+  molten salt (NRC, 2021d) by forming tritium fluoride.
+DANU-ISG-2023-01                                                                 Page 14 of 21
+
+
+  The staff should also evaluate whether the application adequately considered the
+  effectiveness of methods to control salt composition and the redox chemistry of the salt
+  (Olander, 2002). These could include the following:
+
+     •       gas phase control (e.g., HF/H2)
+     •       major metal control (e.g., Be2+/Be)
+     •       dissolved salt control (e.g., U4+/U3+ or Ce3+/Ce4+)
+
+  The staff should verify that applicants considered appropriate mitigation strategies,
+  performance monitoring, and surveillance programs to ensure that salt composition does not
+  exceed allowable limits that are needed to ensure that component integrity satisfies the
+  design criteria.
+
+  Reactor-Specific Guidance, Part 2: Liquid Metal Reactors
+
+  Liquid metal reactors are characterized by their operation at or near ambient pressure using
+  a fast neutron spectrum in which the fuel, with metallic cladding, is cooled by liquid sodium,
+  lead, or the lead-bismuth eutectic ((LBE, 44.5 wt% Pb and 55.5 wt% Bi)). The sodium-
+  cooled fast reactor (SFR) has had decades of experience at the experimental, prototype,
+  and commercial scales. The lead fast reactor (LFR) uses liquid lead or LBE as the coolant
+  (EPRI, 2019b) and the design concepts span a range of operating temperatures from 550–
+  800 degrees C. To date, operational experience with LFRs is limited to the development of
+  LBE-cooled reactors for the Alfa-class submarines operated by the Soviet Union from 1967–
+  1983 (EPRI, 2019b; Alemberti, 2014; IRSN, 2012,). More recently, however, construction
+  began on the first prototype lead-cooled reactor, the BREST-OD-300, in 2021 in the Russian
+  Federation (Proctor, 2021). This section offers details on the design and/or operating
+  environment-specific aspects of the general degradation mechanisms described in the
+  “General Degradation Mechanisms” section above.
+
+  Sodium Coolant
+
+  Below are additional degradation considerations likely to apply to sodium-cooled liquid metal
+  reactors that the staff should consider in its review. The staff should evaluate whether
+  applicants have adequately addressed these considerations. The staff should also ensure
+  that applicants consider appropriate mitigation strategies, performance monitoring, and
+  surveillance programs to address these considerations, such that component integrity
+  satisfies the design criteria.
+
+  Caustic Stress-Corrosion Cracking
+
+  The staff should evaluate whether the application adequately addressed the potential for
+  caustic SCC, characterized by transgranular and intergranular cracking of a metal in contact
+  with the caustic solution. For example, in the presence of moisture, metallic sodium forms
+  sodium hydroxide, which can induce caustic SCC in some alloys. Certain components, such
+  as steam generators, are more susceptible to the ingress of moisture and therefore to
+  caustic cracking caused by sodium hydroxide (NRC, 2019). Operational experience of the
+  Phoénix reactor demonstrated austenitic stainless steels used in the steam generator were
+  vulnerable to caustic SCC following small leaks and subsequent repairs (Sauvage, 1979).
+  Higher nickel alloys are less susceptible to caustic SCC (Jones, 1992). The staff should
+  verify that designs minimize the potential for interaction of sodium with water such that the
+  potential for caustic SCC is minimized and that applicants considered appropriate mitigation
+DANU-ISG-2023-01                                                                   Page 15 of 21
+
+
+  strategies, performance monitoring, and surveillance programs to minimize the potential for
+  caustic SCC, to ensure that component integrity satisfies the design criteria.
+
+  Exothermic Reactivity with Water
+
+  The staff should evaluate whether the application adequately addressed the potential for
+  molten sodium to react with water or moisture in the air to confirm that the design
+  demonstrates that the potential for this phenomenon is minimized. Molten sodium
+  undergoes a violent exothermic reaction on contact with water, which is a particular concern
+  in the vicinity of steam generators (NRC, 2021e). Many such incidents from previously
+  operating SFRs are documented (NRC, 2021e). The staff should verify that applicants
+  minimize the potential for a sodium-water reaction through design, and that applicants
+  considered appropriate mitigation strategies, performance monitoring, and surveillance
+  programs to minimize the potential for contact between molten sodium and water or
+  moisture in the air.
+
+  Impurity Effects on Corrosion
+
+  The staff should evaluate whether the application adequately addressed the temperature,
+  flow rate, and impurity limits in the sodium coolant (notably, oxygen and carbon) since these
+  parameters have a significant impact on the corrosion rate of metallic components in contact
+  with the sodium coolant (Thorley and Tyzack, 1967; ANL, 2017; NRC, 2021e), which may
+  lead to deleterious effects on structural performance due to increasing the likelihood of crack
+  initiation or a reduction in strength or ductility. Studies conducted with varied levels of
+  oxygen suggest that, to reduce oxidation and dissolution and maximize the lifetime of
+  structural materials (mainly stainless steels) in SFRs, the oxygen level in sodium should be
+  monitored and controlled to levels acceptable for a specific reactor design (Argonne, 1978,
+  Hanford, 1980, NRC 2021e).
+
+  The staff should be aware that data from short-term (2,000 hours) static testing indicate that
+  SiC/SiC may be resistant to corrosion from high-purity sodium (1 weight parts per million) at
+  550 degrees C, but the corrosion resistance decreases with an increasing concentration of
+  oxygen in the sodium (Braun et al., 2021).
+
+  The staff should evaluate the applicant’s proposed mitigation strategies, performance
+  monitoring, and surveillance programs to ensure that appropriate limits are set and
+  maintained for key parameters for corrosion (e.g., flow rate and impurities, in particular
+  oxygen).
+
+  Liquid Metal Embrittlement
+
+  The staff should evaluate whether applicants have adequately addressed liquid metal
+  embrittlement (LME), as applicable, for metallic components in SFR. Some alloys are
+  susceptible to LME in sodium, such as T91 steel (9Cr-1Mo-V) (Hemery et al., 2013). The
+  staff should evaluate whether proposed mitigation, monitoring, and surveillance programs to
+  manage LME are adequate.
+
+  Carburization and decarburization
+
+  The staff should be aware of the potential sources of sodium impurity corrosion mechanisms
+  such as carbon in the sodium. Decarburization and carburization are both well documented
+DANU-ISG-2023-01                                                                    Page 16 of 21
+
+
+  in sodium reactors. Carbon impurity in the liquid sodium or transferred between materials in
+  the liquid can induce carburization of heat exchangers, structural steels and control fuel rods
+  in the reactor (NRC 2021e). The staff should evaluate that the potential for carburization and
+  decarburization of structural alloys is controlled and to ensure that there are appropriate
+  measures to maintain appropriate liquid sodium during plant design life.
+
+  Lead Coolant
+
+  A “lead-cooled” reactor may use lead (Tmelt, 327.5 degrees C) or LBE alloy (Tmelt,
+  123.5 degrees C) as the coolant. Metallic elements used in structural alloys, including iron,
+  nickel, and chromium, are all soluble in lead or LBE, and that solubility in either coolant is a
+  strong function of temperature (Ballinger and Lim, 2003; EPRI, 2019b). Above a certain
+  temperature threshold, the use of typical ferritic and austenitic steels may require special
+  treatments, such as alloying additions or coatings (EPRI, 2019b). It should be stressed that
+  specific data on the environmental impact of molten lead and LBE on materials are not
+  interchangeable since, for the same temperature, LBE is typically more corrosive than pure
+  lead (NEA-OECD, 2015)
+
+  Below are additional degradation considerations likely to apply to lead-cooled liquid metal
+  reactors. The staff should evaluate whether applicants have adequately addressed the
+  following materials issues, including plans to monitor, evaluate, and mitigate degradation.
+
+  Corrosion at Higher Temperatures
+
+  Many alloys, including those approved for Section III-5 use, can experience high corrosion
+  rates in a lead or LBE environment at higher temperatures, defined here as greater than
+  550 degrees C. For example, rapid corrosion of Type 316 stainless steel occurs above
+  550 degrees C even with tight oxygen control because of the transition from a protective to a
+  nonprotective oxide (EPRI, 2019b). The staff should evaluate an applicant’s supporting test
+  data over the entire range of operating temperatures to ensure that the designer has
+  adequately characterized how the coolant may affect the mechanical properties of materials,
+  including material susceptibility to LME (Gorse et al., 2011).
+
+  Effect of Flow Velocity
+
+  Increasing coolant flow velocities increase the effects of corrosion and should be considered
+  (IRSN, 2012; Ballinger, and Lim, 2003). Studies have shown that decreasing flow velocity
+  can control erosion for lead and LBE (Allen T.R. and Crawford D.C., 2007) and for pure lead
+  coolant (Vogt, J.B. and Proriol Serre, I., 2021). Limiting flow velocities are not absolute but
+  are temperature- and material-dependent. Higher flow velocities may be acceptable,
+  especially for lower operating temperatures. The staff should review temperature, flow
+  velocities and dissolved oxygen to accurately consider the combined effects of erosion and
+  corrosion.
+
+  Liquid Metal Embrittlement
+
+  The staff should confirm that the applicant has adequately addressed the potential for LME
+  of alloys used in lead-cooled reactors. LME is characterized by significant loss of ductility,
+  caused by embrittlement of the grain boundaries of the solid alloy component and can also
+  reduce creep life in some alloys. LME can be severe, depending on the alloy, operating
+DANU-ISG-2023-01                                                                   Page 17 of 21
+
+
+  temperature, and stress level of the affected components (EPRI, 2019b; OECD, 2007;
+  Gorse et al., 2011).
+
+  Exposure to a lead or LBE environment has been shown to degrade the mechanical
+  properties of some alloys, including ductility, fatigue resistance, and creep life.
+  Ferritic/martensitic steels such as T91 (9Cr-1Mo-V) are more severely affected than
+  austenitic steels (Type 316L) (Gorse et al., 2011). The staff should evaluate an applicant’s
+  material selection and supporting data to ensure that the potential effects of the lead or LBE
+  environment on mechanical properties have been adequately addressed.
+
+  The staff should also confirm that the applicant has adequately addressed the effects of
+  previous plastic deformation (e.g., cold work), which may affect the corrosion resistance of
+  an alloy. The severity of dissolution corrosion attack in Type 316L stainless steel was found,
+  in LBE coolant, to increase with increasing percentages of cold work (Klok et al., 2017).
+
+  The staff should verify that the applicant considered appropriate mitigation strategies,
+  performance monitoring, and surveillance programs to minimize the potential for LME such
+  that component integrity satisfies the design criteria.
+
+  Nonmetallic Materials
+
+  SiC/SiC has shown resistance to liquid metal corrosion up to 550 degrees C in 2000 hr
+  corrosion tests in flowing liquid LBE (Takahashi, M. and Kondo, M.). Since experience with
+  nonmetallics in lead or LBE environments is very limited, the staff should confirm that any
+  use of nonmetallic materials in lead or LBE environments is supported by test data for the
+  materials of interest in the relevant environment.
+
+  Oxygen Control
+
+  The corrosion potential of alloys in lead- and LBE-cooled fast reactors is highly dependent
+  on temperature and the dissolved oxygen concentration in the coolants (EPRI, 2019b; Klok
+  et al, 2018. Oxygen control is an important technique to ensure satisfactory performance of
+  structural materials in lead- and LBE-cooled reactors. This technique, widely used in lead-
+  based test facilities worldwide (Tarantino M., et al., 2021), consists of maintaining the
+  oxygen concentration in the coolant within controlled limits. Corrosion rates at temperatures
+  below 450 degrees Celsius are very low, and satisfactory operation in this temperature
+  range can be achieved using many materials, including stainless steels and alloy steels
+  (Ballinger and Lim, 2003). Strict oxygen control is necessary over the relevant range of
+  temperatures and over the entire geometry of the coolant system, including local pockets or
+  regions of off-chemistry coolant anywhere in the system, to maintain the protective oxide
+  layer and avoid dissolution of alloying elements (EPRI, 2019b; Ballinger and Lim, 2003).
+
+  If oxygen concentration exceeds the solubility limits in the lead or LBE coolant, precipitation
+  of lead oxide can occur, which can cause clogging of heat exchangers, as well as other
+  detrimental effects on systems (OECD, 2007; IRSN, 2012). The staff should evaluate
+  whether applicants considered appropriate mitigation strategies, performance monitoring,
+  and surveillance programs to ensure that the dissolved oxygen content in the lead or LBE
+  coolant is controlled so that component integrity satisfies the design criteria.
+DANU-ISG-2023-01                                                                    Page 18 of 21
+
+
+  Reactor-Specific Guidance, Part 3: High-Temperature Gas Reactor
+
+  High-temperature gas-cooled reactors can use helium or carbon dioxide (CO2) coolant;
+  however, reactors that use CO2 as the coolant, such as the Advanced Gas Reactor in the
+  United Kingdom, are not currently expected to be deployed in the United States. Therefore,
+  the following only addresses additional degradation considerations that are likely to apply to
+  helium-cooled high-temperature gas-cooled reactors. Helium-cooled reactor designs under
+  consideration in the United States include the high-temperature gas-cooled reactor (HTGR),
+  the very high-temperature gas-cooled reactor, and the gas-cooled fast reactor (GFR),
+  described in EPRI, 2020a. Common features of these designs include a reactor outlet
+  temperature greater than or equal to 700 degrees Celsius. There is considerable operating
+  experience from previous gas-cooled reactors operating in the United States and overseas
+  (summarized in INL, 2011, and NRC, 2019). All these reactor designs are helium cooled,
+  with the exception of the Advanced Gas Reactor and Magnox reactors in the United
+  Kingdom. This section offers details on the design and/or environment-specific aspects of
+  the general degradation mechanisms described in the “General Degradation Mechanisms”
+  section above. The staff should evaluate whether applicants have adequately addressed the
+  materials issues discussed below.
+
+  Creep-Rupture Strength
+
+  Service in a helium coolant environment has been shown to reduce the creep-rupture
+  strength of structural alloys, in some cases resulting in lower creep-rupture strength than
+  specified in ASME Code Section III-5 (Kim et al., 2013; Corwin, et al., 2008; NRC, 2021c).
+  The staff should ensure that the potential for reduced creep-rupture strength within a helium
+  coolant is accounted for in design analyses. The staff should confirm that applicants also
+  considered appropriate mitigation strategies, performance monitoring, and surveillance
+  programs to ensure that SSCs that could be impacted by lowered creep-rupture strength
+  continue to satisfy the design criteria.
+
+  Emissivity
+
+  Emissivity is important in calculating heat transfer during operation and accident scenarios,
+  and generally, higher emissivity is desired to assist in radiating heat (NRC, 2021c). Surface
+  roughness can affect emissivity. In addition, the thermally grown surface oxide or carbide
+  can affect emissivity on both the inside and outside of HTGR RPV. Within the RPV and
+  primary loop SSCs, chemistry of the helium environment can have a significant effect on
+  emissivity that should be accounted for in heat transfer calculations (NRC, 2021c). The staff
+  should be aware of the potential for impurities in the helium coolant to affect the emissivity of
+  structural alloys, as well as oxidizing impurities and abrasion or coating of metallic surfaces
+  by graphite dust, which are other possible mechanisms for emissivity changes (NRC,
+  2021c). The staff should confirm that applicants also considered appropriate mitigation
+  strategies, performance monitoring, and surveillance programs to ensure that SSCs
+  continue to satisfy the design criteria.
+
+  Graphite
+
+  The staff should confirm that test data used to measure the coefficient of friction for graphite
+  were gathered under conditions representative of operating temperatures and impurities in
+  the coolant. The staff should be aware that the coefficient of friction for graphite is
+  dependent on the graphite grade, temperature, and coolant impurities. The staff should be
+DANU-ISG-2023-01                                                                    Page 19 of 21
+
+
+  aware that impurities in the coolant have the potential to decrease the coefficient of friction
+  (NRC, 2021g).
+
+  Graphite Dust
+
+  The staff should verify that applicants have adequately addressed the impact of graphite
+  dust and debris in the coolant loop, which can be produced from the contact and movement
+  of the pebbles or movement of the graphite blocks caused by temperature gradients, coolant
+  flow, or vibrations (NRC, 2019). Graphite dust accumulations can decrease the efficiency of
+  heat exchanger piping, hinder complete movement of the fuel or the control rod, and
+  agglomerate on piping, clogging the flow of helium (NRC, 2002). Operational experience has
+  demonstrated that graphite dust can also abrade piston rings in helium gas circulators,
+  creating more dust in the primary loop and degrading the performance of the helium gas
+  compressors (NRC, 2019). The staff should also be aware that graphite dust can carry
+  absorbed fission products if fuel failure has occurred. The staff should confirm that
+  applicants also considered appropriate mitigation strategies, performance monitoring, and
+  surveillance programs to ensure that graphite dust is kept at acceptable levels so that SSCs
+  continue to satisfy the design criteria.
+
+  Helium Impurities
+
+  Many operational issues in HTGRs have resulted from moisture intrusion into the helium
+  coolant (NRC, 2019). The staff should therefore carefully evaluate the design aspects or
+  operating practices that control moisture ingress. The main impurities present in helium
+  coolant are water (H2O), carbon monoxide (CO), methane (CH4), hydrogen (H2), and
+  nitrogen (N2). H2O and CO affect oxidation, CO and CH4 affect carburization, and H2O
+  affects decarburization (NRC, 2003; Sridharan, 2019). An Idaho National Laboratory (INL)
+  report shows typical concentrations of these impurities in previously operating VHTRs (INL,
+  2006).
+
+  The staff should be aware of the potential sources and mechanisms of formation of
+  impurities in the helium coolant. H2O and O2 present in the helium react with hot graphite in
+  the core to form CO and H2. CO2 degassing from graphite also converts to CO. Corrosion
+  reactions with alloys may also produce H2 and CO. CH4 can come from the leakage of oils
+  (such as lubricants for circulators) or from the radiolytic reaction of H2 with graphite (NRC,
+  2003; Sridharan, 2019). The staff should identify potential sources of impurities that could be
+  introduced to the gas based on the specific design.
+
+  The staff should evaluate whether there is a favorable environment that leads to a stable
+  oxide film and stable internal carbides (INL, 2006) and avoids excessive carburization,
+  surface carburization, and decarburization. Other environmental factors to evaluate are the
+  effects of temperature, alloy composition, and other impurities (NRC, 2021c). Figure 7 in
+  NRC 2021c shows a schematic of favorable coolant gas characteristics to avoid rapid
+  carburization or decarburization. Carburization can increase creep strength but decrease
+  ductility, while decarburization can decrease lifetime by removing carbide strengthening
+  phases. The staff should evaluate the coolant gas composition to ensure that the potential
+  for carburization, decarburization, and oxidation of structural alloys is controlled and to
+  ensure that there are appropriate measures to maintain appropriate gas composition during
+  plant design life. HTGRs operated to date have maintained the total impurity levels in the
+  helium below 10 parts per million to minimize these effects (INL, 2006).
+DANU-ISG-2023-01                                                                   Page 20 of 21
+
+
+  Silicon Carbide and Silicon Carbide Composites
+
+  The staff should evaluate the use of SiC and SiC/SiC composites in HTGRs and consider
+  the potential sources and effects of coolant impurities on these materials. For example, SiC
+  and SiC/SiC may be susceptible to long term degradation under low partial pressures of
+  oxygen (Choi, H., et al., 2021; EPRI, 2020a).
+
+  Lubricants
+
+  The staff should evaluate the use of oil lubricants in HTRs. Operational experience with
+  HTRs has repeatedly demonstrated that coolant loops in different HTRs have been
+  contaminated with oil-based lubricants (NRC, 2019), with deleterious impacts on the coolant
+  purity.
+
+  IMPLEMENTATION
+
+  The staff will use the information discussed in this ISG to review non-LWR applications for
+  construction permits and operating licenses under 10 CFR Part 50 and combined licenses,
+  standard design approvals, design certifications and manufacturing licenses under
+  10 CFR Part 52 that propose to use materials allowed under ASME Section III, Division 5.
+
+  BACKFITTING, ISSUE FINALITY, AND FORWARD FITTING DISCUSSION
+
+  The NRC staff may use DANU-ISG-2023-01 as a reference in its regulatory processes, such
+  as licensing, inspection, or enforcement. However, the NRC staff does not intend to use the
+  guidance in this ISG to support NRC staff actions in a manner that would constitute
+  backfitting as that term is defined in 10 CFR 50.109, “Backfitting,” and as described in NRC
+  Management Directive 8.4, “Management of Backfitting, Forward Fitting, Issue Finality, and
+  Information Requests.” The staff also does not intend to use the guidance to support NRC
+  staff actions in a manner that constitutes forward fitting as that term is defined and described
+  in Management Directive 8.4. If a licensee believes that the NRC is using this ISG in a
+  manner inconsistent with the discussion in this paragraph, then the licensee may file a
+  backfitting or forward fitting appeal with the NRC in accordance with the process in
+  Management Directive 8.4.
+
+  CONGRESSIONAL REVIEW ACT
+
+  This ISG is a rule as defined in the Congressional Review Act (5 U.S.C. §§ 801–808).
+  However, the Office of Management and Budget has not found it to be a major rule as
+  defined in the Congressional Review Act.
+
+  PAPERWORK REDUCTION ACT
+
+  This ISG provides voluntary guidance for implementing the mandatory information
+  collections in 10 CFR Parts 50 and 52 that are subject to the Paperwork Reduction Act of
+  1995 (44 U.S.C. 3501 et. seq.). These information collections were approved by the Office
+  of Management and Budget (OMB), approval numbers 3150-0011 and 3150-0151. Send
+  comments regarding this information collection to the FOIA, Library, and Information
+  Collections Branch (T6-A10M), U.S. Nuclear Regulatory Commission, Washington, DC
+  20555 0001, or by e-mail to Infocollects.Resource@nrc.gov, and to the OMB reviewer at:
+  OMB Office of Information and Regulatory Affairs (3150-0011 and 3150-0151), Attn: Desk
+DANU-ISG-2023-01                                                                 Page 21 of 21
+
+
+  Officer for the Nuclear Regulatory Commission, 725 17th Street, NW Washington, DC
+  20503.
+
+  FINAL RESOLUTION
+
+  The staff will transition the information and guidance in this ISG into RG 1.87 or NUREG
+  series, as appropriate. Following the transition of all pertinent information and guidance in
+  this document into the RG or NUREG series, or other appropriate guidance, this ISG will be
+  closed.
+
+  APPENDICES
+
+  A Analysis of Public Comments on Interim Staff Guidance (ISG): Material Compatibility for
+    Non-Light Water Reactors
+  B References
+                                 DANU-ISG-2023-01 APPENDIX A
+
+
+
+                             Analysis of Public Comments on
+    Interim Staff Guidance (ISG): Material Compatibility for Non-Light Water Reactors
+
+
+Comments on the subject draft Interim Staff Guidance (ISG) are available electronically at the
+U.S. Nuclear Regulatory Commission’s (NRC’s) electronic Reading Room at
+http://www.nrc.gov/reading-rm/adams.html. From this page, the public can access the
+Agencywide Documents Access and Management System (ADAMS), which provides text and
+image files of the NRC’s public documents. The following table lists the comments the NRC
+received on the draft ISG.
+
+                     ADAMS
+Letter Number                                  Commenter Affiliation           Commenter Name
+                  Accession No.
+       1          ML23069A091         Public                                   A. Thomas Roberts
+       2          ML23076A284         Engie-Tractebel                          Michel Desmet
+       3          ML23130A195         Hybrid Power Technologies LLC            Michael Keller
+                  ML23130A196
+                  ML23130A202
+       4          ML23130A205         Public                                   Anonymous
+                  ML23130A206
+                  ML23130A207
+       5          ML23130A208         NEI                                      Mark Richter
+                  ML23130A209
+                  ML23130A210
+       6                              Public                                   Anonymous
+                  ML23130A211
+                  ML23130A212
+       7          ML23130A213         EPRI                                     Chris Wax
+       8          ML23194A112         INL                                      Sam Sham
+
+The original comment as written by the commenter in its letter above is listed first, followed by
+the NRC staff’s response.
+
+Letter 1— Allen Thomas Roberts
+
+Comment No. 1-1
+
+While some advanced reactor designs operate at high temperatures and are expected to be
+subject to the listed degradation mechanisms (DMs), some also operate at very low pressures.
+
+Hence pressure loads might sometimes be negligible compared to potential seismic loadings.
+
+While seismic loading is accounted for under ASME III Division 5, the seismic load effects on
+some materials and the ISG identified degradation mechanisms may be lacking sufficient
+guidance for license applicants to be mindful of what the USNRC may expect especially in term
+of functionality.
+
+
+
+
+                                                 A-1
+DANU-ISG-2023-01 Appendix A                                                           Page 2 of 26
+
+
+For example, a prismatic core of graphite may experience a critical turnaround dose level and
+the graphite strength will increase gradually up to that turnaround dose but then rapidly
+decrease in strength after turnaround. However, the diminished in-situ strength of a prismatic
+graphite core following turn around would not likely prevent it from serving its control rod bank
+shutdown function, provided there is no misalignment of prismatic blocks that would preclude
+control rod insertion that resulted from a seismic load.
+
+While there are several listed DMs that may or may not have functionality impacts because of
+seismic loading versus traditionally emphasized pressure loads, it is recommended that a
+caution be provided in the ISG regarding DMs that may be functionally affected in concert with
+seismic loadings.
+
+NRC Response
+
+The staff made no changes to the ISG based on this comment. Component design, including
+seismic load effects, is outside of the scope of this ISG.
+
+Comment No. 1-2
+
+Advanced Manufacturing Technology (AMT) produced products are anticipated to be utilized in
+several advanced reactors. While these materials may exhibit some mechanical and chemical
+properties comparable to their traditionally produced counterpart products (e.g., forged, cast,
+etc.), the microstructures for these materials are likely to be very different.
+
+Consequently, inspections (e.g., NDE) and monitoring of SSCs produced using AMT processes
+may result in the need to adjust and confirm the suitability of presently used NDE techniques
+(e.g., UT, ET, AE, etc.) assuming that traditional NDE methods are employed to monitor these
+AMT produced SSCs.
+
+As cited in several studies, AMT examined material when UT examined results in different
+sound attenuation properties than their counterpart traditionally produced products. These
+potential differences in AMT material characteristics are the principal reason that ASME Section
+XI Division 2, Reliability Integrity Management (RIM), noted in this ISG, requires performance
+demonstration of all selected monitoring or NDE methodology for assessing potential
+deterioration of an SSC over its service life.
+
+This performance demonstration (PD) and the derived numerical output is an essential element
+required by RIM, because the PD is factored back into the Reliability Target value(s) that is
+established and assigned to risk significant SSCs.
+
+It is recommended that this ISG provide brief guidance on monitoring and NDE methodologies
+that might be anticipated to be utilized on AMT produced items. This guidance would not only
+serve the USNRC staff reviews but inform license applicants of matters they should consider.
+
+NRC Response
+
+The staff made no changes to the ISG based on this comment. The ISG provides guidance on
+evaluation of environmental degradation and materials issues. Guidance on specific monitoring
+and NDE methodologies is outside of scope for this ISG. The ISG is not intended to be
+DANU-ISG-2023-01 Appendix A                                                           Page 3 of 26
+
+
+prescriptive in methods to demonstrate acceptability of SSCs, traditionally fabricated or those
+fabricated from AMTs.
+
+Comment No. 1-3
+
+As an extension of Comment 2, the use of Silicon Carbide (SiC), Carbon-Carbon (C/C), and
+Silicon Carbide (SiC/SiC) composites in risk significant SSC is an area that should be cautioned
+for the need to conduct performance demonstration of monitoring and NDE methodologies
+proposed to be employed on over their service life.
+
+NRC Response
+
+The staff agrees with this comment but determined that changes to the document are out of
+scope of the ISG. Therefore, staff made no changes to the ISG based on this comment. Staff
+believes that demonstrating effectiveness of monitoring and NDE methodologies is important for
+all components, not just those fabricated with non-metallic materials.
+
+Comment No. 1-4
+
+As noted in the technology specific portions of the ISG, several reactor technologies are cited as
+being potentially susceptible to corrosion related mechanisms (e.g., Caustic Stress-Corrosion
+Cracking, Impurity Effects on Corrosion, etc.).
+
+The ability to effectively provide monitoring or even NDE techniques for these DMs that might
+occur in risk significant SSCs should be highlighted as possibly needing consideration of a
+systematic approaches to monitor for these possible DMs (e.g., in-situ chemistry monitoring
+systems, installed transducers for wall thickness monitoring, etc.) rather than the traditionally
+focused NDE approaches to mostly look only at weld locations.
+
+Providing this guidance would not only serve during the USNRC staff reviews but also inform
+licensee applicants of matters they should consider.
+
+NRC Response
+
+The staff agrees with this comment, in part. The ISG does not define specific monitoring or NDE
+technologies that should be implemented; however, providing examples would help clarify the
+intent of the phrase “performance monitoring.” The following statement will be added to page 5,
+Qualification and Performance Monitoring, “Examples of this type of performance monitoring
+that could be appropriate include chemistry, temperature, or flow monitoring, as well as wall
+thickness measurements.”
+
+Letter 2 – Engie-Tractebel
+
+Comment No. 2-1
+
+Page 9, "Thermal Fatigue and Transients", 1st paragraph, before last line: stripping to be
+corrected to striping.
+
+NRC Response
+
+The staff agrees with and has incorporated this comment.
+DANU-ISG-2023-01 Appendix A                                                           Page 4 of 26
+
+
+Comment No. 2-2
+
+Page 9, "General Materials Issues", 1st paragraph, 3rd line: 'the need to...' to be replaced by
+'there is a need to...’?
+
+NRC Response
+
+The staff made no changes to the ISG based on this comment. The paragraph was edited in
+response to comment 7-5 and no longer contains this wording.
+
+Letter 3 – Hybrid Power Technologies LLC
+
+Comment No. 3-1
+
+The proposed staff guidance clearly demonstrates that the NRC staff considers that the ASME
+Code does not adequately protect the public from hazardous radiation. The thin justification
+provided for the NRC staff’s position is deeply troubling, particularly in light of the ASME Code’s
+long history of successfully governing boilers, pressure vessels, and reactors. Stated somewhat
+differently, the NRC staff apparently does not consider that the ASME Code properly and
+proportionately provides for the Safety Related and allied tiered Important-to-Safety functions
+that form the backbone of the entire regulatory process. Rather than unilaterally imposing NRC
+Staff desires on licensees and applicants, the NRC Staff should collaborate with the ASME to
+reach a mutually acceptable code. The proposed staff guidance contains a number of technical
+considerations whose linkages to proportional risk-informed technical design considerations are
+not apparent. The staff’s technical design considerations unilaterally impose wide ranging and
+obtuse technical justification requirements on reactor materials, irrespective of the proportional
+level-of-risk to fundamental safety functions, and ultimately the hazardous radiation risk to the
+public. The interests of the public and industry are better served by reliance on the well proven
+ASME Code because the code specifically considers, in-depth, items such as service
+conditions, proper design margins, proper design methods, and in-service inspections.
+
+The ISG does not cite the specific section(s) of the code that form the basis for the NRC staff
+claims. In general, limitations on code rules are, in part, of the form
+
+       do not cover deterioration that may occur in service as a result of radiation effects,
+       corrosion, erosion, thermal embrittlement or instability of the material. These effects shall
+       be taken into account with a view to realizing the design or the specified life of the
+       components and supports. The changes in properties of materials subjected to neutron
+       radiation may be checked periodically by means of material surveillance programs.
+
+NRC Staff claim that the code does not address environmental conditions is simply not true.
+
+The ASME Code has been developed through the collective historical wisdom of hundreds
+industry experts and firms integrally involved in the design, manufacture, construction, and
+operation of boilers, reactors, and pressure vessels. By contrast, the regulatory bureaucracy’s
+expertise does not lie in these areas. That same observation applies to national laboratories.
+The NRC staff should comply with Congress’ explicit direction contained in the Act by reaching
+agreement on a collaboratively developed ASME Code.
+DANU-ISG-2023-01 Appendix A                                                            Page 5 of 26
+
+
+NRC Response
+
+The staff disagrees and made no changes to the ISG based on this comment. It is expected that
+an applicant would use Division 5 for the design and qualification, as applicable, of materials, as
+conditioned by RG 1.87. This ISG is intended to provide staff guidance on addressing
+environmental effects that are not included in the scope of Division 5.
+
+ASME Section III, Division 5, HAA-1130 “LIMITS OF THESE RULES” specifically states that
+Division 5 rules “…do not cover deterioration that may occur in service as a result of radiation
+effects, corrosion, erosion, thermal embrittlement, or instability of the material. These effects
+shall be taken into account with a view to realizing the design or the specified life of the
+components and supports. The changes in properties of materials subjected to neutron radiation
+may be checked periodically by means of material surveillance programs.”
+
+Comment No. 3-2
+
+Attempting to use lower-tier discretionary regulatory guidance to bludgeon highly technical
+justification requirements onto licensees and applicants is of highly questionable flexibility,
+practicality, and authority. The issue is particularly troubling for technical considerations well
+removed from materially impacting the public as a result of remotely likely hazardous radiation
+releases.
+
+We have observed an NRC Staff propensity to use regulatory guides and similar lower tier
+documents to create new de facto technical requirements when the staff does not get their way
+during code and standard development activities. The areas of disagreements are generally
+associated with arcane technical considerations well removed from materially affecting
+fundamental nuclear safety concerns. With the passage of the Act, such behavior is not
+permissible.
+
+In conjunction with the 10CFR53 development effort, we have previously formally expressed
+concerns over the NRC staff overriding codes and standards using lower tier regulatory
+guidance documents – see regulations.gov, comment section of docket NRC-2019-0062.
+
+We note that the NRC staff was, in fact, part of the development process for the subject ASME
+Code and had ample opportunity to reach a collaboratively agreed to code. The ASME Code
+development process is fully transparent and unquestionably fair as all comments and concerns
+are forthrightly openly discussed and resolved. The ASME process stands in stark contrast with
+the NRC staff’s secretive regulatory approach, as amply demonstrated by the 10CFR53 process
+involving hundreds of pages of unresolved comments and concerns. In closing, in our opinion,
+the proposed guidance fails to properly comply with the Act in a number of key areas and is
+therefore of doubtful legality. The NRC staff should avoid using lower tier guidance to impose de
+facto technical justification requirements in an attempt to preempt the lawful domain of industry
+codes and standards. The document should be withdrawn and not issued.
+
+NRC Response
+
+The staff disagrees and made no changes to the ISG based on this comment. The staff have
+processes to endorse industry Codes, and recently completed its endorsement of the 2017
+edition of ASME Section III, Division 5. In areas where there is not industry guidance, or areas
+where the NRC does not endorse industry guidance, NRC staff develops guidance documents
+such as ISGs and RGs to fill that void. In this instance, Division 5 does not provide guidance on
+DANU-ISG-2023-01 Appendix A                                                            Page 6 of 26
+
+
+environmental testing/compatibility, except for graphite, beyond stating that those effects should
+be taken into account. In addition, this is staff guidance and does not impose additional
+requirements on applicants beyond those in Division 5, as applicable.
+
+Letter 4 – Anonymous
+
+Comment No. 4-1
+
+On May 22, 2007, OMB issued Memorandum M-07-16, Safeguarding Against and Responding
+to the Breach of Personally Identifiable Information, which required Federal agencies to publish
+a routine use for their systems of records specifically applying to the disclosure of information in
+connection with response and remedial efforts in the event of a breach of personally identifiable
+information. FWS published a notice in the Federal Register in 2008 to modify all FWS system
+of records by adding a routine use in their “ROUTINE USES” section to address the limited
+disclosure of records.
+
+NRC Response
+
+The staff made no changes to the ISG based on this comment as it is outside the scope of the
+ISG.
+
+Letter 5 – NEI
+
+Comment No. 5-1
+
+Section: General
+
+Comment/Basis: For performance monitoring and surveillance, would it be acceptable to have
+materials from the same heat tested in a simulated environment?
+
+Recommendation: Allow materials from the same heat to be tested in a simulated environment
+to satisfy the surveillance requirement.
+
+NRC Response
+
+The staff made no changes to the ISG based on this comment. It is outside the scope of the ISG
+to make a general determination on acceptability of specific performance monitoring,
+surveillance, material qualification, or inspection methods.
+
+Comment No. 5-2
+
+Section: General
+
+Comment/Basis: Several of the sections on degradation mechanisms end with the statement:
+“The staff should confirm that applicants also consider appropriate mitigation strategies,
+performance monitoring, and surveillance programs to ensure that SSCs affected by corrosion
+continue to satisfy the design criteria.”
+
+Recommendation: It is suggested to be more specific on which “design criteria” the ISG refers to
+at the end, for example by saying “…to satisfy the principal design criteria.”
+DANU-ISG-2023-01 Appendix A                                                           Page 7 of 26
+
+
+NRC Response
+
+The staff made no changes to the ISG based on this comment. It is out of scope of this ISG to
+determine if appropriate principal design criteria have been determined by an applicant.
+
+Comment No. 5-3
+
+Section: Qualification and Performance Monitoring
+
+Comment/Basis: The following paragraph mentions testing, but it does not specifically allow for
+the use of data from previous facilities within the same parametric operating envelope.
+
+Materials qualification and monitoring programs should include testing conducted in an
+environment simulating the anticipated operating environment for the reactor, including chemical
+environment, temperatures, and irradiation. Testing should account for uncertainties in the
+environment, material composition, fabrication methods, and operating conditions. The scope of
+this testing should include safety-related component materials, safety-significant component
+materials, and as needed, non-safety related component materials whose failure could impact
+critical design functions. Testing should be conducted to determine if materials properties and
+allowable stresses meet applicable codes and standards or other design requirements. If
+necessary, appropriate reduction factors should be applied to the materials properties and
+allowable stresses from the applicable design codes and/or design specifications.
+
+Recommendation: Guidance should be updated to allow for the use of data from previous
+facilities within the same parametric operating envelope.
+
+NRC Response
+
+The staff agrees, in part, with this comment. Historical data could be appropriate to use if
+directly applicable to supplement materials qualification and testing programs. The staff has
+updated the ISG to include the italicized text:
+
+       “The selection of structural materials for the reactor design should consider effects
+       on the materials properties and allowable stresses due to interactions with the
+       operating environment. Materials qualification and monitoring programs should
+       include testing conducted, or use of historical data collected, in an environment
+       simulating the anticipated operating environment for the reactor, including
+       chemical environment, temperatures, and irradiation. It is incumbent upon the
+       applicant to demonstrate that data is directly applicable to the plant design and
+       environment. Testing or historical data should account for uncertainties in the
+       environment, material composition, fabrication methods, and operating conditions.
+       The scope of this testing should include safety-related component materials,
+       safety-significant component materials, and as needed, non-safety related
+       component materials whose failure could impact critical design functions. Testing
+       should be conducted to determine if materials properties and allowable stresses
+       meet applicable codes and standards or other design requirements. If necessary,
+       appropriate reduction factors should be applied to the materials properties and
+       allowable stresses from the applicable design codes and/or design specifications.”
+DANU-ISG-2023-01 Appendix A                                                           Page 8 of 26
+
+
+Comment No. 5-4
+
+Section: Qualification and Performance Monitoring, page 6, first paragraph
+
+Comment/Basis: The ISG says: “In the meantime, staff should evaluate whether applicants have
+adequately addressed the following general degradation mechanisms for various reactor
+environments.”
+
+Recommendation: It is suggested that the extent to which such degradation mechanisms should
+be addressed should be commensurate with their safety significance. A possible rewording
+could be: “In the meantime, staff should evaluate whether applicants have adequately
+addressed the following general degradation mechanisms for various reactor environments, to
+an extent which should be commensurate with the safety significance of the degradation
+mechanism.”
+
+NRC Response
+
+The staff has made no changes to the ISG based on this comment. The ISG is sufficiently clear
+that the scope of the ISG is for safety-related component materials, safety-significant
+component materials, and as needed, non-safety related component materials whose failure
+could impact critical design functions.
+
+Comment No. 5-5
+
+Section: Qualification and Performance Monitoring, page 6, last paragraph
+
+Comment/Basis: When saying: “Erosion products from SSCs have the potential for depositing
+elsewhere in the coolant flow path, affecting coolant flow patterns and local heat transfer
+properties,” it is suggested to also say that these erosion products may undergo activation, thus
+contributing to the activity of the coolant itself.
+
+Recommendation: A possible wording could be: “In addition to potentially undergoing
+activation thus contributing to the coolant’s activation level, erosion products from SSCs have
+the potential…. heat transfer properties.”
+
+NRC Response
+
+The staff agrees with this clarification and has incorporated the comment.
+
+Comment No. 5-6
+
+Section: Qualification and Performance Monitoring, page 9, first paragraph
+
+Comment/Basis: Correct typo: “striping” in place of “stripping” within the sentence: “The staff
+should ensure that very high cycle fatigue due to thermal stripping has been adequately
+addressed by the applicant.”
+
+Recommendation: none
+DANU-ISG-2023-01 Appendix A                                                            Page 9 of 26
+
+
+NRC Response
+
+The staff agrees with and has incorporated the comment.
+
+Comment No. 5-7
+
+Section: Qualification and Performance Monitoring, page 9, end of “Thermal and Fatigue
+Transients”
+
+Comment/Basis: It is suggested to add “whenever applicable” within the sentence: “The staff
+should verify that synergistic effects of thermal fatigue, vibratory fatigue, and creep-fatigue are
+addressed by the applicant” so that it reads: “The staff should verify that, whenever applicable,
+synergistic effects of thermal fatigue, vibratory fatigue, and creep-fatigue are addressed by the
+applicant”
+
+Recommendation: none
+
+NRC Response
+
+The staff agrees with and has incorporated the comment.
+
+Comment No. 5-8
+
+Section: Qualification and Performance Monitoring, page 9, “Wear/Fretting”
+
+Comment/Basis: It is suggested to clarify the following paragraph: “The staff should consider the
+potential impacts of the specific coolant environment on wear and fretting, particularly in heat
+exchangers in steam generators. Depending on the reactor design, the interaction between the
+coolants in the primary, secondary, and steam generating loops may have adverse
+consequences for the reactor with regard to wear and fretting.”
+
+Recommendation: Specifically, “in heat exchangers” and “in steam generators” seem to be a
+duplication, and the latter can be deleted. Moreover, when speaking about “interaction between
+coolants,” it is not clear whether the subject interaction is between the coolants, or between the
+coolants and the heat exchanger structures. This part would benefit from a rewording.
+
+NRC Response
+
+The staff agrees with this comment and has clarified the intent of the paragraph, which now
+states, “heat exchangers and steam generators” and also clarifies the interaction between the
+coolants is as a result of wear and fretting.
+
+Comment No. 5-9
+
+Section: Page 9, first paragraph under “General Materials Issues”
+
+Comment/Basis: The ISG says: “The staff should evaluate whether applicants have adequately
+addressed the following design neutral materials issues as appropriate for the application and
+design.” It is suggested to indicate that the extent with which such design neutral material issues
+should be addressed should be commensurate with their safety significance.
+DANU-ISG-2023-01 Appendix A                                                             Page 10 of 26
+
+
+Recommendation: A possible rewording could be: “The staff should evaluate whether applicants
+have adequately addressed the following design-neutral materials issues as appropriate for the
+application and design, to an extent which should be commensurate with the safety significance
+of each issue.”
+
+NRC Response
+
+The staff has made no changes to the ISG based on this comment. The ISG is sufficiently clear
+in the Discussion that the scope of the ISG is for safety-related component materials, safety-
+significant component materials, and as needed, non-safety related component materials whose
+failure could impact critical design functions.
+
+Comment No. 5-10
+
+Section: Page 11
+
+Comment/Basis: Graphite-salt compatibility considerations include fluorination of the graphite
+and formation of carbides (uranium carbide, chromium carbide, and others), as well as potential
+infiltration of molten salt into the graphite (ORNL, 2021a.)
+
+Recommendation: Comment 1: ORNL, 2021a is missing in the draft ISG as a reference.
+
+Comment 2: The fact that fluorination is the first stated compatibility issue might be concerning.
+There is no relevant data that fluorination is a real thing for all engineering purposes (although it
+is mentioned in the literature). At most, this should be demonstrated with a test program and not
+require monitoring.
+
+Comment 3: Formation of carbides is not a concern for the graphite itself (see comment 1 below
+for Page 12).
+
+Comment 4: Infiltration should be demonstrated with a test program and not require monitoring.
+Dispensing with monitoring might require more data from the test program to show infiltration is
+not occurring and/or effective infiltration is not safety significant. Infiltration is a greater concern
+for fuel salt MSRs because the fissile material in the salt could create localized high temperature
+regions, e.g., "hotspots" and xenon accumulation.
+
+NRC Response
+
+Comment 1: The staff has corrected a typographical error regarding the misattributed reference.
+
+Comment 2-3: The staff disagrees with this comment. Fluorination and the formation of carbides
+are discussed in the corrected reference, which is why they are included as possible
+mechanisms in the ISG. Therefore, no changes have been made to the ISG to address these
+comments.
+
+Comment 4: While the staff agree testing programs might be appropriate for infiltration, the staff
+finds that monitoring and NDE could also be demonstrated to be viable methods to ensure a
+component is capable of meeting design criteria. Staff have made the following edits to clarify
+the section: “The staff should confirm that graphite qualification, monitoring, surveillance, or
+inspection programs address any potential chemical compatibility issues, as applicable.”
+DANU-ISG-2023-01 Appendix A                                                           Page 11 of 26
+
+
+Comment No. 5-11
+
+Section: Page 11, first paragraph under “Reactor Specific Guidance, Part 1: Molten Salt
+Reactors”
+
+Comment/Basis: It is recommended to correct the definition of MSRs operating with solid fuel,
+as the ISG indicates that in these MSRs “the molten salt coolant has relatively small amounts of
+fissile material and fission products,” which is not true as the fissile material is contained within
+the fuel, not the coolant. In addition, when referring to TRISO later in the same paragraph, it is
+suggested to indicate that, although dominant, this is “just” an example of solid fuel used in
+solid-fuel MSRs.
+
+Recommendation: none.
+
+NRC Response
+
+The staff agrees with and has incorporated the comment. The section now states: “In a solid-
+fuel MSR, the fissile material and fission products are typically contained within a TRISO fuel
+particle…additionally, relatively small quantities of fission products may be present in the molten
+salt coolant”.
+
+Comment No. 5-12
+
+Section: General Degradation Mechanisms - Irradiation
+
+Comment/Basis: Guidance notes that: “The staff should evaluate data on the effects of neutron
+irradiation on materials, including mechanisms such as irradiation assisted creep, irradiation
+embrittlement, irradiation-assisted SCC, and decreased resistance to oxidation.”
+
+Recommendation: Given that III-5 does not provide specific acceptable means to account for
+irradiation effects on structural material properties, the guidance should be updated to provide
+additional detail on staff expectations for review or acceptable means to account for
+irradiation effects on structural material properties.
+
+NRC Response
+
+The staff disagrees this is a necessary addition and made no changes to the ISG resulting from
+this comment. Given the wide variety of operating conditions, materials and coolants in high
+temperature reactors and the current state of knowledge, it is not practical to provide specific
+guidance to resolve this comment. The ISG does not provide specific guidance for any of the
+other degradation mechanisms or materials issues.
+
+Comment No. 5-13
+
+Section: General Degradation Mechanisms: Silicon Carbide
+
+Comment/Basis:
+
+   1. SiC is captured in the General Materials Issues section with the main takeaway that all
+      SiC types should be qualified separately.
+DANU-ISG-2023-01 Appendix A                                                          Page 12 of 26
+
+
+   2. For the reactor specific guidance sections, molten salt and liquid metal reactors (sodium
+      and Lead coolant) both specifically call out SiC but strangely there is no SiC reference
+      under HTGRs. Given this is where GA-EMS is most focused, perhaps we should look to
+      add something in there.
+          a. Under the section “Reactor Specific Guidance, Part 3: High Temperature Gas
+              Reactor”, the document states that “NRC is not aware of any current plans to
+              deploy GFR reactors in the Unites States, so this section does not address
+              materials concerns for GFRs.”
+   3. Not all of the degradation mechanisms are broadly applicable to all candidate reactor
+      materials. For instance, stress relaxation cracking is an identified mechanism in heat
+      affected zone of alloy welds but is not an expected damage mechanism in silicon
+      carbide material.
+
+Recommendation:
+
+   1. It should be acknowledged that degradation mechanisms are fundamentally different in
+      SiC-SiC composites compared to metals (Jacobsen, GA-EMS, JNM, 452, p125-132,
+      2014). The staff should be aware that different mechanisms (e.g. - matrix cracking, fiber
+      sliding) and different analytical techniques (e.g. – Weibull analysis) must be considered
+      to account for the stochastic behavior of SiC materials.
+   2. This is an issue that needs to be resolved. GA-EMS is developing the Fast Modular
+      Reactor with the intent to deploy in the US, and this design leverages non-metallic
+      materials, specifically SiC/SiC composite due to its demonstrated high temperature
+      performance and compatibility with Helium coolant (Choi, GA-EMS, ANS Transactions,
+      124, p454-456, 2021). As is written above in the molten salt and metal coolant sections,
+      the staff should be aware of the potential sources and impacts of impurities in the Helium
+      and the effects these have on SiC/SiC performance and degradation mechanisms.
+   3. There should be an avenue to specify if certain mechanisms aren’t applicable to a
+      material system or plant design, in addition to the stated feasibility of adding additional
+      mechanisms.
+
+NRC Response
+
+Comment 1: The staff made no changes to the ISG based on this comment. The staff agrees
+the mechanical characteristics of nonmetallic matrix composites are uniquely different from
+metals, however, the staff does not see the need to explicitly state this in the ISG. The ISG
+contains a reference to the 2021 edition of ASME Section III, Division 5 which acknowledges the
+differences between nonmetallic matrix composites and metals.
+
+Comment 2: The staff agrees that use of SiC and composites are appropriate to consider for
+unique performance and compatibility in HTGRs and has added a section on silicon carbide to
+this section of the ISG. The staff has incorporated comment 2a into the ISG.
+
+Comment 3: The staff disagrees and made no changes to the ISG based on this comment. For
+all degradation mechanisms identified in the ISG, it is incumbent on the applicant to determine
+and justify if they are or are not applicable. Further, it is generally not possible to eliminate a
+priori particular degradation mechanisms without knowledge of the design, environment, and
+material combination.
+DANU-ISG-2023-01 Appendix A                                                          Page 13 of 26
+
+
+Comment No. 5-14
+
+Section: Page 12
+
+Comment/Basis: The staff should evaluate whether the application adequately addressed the
+potential formation of uranium and other metal carbides on graphite, and subsequent
+deleterious effects on reactor materials (EPRI, 2019a.)
+
+Recommendation: Per the EPRI report, the only concern with metal carbide forming on graphite
+seems to be related to corrosion of metals, not related to degradation of the graphite itself. Also,
+the concern with uranium carbide for fuel-salt MSRs is related to “nuclear performance”
+(neutronics), not graphite degradation. This evaluation should be removed as a compatibility
+issue.
+
+NRC Response
+
+The staff disagrees with the comment and added a reference to NRC 2021d supporting the
+staff’s position that formation of uranium and other metal carbides on graphite should be
+addressed in an application.
+
+Comment No. 5-15
+
+Section: Liquid Metal Reactors – Caustic Stress Corrosion Cracking
+
+Comment/Basis: Although it is noted that most steam generators, both tubes and shell, are
+made of ferritic steels, austenitic stainless steels have been used successfully in previous
+sodium fast reactor steam generators (e.g., EBR-II and the Prototype Fast Reactor (PFR)
+operated on the Dounreay site).
+
+Recommendation: Guidance should be updated to reflect this operational experience.
+
+NRC Response
+
+The staff has modified the language in response to the comment to highlight the importance of
+operating experience, particularly with the use of austenitic steels for steam generator tubing in
+the French Phoénix reactor. The staff found multiple references (listed below) stating the EBR-II
+steam generator tube material were ferritic steel alloyed with chromium and molybdenum and
+so, disagrees with the comment. The staff notes the failure of approximately 40 steam
+generator tubes in the Prototype Fast Reactor (PFR) caused by the sodium-water reaction. The
+staff notes, however, the source of the damage to the PFR steam generator tubes was caused
+by residual weld stresses.
+
+Buschman H.W., Penney H.W., and Longua K.J., "Operating Experience of the EBR-II
+Intermediate Heat Exchanger in the Steam Generator System,” ASME/IEEE Joint Power
+Generation Conference in Indianapolis, Indiana, September 25-29, 1983.
+
+Buschman H.W., Penney H.W., and Longua K.J., "The EBR-II Steam Generating System –
+Operation, Maintenance, and Inspection," IAEA-IWGFR Specialists' Meeting on Maintenance of
+LMFBR Steam Generators in Oarai Japan, June 4-8, 1984.
+DANU-ISG-2023-01 Appendix A                                                          Page 14 of 26
+
+
+International Atomic Energy Commission, “Fast Reactor Database: 2006 Update,” IAEA-
+TECDOC-1531, 2006.
+
+Comment No. 5-16
+
+Section: Liquid Metal Reactors – Impurity effects on corrosion
+
+Comment/Basis: Successfully operated sodium fast reactors (e.g., the Experimental Breeder
+Reactor-II) and standards developed for SFR systems have established maximum acceptable
+oxygen levels in sodium of 2 ppm.
+
+“EBR-II Operating Experience,” Section 5.2, “Source Rate of Impurities,” (1978) notes that
+“EBR-II operating limits for primary sodium are 2.0 ppm oxygen and 200 ppb hydrogen. Normal
+concentrations are ~0.8 ppm oxygen and ~90 ppb hydrogen.” RDT A 1-5T, “Purity
+Requirements for Operating Sodium Reactor Systems,” (1973) specifies an oxygen
+concentration limit of up to 2.0 ppm for hot leg temperatures >800 F.
+
+Recommendation: While it is noted that higher oxygen concentration has been seen to increase
+the corrosion rates of steels in a sodium environment, the guidance should be updated to reflect
+that oxygen levels of 2 ppm have been shown to be acceptable.
+
+NRC Response
+
+The staff disagrees that a specific oxygen level should be provided; however, found it
+appropriate to make the following change, as indicated in italics, to the ISG for added clarity:
+
+       “Studies conducted with varied levels of oxygen suggest that, to reduce oxidation
+       and dissolution and maximize the lifetime of structural materials (mainly stainless
+       steels) in SFRs, the oxygen level in sodium should be monitored and controlled to
+       levels acceptable for a specific reactor design (Argonne, 1978, Hanford 1980, NRC
+       2021e).”
+
+Comment No. 5-17
+
+Section: Page 13, first paragraph under Liquid Metal Reactors
+
+Comment/Basis: When introducing LBE it is suggested to indicate the composition of this
+eutectic, for example by adding it at the end of the sentence: “Liquid metal reactors are
+characterized by their operation at or near ambient pressure using a fast neutron spectrum in
+which the fuel, with metallic cladding, is cooled by liquid sodium, lead, or the lead-bismuth
+eutectic (LBE, 44.5 wt% Pb and 55.5 wt% Bi).” This is to clarify that the composition of this
+eutectic is very far from pure Pb.
+Recommendation: none
+
+NRC Response
+
+The staff agrees that the addition provides clarity and incorporated the comment.
+
+Comment No. 5-18
+
+Section: Page 13, first paragraph under Liquid Metal Reactors
+DANU-ISG-2023-01 Appendix A                                                         Page 15 of 26
+
+
+
+Comment/Basis: When saying: “To date, operational experience with LFRs is limited to
+propulsion nuclear reactors in Alfa-class submarines operated by the Soviet Union
+from 1967–1983,” it is suggested to specify that these reactors were LBE-cooled.
+Recommendation: A possible rewording could be: “To date, operational experience with LFRs
+is limited to LBE-cooled propulsion nuclear reactors in Alfa-class submarines operated by the
+Soviet Union from 1967–1983.”
+
+NRC Response
+
+The staff agrees with and incorporated the comment with a minor modification and added an
+additional reference.
+
+Comment No. 5-19
+
+Section: Page 15, first paragraph under “lead coolant”
+
+Comment/Basis: The ISG says: “As a result, use of typical ferritic and austenitic steels requires
+special treatments, such as alloying additions or coatings (EPRI, 2019b).”
+
+Recommendation: It is recommended to correct this sentence, as the need for “special
+treatments” is not absolute but depends on the temperature. Specifically, typical steels do not
+require special treatments when the temperature is below approx. 480C, which is the operating
+temperature for internals operating at cold leg temperature. A possible rewording could be: “As
+a result, when the temperature is above approximately 480°C, use of typical ferritic and
+austenitic steels require special treatments, such as alloying additions or coatings (EPRI,
+2019b).”
+
+NRC Response
+
+The staff agrees there is a temperature relationship and incorporated the comment, with
+modification. The ISG now states, “Above a certain temperature threshold, the use of typical
+ferritic and austenitic steels may require special treatments, such as alloying additions or
+coatings (EPRI, 2019b).”
+
+Comment No. 5-20
+
+Section: Page 15, end of first paragraph under “lead coolant”
+
+Comment/Basis: It is suggested to more strongly emphasize the (correct) statement:” Specific
+data of the environmental impacts of molten lead and LBE on materials are not
+interchangeable,” as the two are often confused. A proposed rewording is: “It should be
+stressed that specific data on the environmental impact of molten lead and LBE on materials are
+not interchangeable since, for the same temperature, LBE is typically more corrosive than pure
+lead (Ref. X).” where Ref. X is: NEA-OECD, Handbook on Lead-bismuth Eutectic Alloy and
+Lead Properties, Materials Compatibility, Thermal-hydraulics and Technologies. 2015 edition
+
+Recommendation: none
+DANU-ISG-2023-01 Appendix A                                                       Page 16 of 26
+
+
+NRC Response
+
+The staff agrees with and incorporated the comment.
+
+Comment No. 5-21
+
+Section: Page 15, second paragraph under “lead coolant”
+
+Comment/Basis: The ISG says: “The staff should evaluate whether applicants have adequately
+addressed the following materials issues, including plans to monitor, evaluate, and mitigate
+degradation.” It is suggested to add that the extent to which this is addressed should be
+commensurate with the safety significance of the degradation mechanism.
+
+Recommendation: A proposed rewording could be: “The staff should evaluate whether
+applicants have adequately addressed the following materials issues, including plans to monitor,
+evaluate, and mitigate degradation, in a way commensurate with the safety significance
+associated with each degradation mechanism.”
+
+NRC Response
+
+The staff has made no changes to the ISG based on this comment. The ISG is sufficiently clear
+in the Discussion that the scope of the ISG is for safety-related component materials, safety-
+significant component materials, and as needed, non-safety related component materials whose
+failure could impact critical design functions.
+
+Comment No. 5-22
+
+Section: Page 15, last paragraph
+
+Comment/Basis: It is suggested to add an indication of the temperature range and additional
+references at the end of the following sentence:
+
+“Non-code-qualified materials such as alumina forming or aluminum-coated stainless steels and
+silicon-enriched stainless steels may provide enhanced corrosion resistance in LBE and lead
+coolants at high temperatures (EPRI, 2019b; OECD, 2007; Ballinger and Lim, 2003)”, so that it
+reads:
+
+“Non-code-qualified materials (…) in LBE and lead coolants at high temperatures up to at least
+700-750°C (EPRI, 2019b; OECD, 2007; Ballinger and Lim, 2003; Ref. A, Ref. B, Ref. C, Ref. D,
+Ref. E)” where the references are:
+
+Ref. A: F. García Ferré, et al., “Corrosion and radiation resistant nanoceramic
+coatings for lead fast reactors,” Corrosion Science, 124 (2017) 80-92.
+
+Ref. B: DOMSTEDT, P., LUNDBERG, M., SZAKALOS, P., Corrosion Studies of Low-Alloyed
+FeCrAl Steels in Liquid Lead at 750 °C. Oxidation of Metals (2019)
+91:511–524. https://doi.org/10.1007/s11085-019- 09896-z
+
+Ref. C: DOMSTEDT, P., et. al., (2020), Corrosion studies of a low alloyed Fe–10Cr–4Al steel
+exposed in liquid Pb at very high temperatures. Journal of Nuclear Materials. 531. 152022.
+10.1016/j.jnucmat.2020.152022.
+DANU-ISG-2023-01 Appendix A                                                          Page 17 of 26
+
+
+
+Ref. D: CHEN, L., et al., Investigation of microstructure and liquid lead corrosion behavior of
+a Fe-18Ni-16Cr-4Al base alumina-forming austenitic stainless steel. Mater. Res. Express 7
+(2020) 026533. https://doi.org/10.1088/2053-1591/ab71d1
+
+Ref. E: PINT, B.A., SU, Y.F., BRADY, M.P., et. al., Compatibility of Alumina-Forming Austenitic
+Steels in Static and Flowing Pb. JOM 73, 4016–4022 (2021). https://doi.org/10.1007/s11837-
+021-04961-y
+
+Recommendation: none
+
+NRC Response
+
+The staff has deleted this section as a result of Comment 7-9.
+
+Comment No. 5-23
+
+Section: Page 16, “Lead Erosion”
+
+Comment/Basis: It is recommended to reword the statement: “Lead is highly eroding, and for
+this reason, the flow velocity should be limited (IRSN, 2012; Ballinger and Lim, 2003)” as neither
+of the references provided gives evidence that “lead is highly eroding.”. While it is true that the
+lead flow velocity must be limited to prevent erosion effects, as written the text is misleading.
+
+Recommendation: It is suggested to reword as: “At high lead (or LBE) flow velocities the effect
+of erosion, in addition to corrosion, should be considered. Even though the flow velocity limit is
+not absolute but temperature- and material-dependent, common practice is to maintain the
+velocity of lead-based coolants in high temperature regions of the reactor coolant system, such
+as the core, below approximately 2 m/s both for LBE (Ref. A) and for pure lead coolant (Ref. B).
+Higher velocities may be acceptable especially when the operating temperature is low, such as
+for pump impellers located in the cold leg of the reactor coolant system where the temperature
+is generally at or below 400°C.” where the references are:
+
+Ref. A: T. R. Allen and D. C. Crawford, Lead-Cooled Fast Reactor Systems and the Fuels and
+Materials Challenges. Science and Technology of Nuclear Installations, Volume 2007, Article ID
+97486, doi:10.1155/2007/97486
+
+Ref. B: Vogt, J.-B.; Proriol Serre, I. A Review of the Surface Modifications for Corrosion
+Mitigation of Steels in Lead and LBE. Coatings 2021, 11, 53.
+https://doi.org/10.3390/coatings11010053
+
+NRC Response
+
+The staff agrees and has made changes to the “Effect of Flow Velocity” section of the ISG
+based on this comment. The section now reads:
+
+       “Increasing flow velocities increase the effects of erosion and corrosion and should
+       be considered (IRSN, 2012; Ballinger, and Lim, 2003). Studies have shown that
+       decreasing velocity can control erosion for lead and LBE (Allen T.R. and Crawford
+       D.C., 2007) and for pure lead coolant (Vogt, J.B. and Proriol Serre, I., 2021).
+       Limiting flow velocities are not absolute but temperature- and material-dependent.
+DANU-ISG-2023-01 Appendix A                                                            Page 18 of 26
+
+
+       Higher velocities may be acceptable especially for lower operating temperatures.
+       The staff should review temperature, flow velocities and dissolved oxygen to
+       accurately consider the combined effects of erosion and corrosion.”
+
+Comment No. 5-24
+
+Section: Page 16, second to last paragraph “Liquid Metal Embrittlement”
+
+Comment/Basis: The ISG says: “The severity of dissolution corrosion attack in Type 316L
+stainless steel was found to increase with increasing percentages of cold work (Klok et al.,
+2017).” This is evidence collected in LBE coolant, which is known to behave differently
+than pure lead.
+
+Recommendation: As such, it is suggested to reword the sentence by saying: “The severity of
+dissolution corrosion attack in Type 316L stainless steel was found, in LBE coolant, to increase
+with increasing percentages of cold work (Klok et al., 2017).
+
+NRC Response
+
+The staff agrees with and has incorporated the comment.
+
+Comment No. 5-25
+
+Section: Page 16, “Nonmetallic materials”
+
+Comment/Basis: The ISG says: “SiC/SiC has shown resistance to liquid metal corrosion up to
+800 degrees C in a few short-term tests using a non-flowing lead-lithium eutectic (EPRI,
+2019b)”.
+
+Recommendation: It is recommended not to use this example/reference as it is referred to a
+coolant, i.e., lead-lithium eutectic, which is not relevant for fission applications and is completely
+different from the corrosion standpoint with respect to Pb and LBE. The following statement is
+suggested: “SiC/SiC has shown resistance to liquid metal corrosion up to 550 degrees C in
+2000 hr corrosion tests in flowing liquid LBE (Ref. A)”. where the reference is:
+
+Ref. A: TAKAHASHI, M., KONDO, M., Corrosion resistance of ceramics SiC and Si3N4 in
+flowing lead-bismuth eutectic. Progress in Nuclear Energy, Volume 53, Issue 7, September
+2011, Pages 1061- 1065. http://refhub.elsevier.com/B978-0-12-803581-8.00749-9/sbref146
+
+NRC Response
+
+The staff agrees the suggested language and reference are appropriate and have incorporated
+the comment.
+
+Comment No. 5-26
+
+Section: Page 16, bottom of page under “Oxygen control”
+
+Comment/Basis: The ISG says: “Unlike in other reactor types, accelerated corrosion can occur if
+the dissolved oxygen concentration is either too high or too low at a specific temperature (EPRI,
+2019b; Klok et al., 2018).” This statement is not correct since, for example, if the oxygen content
+DANU-ISG-2023-01 Appendix A                                                        Page 19 of 26
+
+
+is very high and the temperature is below 450-480°C there will not be any significant corrosion
+(there will be, however, precipitation of lead oxide which should not be confused with corrosion).
+
+Recommendation: In light of this, it is suggested to replace that statement with the following:
+“Oxygen control is an important technique to ensure satisfactory performance of structural
+materials in lead- and LBE-cooled reactors. This technique, widely used in lead-based test
+facilities worldwide (Ref. A), consists of maintaining the oxygen concentration in the coolant
+within technical specifications, which are generally represented by a minimum required
+concentration (needed to form a stable passivating oxide layer protecting the underlying bulk
+material) and a maximum allowed concentration (above which precipitation of lead oxide would
+occur thus causing plugging concerns for narrow flow passages). The width of this permissible
+oxygen concentration window is a function of the reactor’s operating temperatures (both cold
+and hot leg temperatures), with the lower end of this window (i.e., minimum required
+concentration) dependent on the corrosion protection technique leveraged by the class of
+materials used in the reactor coolant system. For example, adoption of conventional steels such
+as 316H would rely on the formation of a passivating iron oxide layer which requires a minimum
+oxygen concentration of approximately 10-8 wt% at 500°C. Relaxation of this limit, thus
+permitting lower oxygen concentrations thus easing requirements on the oxygen control system,
+can be achieved by adopting protective coatings/layers either artificially deposited on (or
+superficially diffused into) the components before they enter service, e.g., aluminization through
+pack cementation or Al2O3 deposition through Pulsed Laser Deposition, or self-
+forming/regenerating on the surface of certain materials, e.g., Alumina-Forming Austenitic steels
+(Ref. B)” where the references are:
+
+Ref. A: M. Tarantino, et al., Overview on Lead-Cooled Fast Reactor Design and Related
+Technologies Development in ENEA. Energies 2021, 14, 5157.
+https://doi.org/10.3390/en141651
+
+Ref. B: S. BASSINI et al., “Material Performance in Lead,” in Comprehensive Nuclear Materials,
+Vol. 4, 2nd ed., L.- B. ALLOY, R. J. M. KONINGS, and E. STOLLER ROGER, Eds. pp. 218–
+241, Elsevier, Oxford (2020).
+
+NRC Response
+
+The staff agrees that the section as originally written could be confusing and has incorporated
+the comment, in part, to clarify the intent. The ISG now states:
+
+       “Oxygen control is an important technique to ensure satisfactory performance of
+       structural materials in lead- and LBE-cooled reactors. This technique, widely used
+       in lead-based test facilities worldwide (Tarantino M., et al., 2021), consists of
+       maintaining the oxygen concentration in the coolant within controlled limits.”
+
+Comment No. 5-27
+
+Section: Advanced Manufacturing Technologies
+
+Comment/Basis: The staff should evaluate whether an application containing AMT components
+considers (1) the differences between the AMT and traditional manufacturing methods; (2) the
+safety significance of the identified differences; (3) the aspects of each AMT that are not
+currently addressed by codes and standards or regulations; and (4) the impacts of the
+DANU-ISG-2023-01 Appendix A                                                         Page 20 of 26
+
+
+proposed reactor type, operating conditions, and material on the AMT qualification and
+performance. The staff should confirm that applicants also consider appropriate mitigation
+strategies, performance monitoring, and surveillance programs to ensure that SSCs fabricated
+by AMTs continue to satisfy the design criteria.
+
+Recommendation: The guidance should be updated to remove the study of differences
+between AMT and traditional technologies. Technology is not less safe because it is “newer.”
+Likewise, safety is not affected by technology being “different.” Advanced manufacturing
+Technologies should be evaluated on their own merits and the products of those technological
+methods. This is most likely what was meant, but clarification is needed.
+
+NRC Response
+
+No changes were made to the ISG based on this comment. While the staff agrees that
+technology is not inherently less safe because it is newer or that safety is always affected by
+using a different technology, the staff finds reviewing the differences between traditional
+manufacturing technologies to be the most effective and expeditious method of reviewing
+applications.
+
+Letter 6— Anonymous
+
+Comment No. 6-1
+
+In light of the paperwork reduction Act I have prepared these artifacts; namely, to make an
+example of these criminals who generally place the protection of consumers at risk. </p> State
+Farm casualty is aoxymoron business…-oxymoron, mostly because they are an automobile
+insurance company trying to commit crimes in the financial space (not their area of
+specialization), which is supposed to defraud automobile owners, now also they are defrauding
+real property taxes and the SEC?? So I also have other questions, like why haven’t they been
+charged for gross negligence of property taxes, the Sarbanes-Oxley Rules…like put their
+shareholders at risk to hide the Zucker Ponzi scheme?
+</p></p>It’s the unit dummy, 144 of them valued at what? $20 million in soho??? Good luck
+with that liability.
+
+NRC Response
+
+The staff made no changes to the ISG based on this comment as it is outside the scope of the
+ISG.
+
+Letter 7— EPRI
+
+Comment No. 7-1
+
+Page 5/Page 7: Under “General Degradation Mechanisms”, degradation mechanisms such as
+“Corrosion”, “Creep and Creep-Fatigue”, “Environmentally Assisted Cracking”, “Flow Induced
+Degradation (e.g., Abrasion, Erosion, Cavitation)”, “Flow-Induced Vibration”, “Irradiation”,
+“Stress Relaxation Cracking” etc. are listed. In the same section, “Gaskets and Seals” is also
+listed. This sub section is very component specific, rather than a degradation mechanism.
+
+Propose moving the "Gaskets and Seals" discussion to the "General Materials Issues" section.
+DANU-ISG-2023-01 Appendix A                                                         Page 21 of 26
+
+
+NRC Response
+
+The staff agrees with and has incorporated this comment.
+
+Comment No. 7-2
+
+Page 6: Editorial suggestion: Below are degradation mechanisms that are likely to apply across
+different reactor designs, operating environments, and materials. The degradation mechanisms
+identified reflect the current state of knowledge. As additional operating experience and
+laboratory testing become available, the way in which each identified degradation mechanism
+should be addressed may change. This includes the potential for new degradation mechanisms
+to be identified. In the meantime, staff should evaluate whether applicants have adequately
+addressed the following general degradation mechanisms for various reactor environments.
+
+NRC Response
+
+The staff agrees with and has incorporated this comment, with minor editorial change, “The
+degradation mechanisms identified reflect the current state of knowledge. As additional
+operating experience and laboratory testing become available, the way in which each identified
+degradation mechanism should be addressed may change and new degradation mechanisms
+may be identified.”
+
+Comment No. 7-3
+
+Page 7: As of 2022, ASTM E351 [sic. E531] has been withdrawn.
+
+NRC Response
+
+The staff agrees with this comment and has removed the reference to ASTM D531.
+
+Comment No. 7-4
+
+Page 8: “For example, graphite irradiation strength will increase gradually up to turnaround dose
+and then will rapidly decrease in strength after turnaround.”
+
+In this sentence, “graphite irradiation strength” could be reworded as “strength of irradiated
+graphite”: “For example, strength of irradiated graphite will increase gradually up to turnaround
+dose and then will rapidly decrease after turnaround.”
+
+NRC Response
+
+The staff agrees with and has incorporated this comment.
+
+Comment No. 7-5
+
+Page 9: Editorial suggestion: Below are materials topics that are likely to apply to different
+reactor designs, coolants, and materials. The issues identified reflect the current state of
+knowledge. As additional operating experience and laboratory testing become available, the
+way in which each identified issue should be addressed may change. This includes the potential
+for new issues to be identified. The staff should evaluate whether applicants have adequately
+DANU-ISG-2023-01 Appendix A                                                           Page 22 of 26
+
+
+addressed the following design neutral materials issues as appropriate for the application and
+design.
+
+NRC Response
+
+The staff agrees with and has incorporated this comment.
+
+Comment No. 7-6
+
+Page 11: Carburization/decarburization can be an environmental degradation issue for molten
+salt, Na, and gas-cooled reactors. However, it is only discussed directly in the context of gas-
+cooled reactors under "He impurities". It is not discussed directly here, for molten salt reactors,
+but it would be useful to do so.
+
+NRC Response
+
+The staff agrees that Carburization should be considered for all reactor types and has added a
+Carburization section under General Degradation Mechanisms in addition to a section in each
+design specific Appendix.
+
+Comment No. 7-7
+
+Page 11: Cladding is only mentioned in “Liquid Metal Reactors” Section as fuel cladding.
+However, Liquid fuel MSR presents unique challenges for materials selection based on the
+American Society of Mechanical Engineers (ASME) Boiler and Pressure Vessel Code (BPVC)
+Section III, Division 5, for use in high-temperature nuclear reactors, because of the high Cr
+content of code-qualified alloys. In particular MSR concepts, it might be necessary to improve
+corrosion resistance of already codified alloys to limit wall thinning and eventual loss of
+structural strength. It could be beneficial to include surface treatments being considered for
+alloys with less-than-optimal molten salt corrosion resistance, which include weld overlay
+cladding, electroplating, chemical and physical vapor deposition, hot isostatic pressing, and etc.
+Good corrosion performance of cladding can be degraded significantly by relatively small
+alloying additions of other metals. In addition, high temperature microstructural evolution of
+the coating and the cladding/alloy interface such as changes in grain structure and formation of
+second phase particles could affect the performance of the cladding. Effective thickness of the
+cladding is critical since Cr can diffuse through the cladding in MSRs, which could result in
+formation of voids in the alloy in addition to the Cr loss to the molten salt. Generally, corrosion
+resistance and mechanical properties under periods of sustained and cyclic loading at high
+temperatures is needed to assess long-term corrosion protection of cladding. In addition,
+radiation damage resistance and weldability of the cladding need to be studied.
+
+NRC Response
+
+The staff agrees that cladding could be considered in several reactor designs and has added a
+section on cladding in the ISG section “Metallic Materials Qualification.”
+
+Comment No. 7-8
+
+Page 13: Carburization/decarburization can be an environmental degradation issue for molten
+salt, Na, and gas-cooled reactors. However, it is only discussed directly in the context of gas-
+DANU-ISG-2023-01 Appendix A                                                           Page 23 of 26
+
+
+cooled reactors under "He impurities". It is not discussed directly here, for Na reactors, but it
+would be useful to do so.
+
+NRC Response
+
+The staff agrees that Carburization should be considered for Na reactors and have added a
+section on sodium impurities in the ISG.
+
+Comment No. 7-9
+
+Page 15: “Non-code-qualified materials such as alumina forming or aluminum-coated stainless
+steels and silicon-enriched stainless steels may provide enhanced corrosion resistance in LBE
+and lead coolants at high temperatures (EPRI,2019b; OECD, 2007; Ballinger and Lim, 2003).
+The staff should verify that appropriate materials qualification and surveillance programs are
+in place for any non-code-qualified materials used in lead- or LBE-cooled reactors.”
+
+   (1) Does this statement concerning the use of non-code qualified material apply more
+       broadly than just to lead- or LBE-cooled reactors?
+   (2) One assumes that there is a minimum level of "qualification" in order to activate this
+       approach. Therefore, can "appropriate qualification" be clarified?
+
+NRC Response
+
+The staff have removed this section of the ISG. See response to Comment 7-10.
+
+Comment No. 7-10
+
+Page 15: General comment pertaining to the use of "non-code-qualified materials"
+
+This seems inconsistent with the rest of the document, e.g.:
+
+Page 1: “The guidance in this document identifies areas of staff review that could be necessary
+for a submittal seeking to use materials allowed under American Society of Mechanical
+Engineers (ASME) Boiler and Pressure Vessel Code (ASME Code), Section III, “Rules for the
+Construction of Nuclear Facility Components,” Division 5, “High Temperature Reactors” (Section
+III-5) (ASME, 2017).”
+
+Page 19: IMPLEMENTATION. This section references that this ISG will be used to review non-
+LWR applications that propose to use materials allowed under ASME Section III, Division 5.
+
+It is proposed that the statement concerning the use of "non-code-qualified materials" be
+located in a section applicable to all reactor designs, not solely under the verbiage on page 15.
+
+NRC Response
+
+The staff removed the cited paragraph and has added generic guidance on non-code qualified
+materials in the Applicability section of the ISG.
+DANU-ISG-2023-01 Appendix A                                                           Page 24 of 26
+
+
+Comment No. 7-11
+
+Page 19: “The staff should evaluate whether there is a favorable environment that leads to a
+stable oxide film and stable internal carbides (INL, 2006) and avoids excessive carburization,
+surface carburization, and decarburization. Other environmental factors to evaluate are
+the effects of temperature, alloy composition, and other impurities such as H2O (NRC, 2021c).”
+
+Perhaps use another impurity as an example, as H2O was discussed in the previous paragraph.
+
+NRC Response
+
+The staff agrees that the example of H2O was an unnecessary duplication and made the
+following modification to the ISG: “Other environmental factors to evaluate are the effects of
+temperature, alloy composition, and other coolant impurities.”
+
+Comment No. 7-12
+
+Page 19: The reference for Figure 7 should be NRC 2021c, not NRC 2021a.
+
+NRC Response
+
+The staff agrees with and has incorporated this comment.
+
+Comment No. 7-13
+
+Page 19: Propose statement under “Metallic Materials Qualification” be moved under the
+"General Materials Issues" section, as the qualification of metallic materials will be pertinent for
+designs beyond HTGRs.
+
+NRC Response
+
+The staff agrees with this comment that qualification of metallic materials will be pertinent for
+designs beyond HTRGs and moved the section to the General Materials Issues section of the
+ISG.
+
+Letter 8 — INL
+
+Comment No. 8-1
+
+We strongly support the emphasis on performance monitoring and surveillance
+specimens/testing to address materials degradations during reactor operations.
+We note that the need for performance monitoring and surveillance programs, particularly for
+very long design lifetimes, e.g., 500,000 hours, has been reinforced in Division 5 recently. A
+General Note has been added to Table HBB-I-14.10E-1 on the stress rupture factors for 9Cr-
+1Mo-V weldment in the 2023 edition of Division 5 which states:
+       The values in this table are extrapolated from shorter term test data using an
+       engineering model. For longer design lives, the designer should consider further strength
+       reductions to account for potential in-service material degradation, per HBB-2160(a). In
+       addition, enhanced material surveillance programs and/or heightened in-service
+       inspection per the rules of ASME Section XI may be warranted.
+DANU-ISG-2023-01 Appendix A                                                        Page 25 of 26
+
+
+NRC Response
+
+The staff agrees with this comment but found no edits were needed to the ISG based on this
+comment.
+
+Comment No. 8-2
+
+Since some Advanced Non-Light Water Reactors (ANLWRs) may be used in whole or in part for
+the generation of nuclear process heat that will be used in an associated facility (e.g., hydrogen
+generation, ammonia production, petrochemical refining, etc.), it will be very important to
+provide guidance as to where the nuclear island stops and the non-nuclear facility begins with
+regard to safety standards and design margins for the structures, systems, and components
+(SSCs). This is particularly important for secondary or tertiary heat transfer loops. Also, the
+potential for adverse feedback between the nuclear and non-nuclear portions of a site--going
+either way--must be considered.
+
+NRC Response
+
+The staff agrees with this comment; however, it is out of scope of the ISG, and no changes were
+made to the ISG based on this comment.
+
+Comment No. 8-3
+
+How will the safety significance and potential consequences of SSC malfunctions or failures be
+assessed to set required margins and assess design adequacy? Considering that one goal of
+ANLWRs is to produce power more economically, vendors will likely consider the use of
+reduced margins or commercial design codes where possible/appropriate. Augmented staff
+guidance to evaluate the adequacy of these approaches should be provided.
+
+NRC Response
+
+The staff made no changes based on this comment as it is outside the scope of the ISG.
+
+Comment No. 8-4
+
+It is agreed that appropriate mitigation strategies, performance monitoring, and surveillance
+programs should be considered to address the effects of thermal aging on design properties
+(ISG p8). Though, it is noted that thermal aging effects on yield and ultimate strength are
+specifically addressed in Division 5 and mandatory factors are provided.
+
+NRC Response
+
+The staff agrees with this comment and determined no changes were necessary to be made to
+the ISG.
+
+Comment No. 8-5
+
+While components fabricated with advanced manufacturing technology (AMT) are addressed in
+the ISG (pp 9-10), there does not appear to be guidance regarding assuring that their high
+temperature properties are adequately defined. While this is an emerging field, limited studies
+have shown that while some AMT materials may have comparable room temperature or even
+DANU-ISG-2023-01 Appendix A                                                           Page 26 of 26
+
+
+short-term elevated temperature properties, long-term creep, fatigue, and creep-fatigue
+properties may be significantly reduced from wrought material values. Highlighting this issue
+and providing guidance or references related to it would be valuable. The ASME Section III
+Task Group on Division 5 AM Components would be a good source for up-to-date information
+on this subject.
+
+NRC Response
+
+The staff agrees that staff should consider potential performance differences of AMT fabricated
+components operated at high temperatures and has incorporated the comment under General
+Materials Issues section “Advanced Manufacturing Technologies”. The section now includes this
+statement, “It is particularly important that an application fully addresses AMT material
+performance at high temperatures. Limited studies have shown long-term creep, fatigue, and
+creep-fatigue properties may be reduced compared to wrought material values”.
+
+Comment No. 8-6
+
+While wear and fretting are mentioned in the ISG (pg. 9), it is important to note that tribology is
+significantly affected by particular coolants. Limited results have shown issues related to self-
+welding of SSCs in helium coolants. The virtual elimination of external oxide layers on metallic
+components in fluoride salt coolants practically ensures different tribological behavior in such
+media. Staff need to be given guidance to assess tribology in specific reactor environments.
+
+NRC Response
+
+The staff agrees that tribology is an important consideration and incorporated this statement into
+“Coolant Flow, wear and fretting” in the ISG. The section now includes this statement “Reactor
+operation may be affected by tribological effects such as friction, wear and fretting”.
+
+Comment No. 8-7
+
+Guidance on ensuring that irradiation effects are adequately addressed for ANLWRs is
+described in multiple places in the ISG. However, given that the high doses likely to be reached
+in some fast reactor components can significantly exceed the existing data base on irradiation
+effects, it could be valuable to provide additional guidance regarding the potential value and
+limitations for using high-dose, ion-beam irradiations to further assess property changes at
+these high doses. The recent work funded as part of DOE's Integrated Research Program and
+lead by the University of Michigan on high-dose ion-irradiation effects probably provides the
+most comprehensive information on this subject currently available.
+
+NRC Response
+
+The staff acknowledges the work done under the DOE Integrated Research Program and the
+University of Michigan. However, the staff has not evaluated whether the use of ion-beam
+irradiation as a substitute for neutron irradiation effects on different structural materials is
+acceptable. Therefore, no changes were made to this ISG.
+                  DANU-ISG-2023-01 APPENDIX B
+
+                            References
+
+10 CFR Part 50    U.S. Code of Federal Regulations, “Domestic Licensing of
+                  Production and Utilization Facilities,” Part 50, Chapter I,
+                  Title 10, “Energy.”
+
+10 CFR Part 52    U.S. Code of Federal Regulations, “Licenses, Certifications,
+                  and Approvals for Nuclear Power Plants,” Part 52, Chapter I,
+                  Title 10, “Energy.”
+
+Alemberti, 2014   Alemberti A., Smirnov V., Smith C.F., Takahashi M., "Overview
+                  of Lead-Cooled Fast Reactor Activities," Progress in Nuclear
+                  Energy, 77:300-307, 2014.
+
+Allen, T.R. and   Allen, T.R. and Crawford, D.C., "Lead-Cooled Fast Reactor
+Crawford D.C.     the Fuels and Materials Challenges. Science and Technology
+                  of Nuclear Installations," 2007.
+
+ANL, 2017         Argonne National laboratory, “Understanding and Predicting
+                  Effect of Sodium Exposure on Microstructure of Grade 91
+                  Steel,” ANL-ART-107, Lemont, IL, 2017.
+
+API, 2017         American Petroleum Institute, API Technical Report 942-B,
+                  “Material, Fabrication, and Repair Considerations for
+                  Austenitic Alloys Subject to Embrittlement and Cracking in
+                  High Temperature 565 °C to 760 °C (1050 °F to 1400 °F)
+                  Refinery Services,” 1st Edition, Washington, DC, May 2017.
+
+Argonne, 1978     EBR-II Project: "EBR-II Operating Experience," Argonne
+                  National Laboratory, 1978.
+
+ASME, 2017        American Society of Mechanical Engineers, Boiler and
+                  Pressure Vessel Code, 2017 edition, Section III, Division 5,
+                  “High Temperature Reactors,” New York, NY.
+
+ASME, 2020        American Society of Mechanical Engineers, 2020 edition,
+                  B31.1-2020, “Power Piping,” New York, NY.
+
+ASME, 2021        American Society of Mechanical Engineers, Boiler and
+                  Pressure Vessel Code, 2021 edition, Section VIII, Division I,
+                  “Division Rules for Construction Pressure Vessels,” New York,
+                  NY.
+
+ASTM, 1996        ASTM International, Standard Practice for Surveillance Testing
+                  of High-Temperature Nuclear Component Materials, ASTM
+                  E531- 13, West Conshohocken, PA.
+
+
+
+
+                               B-1
+DANU-ISG-2023-01 Appendix B                                                           Page 2 of 8
+
+
+   Ballinger and Lim, 2003      Ballinger, R.G. and J. Lim, “An Overview of Corrosion Issues
+                                for the Design and Operation of High-Temperature Lead- and
+                                Lead-Bismuth-Cooled Reactor Systems, Nuclear Technology,
+                                147, 418–435, 2017. https://doi.org/10.13182/NT04-A3540.
+
+   Bassini, S. et al., 2020     Bassini, S. et al., “Material Performance in Lead,” in
+                                Comprehensive Nuclear Materials, Vol. 4, 2nd ed., Alloy L.B.;
+                                Konings, R. J. M.; Stoller Roger, E., eds. pp. 218–241,
+                                Elsevier, Oxford, 2020.
+
+   Braun et al., 2021           Braun, J., C. Sauder, F. Rouillard, and F. Balbaud-Célérier,
+                                “Mechanical Behavior of SiC/SiC Composites After Exposure
+                                in High Temperature Liquid Sodium for Sodium Fast Reactors
+                                Applications,” Journal of Nuclear Materials, 546:152743, 2021.
+
+   Briggs, R.B., 1969           Briggs, R.B., “Assessment of Service Life of MSRE,” ORNL-
+                                CF-69-8-3, August 5, 1969.
+
+   Chen, L., et al.,            Chen, L., et al., “Investigation of Microstructure and Liquid
+                                Lead Corrosion Behavior of a Fe-18Ni-16Cr-4Al Base
+                                Alumina-Forming Austenitic Stainless Steel.” Mater. Res.
+                                Express 7:2, 026533, 2020.
+
+
+   Choi, H., et al., 2021       Choi, H., et al., “The Fast Modular Reactor (FMR) -
+                                Development Plan of a New 50 MWe Gas-cooled Fast
+                                Reactor,” Transactions of the American Society ANS, 124:454-
+                                456, 2021.
+
+   Colwell and Shargay, 2020    Colwell, R. and C. Shargay, “Alloy 800H: Material and
+                                Fabrication Challenges Associated with the Mitigation of
+                                Stress Relaxation Cracking,” PVP2020-21842, V006T06A069,
+                                Proceedings of the Pressure Vessels, and Piping Conference,
+                                Volume 6: Materials and Fabrication, Virtual, Online, August 3,
+                                2020.
+
+   Corwin et al., 2008          Corwin, W.R., et al., “Generation IV Reactors Integrated
+                                Materials Technology Program Plan: Focus on Very High
+                                Temperature Reactor Materials,” ORNL/TM-2008/129, Oak
+                                Ridge National Laboratory, Oak Ridge, TN.
+
+   Domstedt, P., et al., 2019   Domstedt, P., Lundberg, M., Szakalos, P., “Corrosion Studies
+                                of Low-Alloyed FeCrAl Steels in Liquid Lead at 750 °C.”
+                                Oxidation of Metals, 91:511–524, 2019.
+
+   Domstedt, P., et al., 2020   Domstedt, P., Et al. Corrosion studies of a low alloyed Fe–
+                                10Cr–4Al steel exposed in liquid Pb at very high temperatures.
+                                Journal of Nuclear Materials. 531. 152022, 2020.
+
+   EPRI, 2019a                  Electric Power Research Institute, “Program on Technology
+                                Innovation: Material Property Assessment and Data Gap
+DANU-ISG-2023-01 Appendix B                                                          Page 3 of 8
+
+
+                                 Analysis for the Prospective Materials for Molten Salt
+                                 Reactors,” Technical Report 3002010726, March 2019.
+
+   EPRI, 2019b                   Electric Power Research Institute, “Program on Technology
+                                 Innovation: Materials Properties Assessment and Gap
+                                 Analysis for Lead-Cooled Fast Reactors a Survey of Available
+                                 Materials Data,” Technical Report 3002016950, Palo, Alto, CA,
+                                 October 2019.
+   EPRI, 2020a                   Electric Power Research Institute, “Program on Technology
+                                 Innovation: Material Property Assessment and Data Gap
+                                 Analysis for the Prospective Materials for Very High
+                                 Temperature Reactors (VHTRs) and Gas-Cooled Fast
+                                 Reactors (GFRs),” Technical Report 3002015815, Palo Alto,
+                                 CA, October 2020.
+
+   EPRI, 2020b                   Electric Power Research Institute, “Program on Technology
+                                 Innovation: Material Property Assessment and Data Analysis
+                                 for Sodium-Cooled Fast Reactors,” Technical Report
+                                 3002016949, Palo Alto, CA, October 2020.
+
+   García Ferré, F. et al., 2017 García Ferré, F., et al., “Corrosion and Radiation Resistant
+                                 Nanoceramic Coatings for Lead Fast Reactors,” Corrosion
+                                 Science, 124, 80-92, 2017.
+
+   Gorse et al., 2011            Gorse, D., et al., “Influence of Liquid Lead and Lead-Bismuth
+                                 Eutectic on Tensile, Fatigue and Creep Properties of
+                                 Ferritic/Martensitic and Austenitic Steels for Transmutation
+                                 Systems,” Journal of Nuclear Materials, 415:284 – 292, 2011.
+
+   Guidez, J. and Prèle, G., 2017   Guidez, J., and Prèle, G., “Superphénix—Technical and
+                                    Scientific Achievements,” Atlantis Press, Paris, France,
+                                    2017.
+
+   Hemery et. al., 2013          Hemery, S., Auger, T., Courouau, J. L., Balbaud-Celerier, F.,
+                                 “Effect of Oxygen on Liquid Sodium Embrittlement of T91
+                                 Martensitic Steel”, Corrosion Science, 76:441 – 452, 2013.
+
+   Ignativ, et al., 2013         Ignatiev, V., Surenkov A., Gnidoy I., Kulakov A., Uglov V.,
+                                 Vasiliev A., Presniakov M., “Intergranular Tellurium Cracking
+                                 of Nickel-based Alloys in Molten Li, Be, Th, U/F Salt Mixture,”
+                                 Journal of Nuclear Materials, 440:243 – 249, 2013.
+
+   INL, 2006                     Idaho National Laboratory, “Kinetics of Gas Reactions and
+                                 Environmental Degradation in NGNP Helium,” INL/EXT-06-
+                                 11494, Idaho Falls, ID, June 2006.
+
+   INL, 2011                     Idaho National Laboratory, “High Temperature Gas-Cooled
+                                 Reactors Lessons Learned Applicable to the Next Generation
+                                 Nuclear Plant,” Idaho Falls, ID, April 2011.
+DANU-ISG-2023-01 Appendix B                                                      Page 4 of 8
+
+
+   INL, 2020                  Idaho National Laboratory, “The Elevated-Temperature Cyclic
+                              Properties of Alloy 316L Manufactured Using Power
+                              Metallurgy Hot Isostatic Pressing,” INL/EXT-20-59329,
+                              September 2020
+
+   INL, 2021                  Idaho National Laboratory, “The Elevated-Temperature Cyclic
+                              Properties of Alloy 316H Fabricated by Power Metallurgy Hot
+                              Isostatic Pressing,” INL/EXT-21-62993, June 2021
+
+   IRSN, 2012                 Institut de Radioprotection et de Sûreté Nucléaire, “Overview
+                              of Generation IV (Gen IV) Reactor Designs//Safety and
+                              Radiological Protection Considerations,” September 24, 2012.
+                              https://www.irsn.fr/EN/Research/publications-
+                              documentation/Scientific-
+                              books/Documents/GENIV_texte_VA_241012a.pdf.
+
+   Jones, 1992                Jones, R.H., “Stress-Corrosion Cracking,” ASM International,
+                              Materials Park, OH, 1992.
+
+   Kim et al., 2013           Kim, W., G. Lee, J. Park, S. Hong, and Y. Kim, “Creep and
+                              Oxidation Behaviors of Alloy 617 in Air and Helium
+                              Environments at 1173 K,” 6th International Conference on
+                              Creep, Fatigue and Creep-Fatigue Interaction (CF-6),
+                              Pyongchang, 25-26 Oct 2007.
+
+   Klok et al., 2017          Klok, O., K. Lambrinou, S. Gavrilov, E. Stergar, T. Van der
+                              Donck, S. Huang, B. Tunca, and I. De Graeve, “Influence of
+                              Plastic Deformation on Dissolution Corrosion of Type 316L
+                              Austenitic Stainless Steel in Static, Oxygen-Poor Liquid Lead-
+                              Bismuth Eutectic at 500°C,” Corrosion, 1 September 2017, 73:
+                              1078 – 1090. https://doi.org/10.5006/2400.
+
+   Klok et al., 2018          Klok, O., K. Lambrinou, S. Gavrilov, J. Lim, and I. De Graeve,
+                              (May 16, 2018), “Effect of Lead-Bismuth Eutectic Oxygen
+                              Concentration on the Onset of Dissolution Corrosion in 316 L
+                              Austenitic Stainless Steel at 450 °C,” ASME Journal of Nuclear
+                              Radiation Science, 4:031019-3 – 7, 2018.
+                              https://doi.org/10.1115/1.4039598.
+
+   Miller, 1998               Miller, D.A., “Review of reheat cracking in British Energy’s
+                              AGRs [Advanced Gas Reactors] in the safety case strategy to
+                              address this threat,” IMechE C535/022/98, 117–126, 1998.
+   NEA-OECD, 2015             NEA-OECD, Handbook on Lead-bismuth Eutectic Alloy and
+                              Lead Properties, Materials Compatibility, Thermal-hydraulics
+                              and Technologies, 2015 edition.
+
+   NRC, 2002                  U.S. Nuclear Regulatory Commission, “Request for Additional
+                              Information (RAI) on High Temperature Materials Graphite;
+                              Control of Chemical Attack; and Design Codes and Standards
+                              for the Pebble Bed Modular Reactor (PBMR),” letter from
+DANU-ISG-2023-01 Appendix B                                                     Page 5 of 8
+
+
+                              F. Eltiwala to K. Borton, Exelon Generation, May 31, 2002,
+                              ADAMS Accession No. ML021510521.
+
+   NRC, 2003                  U.S. Nuclear Regulatory Commission, “Materials Behavior in
+                              HTGR Environments,” NUREG/CR-6824, Washington, DC,
+                              July 2003, Agencywide Documents Access and Management
+                              System (ADAMS) Accession No. ML032370015.
+
+   NRC, 2018                  U.S. Nuclear Regulatory Commission, “Guidance for
+                              Developing Principal Design Criteria for Non-Light Water
+                              Reactors,” ADAMS Accession No. ML18081A306.
+
+   NRC, 2019                  U.S. Nuclear Regulatory Commission, “Advanced
+                              Non-Light-Water Reactors Materials and Operational
+                              Experience,” TLR-RES/DE/CIB-2019-01, Washington, DC,
+                              March 2019, ADAMS Accession No. ML18353B121.
+
+   NRC, 2021a                 U.S. Nuclear Regulatory Commission, “Draft Advanced
+                              Manufacturing Technologies Review Guidelines,” Washington,
+                              DC, July 2021, ADAMS Accession No. ML21074A037.
+
+   NRC, 2021b                 U.S. Nuclear Regulatory Commission, “Draft Guidelines
+                              Document for Additive Retail Manufacturing – Laser Powder
+                              Bed Fusion,” Washington, DC, July 2021, ADAMS Accession
+                              No. ML21074A040.
+
+   NRC, 2021c                 U.S. Nuclear Regulatory Commission, TLR-RE/DE/CIB-CMB-
+                              2021-04, “Corrosion in Gas-Cooled Reactors,” Washington,
+                              DC, March 2021, ADAMS Accession No. ML21084A041.
+
+   NRC, 2021d                 U.S. Nuclear Regulatory Commission, “Technical Assessment
+                              of Materials Compatibility in Molten Salt Reactors,”
+                              TLR-RES/DE/CIB-2021-03, Washington, DC, March 2021,
+                              ADAMS Accession No. ML21084A039.
+
+   NRC, 2021e                 U.S. Nuclear Regulatory Commission, “Corrosion and Sodium
+                              Fast Reactors,” TLR-RES/DE/CIB-CMB-2021-07, Washington,
+                              DC, May 2021, ADAMS Accession No. ML21116A231.
+
+   NRC, 2021f                 U.S. Nuclear Regulatory Commission, “Assessment of
+                              Graphite Properties and Degradation Including Source
+                              Dependence,” TLR-RES/DE/REB-2021-08, Washington, DC,
+                              August 2021, ADAMS Accession Nos. ML21215A347 and
+                              ML21215A346.
+
+   NRC, 2022a                 U.S. Nuclear Regulatory Commission, “Review of Code Cases
+                              Permitting Use of Nickel-Based Alloy 617 in Conjunction with
+                              ASME Section III, Division 5,” TLR-RES/DE/REB-2022-01,
+                              Washington, DC, January 31, 2022, ADAMS Accession No.
+                              ML22031A137.
+DANU-ISG-2023-01 Appendix B                                                       Page 6 of 8
+
+
+   NRC, 2022b                 U.S. Nuclear Regulatory Commission, “Acceptability of ASME
+                              Code, Section XI, Division 2, ‘Requirements for Reliability and
+                              Integrity Management (RIM) Programs for Nuclear Power
+                              Plants,’ for Non-Light Water Reactors,” Regulatory
+                              Guide 1.246, Washington, DC, October 2022, ADAMS
+                              Accession No. ML22061A244.
+
+   NRC, 2023a                 U.S. Nuclear Regulatory Commission, “Acceptability of ASME
+                              Section III, Division 5, ‘High Temperature Reactors,’”
+                              Revision 2 to Regulatory Guide 1.87, Washington, DC,
+                              January 2023, ADAMS Accession No. ML22101A263.
+
+   NRC, 2023b                 U.S. Nuclear Regulatory Commission, “Technical Review of
+                              the 2017 Edition of ASME Code, Section III, Division 5,
+                              “High Temperature Reactors.’” NUREG-2245, Washington,
+                              DC, January 2023, ADAMS Accession No. ML23030B636.
+
+   OECD, 2007                 Organization for Economic Co-Operation, and Development,
+                              “Handbook on Lead-bismuth eutectic Alloy and Lead
+                              Properties, Materials Compatibility, Thermal-hydraulics and
+                              Technologies,” Nuclear Energy Agency, ISBN 978-92-64-
+                              99002-9, No. 6195, Paris, France, 2007.
+
+   Olander, 2002              Olander, D., “Redox condition in molten fluoride salts:
+                              Definition and control,” Journal of Nuclear Materials, 300:270 –
+                              272, February 2002.
+
+   ORNL, 1970                 Haubenreich, P. N., “Fluorine Production and Recombination
+                              in Frozen MSR Salts After Reactor Operation,” ORNL-TM-
+                              3144, Oak Ridge, TN, September 1970.
+
+   ORNL, 1977                 Oak Ridge National Laboratory, “Status of Tellurium-Hastelloy
+                              N Studies in Molten Fluoride Salts,” ORNL/TM-6002, Oak
+                              Ridge, TN, October 1977.
+
+   ORNL, 1978                 Oak Ridge National Laboratory, “Status of Materials
+                              Development for Molten Salt Reactors,” ORNL/TM-5920, Oak
+                              Ridge, TN, January 1978.
+
+   ORNL, 1995                 Oak Ridge National Laboratory, "Radiation Damage in
+                              Carbon-Carbon Composites: Structure and Property Effects,"
+                              International Workshop on Carbon Materials, Sep 19, 1995,
+                              Stockholm, Sweden.
+
+   ORNL, 2018                 Oak Ridge National Laboratory, "Handbook of LWR SiC/SiC
+                              Cladding Properties - Revision 1," ORNL/TM-2018/912,
+                              August 2018.
+
+   ORNL, 2021                 Raiman, S.S., Muralidharan, G., Mayes, R.T., Kurley, J.M.,
+                              "Compatibility Studies of Cladding Candidates and Advanced
+DANU-ISG-2023-01 Appendix B                                                        Page 7 of 8
+
+
+                                Low-Cr Superalloys in Molten NaCl-MgCl2," ORNL/TM-
+                                2019/1132, April 2019.
+
+   Pint, B.A., et al., 2021     Pint, B.A., Su, Y.F., Brady, M.P., et. al., “Compatibility of
+                                Alumina-Forming Austenitic Steels in Static and Flowing Pb.”
+                                JOM 73, 4016–4022, 2021.
+
+   Proctor, 2021                Proctor, D., “Nuclear First—Work Starts on Russian Fast
+                                Neutron Reactor,” Power Magazine, June 8, 2021.
+
+   Sauvage, 1979                Sauvage, J.F., “Phénix—30 Years of History: The Heart of the
+                                Reactor,” Electricité de France report, Commissariat à
+                                l’Energie Atomique, France, 1979, available at
+                                http://fissilematerials.org/library/sau04.pdf.
+
+   Qiu et al., 2020             Qiu, J., A. Wu, Y. Li, Y. Xu, R. Scarlat, and D. Macdonald,
+                                “Galvanic corrosion of Type 316L Stainless Steel and Graphite
+                                in Molten Fluoride Salt,” Corrosion Science, 170:108677,
+                                2020.
+
+   Snead et al., 2007           Snead L.L., Nozawa T., Katoh Y., Byun T.S., Kondo S., Petti
+                                D.A., "Handbook of SiC Properties for Fuel Performance
+                                Modeling," Journal of Nuclear Materials, 371:329 – 377, 2007.
+
+
+   Sridharan, 2019              Sridharan, K., “Corrosion Effects in Materials in High-
+                                Temperature Gas-Cooled Reactor (HTGR) Environments,”
+                                presentation at the Advanced Non-Light Water Reactors,
+                                Materials and Component Integrity Workshop, U.S. Nuclear
+                                Regulatory Commission, Rockville, MD, December 9-11, 2019,
+                                in Regulatory Information Letter RIL 2020-09, “International
+                                Workshop on Advanced Nonlight-Water Reactor—Materials
+                                and Component Integrity,” September 2020, ADAMS
+                                Accession No. ML20245E186.
+
+   Shoemaker et al., 2007       Shoemaker, L.E., G.D. Smith, B.A. Baker, and J.M. Poole,
+                                “Fabricating Nickel Alloys to Avoid Relaxation Cracking,”
+                                Paper No. 07421, Proceedings of CORROSION 2007,
+                                Nashville, Tennessee, March 11, 2007, NACE International.
+
+   Takahashi, M. and            Takahashi, M., Kondo, M., “Corrosion Resistance of Ceramics
+   SiC Kondo, M., 2011          And Si3N4 in Flowing Lead-Bismuth Eutectic.” Progress in
+                                Nuclear Energy, Volume 53, Issue 7, Pages 1061- 1065,
+                                September 2011.
+
+   Tarantino M., et al., 2021   Tarantino M., et al., 2021, “Overview on Lead-Cooled Fast
+                                Reactor Design and Related Technologies Development in
+                                ENEA.” Energies 2021, 14, 5157.
+DANU-ISG-2023-01 Appendix B                                                       Page 8 of 8
+
+
+   Thorley and Tyzack, 1967   Thorley, A.W. and C. Tyzack, “Corrosion Behaviour of Steels
+                              and Nickel Alloys in High-Temperature Sodium,” IAEA:
+                              International Atomic Energy Agency (IAEA), 1967.
+
+
+   van Wortel, 2007           van Wortel, H., “Control of Relaxation Cracking in Austenitic
+                              High Temperature Components,” Paper No. 07423,
+                              Proceedings of CORROSION 2007, Nashville, Tennessee,
+                              March 11, 2007, NACE International.
+
+   Vogt, J. B. and            Vogt, J. B. and Proriol Serre, I., “A Review of the Surface
+   Proriol Serre, I., 2021    Modifications for Corrosion Mitigation of Steels in Lead and
+                              LBE.” Coatings 2021, 11, 53.
+
+   Zheng, Y., et al. 2021     Zheng, Y., Rahman, M.S., Polycarpou, A.A., "Self-Welding of
+                              Inconel 617 Under High-Pressure-High-Temperature
+                              Conditions for Nuclear Reactors," Nuclear Engineering and
+                              Design, 371:110941, 2021.
+

@@ -1,0 +1,2779 @@
+                                                  Technical Letter Report
+
+
+                                                TLR-RES/DE/CIB-2019-01
+
+
+
+
+ADVANCED NON-LIGHT-WATER REACTORS MATERIALS AND
+OPERATIONAL EXPERIENCE
+
+
+                               MARCH 2019
+
+
+
+
+PREPARED FOR:
+
+U.S. NUCLEAR REGULATORY COMMISSION
+CONTRACT NO. NRC-HQ-25-14-E-0004 TASK ORDER NO.
+NRC-HQ-60-17-T-0002
+
+
+
+PREPARED BY:
+NUMARK Associates, Inc.
+       R. Turk, D. Haas, W. von Lensa
+Engineering Mechanics Corporation of Columbus, OH
+       F.W. Brust, G. Wilkowski, P. Krishnaswamy
+Office of Nuclear Regulatory Research, U.S. Nuclear Regulatory Commission
+       M. Gordon, R. Iyengar, P. Raynaud
+DISCLAIMER
+
+This report was prepared as an account of work sponsored by an agency of the
+U.S. Government. Neither the U.S. Government, nor any agency thereof, nor any
+employee, makes any warranty, expressed or implied, or assumes any legal liability or
+responsibility for any third party’s use, or the results of such use, of any information,
+apparatus, product, or process disclosed in this publication, or represents that its use by
+such third party complies with applicable law.
+This report does not contain or imply legally binding requirements, nor does it establish
+or modify any regulatory guidance or positions of the U.S. Nuclear Regulatory
+Commission, and it is not binding on the Commission.
+                          TABLE OF ACRONYMS
+ADAMS    Agencywide Documents Access and Management System
+
+AGR      advanced gas-cooled reactor
+
+AISI     American Iron and Steel Institute
+
+ANLWR    advanced non-light-water reactor
+
+ASME     American Society for Mechanical Engineers
+
+ASTM     American Society for Testing and Materials
+
+AVR      Arbeitsgemeinschaft Versuchsreaktor
+
+B&PVC    Boiler and Pressure Vessel Code (ASME)
+
+C        Celsius
+
+CRC      central rotating column
+
+DOE      U.S. Department of Energy
+
+EBR-II   Experimental Breeder Reactor II
+
+F        Fahrenheit
+
+ft       foot
+
+FBTR     fast breeder test reactor
+
+FFTF     Fast Flux Test Facility
+
+FSV      Fort St. Vrain
+
+gal      gallon
+
+HGC      helium gas compressor
+
+HTGR     high-temperature gas-cooled reactor
+
+HTR      high-temperature reactor
+
+HTTR     high-temperature test reactor
+
+IAEA     International Atomic Energy Agency
+
+IHX      intermediate heat exchanger
+
+kg       kilogram
+
+lb       pound
+
+LBB      leak-before-break
+LMFR    liquid metal fuel reactor
+
+LMR     liquid-metal-cooled reactor
+
+LWR     light-water reactor
+
+MIR     Fast Reactor Inspection Module
+
+mm      millimeter
+
+MSR     molten salt reactor
+
+MSRE    Molten Salt Reactor Experiment
+
+MW e    megawatt electric
+
+MW t    megawatt thermal
+
+NDE     nondestructive evaluation
+
+NGNP    Next Generation Nuclear Plant
+
+NIV     neutron-induced void
+
+NRC     U.S. Nuclear Regulatory Commission
+
+OD      outside diameter
+
+OpE     operating experience
+
+PCRV    prestressed concrete reactor vessel
+
+PFR     prototype fast reactor
+
+PIRT    phenomenon identification and ranking table
+
+PNNL    Pacific Northwest National Laboratory
+
+PVC     polyvinyl chloride
+
+RPV     reactor pressure vessel
+
+RSS     reserve shutdown system
+
+SFR     sodium-cooled fast reactor
+
+SG      steam generator
+
+SONAR   sound navigation and ranging (system)
+
+SS      stainless steel
+
+THTR    thorium high-temperature reactor
+
+xLPR    Extremely Low Probability of Rupture (code)
+
+
+
+
+                                        ii
+                                 EXECUTIVE SUMMARY
+
+This report summarizes the available domestic and international operating experience (OpE) for
+both power and research advanced non-light-water reactors with regard to materials and
+component integrity. It focuses on both sodium-cooled fast reactors (SFRs) and
+high-temperature gas-cooled reactors (HTGRs). The OpE among salt reactors is limited (i.e., 4
+years at the Molten Salt Reactor Experiment at Oak Ridge National Laboratory (1965–1969)).
+The available information on this experiment was captured in “Technical Gap Assessment for
+Materials and Component Integrity Issues for Molten Salt Reactors” (Agencywide Documents
+Access and Management System Accession No. ML19077A137).
+
+This report identifies OpE relevant to the following:
+
+•      materials used, including a summary of the range of materials used in both SFRs and
+       HTGRs
+
+•      observed and anticipated material degradation mechanisms for both SFRs and HTGRs
+
+•      component integrity issues
+
+•      possible solutions to challenges involving materials and component integrity
+
+•      specific issues based on OpE that should be addressed in the development of regulatory
+       infrastructure
+
+•      assessment tools and evaluation techniques (e.g., nondestructive evaluation (NDE))
+       used to identify and address component integrity issues
+
+This effort identifies OpE in SFRs, HTGRs, and related test loops to aid the U.S. Nuclear
+Regulatory Commission’s preparations for licensing SFRs and HTGRs. The components of
+interest include, but are not limited to, primary and secondary piping, steam generator (SG)
+components, pumps, and reactor pressure vessels (RPVs). Future companion reports will
+identify gaps in consensus codes and standards and computational codes used in the
+construction and operation of SFRs and HTGRs.
+
+This report makes the following significant findings related to SFRs:
+
+•      The Experimental Breeder Reactor II (EBR-II) never experienced a sodium/water
+       reaction because the EBR-II was designed with double-walled (concentric tubes brazed
+       or swaged together) SG tubes. Other SFRs that did not use double-walled SG tubes
+       experienced sodium/water reactions.
+
+•      Corrosion of immersed stainless steel (SS) components in sodium is not a concern if
+       sodium purity is maintained. No significant corrosion of materials in the sodium circuits
+       of the BN-10 reactor occurred during 44 years of operation; therefore, a 60 year life of
+       piping circuits and future SFR designs is possible.
+
+•      Weld design and quality control are critically important. Residual weld stresses, excess
+       weld metal, and weld constraints should be minimized, and direct tube-to-tube-plate
+       welds should be avoided entirely in SFRs. Lowering the threshold for quality in welds
+       and secondary loops has resulted in operational problems.
+•      Reheat cracking is a concern in SFR components operating at high temperatures. In
+       particular, weld repairs should be carefully managed because they may give rise to very
+       high tensile residual stresses. Some types of austenitic SS (e.g., American Iron and
+       Steel Institute (AISI) 321 SS) are significantly more prone to reheat cracking than other
+       austenitic SS.
+
+•      Stresses induced by thermal expansion, particularly in areas of constraint, must be
+       carefully considered. The stresses have often been the source of structural integrity
+       issues in SFR operation.
+
+•      Thermal fatigue (thermal striping) caused by mixing sodium flows at different
+       temperatures is a significant issue in SFRs.
+
+•      Management of the startup and cooldown transients in SFRs to control vibration, thermal
+       expansion loads, and possible fatigue issues are important.
+
+•      Shrink-fit parts should be avoided because they could loosen during thermal transients.
+
+•      Electromagnetic pumps have operated reliably.
+
+•      Oil-based lubricants should be avoided in SFRs.
+
+•      Possible valve failures (for all system valves, especially those operating at high
+       temperature) are a concern for SFRs. Valve reliability under operating conditions should
+       be determined accurately.
+
+•      Austenitic steels are unsuitable for SFR SGs because of the potential for caustic
+       stress-corrosion damage following even small leaks.
+
+•      Testing should confirm the chemical compatibility between molten sodium and insulation
+       material.
+
+•      Secondary measurement devices (e.g., thermocouples) must be properly designed to
+       prevent leaks. Flow-induced vibrations and complex fluid flows in these areas can
+       cause failure and sodium leaks.
+
+•      Accurate detection methods of corrosion and leaks are necessary, particularly in regions
+       coated with insulation. The design phase should consider sensor placement and
+       reliability under operating conditions. Inadequate or unreliable leak detection systems
+       have resulted in extensive shutdowns caused by sodium contamination and excessive
+       sodium leaks with consequent fires.
+
+•      The licensing process needs to scrutinize seismic and external dynamic loading events
+       of SFRs. During an emergency shutdown (scram), the intermediate heat exchanger
+       may experience thermal shock caused by the influx of cold sodium. This could lead to
+       buckling and structural issues amplified by an external loading.
+
+The report makes the following significant findings related to HTGRs:
+
+•      The accurate prediction of core temperatures in HTGRs is problematic. Even for more
+       recent designs (e.g., the high-temperature test reactor), core temperatures have
+       exceeded anticipated design temperatures.
+
+
+                                               ii
+•   Moisture ingress and leakage events are a reoccurring problem with HTGRs. HTGRs
+    should be designed to accommodate and mitigate moisture ingress.
+
+•   Failures within the SG could introduce water into the primary loop and introduce the
+    potential for unanticipated reactivity.
+
+•   Management of thermal stresses is important in HTGRs because thermal expansion
+    stresses can cause large loads and creep.
+
+•   The design of HTGRs must consider the accumulation of cycles during testing. Failure
+    to account for these additional cycles led to fatigue failures in both Peach Bottom Atomic
+    Power Station and Germany’s Arbeitsgemeinschaft Versuchsreaktor.
+
+•   Pumps, seals, and compressors have a history of poor reliability in HTGRs. The design
+    and testing of these components should be well scrutinized.
+
+•   HTGRs should be designed to minimize sources of graphite dust (e.g., fretting) and
+    should include filters or other mitigating measures to address graphite dust.
+
+•   Coarse-grained alloys are used for improved creep resistance; however, they are more
+    vulnerable to cracking. Control of alloy grain sizes should be considered because alloys
+    with excessive grain size may have insufficient toughness.
+
+•   Oil-based lubricants should be avoided in HTGRs.
+
+•   HTGRs need to ensure the structural integrity of the RPVs and the connecting vessels,
+    especially under low helium flow and loss-of-forced convection conditions because
+    buckling may occur.
+
+•   Backup systems must be properly designed to handle overloads and system upsets
+    such as seismic loads.
+
+
+
+
+                                            iii
+                                                     TABLE OF CONTENTS
+1.     INTRODUCTION ..................................................................................................................................... 1
+2.     OVERVIEW ............................................................................................................................................. 2
+     2.1      Background Summary ................................................................................................................... 2
+     2.2      Scope of Advanced Non-Light-Water Reactor Operational Experience ....................................... 2
+     2.3      Sodium-Cooled Fast Reactors ....................................................................................................... 3
+     2.4      High-Temperature Gas-Cooled Reactors ...................................................................................... 4
+     2.5      Relation to Advanced Non-Light-Water Reactor Licensing........................................................... 4
+3      SODIUM-COOLED FAST REACTORS ....................................................................................................... 5
+     3.1      Fuel Structure and Cladding, Subassemblies, and Core Components .......................................... 6
+     3.2      Reactor and Pumps ....................................................................................................................... 8
+     3.3      Sodium Storage Tanks and Drums .............................................................................................. 10
+     3.4      Secondary (Intermediate) Heat Exchanger ................................................................................. 11
+     3.5      Sodium Piping Circuits ................................................................................................................ 15
+     3.6      Steam Generator......................................................................................................................... 16
+     3.7      Sodium Purification System Loop ............................................................................................... 20
+     3.8      Emergency Sodium Cooling Circuits ........................................................................................... 21
+     3.9      Hydraulics and Thermohydraulics............................................................................................... 21
+     3.10     Severe Accident........................................................................................................................... 22
+     3.11     Inservice Inspection .................................................................................................................... 22
+     3.12     General Design Issues ................................................................................................................. 24
+     3.13     Other Topics ................................................................................................................................ 25
+       3.13.1        Steam Generator Tear Down of Experimental Breeder Reactor II ..................................... 25
+       3.13.2        Potential Emergency Issues with Intermediate Heat Exchangers in Sodium-Cooled Fast
+                     Reactors............................................................................................................................... 26
+       3.13.3        Weld Reheat Cracking ......................................................................................................... 26
+       3.13.4        Double-Walled Tube Steam Generator Proposal................................................................ 27
+       3.13.5        Fuel Handling....................................................................................................................... 27
+       3.13.7        Material Performance ......................................................................................................... 27
+       3.13.8        Material Choices for Future Sodium-Cooled Fast Reactors ................................................ 30
+     3.14     Lessons Learned (Sodium-Cooled Fast Reactor) ......................................................................... 30
+4      HIGH-TEMPERATURE GAS-COOLED REACTORS .................................................................................. 32
+
+
+                                                                             iv
+    4.1      Fuel Structure.............................................................................................................................. 33
+    4.2      Core and Core Structures ............................................................................................................ 35
+    4.3      Reactor and Pumps ..................................................................................................................... 36
+    4.4      Steam Generator/Turbine........................................................................................................... 40
+    4.5      Primary Piping ............................................................................................................................. 42
+    4.6      Severe Accident........................................................................................................................... 43
+    4.7      Other Topics ................................................................................................................................ 43
+    4.8      Design Considerations................................................................................................................. 44
+    4.9      Lessons Learned (High-Temperature Gas-Cooled Reactors) ...................................................... 46
+5     SUMMARY ........................................................................................................................................... 47
+    5.1      Sodium-Cooled Fast Reactors ..................................................................................................... 47
+    5.2      High-Temperature Gas-Cooled Reactors .................................................................................... 48
+6     REFERENCES ........................................................................................................................................ 50
+
+
+
+
+                                                                            v
+1. INTRODUCTION
+Several advanced non-light-water reactor (ANLWR) concepts are being considered at this time,
+including, among others, the following:
+
+•      very-high-temperature reactors (with outlet temperatures of 900–1,000 degrees Celsius
+       (C)) (1,652–1,832 degrees Fahrenheit (F))
+
+•      sodium-cooled fast reactors (SFRs) (500–600 degrees C) (932–1,112 degrees F),
+       including the traveling wave reactor
+
+•      supercritical water reactors (510–625 degrees C) (950 degrees–1,107 degrees F)
+
+•      high-temperature gas-cooled reactors (HTGRs) (700–800 degrees C) (1,292–1,472
+       degrees F)
+
+•      lead-cooled fast reactors (480–570 degrees C) (896–1,058 degrees F)
+
+•      molten salt reactors (MSRs) (600–800 degrees C) (1,112–1,472 degrees F)
+
+Recent workshops presented by the U.S. Nuclear Regulatory Commission (NRC) and the
+U.S. Department of Energy (DOE) discussed the regulatory challenges and needs related to
+these ANLWRs [1], [2], [3].
+
+This effort is concerned with examining domestic and international operating experience (OpE),
+technical gaps, consensus codes and standards, and computational codes for SFRs and
+HTGRs. This report did not include OpE on MSRs because of the general lack of OpE. Only
+one MSR, the Molten Salt Reactor Experiment (MSRE) at Oak Ridge National Laboratory,
+operated for 4 years (1965–1969) [4]. The available information on this experiment was
+captured in “Technical Gap Assessment for Materials and Component Integrity Issues for
+Molten Salt Reactors” (Agencywide Documents Access and Management System (ADAMS)
+Accession No. ML19077A137) [5]. This report focuses on OpE with materials and component
+integrity.
+
+NUREG/CR-6944, “Next Generation Nuclear Plant Phenomena Identification and Ranking
+Tables (PIRTs): High-Temperature Materials PIRTs,” Volume 4, issued March 2008 [6], ranks
+the most significant phenomena associated with HTGRs with regard to thermohydraulics, fission
+products transport, structural graphite, irradiation effects on materials, material stability at
+elevated temperatures, weld residual stress relaxation section damage, environmental
+degradation, and fabrication issues, including the properties of heavy section steel used for
+reactor pressure vessels (RPVs).
+
+NUREG/KM-0007, “NRC Program on Knowledge Management for Liquid-Metal-Cooled
+Reactors,” issued April 2014 [7] (and references cited therein), summarizes knowledge
+management efforts to develop and compile information on liquid-metal-cooled reactors (LMRs),
+including issues with the materials in SFRs. NUREG/KM-0007 documents NRC licensing
+activities and safety analyses associated with U.S. reactors along with international reactors.
+Appendix A, “List of Documents in the NRC Knowledge Center,” to NUREG/KM-0007 lists many
+available references. These include information and documentation on LMR severe accidents,
+operational issues, and analysis tools relevant for licensing purposes.
+
+
+
+
+                                               1
+This effort identifies OpE in SFRs, HTGRs, and related test loops to aid the NRC’s preparations
+for licensing SFRs and HTGRs. References [6] and [7] summarize the expected materials for
+different components. The components of interest include, but are not limited to, primary and
+secondary piping, steam generator (SG) components, pumps, and RPVs. This compendium will
+also be used to inform future work on consensus codes and standards and computational codes
+used in the construction and operation of SFRs and HTGRs.
+
+2. OVERVIEW
+2.1       Background Summary
+
+Multiple domestic and international corporations have stated their intent to conduct prelicensing
+or licensing activities for ANLWRs with the NRC in the next 5 years. The NRC is seeking to
+develop additional technical capabilities and update its regulatory infrastructure to license new,
+innovative ANLWRs in an efficient and effective manner. This report summarizes OpE for
+domestic and international power and research SFRs and HTGRs. Material and structural
+degradation issues are the main interest; however, the report also describes nondestructive
+evaluation (NDE) experience. This document summarizes OpE from publicly available
+documents. The NRC will use OpE to identify gaps in technology necessary to expand
+consensus codes and standards (e.g., American Society of Mechanical Engineers (ASME)) and
+modify or develop computational codes for assessing damage mechanisms of ANLWRs.
+
+This report identifies and compiles service experience and potential issues, including damage
+development mechanisms and anticipated issues of concern for the NRC licensing of future
+ANLWRs. It is possible some prior experience with older reactors may not apply to anticipated
+ANLWR designs. This report also identifies additional issues, to the maximum extent possible,
+such as crack and damage detection OpE.
+
+Component integrity issues identified for SFRs and HTGRs include:
+
+      •   sodium/helium leakage, including leakage at seals and pumps
+
+      •   thermal shock and thermal mismatch
+
+      •   seismic responsive structures
+
+      •   creep damage and crack growth
+
+      •   low cycle fatigue
+
+      •   void swelling
+
+2.2       Scope of Advanced Non-Light-Water Reactor Operational Experience
+
+For both SFRs and HTGRs, this report obtained and discussed the following OpE:
+
+•         materials used in SFRs and HTGRs, including metals, nonmetals (e.g., graphite,
+          ceramic components, and concrete), and protective coatings
+
+•         observed and anticipated material degradation mechanisms for both SFRs and HTGRs
+
+
+
+
+                                                2
+•      component integrity issues, including operational damage (e.g., metal creep, cracking,
+       fracture, swelling, concrete degradation, SG leakage and plugging, and weld cracking)
+
+•      possible solutions to materials and component integrity challenges, including inservice
+       evaluation and repair
+
+•      specific issues based on OpE that should be addressed in developing the regulatory
+       infrastructure
+
+•      evaluation techniques (e.g., NDE) used to identify and address component integrity
+       issues unique to these ANLWR technologies
+
+2.3   Sodium-Cooled Fast Reactors
+
+Concerns related to SFRs include a focus on preventing leaks of molten sodium coolant
+because sodium is reactive in the presence of air and water. The potential for thermal shock,
+thermal mismatch stresses, and seismic response are of particular importance in SFRs. Some
+SFR designs must manage low-cycle fatigue and creep damage, depending on operating
+conditions and materials. Furthermore, SFRs have experienced leaks and pump failures at
+seals. Finally, the secondary sodium loop in SFRs operates at near atmospheric pressure and
+the steam system operates at high pressure. These significant pressure differentials combined
+with the reactivity of sodium make it critical to prevent SG tube failures [8]. Guidez et al. [9]
+discussed issues with the possible interaction of water and sodium in SFR SGs. In these
+events, pressurized water reacts with sodium in a highly exothermic way, causing a high-speed
+water/sodium jet to damage nearby structures and produce a corrosive byproduct (sodium
+hydroxide). If the water leakage rate is large, the tube may swell and subsequently burst. For
+example, during startup of Phénix [10], excess weld metal at butt welds caused stress
+concentrations, which led to tube cracking and sodium/water interactions. Sodium/water
+interactions produce sodium hydroxide and hydrogen, which can be detected to shut down the
+reactor, if needed. In general, SGs have not been reliable, and sodium heat transport systems
+have leaked at welds.
+
+Material performance requirements for SFRs differ from those for light-water reactors (LWRs) as
+follows:
+
+•      Typical operating pressures within the sodium coolant areas are low (near atmospheric
+       pressure), although differential pressures between the secondary sodium and the
+       water/steam side of the SGs are higher in SFRs than those seen between the primary
+       and secondary water loops in LWRs.
+
+•      Thermal loads are more important. These loads are induced by the high thermal
+       conductivity of sodium combined with high temperatures and temperature fluctuations
+       (thermal shock) and complex fluid flows in some areas. Thermal properties of the
+       materials must be chosen with this in mind.
+
+•      During normal operating conditions, temperatures usually range between
+       200–560 degrees C (392–1,040 degrees F) and are higher during transients. The lower
+       temperatures occur during startup. This requires materials to retain adequate toughness
+       after experiencing creep damage.
+
+•      Irradiation effects on structural materials outside the core are less significant.
+
+
+
+                                                 3
+•      Materials must be compatible with sodium and contaminants (e.g., sodium hydroxides).
+
+Material considerations include, among others, sensitivity to material creep, creep fatigue,
+thermal aging, and performance in sodium. The system must maintain ductility over the life of
+the plant in case of accidental loadings and material aging, which has affected LWRs. Grades
+of 304 and 316 stainless steel (SS) maintained good creep and corrosion resistance with high
+toughness along with Alloy 800 for SG parts, as discussed by Guidez et al. [9]. In addition,
+three major incidents (discussed later) led to shutdowns another 19 percent of the time.
+
+2.4 High-Temperature Gas-Cooled Reactors
+
+Despite the larger potential for high-temperature damage mechanisms compared to SFRs or
+LWRs, the majority of significant OpE at HTGRs appears to be related to the contamination of
+the primary loop by either moisture, lubricants, or excessive graphite dust or the performance of
+seals and compressors. In general, design flaws in HTGRs unrelated to fabrication led to
+conditions resulting in material and component failures. The materials used in HTGRs include
+SA-508/SA-533 steel for lower temperature RPVs and for LWR vessels and modified 9Cr-1Mo
+(Grade 91) steel for higher temperature RPVs. Alloy 800 has been chosen for some HTGR
+SGs. McDowell et al. [11] discusses materials used in HTGRs.
+
+Materials performance requirements for HTGRs are markedly different from those for LWRs as
+follows:
+
+•      Creep resistance is critically important because of the higher operating temperatures
+       (700–950 degrees C) (1,292–1,752 degrees F) of HTGRs. The requirement for creep
+       resistance of the RPV material is design specific because HTGR designs typically cool
+       the RPV with helium from the cold leg.
+
+•      HTGRs have a high-temperature strength that allows them to resist buckling during low
+       healing flow or loss-of-forced convection conditions.
+
+•      HTGRs are resistant to high-temperature decarburization (primary loop).
+
+•      HTGRs are resistant to corrosion from high-temperature water and steam (steam loop).
+
+HTGR graphite has a number of separate requirements, including isotropic or near isotropic
+properties and a high degree of resistance to irradiation damage. The performance
+requirements of structural materials, including graphite, are principally dictated by HTGR
+operating temperatures, which in some cases have been markedly higher than temperatures
+predicted by design analyses.
+
+This report examined the information obtained (e.g., reports, conversations) to identify the
+important OpE issues of concern for materials and structures in ANLWRs summarized in the
+OpE list for HTGRs below.
+
+2.5 Relation to Advanced Non-Light-Water Reactor Licensing
+
+The results in this report will identify the OpE expected in HTGRs and SFRs and corresponding
+damage development mechanisms. However, some OpE may not apply to new ANLWRs. This
+report will also identify additional issues for consideration by the NRC to the maximum extent
+possible. The results may specifically help identify necessary changes to the regulatory
+
+
+                                                4
+licensing framework supporting ANLWR licensing (e.g., changes to Section 3.6.3,
+“Leak-Before-Break Evaluation Procedures,” of NUREG-0800, “Standard Review Plan for the
+Review of Safety Analysis Reports for Nuclear Power Plants: LWR Edition,” or changes to the
+NRC computational codes, such as the Extremely Low Probability of Rupture (xLPR) code).
+
+3 SODIUM-COOLED FAST REACTORS
+This section summarizes the OpE for SFRs by component and includes important lessons
+learned in regard to material performance and structural integrity. For reference, the OpE
+examples are numbered for each component below.
+
+Table 1 lists international SFR OpE compiled by the IAEA [12] which discusses the evolution of
+these reactors. Although OpE for all of these plants could not be obtained, this report discusses
+OpE as much as possible below.
+
+                             Table 1 Sodium Fast Reactors [12]
+
+        Reactor        Country       Power   Power Criticality Shut      Primary   Primary
+                                     (MWt)   (MWe)    (yr)     Down      Hot Leg   Cold Leg
+                                                                (yr)       (°C)      (°C)
+      EBR-II         United States   62.5      20       1961     1994      473       371
+      FFTR           United States    400       0       1980     1992      503       360
+                        United
+      PFR              Kingdom        650     250       1974     1994      560       399
+      BN-350            Russia       1,000    130       1972     1999      430       280
+      BN-600            Russia       1,470    600       1980      N/A      535       365
+      BN-800            Russia       2,100    870       2014      N/A      547       354
+      BOR-60            Russia        55       12       1968      N/A      530       330
+      BR-10             Russia         8        0       1958     2003     470       350
+                                      50–                                 465–      350–
+      Joyo               Japan        140       0       1977      N/A     500       370
+      Monju              Japan        714     280       1995     2010      529       397
+      FBTR               India        40       12       1985      N/A      530       380
+      Phénix            France        563     250       1973     2009      560       395
+      Rapsodie          France        40       0        1967     1983      515       400
+      Superphénix       France       3,000   1,200      1985     1998      545       395
+
+Sodium supports a fast neutron spectrum because it has low neutron moderation and
+absorption. The large margin to boiling of sodium (about 700 degrees C) (1,292 degrees F)
+allows for efficient operation at atmospheric pressure [7]. Sodium is also chemically compatible
+with structural materials, which minimizes corrosion in plant cooling systems. However, an inert
+atmosphere covering the sodium is needed because sodium is reactive with air and water.
+Molten sodium will burn if it is exposed to air or water; therefore, special fire-suppression
+systems are an important part of the design. The reactivity of sodium led to many of the issues
+described below.
+
+
+
+                                                5
+3.1   Fuel Structure and Cladding, Subassemblies, and Core Components
+
+(1)   (Phénix, 1979): Cladding failure in a fuel pin [10] resulted in the largest fission gas
+      (xenon-135) release at the Phénix plant. Cracking of the Type 316 SS cladding in a
+      faulty fuel subassembly caused the release of the fission gas. Initial fabrication defects
+      during construction must be identified.
+
+(2)   (Phénix, early operation): Sodium- and irradiation-induced swelling in heat-treated
+      Type 316 SS was more pronounced than expected. During the first years of Phénix’s
+      operation, the behavior of the pin bundle with spacing wires under irradiation was a
+      major problem that limited the lifetime of the plant’s subassemblies as damage
+      developed from fretting caused by thermal expansion. The most significant
+      deformations included cladding swelling, helical twisting of the pins, and localized
+      bulging of the hexagonal tube surface at the wire pitch by mechanical interaction with the
+      bundles. To remedy this situation, the hexagonal guide sheaths were made slightly
+      shorter 5 millimeters (mm) (0.2 in.) to better manage inservice distortion induced by
+      swelling of the fuel pins [10]. The SS used in the hexagonal fuel wrapper was replaced
+      with titanium-stabilized and -hardened SS, which greatly reduced swelling (the exact
+      grade was not specified). Irradiation-induced embrittlement, swelling, and distortion
+      must be accounted for properly.
+
+(3)   (Phénix, early operation): A serious fuel pin failure during dismantling of the hexagonal
+      wrapper occurred because of irradiation-induced ductility reduction in the Type 316 SS
+      hexagonal wrapper. The dismantling process involved sawing and tearing off metal from
+      two sides [10], leading to a rupture. Modifications were made to the cutting and milling
+      process to avoid such ruptures in future dismantling operations. The proper choice of
+      materials for SFRs requires complete material databases, which should account for
+      irradiation embrittlement, swelling, and distortion.
+
+(4)   (Phénix, general): Fifteen out of more than 140,000 fuel pins leaked over the lifetime of
+      the Phénix reactor. In case of cladding failure, a slow reaction proceeds between the
+      oxide fuel and sodium, forming a lower density sodium oxide compound. This induced
+      swelling leads to cracking and failure of the cladding. Therefore, it is very important to
+      detect the failure as soon as possible and to unload the defective fuel assembly.
+      Spectroscopic and chromatographic monitoring of the primary sodium cover gas was the
+      basis for the Phénix clad failure detection and localization system. Cladding failures
+      resulted in shutdowns of 3 days, which is the time required to replace the defective fuel
+      subassembly [10]. In most cases of cladding failure, the reactor was stopped before it
+      reached an automatic trip threshold. Reliable sensors for detecting fission gas release
+      are necessary.
+
+(5)   (BN-350, general): The primary issue for fuel assembly design in Russian reactors was
+      the swelling of steel under high neutron fluences. Radiation exposure of SS OH18N10T
+      (similar to AISI Type 321 SS) used in the fuel rod structure resulted in differential
+      swelling, high local stresses, and cracking. Irradiation testing on structural materials
+      during the BN-350 project development was minimal which led, in part, to problems with
+      the fuel assemblies. An extensive program had to be developed, and multiple types of
+      steels were investigated to determine the effects of irradiation swelling, embrittlement,
+      and creep characteristics to select the optimum steels for fuel element cladding, ЧС-68
+      (the Russian equivalent to cold-worked titanium stabilized Type 316 SS), and ferritic-
+      martensitic steel EP-450. The design of the BN-350 was also modified to account for
+
+
+
+                                               6
+       this issue [13]. Proper selection of materials for SFRs requires complete material
+       databases, which should account for irradiation embrittlement, swelling, and distortion.
+
+(6)    (BN-600, 1983–1987): Because of multiple instances of fuel pin failures, the Russian
+       BN-600 reactor was shut down six times for unplanned refuelling [14,15]. The
+       investigations of the failed fuel revealed stress-induced corrosion of the annealed
+       (Russian-grade) austenitic steel claddings as one of the main causes of their early
+       failures. The claddings were damaged mainly in the peripheral region of the core
+       because the periphery had the most unfavourable operating conditions (highest fluence)
+       in the core. Because the fuel pins were reshuffled and rotated during operation, their
+       linear heat rating and cladding temperature rose up to 54 kilowatts per minute and
+       710 degrees C (1,310 degrees F), respectively, at the end of the fuel cycle (favourable
+       operating conditions were not specified). An improved (unspecified) cladding alloy
+       eliminated the problems. The proper choice of materials for SFRs requires complete
+       material databases, which should account for irradiation embrittlement, swelling, and
+       distortion.
+
+(7)    (Fast Flux Test Facility (FFTF), early operation): Although the FFTF fuel performed
+       extremely well (low outage time), one driver fuel pin and several test pins experienced
+       cladding breaches during the more than 10 years of reactor operation [16]. These
+       breaches released relatively small amounts of radioactive cesium into the primary
+       sodium and cover gas systems, which led to operational complications. A cesium trap
+       was installed in the FFTF primary sodium processing system in 1987, following nearly
+       7 years of operation that included several fuel pin failure events. The cesium trap
+       mitigated contamination of the primary loop. SFR designs should account for fuel
+       failure.
+
+(8)    (FFTF, general): Reflector assemblies were made of Alloy 600 and experienced
+       swelling behaviour caused by the neutron flux in the FFTF [17]. This was a poor choice
+       of material, resulting from a design that used insufficient test data to describe the
+       swelling response of Alloy 600. Proper choice of materials for SFRs requires complete
+       materials databases, which should account for irradiation embrittlement, swelling and
+       distortion.
+
+(9)    (Fast Breeder Test Reactor (FBTR), May 1987): India’s FBTR experienced a problem
+       as a fuel subassembly was being transferred from the core to the periphery [18]. The
+       improper design of the fuel transport system caused extensive bending of the
+       subassembly and the heads of the reflector subassemblies during transport. Details
+       were not specified; however, the transport system was improved, and it was noted that
+       this was an expensive solution.
+
+(10)   (Prototype Fast Reactor (PFR), general): Neutron-induced distortion of core
+       components in the United Kingdom’s PFR and its effect on plant operation is a similar
+       issue to some of the problems discussed above. Radiation damage resulting from the
+       high neutron fluxes and operating temperatures of a fast reactor can give rise to
+       dimensional changes in core components. The mechanisms involved are swelling
+       caused by neutron-induced voids (NIV) and radiation creep. Large differences in NIV
+       swelling rates occurred in different batches of the same material because of a quality
+       control problem that was not adequately addressed and thus led to handling problems of
+       components made of cold-worked EN58B. The materials chosen later in the lifetime of
+       the PFR, such as Nimonic Alloy PE 16, had considerably lower swelling rates.
+
+
+
+                                               7
+       Components manufactured from the ferritic steel FV448, which was undergoing testing
+       at the time of the PFR’s closure, had extremely low swelling rates. NIV distortion was
+       not expected to be life limiting for this material [19]. The proper choice of materials for
+       SFRs requires complete material databases, which should account for irradiation
+       embrittlement, swelling, and distortion.
+
+(11)   (BN-600, 1995): The central rotating column (CRC) in BN-600 is used for refuelling the
+       core. In 1995, an increase in force required to turn the CRC was observed. The CRC
+       rotates during fuel assembly and fuel reloading operations. During examination of the
+       problem, sodium found in the bearing assembly was impeding the CRC turning motion.
+       This phenomenon was caused by the transfer of sodium vapor from the reactor cover
+       gas (argon) through the gap between the CRC and rotation plug and the subsequent
+       accumulation of sodium and its compositions in the bearing assembly. Designs should
+       consider the potential for sodium vapor penetration and condensation.
+
+(12)   (FFTF, general): The FFTF outer row assemblies consisted of a stack of Inconel-600
+       blocks penetrated by SS coolant tubes. These assemblies acted as a radial neutron
+       reflector and as a straight, but flexible, core boundary. During design, these assemblies
+       were assumed to exhibit low-swelling behaviour in a neutron flux based on a collection
+       of high nickel-alloy data available at the inception of FFTF. However, during an FFTF
+       refuelling outage, the degree of difficulty withdrawing an outer row driver fuel assembly
+       was a function of the peak fast fluency of neighbouring reflector assemblies. Post-
+       irradiation examinations showed that the reflector assemblies were both bowed and stiff.
+       Differential swelling in a steep radial flux gradient [16, 17] had distorted the Inconel 600
+       blocks into a trapezoidal cross-section. SFR designers must calculate fluxes accurately
+       to minimize irradiation damage.
+
+3.2    Reactor and Pumps
+
+(1)    (Phénix, 1976): The primary coolant pump in Phénix experienced excessive vibrations
+       [10, page 39]. As a result, operators decreased the pump speed until the pump could be
+       extracted several months later. During inspection of the pump, a hydrostatic bearing
+       that was shrunk-fit to the pump shaft during fabrication expanded during a severe
+       thermal transient (automatic shutdown) and slipped down the pump shaft, damaging the
+       shaft and also causing excessive vibrations. The Superphénix design eliminated
+       shrink-fit fabrications to avoid this possible problem. Shrink-fit parts should be avoided
+       in pumps that could loosen during thermal transients.
+
+(2)    (Phénix, 1974–1975): Three separate secondary coolant leaks were traced to joining
+       welds on large-diameter butterfly valves upstream from the SG. These leaks led to
+       small fires in the insulation as a result of sodium reacting with air. Weld repairs were
+       found to be ineffective, but replacement of the valves with diaphragms solved the
+       problem. Possible valve failures remain a concern in all SFR designs [10].
+
+(3)    (Superphénix, early operation): During Superphénix startup trials [9, Chapter 3],
+       excessive vibration of the reactor internal structures was observed as soon as the
+       primary pumps were started. This was a problem of flow-induced self-excitation caused
+       by the cooling rate that was of the same order of excitation as the flow rate pulsations.
+       The vibration could have led to structural damage of the internals. Increasing the vessel
+       cooling flow rate by 50 percent solved the problem. This OpE illustrates the importance
+
+
+
+
+                                                 8
+      of managing the startup and cooldown transients in SFRs to control vibration and
+      possible fatigue issues in the components.
+
+(4)   (Superphénix, general): The primary pumps in Superphénix were immersed in sodium
+      and designed based on the Phénix experience. The primary pumps operated without
+      incident the entire working life of Superphénix. Each pump was heavily instrumented
+      with three vibration sensors, three shaft rotation speed sensors, multiple flow rate
+      sensors, and 32 thermocouples [9]. These sensors ensured that the pump operated
+      properly and that the bearings operated properly to prevent cavitation. The main parts of
+      the pumps were made from Type 316 SS and the castings (impeller, lantern, and
+      diffuser) were made from Z3 CN20-10 with no molybdenum (American Society for
+      Testing and Materials (ASTM) equivalent CF-3M) because OpE with Phénix had
+      demonstrated that the presence of molybdenum increased the risk of spinodal
+      decomposition. All materials performed as designed. In addition, based on the Phénix
+      operation, the pumps had no shrink-fit parts that could loosen during thermal transients.
+      As discussed in OpE No. 5 below, a coupling failed in the primary pump; however, this
+      was not considered a pump failure. This OpE illustrates the usefulness of building upon
+      lessons learned from a prototype reactor.
+
+(5)   (Superphénix, September 1993): A sodium coolant coupling in a primary pump broke
+      [9]. The poor alignment of this coupling led to a significant wear at the failure site. All
+      couplings were replaced and properly aligned. No pump coupling failures were
+      observed afterward.
+
+(6)   (BN-600, 1981–1985): The unstable operation of pump speed control systems caused
+      unplanned power losses between 1981 and 1985 [15, 24]; this problem also led to
+      additional fatigue cycles. Impacts from the pump electric motor on the pump housing
+      caused failures in the pump electric motor coupling (leading to excessive distortions)
+      from increased vibration and fatigue cracks in pump shafts. Using a better shaft and
+      coupling and operating the pumps in a steady mode after attaining the desired level of
+      reactor power prevented any failures of the reactor coolant pumps since 1985. Thermal
+      fatigue or periodic operation outside of normal design parameters may greatly reduce
+      the lifetime of reactor components.
+
+(7)   (FFTF, early operation): Sodium systems operated for over 20 years, including more
+      than 10 years of reactor power operation. During this time, only one sodium leak
+      (approximately 284 liters (75 gallons (gal)) of primary sodium) occurred during a
+      refueling outage from a small electromagnetic pump. A combination of freeze and thaw
+      cycles caused a leak that led to localized deformation of the electromagnetic pump duct
+      wall and to subsequent operation under cavitation conditions. This process eroded the
+      pump duct wall at one of the deformations and caused it to eventually fail. Plant
+      operating procedures were subsequently revised to tightly control pump freeze and thaw
+      cycles and to prevent pump cavitation [17]. Thermal fatigue or periodic operation
+      outside of normal design parameters may greatly reduce the lifetime of reactor
+      components
+
+(8)   (Superphénix, date not provided): A blade broke on the impeller in a secondary pump.
+      The secondary pumps circulated sodium in the secondary heat exchangers and resided
+      in expansion tanks. The failure did not lead to any significant issue. The cause of the
+      failure is not publicly documented [9].
+
+
+
+
+                                                9
+(9)   (Superphénix, July 1990): Air leaked into the sodium coolant [9, 20] from a compressor.
+      It took the operators approximately 1 month to identify and shut down the plant for repair
+      and subsequent purification of the sodium. An argon branch connection leading to an
+      argon-activity measurement chamber was fitted with a small compressor (with a
+      diameter of a few centimeters (cm)). This branch was designed to send argon to the
+      measurement chamber. The membrane between the air side and argon side tore, which
+      led to the sodium contamination. The lengthy delay in identifying this issue was traced
+      to the designers’ choice not to measure the chemical composition of the core cover gas.
+      The designers believed air ingress was not plausible because the core cover argon gas
+      was always relatively overpressurized towards the ambient air and the overpressure was
+      being continuously monitored. As a result, contamination of the sodium went unnoticed
+      for months [9]. The membrane material and the reason for the tear were not described
+      [9, 17]. This example highlights the value of confirmatory surveillance.
+
+3.3   Sodium Storage Tanks and Drums
+
+(1)   (Superphénix, 1987): A leak occurred in the sodium storage drum (about a 24 cubic
+      meter (848 cubic ft) volume of sodium). Examinations showed both through-wall and
+      partial through-wall cracks were pervasive in the wall-to-base welds. The cracking
+      (shown in Figure 1) was primarily in the heat-affected zone; however, some cracks
+      extended into the weld metal. Hydrogen embrittlement, enhanced by weld residual
+      stresses, 1 created the cracks.
+
+
+
+
+         Figure 1 Storage drum cracking in Superphénix (from [9, Figure 17.9])
+
+      The storage drums were fabricated from 15D3, which is a low alloy ferritic steel
+      consisting of iron (98–99 percent), manganese (0.5–0.8 percent), molybdenum
+      (0.25–0.35 percent), silicon (0.15–0.3 percent), and chromium (0.0–0.3 percent). Similar
+      cracking was found with 15D3 during the construction of the SNR-300 2 reactor in Kalkar,
+      Germany [9, Chapter 17]. This material was subsequently found unsuitable for SFRs
+      because of hydrogen embrittlement issues. Improper material selection in combination
+      with inadequate welding procedures was the cause of the hydrogen cracking.
+
+
+
+1
+      This is a particular problem in refinery operations.
+2
+      The SNR-300 reactor was a German SFR that was completed in 1985 but never
+      operated.
+
+
+                                              10
+3.4   Secondary (Intermediate) Heat Exchanger
+
+(1)   (Phénix, 1976): The intermediate heat exchanger (IHX) experienced two separate
+      sodium leak events [10, page 41] followed by fires. The events were caused by cracking
+      in the welds joining the weld on the metal plate that closed off the sodium outlet nozzle
+      in the secondary system above the heat exchanger. The metal plate connected two long
+      shells that operated at different temperatures, which led to thermal expansion stresses
+      that subsequently caused the cracks. The solution was to replace the plate with a more
+      flexible design to accommodate the thermal mismatch. In addition, a flow-mixing device
+      was added to the sodium header to reduce the temperature differences between the
+      shells. Thermal mismatch loads and mixing of different sodium flows must be properly
+      considered.
+
+(2)   (Phénix, June 1985): In June 1985, a small sodium leak occurred in the secondary heat
+      exchanger pipe circuit at a thermocouple thimble weld [10]. The source of the leak was a
+      through-wall fatigue crack driven by vibration excitations of the thermocouple caused by
+      sodium flow. A similar issue led to a serious fire at the Monju Nuclear Power Plant
+      (Monju) in Japan (see OpE No. (4) below). Secondary measurement devices
+      (e.g., thermocouples) must be properly designed to prevent leaks. Flow-induced
+      vibrations and complex fluid flows in these areas can cause failure and sodium leaks.
+
+(3)   (Phénix, April 1990): A small sodium leak was detected at an auxiliary circuit tee pipe
+      joint [10, Chapter 14]. An operator failed to completely close a valve. This error led to
+      residual sodium flows, which created thermal fluctuations (thermal striping) that resulted
+      in fatigue cracking. This is another example of a damage mechanism in SFRs driven by
+      temperature gradients caused by sodium flow.
+
+(4)   (Monju, December 1995): After a scheduled shutdown and the following plant startup
+      [21], a sodium leak occurred in the secondary heat transport system of pipe loop C (a
+      hot-leg geometry) and led to a serious fire when it interacted with oxygen and moisture.
+      The leak melted steel structures in the room and resulted in a solidified sodium residue
+      on the room floor almost 3 meter (m) (9 feet (ft)) in diameter and approximately 30 cm (1
+      ft) deep. The leak was located at a 3 mm (0.12 inch (in.)) diameter thermocouple
+      penetration (Figure 2). The failure of the thermocouple well tube released the well tip
+      and permitted sodium to flow through the thermocouple and into the room. The well
+      tube failure was caused by high-cycle fatigue from flow-induced vibration caused by
+      vortex shedding in the direction of the sodium flow. Figure 2 shows the microscopic
+      investigation of the fracture surface, which indicates fatigue striations. The designers
+      had inappropriately applied the ASME Performance Test Code3 to the Monju tube
+      thermocouple weld because the thermocouple was used in a location where
+      vortex-induced vibrations can occur. Secondary measurement devices (e.g.,
+      thermocouples) must be properly designed to prevent leaks. Flow-induced vibrations
+      and complex fluid flows in these areas can cause failure and sodium leaks.
+
+
+
+
+3
+      The ASME Performance Test Code was redone in 2010. The code establishes the
+      practical design considerations for thermocouple installations in power and process
+      piping.
+
+
+                                              11
+      Figure 2 Bent thermocouple and missing well tube in Monju (from [21, Figure 5])
+
+(5)     (Superphénix, December 1994): The reactor shut down because of an argon pressure
+        seal leak [9]. Eddy current measurements identified a 30 mm (1.2 in.) long crack (half
+        the tube circumference) at the weld between the argon supply pipe and the seal nozzle.
+        The manufacturing defect led to unanticipated additional bending stresses at the weld,
+        which caused inservice crack growth, likely from fatigue. Inspections of other pressure
+        tube seals did not reveal a problem that would indicate a generic fabrication defect. A
+        sleeve was inserted for repair. Initial fabrication defects during construction must be
+        identified.
+
+(6)     (BN-600, May 6, 1994): During the 15 year operation of the BN-600 reactor operation,
+        30 sodium leaks (2 large and 28 small) occurred. The largest leakage of secondary
+        sodium occurred from an IHX drainpipe. The incident took place during the replacement
+        of an isolation valve while the reactor was shut down. A fire accompanied the sodium
+        leak, and the leak caused equipment damage in the adjacent area. Approximately 1.2–
+        1.3 cubic meters (about 1,000 kilograms (kg) 2200 pounds (lb)) of sodium leaked, but
+        only several tens of kilograms of sodium ignited. The remaining sodium was retained in
+        the smothering catch pan system and covered with extinguishing powder. Fabrication
+        defects or poor management of thermal stresses leading to cracking at the welds caused
+        these issues [22].
+
+(7)     (Experimental Breeder Reactor (EBR)-II, 1968): A major sodium leak occurred in the
+        secondary sodium system [23] in EBR-II. About 379 liters (100 gal) of hot sodium spilled
+        onto the floor in the secondary sodium control room where sodium was purified. This
+        was apparently a maintenance repair issue. A section of pipe had been removed as part
+        of repairs on a bellows-seal isolation valve. The sodium in the line was frozen and,
+        therefore, created a plug for the repair. However, the frozen sodium plug did not extend
+        far enough beyond the repaired section, and molten sodium spilled onto the floor. A
+        major fire erupted but was extinguished by a salt mixture (Metalex) that starved the fire
+        of oxygen. The cleanup took 13 days. The piping material was Type 304 SS [23].
+        Repair procedures in SFRs must be carefully planned.
+
+
+
+                                               12
+(8)   (EBR-II, November 14, 1970): A loud banging noise was heard near the IHX [23]. The
+      noise source was within the Type 304 SS IHX inlet pipe. Visual examinations using both
+      a periscope and a remote television system revealed that two support clips were
+      damaged. One of the two support clips holding a 25.4 mm (1 in.) diameter evacuation
+      tube in place was broken, and the top clip was loose. The missing clip supports allowed
+      the evacuation tube to vibrate against the wall of the 324 mm (12 in.) outer diameter
+      (OD) inlet pipe because of sodium flow. Both the 324 mm (12 in.) OD pipe and the 25.4
+      mm (1 in.) tube showed evidence of wear. Repairs were made to permit operation.
+      Although the incident report did not specifically identify the cause [23], it was likely the
+      result of flow-induced vibration and thermal mismatch loading.
+
+(9)   (Phénix, general): Phénix experienced 11 sodium leak events during its 35 years of
+      operation. These problems were solved using various design modifications. An
+      example of the only significant issue is the sodium leak into the inner space at the
+      secondary sodium outlet header [10, 20, 24]. Different thermal expansion loads
+      between the inner and outer shells that were underestimated in the original design
+      caused the leak. Figure 3 illustrates the problem and solution; the redesign improved
+      both the mixing of the secondary sodium outlet from the tube bundle (i.e., improving
+      accommodation for thermal expansion) and the flexibility of the IHX hot header between
+      the top closure plate and the inner shell (i.e., the upper right portion in Figure 3). Control
+      of structural constraints in SFRs in regions of thermal expansion mismatch is an
+      important design feature and must be considered during the license assessment of the
+      plants.
+
+
+
+
+                                               13
+       Figure 3 Modified design of secondary sodium outlet header (from [24, Figure 2.26])
+
+(10)     (Phénix, November 1998, December 2000): Sodium leaks were found in the IHX of
+         Phénix. The leaking tubes were near the upper tubesheet (see Figure 4). A
+         metallurgical analysis revealed that caustic stress corrosion from the presence of
+         polluted sodium (sodium hydroxide from air ingress) caused the cracking. The sodium
+         was contaminated during testing of the IHX (i.e., air ingress during work on the
+         secondary loop between 1995 and 1997). Proper procedures during repairs must be
+         carefully maintained.
+
+
+
+
+                                              14
+                  Figure 4 Tube leaks in Phénix (from [24, Figure 2.27])
+
+3.5   Sodium Piping Circuits
+
+(1)   (FFTF, general): Overall, the main FFTF sodium systems performed with no major
+      problems during the nearly 20 years they were in operation [16]. One exception was the
+      occurrence of periodic flow and pressure oscillations in the secondary main heat
+      transport system loops. An extensive investigation showed that the formation of periodic
+      sodium flow vortexes developing at piping tees near the inlets of the heat exchangers
+      caused the oscillations. After evaluating several potential concerns associated with
+      these oscillations and investigating the means of eliminating them, the oscillations were
+      deemed acceptable after changes were made to some plant control systems and
+      operating procedures. The specific operational modifications were not specified.
+      Sodium flows must be carefully assessed to prevent fatigue problems in SFRs.
+
+(2)   (PFR, general): Operators discovered that oil from oil bearings had leaked into the
+      primary loop. Following the oil ingress, the oil bearings were replaced with gas bearings
+      [19]. Oil from pumps, bearings, and other places that leaks into the primary circuits of an
+      SFR can produce methane gas through the core sodium coolant, causing reactivity
+      effects and possible blockage of the subassemblies with solid carbon debris. In the case
+      of the PFR, no reactivity effects were seen possibly because the oil was retained in the
+      pump cone for a prolonged period and slowly broke down without the formation of large
+      bubbles. Oil bearings should be avoided in SFR designs.
+
+(3)   (BOR-5 and BOR-10, general): Over the operational lifetime of Russia’s BOR-5 and
+      BOR-10, a combined total of 19 sodium leaks occurred in the sodium equipment and
+      pipelines in the reactors [24]. A combination of inservice cracking and manufacturing
+      fabrication defects, many of which were unspecified, caused the sodium leaks [24]. As
+      with cracking in other operating SFRs, the valve leaks were probably caused by seal
+      problems and improper seating of contacting parts. Pipe leaks not caused by
+      manufacturing defects were likely caused by thermal fatigue and thermal expansion
+      mismatch issues in the SS materials (i.e., X18H10T Russian designation, Type 316L
+      equivalent). Reference [24] states that most of the sodium leaks actually happened in
+      the early stages of reactor operation, which began in 1958, while the plant was
+      mastering sodium technology and developing various equipment design solutions. No
+
+
+
+                                              15
+       sodium leaks occurred after 1986, and the plant was retired in 2002. No significant
+       corrosion of materials in the sodium circuits occurred during the 40 years of operation.
+       The earlier operation of these reactors demonstrates that fabrication defects during
+       construction must be identified, especially with welds.
+
+(4)    (PFR, 1987–1990): Another problem with the SG in the second decade of PFR
+       operation was the deterioration of welds in the SS outer vessels of the superheaters and
+       reheaters [19]. Leaks in reheater vessels in 1987 and 1988 revealed cracks (in one
+       case, more than 100 mm (3.9 in.) long) in the original interplate welds. Subsequent
+       inspections of the other vessels revealed large, nonpenetrating cracks similarly located
+       in two of the superheater vessels. All cracks were in welds that were reworked during
+       fabrication, or they occurred in areas where fabrication welds had overlapped. It was
+       decided to dump the sodium, cut out the defects, and repair the vessels. However, one
+       of the nonpenetrating cracks in the Superheater 3 vessel was not cut out. Later, an
+       in situ assessment indicated a low likelihood of rapid propagation. Strain gauges were
+       fitted to the crack region as monitors. Two repair methods were used. In the earlier
+       method, the excised region was filled with weld metal against a backing plate. One of
+       these repairs caused a further leak in 1990. In the later repair technique, a circular stub
+       surrounding the defect area was welded on, the defect was removed, and the vessel
+       was resealed by welding a cap on to the stub end. In subsequent years, this method
+       evolved into a “stood off” patch, whereby the cracks were left in situ with holes drilled at
+       both ends to stop them from propagating any further. An investigation of the problem
+       indicated that delayed reheat cracking caused by the relaxation of weld residual stresses
+       initiated the cracks. A high-temperature brittle intergranular mechanism driven by the
+       residual stress field caused the cracks to subsequently grow. Repair procedures in
+       SFRs must be carefully planned because weld residual stresses in repair welds are
+       often highly tensile.
+
+3.6   Steam Generator
+
+SG failures are a particular concern for SFRs because of the potential reaction between molten
+sodium and water. Materials must also meet the demanding conditions of the steam generator
+environment. The review of the Phénix reactor [10] also describes general concerns of SFR
+SGs.
+
+(1)    (Phénix, 1974, 1975): Four water leaks were found in the economizer/evaporator inlet of
+       the SGs [10, page 46]. The leaks were caused by wear of the subheader underframes
+       from vibrations produced by high-pressure water flow in the orifice plates in the
+       evaporators. As a result, the plate geometry was modified to improve flow
+       characteristics of the orifice plates. Parts in contact must be prevented from wearing out
+       in SFR SGs (tribology management).
+
+(2)    (Phénix, 1982): A check valve that failed in the SG nitrogen filling system resulted in
+       sodium slowly entering the water-steam region through a leak. The sodium reached a
+       reheater isolation valve, creating two holes from corrosion (total area 2 square
+       centimeters) in two SG tubes. Repairs were made, and the plant was restarted [10]. An
+       accurate estimate of component reliability minimizes the chance of a sodium leak.
+
+(3)    (Phénix, 1983–1984): Four separate sodium/water reactions took place in the SG
+       reheater tubes. The leaks and subsequent sodium/water reactions were the result of
+       cracking at tube-butt welds. The butt welds had excess metal leading to stress
+       concentrations at the junction of the weld to the tube. Thermal transients caused these
+
+
+                                               16
+      cracks during startup operations as water mixed with steam, which caused thermal
+      shock and fatigue. Consequently, the design was modified to reduce these transients,
+      and excess butt weld material was removed [10]. Excess weld material in SFRs can
+      lead to over constraint, increasing the likelihood of cracking under thermal transients.
+
+(4)   (Phénix, general): Every 10,000 hours of operation, one of the burst discs operating
+      near the hottest SG regions was removed, tested to ensure its burst rating, and
+      replaced. Burst discs on the SGs are carefully monitored to prevent sodium/water
+      reactions and excessive operating pressures in Phénix [10]. This was a precaution to
+      prevent sodium/water fires. An accurate estimate of component reliability minimizes the
+      chance of a sodium leak.
+
+(5)   (BN-350, 1973): A major sodium fire occurred because of poor weld quality control of
+      the SG tubing. The next Russian reactor (BN-600) was designed with the SGs in
+      separate compartments to contain sodium/water fires. Additionally, the BN-600 was
+      designed with an extra SG to allow the repair of fire-damaged SGs while the reactor
+      continued to operate [14]. Initial fabrication defects during construction must be
+      identified, especially with welds. Vendors should anticipate SG operational issues
+      during design.
+
+(6)   (BN-350, general): The BN-350 had six loops and six SGs, each of which had two
+      vertical evaporators with field-type heat exchange tubes [25]. During testing, leakage
+      was detected at welds where the tubes had been welded to the tube sheets. The
+      materials were not identified; however, References [24, 25] describe the tube material as
+      2.25Cr-1Mo steel. Metallographic examination showed the presence of microcracks in
+      the tube weld joints caused by cold stamping. The SGs were repaired in situ; all the
+      tubes were replaced, and all the welds were thoroughly examined. In 1974 and early
+      1975, another incident occurred, the first three SGs were repaired, and the reactor
+      operated at 350 megawatts thermal (MWt). After 9 days of operation, a large interloop
+      leak was detected in SG No. 5. The reactor was shut down, and the valves in the lines
+      of feedwater were closed. The drainage of water from the damaged evaporator was
+      started. However, operators failed to drain the sodium properly because the drainage
+      pipeline got plugged with reaction products. This apparently led to a violent
+      sodium/water reaction. The majority of the evaporator heat-transfer tubes were
+      corroded by the resulting sodium hydroxide solution; the evaporator housing was also
+      partially damaged. About 300 kg (660 lb) of sodium went into the SG room. Proper
+      procedures and quality control (particularly for welds) and repairs are important.
+
+(7)   (BN-600, early operation): Leaks in the sodium interloops [15, 24] occurred during the
+      first years of plant operation in the SG superheaters. Each interloop consisted of eight
+      sections, including an evaporator module, a superheater module, and a reheater
+      module. The evaporator modules were made of ferritic-martensitic steel (1Х2М) and
+      superheater modules of Russian SS (ОH18N10Т, Type 316L equivalent). All cases of
+      interloop leaks occurred at the point of tube-to-SG tube plate welds—a crack problem
+      location found in many SFR designs. Deficiencies in the welding procedure and
+      subsequent weld control also caused cracking. After design improvements, only one
+      interloop leak was observed after 1985. Before these improvements, in the first three
+      cases of interloop leaks, a fairly large amount of water went into the secondary circuit
+      and a considerable quantity of sodium entered the tertiary circuit. Moreover, the first
+      case showed hydrogen leakage through the packing bearings of the shutoff valves.
+      Welds should be designed to minimize stresses during operation. Additionally weld
+
+
+
+                                              17
+       fabrication and inspection are important. Accurate estimates of valve reliability minimize
+       sodium leaks.
+
+(8)    (BN-600): As of 1997, the BN-600 Russian SFR had 27 sodium leaks, with the largest
+       leak being 1,000 liters (264 gal) [15, 24]. Fourteen of the leaks resulted in fires. The
+       causes of the leaks, their locations, or the materials used were not summarized;
+       however, item 7 above includes some of them.
+
+(9)    (Phénix, 1986): During a scheduled outage, a long-term sodium leak was discovered
+       beneath insulation at an SG’s heater inlet T-part junction [10]. The leak occurred
+       through a crack under the insulation that could not be easily detected (i.e., there was no
+       smoke or other visible signs). Flow assisted corrosion removed 7 mm (0.28 in.) of the
+       pipe’s thickness (the pipe is nominally 19 mm (0.75 in.) thick in this region). The piping
+       insulation and molten sodium mixed to form a corrosive amalgam. This incident
+       highlighted the need for better detection methods of corrosion and leaks, particularly in
+       regions coated with insulation. It also highlighted the need to test chemical compatibility
+       between molten sodium and insulation materials.
+
+(10)   (PFR, 1974–1984): A total of 37 gas-space leaks occurred in PFR SG units, with 33 of
+       these leaks in evaporators, 3 leaks in superheaters, and 1 leak in a reheater [19]. All the
+       gas-space leaks originated at the welds between the tubes and the tube-plates. These
+       leaks had a considerable effect on PFR availability; the highest annual load factor before
+       1984 was only 12 percent. Gas-space leaks proved to be readily detectable by means
+       of the hydrogen they generated. Careful washing of the tube-plates with hot sodium
+       limited the number of leaks and avoided further damage, but it did not resolve the
+       problem. The solution involved reinforcing all the tube-to-tube-plate welds in the three
+       evaporators. Future SFRs should avoid the type of direct tube-to-tube-plate welds
+       adopted initially at the PFR, which could not be heat treated after manufacture. In
+       addition, austenitic steels are unsuitable for SFR SGs because of the high risk of caustic
+       stress-corrosion damage following even small leaks. Flow-induced vibrations also
+       contributed to some of the cracking at the welds.
+
+(11)   (PFR, February 1987): A failure in Superheater 2 led to a major leakage of steam into
+       the secondary sodium circuit [19] in the PFR. This caused a 28-week shutdown for
+       repairs. After the leak event, an examination of the austenitic SS superheater revealed
+       a fretting failure of a single tube, which had been subjected to unexpected flow-induced
+       vibration. Thirty-nine neighboring tubes failed in the resulting sodium/water reaction
+       event. This event rendered the unit unserviceable. One of the replacement tube
+       bundles, stored on site as a strategic spare, was installed. The tube location suggested
+       the possibility of a similar event occurring in the other original superheaters, and a
+       decision was made to replace all of them. Observations of damage from vibration in the
+       other units after removal warranted tube replacement. The sodium leaks in
+       Superheater 2 demonstrated the possibility for a large number of tubes to fail from
+       overheating in a period of a few seconds. This event was unlikely to cause significant
+       over pressurization damage in the secondary circuit or the IHX, although it was possible.
+       The incident led to a reassessment of the design-basis accident for the PFR SGs. In the
+       case of the PFR, the design-basis accident was changed from a single double-ended
+       guillotine fracture to 40 double-ended guillotine fractures spread over a period of
+       10 seconds. Vibrations caused by mixing sodium flows of different temperatures must
+       be carefully assessed to prevent fretting.
+
+
+
+
+                                               18
+(12)   (PFR, general): Cracking in PFR SG containment vessels was observed during
+       maintenance activities. The evidence indicated that a delayed reheat mechanism driven
+       by residual stresses in non-stress-relieved welds initiated cracking in PFR SGs. Weld
+       repairs (Figure 5) made during the manufacturing process gave rise to conditions that
+       favored cracking. 4 Weld residual stresses must be properly managed in systems where
+       creep may occur and where corrosion may take place.
+
+
+
+
+                 Figure 5 SG vessel repair methods (from [19, Figure 3.2])
+
+(13)   (EBR-II, February 7, 1965): During a shutdown period with the SG system at ambient
+       temperature, the operating crew reported liquid water between the steam and sodium
+       tubesheets at the upper end of an evaporator (Figure 6). The double-tube design was
+       made to minimize the possible interaction of sodium with water and steam. The source
+       of water was traced to a crater crack in one of the tube-to-tubesheet welds
+       (2-1/4Cr-Mo steel). It was a fabrication defect that the original helium leak test had not
+       detected, but it was manually repaired. Access was gained by removing a section of the
+       steam riser from the evaporator. No additional leaks were detected on any of the SGs.
+       After this incident, additional inspections were made seven times from 1969 to 1978.
+       Although there was some discoloration, there was no evidence of corrosion or fatigue
+       cracking at the tube-to-tubesheet welds. Initial fabrication defects during construction
+       must be identified.
+
+
+
+
+4
+       It is well known that repair welds often greatly increase tensile weld residual stresses.
+
+
+                                                19
+          Figure 6 EBR-II steam generator tube cracking (from [23, Figure 7])
+
+3.7   Sodium Purification System Loop
+
+(1)   (FBTR, 2002): After 17 years of operation, a sodium leak in India’s FBTR [25, 26]
+      occurred in the purification building where the primary sodium purification piping resides.
+      Publicly available sources do not precisely describe the event; however, it appears to
+      have occurred because of a manufacturing defect in the bellows of sealed sodium
+      service valves. The cleanup was particularly expensive and time consuming because
+      the sodium was radioactive; its removal was a major effort.
+
+(2)   (BN-600, July 1993): A crack on the auxiliary primary sodium purification system
+      pipeline in a 48 mm (1.89 in.) diameter pipe [24] caused a sodium leak. This resulted in
+      an insignificant radioactive discharge to the atmosphere (less than 5 microsieverts (0.5
+      millirem)) at the plant boundary. The cause of the crack was not identified.
+
+(3)   (PFR, June 1991): Overheating on the top bearing of a primary sodium pump [19]
+      resulted in a manual trip of the PFR. The upper bearing of the pump lost a significant
+      quantity of oil (up to 35 liters (9.25 gal)), which entered the primary sodium circuit. The
+      primary pump filters were also damaged and required replacement. This was another
+      incident of pump bearing failure that allowed oil into the sodium and resulted in a long
+      shutdown. The bearing materials and the precise tribology of the failure were not
+      reported. Oil bearings should be avoided whenever possible in SFRs.
+
+
+
+
+                                               20
+(4)    (FBTR, April 2002): While the reactor was operating at 17.4 MW t, 75 kg (165 lb) of
+       primary sodium leaked from the purification circuit [26]. The leaked sodium froze on the
+       floor and pipelines. The sodium was manually removed under inert gas purging. The
+       leak came from the body of a bellows-sealed valve through one of the three blind holes
+       used by the manufacturer for machining the valve body (Figure 7). Sodium leaked
+       inside a purification compartment from a hole in the valve body. Because the problem
+       was generic to that specific valve, all valves with that make were inspected and rectified
+       by welding tightly fitting plugs. The leaked sodium converted to sodium hydroxide, which
+       was neutralized by phosphoric acid and disposed of as active liquid effluent. The
+       material thickness of the valve was 0.1 mm (0.004 in.). This thickness was sufficient to
+       hold sodium for 17 years, which indirectly indicates that minimal corrosion occurs
+       between SS and high-purity sodium. In a similar incident, sodium leaked past the failed
+       bellows and went through a crack in the weld joint of the nipple used for mounting a
+       spark plug detector. A faulty valve was later cut and replaced with a new valve (see
+       Figure 7). Proper valve design and accurate estimates of valve reliability will minimize
+       sodium leaks.
+
+
+
+
+                Figure 7 FBTR valve leakage failure (left) and sodium leakage
+                     on the floor and piping (right) (from [26, Figure 12])
+
+3.8   Emergency Sodium Cooling Circuits
+
+(1)    (Superphénix, May 1991): A sodium leak occurred at the thimble of the thermocouple
+       that measures the plugging indicator pellet temperature of a loop purification circuit.
+       This design error led to varying temperatures in the area, which caused excessive
+       expansion and distortion followed by cracking in the thimble. Thermal fatigue must be
+       carefully assessed to prevent component failure [9].
+
+(2)    (Superphénix, April 1994): An argon leak with sodium aerosols from a through-wall
+       crack occurred on a secondary circuit gas line connecting the interspace of the rupture
+       disk (discharge membranes for severe sodium/water reactions) to the cold storage tank.
+       Corrosion caused by aqueous sodium hydroxide initiated the crack. The root cause was
+       a poorly chosen gas fitting [9].
+
+3.9    Hydraulics and Thermohydraulics
+
+In nominal operating conditions, SFRs must handle hot sodium (550 degrees C) (1,022 degrees
+F) (and cold sodium (400 degrees C (752 degrees F) on the primary side and 350 degrees C
+
+
+
+
+                                               21
+(662 degrees F) on the secondary side), which could lead to potential thermohydraulic concerns
+[9], including the following:
+
+•      fluctuation and thermal striping risks in the mixing zones with flows at different
+       temperatures
+
+•      complex sodium flow zones and interactions with flow patterns between subassemblies
+
+•      thermal stratification of sodium and its consequences on the structures, including the
+       inner vessel
+
+•      cold shocks or hot shocks during transient conditions
+
+In general, thermal loads in SFRs play a large role in structural performance and possible
+cracking, as pressures are low. Chapter 18 of Reference [9] discusses thermohydraulic codes
+that were developed and specifically verified during the design and operation of Superphénix.
+
+3.10 Severe Accident
+
+No SFR has had a severe accident; therefore, little information was found on this issue.
+However, studies of BN-350 have been underway since the 1990s to ensure safety under
+external dynamic loading, such as an earthquake [24]. Investigations were carried out to refine
+the parameters of the maximum design seismic impact, including building structures, pipelines,
+heat exchange equipment, and reactor vessels. Analysis of the consequences of seismic
+impact on the reactor plant building structures, equipment, and pipelines showed existing safety
+systems, such as the power supply system, the feedwater system, and the service water supply
+to components important to safety, would be either partially or completely destroyed during a
+seismic design-basis event. Taking this into account, a design was developed to provide for the
+arrangement of safety equipment in the seismically robust part of the reactor building to ensure
+the removal of reactor residual heat under seismic impact conditions. A separate design is
+currently under development to provide reactor seismic protection by triggering the shutdown
+system in response to signals from seismic sensors.
+
+In addition, following a seismic safety upgrade study of the Phénix reactor in the late 1990s [28],
+the plant’s buildings had to be reinforced, especially the structural steel work and steel
+reinforcements in the reinforced concrete. The most extensive reinforcement work was in the
+SG building in 2000. The licensing process needs to scrutinize the seismic and external
+dynamic loading events of SFRs.
+
+3.11   Inservice Inspection
+
+Although very little information on inservice inspection was available, below is an example of
+inservice inspection in SFRs.
+
+The VISUS system was an ultrasound system developed to detect objects in opaque sodium in
+Phénix [10, page 44]; it monitored the movement of the subassemblies within the reactor to
+detect possible problems. After various adjustment problems, the VISUS system worked
+extremely well. This device was a very useful instrument for “seeing through” sodium by
+compensating for its opacity during potentially risky handling operations.
+
+
+
+
+                                                22
+Phénix used a periscope to monitor the space above the sodium in the storage drum [10]. In
+June 1976, during the loading of new fuel subassemblies, an unusual object resembling a
+metallic rod appeared on top of a handling flask in a breeder subassembly placed half an hour
+before the rod’s appearance. After it was visualized and photographed several times, the object
+disappeared. This unusual object was later determined to be a rod of solid sodium that froze in
+the upper neutron shielding channel of the new fuel subassembly while it was being inserted
+into the storage drum and that had been held upright under the effect of the hydrostatic
+pressure. The temperature of the argon atmosphere in the storage drum was not high enough
+to melt the sodium rod. It was subsequently melted by raising the temperature.
+
+Phénix [10] set up a sound navigation and ranging (SONAR) system for inspection in 1993
+following a negative reactivity trip. Its role was to detect movements in core subassemblies in
+case a new reactivity trip occurred. The SONAR device also detected acoustic signals in the
+core and measured the magnetic field in the vessel.
+
+In 1982, the French safety authority requested a comprehensive inspection before fuel loading
+in Superphénix [9]. A robotic device called the MIR (Fast Reactor Inspection Module) was
+developed and could move in the containment vessels. The MIR used ultrasonic sensors for
+inspecting welds. The MIR could also take distance measurements between components within
+the SFR vessel. In addition, the MIR was equipped with cameras to make videos of the main
+vessel and safety vessel (Figure 8). The use of the MIR robot and the excellent correlation
+between the measurements carried out during construction and those taken by the MIR
+demonstrated the feasibility of reactor vessel inservice inspection by ultrasonic techniques.
+
+
+
+
+                   Figure 8 MIR inspection device (from [9, Figure 19.2])
+
+
+
+
+                                               23
+The last operational period for Superphénix extended from August 1994 to December 1996,
+during which the most noticeable event was the occurrence of a small leak at the argon feed
+tube of the gas sealing bell of one IHX in January 1995. Visual inspection using an endoscope
+inserted in the tube above the reactor roof found the precise location of the leak. An internal
+sleeve was expanded through pressurization to plug the leak without the need to remove the
+IHX.
+
+Superphénix had several methods for detecting sodium leaks [9]. In addition to conventional
+fire detectors, 62 aerosol detection systems equipped with spectrophotometers were installed
+throughout Superphénix. Approximately 270 spark plug-type devices were used to detect
+sodium leaks. These devices operated on the principle that sodium leakage would cause a
+short circuit between the ground and the spark plug electrode, thus triggering an alarm. The
+devices proved to be unreliable for two principal reasons: (1) the degassing of products in the
+thermal insulation deposited on the spark portal electrodes caused them to short to ground and
+(2) keeping the spark plugs at high temperatures caused a loss of electrical insulation by
+degrading the spark plug’s internal insulation. Roughly 900 beaded wires were also installed
+beneath thermal insulation where the wires were set to short circuit during a sodium leak and
+sound an alarm. In general, the spark plug and beaded wire detectors were unreliable, and a
+“sandwich” detector was developed consisting of a steel sheet electrode placed between two
+layers of insulating felt. The new detectors operated satisfactorily, and installation of the new
+detectors began in 1992. However, the OpE of the detectors was curtailed because of the
+closure of Superphénix.
+
+In EBR-II, the primary containment shield tank consisted of an inner and outer Type 304 SS
+tank with a 127 mm (5 in.) annulus between the two that was filled with inert gas and
+surrounded by a 1.83 m (6 ft) concrete biological shield [27]. The annulus region was
+continually monitored for sodium aerosols and air leakage through either tank wall (monitoring
+devices not specified).
+
+3.12   General Design Issues
+
+During the design phase, many potential material and structural integrity issues were carefully
+considered. The designers of Superphénix were much more cognizant of issues related to
+thermal fluctuations in various components after operation of the Phénix. Some issues that
+needed consideration are listed below; however, these issues were not necessarily problems in
+the Superphénix plant. This section discusses lessons learned from OpE related to materials
+performance, including favorable performance, and potential materials issues:
+
+•      Thermal stratification and mixing between hot and cold sodium pools and zones must be
+       managed because these can lead to thermal fatigue of the metal in these zones. In
+       normal operation, sodium temperatures in Superphénix could vary between
+       545 degrees C (1,013 degrees F) at the core outlet to 395 degrees C (743 degrees F) at
+       the IHX outlets, raising the possibility of thermal stratification in the mixing zones and
+       significant local stresses. Superphénix developed several thermohydraulic codes [9,
+       Chapter 18] (e.g., SUPERCAVNA to model thermal stratification and NAJECO and
+       NAJET for jet mixtures). In addition, the RCC-MR code had many developments and
+       additions to handle high-temperature design and damage assessments to support
+       Phénix and Superphénix.
+
+•      For similar reasons, startup transient temperature fluctuations must also be managed
+       because significant stresses can occur during the startup and shutdown transients. A
+
+
+
+                                               24
+       number of mockup tests in Superphénix validated thermohydraulic codes to ensure that
+       thermal mixing and stratification were properly managed [9].
+
+3.13   Other Topics
+3.13.1 Steam Generator Tear Down of Experimental Breeder Reactor II
+
+In April 1981, the superheater was removed from the EBR-II steam system for destructive
+examination after more than 16 years of operation [23]. The superheater was disassembled in
+a sequence that would progressively yield examination results before their obliteration by
+subsequent disassembly. The steam surfaces contained lightly scattered corrosion pitting. The
+pits were less than 0.25 mm (0.01 in.) in depth and appeared to have been formed early in the
+life of the tubing, as evidenced by the oxide coating. The inside diameter measurements were
+within 0.05 mm (0.002 in.) of the nominal fabricated diameter of 27.05 mm (1.06 in.). The
+straightness measurements of the tubes indicated that some tubes were bowed and the
+peripheral tubes were bowed more than the central tubes. The bowing was consistently in the
+same direction (i.e., the tube bundle was twisted in one direction and then returned in the
+opposite direction). Plasticity, creep from operations, or thermal expansion stresses could have
+caused this distortion. Investigations of the duplex (double-walled) SG tubing indicated it was
+“feasible that some creep or stress relaxation of the material has occurred in the tubes” [23,
+page 13]. As discussed in Reference [57], EBR-II never experienced a sodium/water reaction
+because of the use of duplex (double-walled) SG tubes (i.e., concentric brazed tubes swaged
+together).
+
+The SG tube-to-tubesheet welds were a matter of concern because they were located at the
+highest stress point [23]. Liquid penetrant examination showed discontinuities in some welds.
+The baffle nest, which was suspended from inadequate welds and had broken away from its
+support ring, was discovered 22 inches from its as-built location. During operation, the baffle
+nest had apparently “floated” in the sodium flow stream within 2 inches of its as-built location. In
+general, however, the superheater was found to be in remarkably “like new” condition with even
+the original soapstone marks clearly visible on the baffle nest. It may be useful to examine
+teardown inspections of many other SFR components from this and other SFR plants to infer
+more information on the long-term OpE of SFRs. There are probably other teardown results
+that the review could not identify.
+
+Sodium leaks occurred at all SFRs examined in this report at some point during their operational
+lives. For example, the Phénix plant is typical for the types of leaks that have occurred in SFRs.
+During its 35 years of operation, Phénix faced 31 sodium leaks. Most of these leaks were
+located on welds of secondary loops and auxiliary circuits; fewer leaks occurred in the primary
+system. A leak caused by corrosion occurred in Phénix only once. Each leak in Phénix had
+consequences on plant availability but never on its safety. Table 2.11 of Reference [24]
+provides a complete summary of all sodium leaks that occurred in Phénix. This summary table
+shows the leak location, lead detection method used, amount of leakage, and temperature. The
+fluid temperatures at the leak location ranged from about 100 degrees C (212 degrees F) to
+550 degrees C (1,022 degrees F). In addition, during the 35 years of Phénix operation, five
+sodium/water reactions occurred, all in the reheater module. Most began soon after the startup
+of the plant after a shutdown and were located at butt welds on the hottest part of the SG tubes.
+Startup and shutdown transients may have played a role in these leak reactions.
+
+
+
+
+                                                25
+3.13.2 Potential Emergency Issues with Intermediate Heat Exchangers in
+       Sodium-Cooled Fast Reactors
+
+During an emergency shutdown (scram) operation in an SFR, the IHXs (Figure 9) may
+experience a thermal shock when the cold sodium arrives, which could lead to tube buckling
+among other structural issues [9]. This is amplified in the case of an earthquake. Future SFR
+designs must consider this issue. The IHX could operate up to 542 degrees C (1,008 degrees
+F) in Superphénix.
+
+
+
+
+               Figure 9 Superphénix heat exchanger (from [9, Figure 11.1])
+
+3.13.3 Weld Reheat Cracking
+
+The problem of delayed reheat cracking is a concern that can affect any welded structure
+operating at high temperature and did affect welds at several SFR plants, including Phénix and
+the PFR. At Phénix, the secondary piping and buffer tanks were susceptible to reheat cracking
+[28, 29]. These components are made of Type 321 SS (stabilized with titanium) and were some
+of the hottest components of the sodium envelopes of the SG superheater and reheater
+modules. The secondary piping loop was not considered safety significant, which may also
+
+
+                                              26
+have reduced the welding quality and contributed to failure at the welds. Replacement with
+316LN material in Superphénix, based on Phénix experience, minimized this issue. Reheat
+cracking was also observed in PFR [19].
+
+3.13.4 Double-Walled Tube Steam Generator Proposal
+
+To enhance the reliability of SGs against a water/sodium reaction caused by tube failure, Japan
+has developed a double-walled SG tube [30]. Figure 6 gives an example of a double-walled SG
+tube in EBR-II. In addition, a collaboration between Japan Atomic Power Company and the
+DOE is progressing on a performance test of an SG with a double-walled tube of 2Cr-1Mo steel.
+
+3.13.5 Fuel Handling
+
+Although fuel handling is not considered a structural or materials issue, mishaps during fuel
+handling can significantly affect reactor operation and can potentially lead to structural
+problems; this presents a challenge because sodium is opaque. Reference [10] discusses
+some fuel incidents that occurred in EBR-II.
+
+3.13.6 Sources of Plant Shutdowns
+
+Superphénix shutdowns were dominated by failures in the steam side of the plant in accordance
+with Table 2 [9]. The complexity of the nonnuclear portion of the plant, which included two
+separate 600-megawatt-electric (MW e) turbo generators, may have been a strong contributor.
+
+             Table 2 Origins of Superphénix Shutdowns (from [9, Figure 6.2])
+
+                            Origin                       Contribution
+                      Water-steam plant                      59%
+                          Scheduled                          18%
+                  Instrumentation and control                10%
+                           Reactor                            6%
+                       Steam generator                        5%
+                          Secondary                           2%
+                             Core                             0%
+                           External                           0%
+
+
+
+3.13.7 Material Performance
+
+Table 3 , adapted from [12], summarizes the materials used for major components in many of
+the world’s SFR reactors. Different grades of SS dominate the material designs for the various
+SFR components. Nickel-based superalloys (e.g., 9Cr-1Mo and modified 9Cr-1Mo (Grade 91))
+are being strongly considered for cladding in future SFRs because of their good resistance to
+void swelling.
+
+
+
+
+                                                27
+Selection parameters for reactor assemblies include tensile strength, creep response, low-cycle
+fatigue performance, creep-fatigue interaction, and high-cycle fatigue caused by vibrations.
+Fracture toughness and weldability are also important. Low-alloy steels are not considered
+suitable in the SFR heat transport system because they usually do not have adequate
+high-temperature material properties.
+
+SFR criteria [31] for selecting the SG materials in Table 3 address the same concerns as those
+discussed above for the reactors; however, good ductility and resistance to aging effects are
+also important. Mechanical properties allowing performance in sodium are necessary, including
+with regard to the material’s susceptibility to decarburization. Corrosion resistance to molten
+sodium and aqueous sodium hydroxide, wear resistance, and proper weldability (noted in the
+OpE) are important. Fabrication issues have also caused many failures. Reference [31, 32]
+discusses the material requirements and selection criteria for SFRs.
+
+
+
+
+                                              28
+                      Table 3 Materials Selection for SFRs (from [12])
+
+
+
+
+The Japan Atomic Energy Agency developed Type 316FR SS. This structural material is used
+for the IHX in the Joyo reactor and is the lead material for the future fast breeder reactor in
+Japan. It is an austenitic SS with improved high-temperature creep properties. The low carbon
+content and the optimization of the phosphorus and nitrogen content enhance the strength of
+
+
+
+
+                                              29
+Type 316FR SS within the component range of the Japan Industrial Standards for Type 316 SS
+[24].
+
+3.13.8 Material Choices for Future Sodium-Cooled Fast Reactors
+
+This section discusses advanced SFR plants being built in other countries.
+
+ASTRID (France)
+
+ASTRID is the proposed advanced SFR (600 MWe) to be built in France. The material
+candidates for ASTRID are based on prior SFR designs (i.e., Phénix, Superphénix, and
+Superphénix 2) and the European Fast Reactor design [32]. For the materials in contact with
+sodium, the choice of materials is based on the following three criteria:
+
+(1)    corrosion resistance to sodium, including resistance to intergranular attack
+(2)    easy to weld
+(3)    sufficient/superior mechanical properties
+
+Based on these criteria, the designers chose Type 316L austenitic SS with controlled nitrogen
+for the main vessel and the internals operating at high temperature (550 degrees C) (1,022
+degrees F) and possibly Type 304L for lower stress structures operating in the negligible creep
+regime. These materials satisfy the above three criteria. The low carbon content ensures better
+corrosion resistance, particularly against impurities that maintenance and repair activities may
+introduce into the sodium.
+
+Choosing an SG material is complex because of the need to consider various aspects. In
+addition to the criteria noted above, SGs must have (1) sufficient creep resistance, (2) excellent
+resistance to water and water vapor corrosion [32], (3) the ability to undergo inspections and
+in situ maintenance and repair, and (4) in particular, a design that facilitates cleaning operations.
+Phénix SGs used chromium-molybdenum-grade material, and the vapor collectors of
+Superphénix were made of 2.25Cr-1Mo steel. Owing to its excellent oxidation resistance and
+fabrication characteristics, Alloy 800H is a good candidate for ASTRID.
+
+Prototype Fast Breeder Reactor (India)
+
+India’s next generation SFR, the Prototype Fast Breeder Reactor, will use of 304LN in place of
+316LN for the cold-leg near-core components and the use of chromium-molybdenum in place of
+304LN/316LN for the secondary sodium system are the focus areas for reducing material costs.
+The 2.25Cr-1Mo steel is under study for the secondary sodium storage tank and auxiliary cold-
+leg piping, and modified 9Cr-1Mo steel is being considered for the surge tank and hot-leg piping
+[33].
+
+3.14   Lessons Learned (Sodium-Cooled Fast Reactor)
+
+(1)    Sodium heat-transport systems experienced a significant number of leaks caused by
+       poor weld design and poor weld quality control. Initial fabrication defects, particularly at
+       welds, must be identified during construction. Welds should be carefully designed to
+       minimize residual stresses, and direct tube-to-tube-plate welds should be avoided.
+       Lowering the threshold for quality in welds and secondary loops has resulted in
+       operational problems.
+
+
+
+
+                                                 30
+(2)    Repair procedures in SFRs must be carefully planned because weld residual stresses in
+       repair welds are often highly tensile.
+
+(3)    Reheat cracking is a concern in SFR components operating at high temperatures. In
+       particular, weld repairs should be carefully managed because they may give rise to very
+       high tensile residual stresses. Some types of austenitic SS (e.g., Type 321) are
+       significantly more prone to reheat cracking than other austenitic SS.
+
+(4)    Stresses induced by thermal expansion, particularly in areas of constraint, must be
+       carefully considered for SFRs. These stresses have often been the source of structural
+       integrity issues in SFR operation. In the case of Phénix, excess weld material led to
+       over-constraint and cracking. The issue was resolved by eliminating unnecessary weld
+       material.
+
+(5)    Thermal fatigue (thermal striping) is a much more significant issue than it is for LWRs.
+       Thermal fatigue in SFRs is caused by mixing sodium flows of different temperatures and
+       must be carefully assessed to prevent fatigue.
+
+(6)    Management of the startup and cooldown transients in SFRs to control vibration, thermal
+       expansion loads, and possible fatigue issues in the components is important.
+
+(7)    Avoid shrink-fit parts in pumps that could loosen during some thermal transients and
+       inspect all pump welds carefully.
+
+(8)    Oil-based lubricants should be avoided in SFRs.
+
+(9)    Possible valve failures (all system valves especially those operating at high temperature)
+       are a concern for SFRs. Valve reliability under operating conditions should be
+       accurately determined.
+
+(10)   Austenitic steels are unsuitable for SFR SGs because of the high risk of caustic
+       stress-corrosion damage following even small leaks.
+
+(11)   Testing should confirm the chemical compatibility between molten sodium and insulation
+       material.
+
+(12)   The proper choice of materials for SFRs requires complete material databases.
+
+(13)   Secondary measurement devices (e.g., thermocouples) must be properly designed to
+       prevent leaks. Flow-induced vibrations and complex fluid flows in these areas can
+       cause failure and sodium leaks.
+
+(14)   The failure of in-sodium components without an adequate means for removal and repair
+       has resulted in costly and time-consuming recovery.
+
+(15)   Sodium contamination and the consequent formation of sodium oxide have caused the
+       binding of rotating machinery and control rod drives.
+
+(16)   Better detection methods of corrosion and leaks are necessary, particularly in regions
+       coated with insulation. The design phase should consider sensor placement and
+       reliability under operating conditions. Inadequate or unreliable leak detection systems
+       have caused extensive shutdowns because of sodium contamination and excessive
+       sodium leaks with consequent fires.
+
+
+                                               31
+(17)   The licensing process needs to scrutinize seismic and external dynamic loading events
+       of SFRs. During an emergency shutdown (scram), the IHX may experience thermal
+       shock caused by the influx of cold sodium. This condition could lead to buckling and
+       structural issues amplified by an external loading.
+
+(18)   Reference [34] assesses applicable standards and codes for SFRs, and future
+       companion reports will provide more information on such codes.
+
+4 HIGH-TEMPERATURE GAS-COOLED REACTORS
+As of April 2010, seven HTGRs have been designed and operated throughout the world [37].
+Figure 10 [37] depicts these, along with information on the plants themselves. Reference [35]
+discusses standards and codes applicable to HTGRs. This section describes OpE for HTGRs;
+OpE is provided by component for many of these plants. This section of the report lists the
+overarching lessons learned from the OpE with regard to material performance and structural
+integrity. For reference, the OpEs are numbered for each component below. Chapter 2 of
+Reference [37] provides a general, high-level overview of the OpE of these plants.
+
+
+
+
+                                              32
+      .
+
+          Figure 10 Important operating gas-cooled reactors (from [37, Figure ES-1])
+
+4.1   Fuel Structure
+
+(1)   (Fort St. Vrain (FSV), October 1981): The licensee discovered a crack had propagated
+      through two stacked fuel elements caused by high tensile stresses induced by
+      irradiation. High tensile stresses can develop in the fuel elements caused by irradiation
+      swelling at high temperatures, leading to cracking [36, 37]. Reference [38] summarizes
+      attempts to improve graphite and carbon-graphite resistance to this effect. In general,
+
+
+
+                                              33
+      the operational history of FSV can be characterized by low availability (capacity factor)
+      and inconsistent power production [39]. Graphite swelling under irradiation must be
+      carefully evaluated with supporting data.
+
+(2)   (Arbeitsgemeinschaft Versuchsreaktor (AVR), general): During a test campaign using
+      special pebbles containing melt wires, Germany’s AVR pebble bed HTGR [40] showed
+      maximum core temperatures greater than 1,280 degrees C (2,336 degrees F) at an
+      average coolant outlet temperature of 950 degrees C (1,742 degrees F). The maximum
+      core temperature was 200 degrees C (392 degrees F) greater than maximum design
+      temperature of the fuel pebbles [41]. The excess temperatures led to higher releases of
+      fission products and overheating of heat exchanger components and hot-gas ducts.
+      Elevated temperatures may have also contributed to cracking of the graphite reflectors.
+      There is no convenient way to monitor active core temperatures because pebble
+      movement destroys standard detection equipment [41, 49]. Hot-gas temperatures were
+      measured outside the reactor core, and computational codes were used to infer core
+      temperatures. These codes were inaccurate as evidenced by the excessive core
+      temperatures during the test campaign. One reason for the high temperatures is local
+      pebble densification occurred, for which the designers did not account. Denser packed
+      regions experienced a greater pressure drop and higher temperatures, as observed from
+      measurements. Finally, the hot-gas streams observed in AVR may lead to overheating
+      in parts of the SG or other metallic components. Chapter 11 of Reference [49] describes
+      the AVR pebble bed fuel design, circulation, and computational temperature estimation
+      procedures. These were originally based on a two-dimensional diffusion computer code
+      but were improved to three-dimensional calculations in the 1980s as computer speed
+      and memory improved. Reference [49] also describes the continuous processes of fuel
+      pebble loading, pebble movement in the core, and pebble removal after burnup.
+      Calculating HTGR core temperatures is problematic, particularly for pebble bed designs.
+
+(3)   (Thorium High-Temperature Reactor (THTR), circa 1986): Germany’s THTR-300 (a
+      pebble bed THTR) experienced higher temperatures than the design had anticipated
+      [37]. Thermal fatigue from excessive thermal gradients across the core outlet, with a
+      possible contribution from thermal neutrons, caused the insulation attachment bolts in
+      the hot-gas duct to fail very early in the operation of the reactor. Uncontrolled core
+      temperatures were thought to be a major cause. In addition, the insertion of control rods
+      directly into the core during “unfavorable conditions” damaged the fuel elements. Such
+      conditions were not mentioned. Calculating HTGR core temperatures is problematic,
+      particularly for pebble bed designs.
+
+(4)   (FSV, August 1984): Moisture entering into the helium cooling gas leached volatile
+      chlorides from various sources, causing chlorine-induced stress-corrosion cracking of an
+      SS control rod cable [37]. The solution was to replace the SS cables (the type was not
+      identified) with corrosion-resistant Inconel cabling (the type was not specified). Because
+      moisture can cause numerous structural corrosion and cracking issues, future HTGRs
+      must manage moisture correctly and establish convenient methods to control it.
+
+(5)   (AVR, 1971–1981): The reducer in the AVR was a slowly rotating slotted double disk at
+      the end of the pebble extraction pipe (Figure 11). The fuel pebbles move through the
+      disk and down the pipe. As the disk rotates, the pebbles are statistically distributed into
+      the core. Numerous problems with this device occurred over the years. In
+      January 1971, increased internal friction caused the drive motor to fail. In October 1974,
+      a drive cam shear failure caused the reducer to malfunction. In July 1976, the bearing
+      shield became loose, preventing the reducer from rotating and dispensing fuel. In
+
+
+                                              34
+      August 1976, a feather key sheared off in the reducer drive, stopping the reducer
+      entirely. In December 1981, the drive no longer turned because of corrosion caused by
+      water condensation. The repeated failure of the reducer, in addition to other
+      components of the AVR, can be attributed to poor design [49]. Although these
+      malfunctions did not necessarily endanger the public, the plant was shut down numerous
+      times. Reference [49] discusses the numerous problems and incidents with the reducer
+      that caused the plant to shut down. Other mechanical issues with the fuel dispensing
+      and storage system that also occurred indicate a poor design of the entire system.
+
+
+
+
+                       Figure 11 AVR reducer (from [49, Figure 13.3-2])
+
+4.2   Core and Core Structures
+
+(1)   (High-Temperature Reactor (HTR)-10, general): In China’s HTR-10 (a pebble bed
+      reactor), non-uniform temperature distributions and deformation from neutron irradiation
+      resulted in increased graphite wear caused by fretting of graphite blocks. The resulting
+      graphite dust can clog the heat exchanger and induce erosion. Graphite damage must
+      be minimized [37].
+
+(2)   (AVR, May 1986): A visual inspection of the AVR core after defueling showed cracks in
+      the bottom graphite reflector. A number of pebbles had sunk into various coolant
+      penetration slits of the graphite bottom reflector structure and could neither roll off into
+      the fuel discharge tube nor be removed by a manipulator [40]. The source of the
+      graphite cracking was not reported.
+
+
+
+
+                                               35
+(3)   (High-Temperature Test Reactor (HTTR), 1999): During power-rise tests up to
+      20 megawatts, the temperature unexpectedly rose at the core support plate caused by
+      gas flow through gaps in the core support structure. Because a repair was not possible,
+      the design margins were reevaluated. The analysis showed the higher temperatures
+      could be tolerated. This illustrates the importance of considering helium flow in gaps for
+      HTGR structures [47, 53].
+
+(4)   (AVR, 1984): In 1984, AVR went through a rigorous inspection (after about 10 years of
+      service) of the core structure to determine whether damage had occurred [49,
+      Chapter 13], with special attention paid to examining the graphite. The inspection
+      revealed little damage (Figure 12) to the graphite from material abrasion, corrosion, or
+      shrinkage [49]. Graphite damage can be minimized through proper reactor design and
+      quality control of graphite fabrication.
+
+
+
+
+                         Figure 12 Graphite damage in an AVR reflector
+                             after service (from [49, Figure 13.1-3])
+
+(5)   (Peach Bottom Atomic Power Station (Peach Bottom), 1967): Several factors
+      contributed to the fatigue failures experienced by the control rods in ball-screw
+      assemblies [37, 42]. The plant accumulated large numbers of cycles during the testing
+      and personnel training period before plant startup. These additional cycles induced
+      additional fatigue damage for which the plant was not designed. It is important to
+      consider the accumulation of cycles in HTGRs during testing phases.
+
+4.3   Reactor and Pumps
+
+(1)   (FSV, lifetime): Moisture was a significant problem for the FSV reactor. The two primary
+      sources of moisture were through the circulator bearings [37] and through small weld
+      cracks in the prestressed concrete reactor vessel (PCRV) liner during startup. These
+      small weld cracks sealed during high-temperature operation. FSV had limited ability to
+      remove moisture once it got into the primary system because it lacked a reactor drain.
+      By the end of November 1988, almost 3,800 liters (1,000 gal) of water were removed
+
+
+                                              36
+      from the reactor primary system [36]. Reactors should have a way to remove water that
+      inadvertently enters the core.
+
+(2)   (FSV, related to OpE No. 1 above): Moisture in the helium coolant could attack the
+      graphite fuel element and cause corrosion of steel components, particularly the control
+      rod drive mechanisms that affect reactivity. Because moisture can cause numerous
+      structural corrosion and cracking issues, it must be managed correctly. It is critical for
+      future HTGRs to have convenient methods for preventing moisture ingress.
+
+(3)   (FSV, 1984): The PCRV tendon wires in the liner revealed significant corrosion issues
+      [36]. The PCRV system consisted of 448 tendons, each made of 3.87 meters (12 feet
+      10-1/4 in.) wires. Load cells were used to detect any loss of prestress. The licensee
+      [36] found broken or corroded tendon wires in at least six tendons. The tendons are
+      stored in sealed boxes to prevent moisture from entering. Prestress was used to
+      produce compression in the PCRV liner (Figure 13). The material was steel containing
+      0.72- to 0.93-percent carbon, 0.4- to 1.10-percent manganese, 0.1- to 0.35-percent
+      silicon, and 0.04-percent (maximum) phosphorous and sulfur, and it met the
+      requirements of ASTM A421, “Standard Specification for Stress-Relieved Steel Wire for
+      Prestressed Concrete,” issued 1970 [43]. Sulfonate grease used on the tendon wires
+      combined with oxygen from air ingress created acetic acid, which corroded the tendons.
+      Several possible sources of corrosion were determined and summarized in
+      Reference [36]. One example of tendon wire corrosion was traced to grease missing
+      from the ends of tendon wires in combination with moisture in the sealed boxes where
+      the tendon wires were stored before construction. Later, the plant found that
+      microbiological attack had also contributed to the corrosion and damage to the wires
+      [44]. PCRVs are subject to degradation mechanisms that traditional RPV steels do not
+      encounter in service.
+
+
+
+
+                                               37
+        Figure 13 Prestressed tendon wires affected by corrosion damage (from [44])
+
+(4)   (FSV, 1985): Moisture that collected between the 3/4-inch supply line in the 1/8-inch
+      inlet line resulted in corrosion products that plugged the carbon steel helium pressurizing
+      lines. Current HTGR designs may not encounter this issue if carbon steel is not used
+      [36]. Carbon steel is particularly susceptible to corrosion from moisture ingress.
+
+(5)   (AVR, first quarter 1980): In the AVR, four control rod drives were inserted from below
+      into holes bored into the graphite reflector (the rods do not drive into the pebble bed). In
+      general, the control rods performed well during operation. Inspection of the four control
+      rods drives found cracks in the bellows of the couplings, and new bellows were welded
+      in place. The cause of the cracking was not specified, but thermal fatigue may have
+      caused the cracking because the cooling flow is anticipated to be complex near the
+      bellows [49].
+
+(6)   (AVR, fourth quarter 1974 and 1977): In 1974, a crack was found in the membrane
+      compressor head of AVR [49, page 421]. Ten membrane compressors were used to
+      pump helium from the reactor annulus into bottle storage and to transport it through the
+      gas circuits and gas purification plants. After replacement, a similar crack was found in
+      1977. The original cast iron head was replaced with an austenitic steel (the type was not
+      specified). Although the exact cause of the cracking was not listed, it was suspected
+      that thermal fatigue or creep fatigue5 caused it. Operators eventually replaced all of the
+
+
+5
+      Creep fatigue design and modeling techniques are quite complex, and all code bodies
+      attempt to use very conservative interaction diagrams for assessment.
+
+
+                                               38
+      membrane compressors with dry running piston compressors because the latter were
+      found to perform better. In general, the membrane compressors did not perform as well
+      as the dry running piston compressor because the membranes had to be replaced
+      frequently.
+
+(7)   (HTTR, lifetime): The helium gas compressors (HGCs) in Japan’s HTTR had problems
+      similar to Germany’s AVR [45]. The HTTR has 14 HGCs for circulating helium coolant in
+      the helium purification system, helium gas sampling system, helium storage and supply
+      systems, and the radioactive waste treatment system. These reciprocating-type
+      compressors are specific to HTGRs. Degradation in compressor performance occurred
+      repeatedly in the HTTR. In one incident in 2004, the volumetric flow rate of the HGCs
+      decreased during operation. Inspections revealed that piston rings were abnormally
+      abraded (Figure 14), which degraded the performance of the piston-ring seals. Further,
+      the resulting graphite dust from the piston rings circulated in the primary cooling system.
+      This dust increased differential pressures in the filters of the primary helium gas
+      circulators [46], which increased pressures in the filters and overloaded them on the
+      primary HGCs. As result, the HGCs had to be replaced often (this issue also occurs in
+      the AVR). Originally, the replacement of these filters was not considered to be
+      necessary throughout the lifetime of the design. To solve the abnormal abrasion of the
+      piston rings, the tolerance for wear was optimized so that the flow rate of the HGCs did
+      not fall significantly until the abrasion of piston rings reached the design limit. This also
+      effectively prevented increases in differential pressures in the filters of primary gas
+      circulators. Graphite dust should be minimized in HTGRs.
+
+
+
+
+       Figure 14 Schematic of the exterior and internal mechanisms of a reciprocating
+                                 HGC (from [45, Figure 4])
+
+
+
+                                               39
+(8)    (HTTR, lifetime up to 2010): Another generic problem with the HTTR compressors
+       involved oil seal performance (a similar issue occurred in the AVR). Seal oil repeatedly
+       leaked from the piston rod mechanism of the HTTR HGCs during long-term operations
+       [47]. The oil seal forms a pressure boundary between the piston mechanics (helium
+       side) and the piston crank mechanism (the atmospheric side; see also
+       Figure 14). Studies showed that operating at high speeds caused leakage. This
+       exceeded the material tribology limits of the seal material, which was originally a
+       polyurethane-based material selected for its heat and radiation resistance. The solution
+       was to replace the polyurethane seal material with a Teflon-based material that has
+       superior heat resistance. This solution appeared to remedy the problem until at least
+       2010. Whenever possible, oil seals should be avoided in HTGR designs.
+
+(9)    (FSV, 1988): The FSV was shut down for a scheduled 12-week outage to replace
+       bolting material on the helium circulators [37]. The bolts holding the insulation shroud
+       and steam seal in place failed because of caustic stress-corrosion cracking. In addition,
+       the “D” helium circulator experienced corrosion cracking and had to be shut down
+       because of excessive circulator shaft vibration. The materials used for construction
+       were not reported, but they were probably a type of ferritic steel. A small crack in the
+       core support floor section of the liner cooling system [37] allowed entry of the moisture,
+       which led to the corrosion. The cause of the crack was not specified. HTGR designs
+       must account for corrosive effects and caustic embrittlement of fastener and other
+       mechanical components.
+
+(10)   (Dragon, 1968): An inspection found that the bearings in the Dragon single-stage
+       centrifugal blowers were damaged during an inspection [37,48]. The bearing lubrication
+       could not support the necessary weight without a minimum circulator rotational speed.
+       The damage occurred during startup and shutdown, when the rotation speed was low
+       and the bearings were under higher stresses. Reactor components should be able to
+       withstand stresses during shutdown and lower than full-power operation.
+
+4.4    Steam Generator/Turbine
+
+(1)    (Peach Bottom, lifetime): The Peach Bottom reactor was the first nuclear power plant to
+       use Alloy 800 for the SGs. The reactor did not experience any leaks during 7 years of
+       operation [35]. Section 4.8 briefly discusses the use of Alloy 800 in HTGRs (Item (9).
+
+(2)    (FSV, 1987): Hydraulic oil leaked from a valve causing a fire in the FSV turbine building.
+       The hydraulically controlled valve was the Loop 2 main steam bypass valve [35]. The
+       fire damaged many pieces of equipment and electrical cables, causing a loss of power to
+       the control room radiation monitor. This incident was actually an operational problem
+       [37] because the root cause determination found that a restrictor orifice was left out of a
+       thermal relief for this valve, causing the relief to open and the pressure to surge. This
+       fire is unusual because a steam pipe ignited it. HTGR designers must consider potential
+       sources of fire that LWRs are not subject to, including the ignition of hydraulic oils [35].
+
+(3)    (AVR, general): Water resulting from SG tube ruptures entered the AVR HTGR [40].
+       The design lesson from the AVR experience is to ensure that the impact of SG tube
+       ruptures in HTGRs will be limited (design-basis accident control). The cause of the tube
+       ruptures was not identified. Placement of the SG relative to the reactor core is important
+       to minimize water ingress. In the AVR, the SG was above the core.
+
+
+
+
+                                               40
+(4)   (AVR, 1971): The fuel oil line broke on a control accelerator for one of the two main
+      steam turbine shutoffs in the AVR [49]. The fuel leak led to a fire, which spread rapidly
+      until the turbine emergency switch was turned off. The fire was extinguished after
+      15 minutes. The instruments and electrical installation of the engine console in front of
+      the turbine were destroyed. Figure 15 shows the fire damage to the control stand of the
+      turbine. The problem was traced to the fabrication of a clamped screw assembly. The
+      bore of the union nut had sharp edges and had been pushed into the pipe, causing a
+      small starter flaw. Line vibrations and thermal fatigue subsequently grew this crack to a
+      critical size, leading to rupture. To prevent similar failures in the future, several design
+      modifications were made. Among other design changes, welded-on cone couplings
+      replaced the former couplings, and more elastic pipe loops replaced the rigid pipe
+      connections to reduce vibrations.
+
+
+
+
+             Figure 15 Fire damage in the turbine building (from [49 Figure 10.1-1])
+
+(5)   (AVR, 1978): A serious water leak occurred in AVR [49]. Elevated moisture levels were
+      observed earlier in the helium coolant gas. The source of the leakage in the AVR pebble
+      bed reactor was difficult to find because there were many possible leak sources,
+      including compressor leaks, leaks in the cooling unit of the gas purification system, leaks
+      in the SGs, and leaks in cooling units of the coolant gas blowers. This particular leak
+      was a 3-square-millimeter crack in pipe 8 of Superheater System 1. Reports are
+      ambiguous, but the leak occurred either at a weld repair or at a pipe bend [49]. The
+      cause of the crack was not specified, but creep fatigue ratcheting likely caused the
+      crack. As a consequence, water sensors and drainage devices were installed. Lessons
+      learned include (1) all containers, particularly the reactor vessels, must be equipped with
+      drainage devices, and (2) U-shaped pipe lines are to be avoided. This incident caused
+      an outage of about 8 months. The pipe materials were not specified.
+
+
+
+
+                                               41
+(6)    (AVR, January 1979): After the SG incident in the AVR (Item 5 above), a problem
+       occurred during startup in the coolant gas circulator system [49]. Water had leaked into
+       the circulator blower area from the cooling water circuit for the cooling gas blowers.
+       This was likely a fabrication issue. Other than this incident, the helium cooling gas
+       blowers performed very well during plant operation; however, screws and bolted
+       connections may be problematic in HTGRs. The materials were not specified. This
+       incident demonstrates the need for proper fabrication and quality control.
+
+(7)    (Dragon, early operation): After the first Dragon boiler tube failure in 1967, the reactor
+       suffered serious waterside corrosion troubles. Shutdowns for tube plugging were
+       frequent, and 13 complete boiler changes took place [50]. The planned water treatment
+       was typical for a conventional once-through boiler. In 1963, a reappraisal of the safety
+       criteria showed that a reactivity accident caused by partial flooding of the reactor core
+       could potentially occur and that some degree of neutron poisoning of the cooling water
+       was essential. The only suitable poison under alkaline conditions was lithium sulphate
+       at a required concentration of 1.6 percent, which caused waterside corrosion. This
+       incident demonstrates that careful material selection is necessary and that the steam
+       side can indirectly create significant safety issues.
+
+4.5   Primary Piping
+
+(1)    (EVA-II 6, general): The former 10-MW t EVA-II test loop experienced two SG leaks
+       caused by a strong radial jet flow of the entering hot helium. This led to increased
+       thermal stresses on the tube material, causing cracks in the tube walls when water
+       entered into the helium system [51].
+
+(2)    (FSV, life end): The event that finally brought FSV operations to an end was the severe
+       cracking of the Incoloy 800 (Alloy 800) SG superheater headers. Replacement of the
+       headers was deemed too expensive to justify a plant restart, given the long history of
+       operational problems at the plant. The header cracks were caused by vibration and
+       thermal cycling of the header material, which had coarse grain sizes, making the header
+       prone to cracking [37].
+
+(3)    (AVR, December 1982): A leak occurred in a compensator in the piping lines between
+       the cooling tower and the machine housing building in the AVR [49]. The compensators
+       were installed to compensate for thermal expansion mismatch effects to control thermal
+       expansion mismatch stresses. The compensator fretted against a support because of
+       the thermal expansion of the line. The materials and temperatures were not specified.
+       Because of a lack of instrumentation, the incident was noticed only when the basement
+       of the machine housing filled with water almost to the ceiling. Thermal stress
+       management is important in HTGR plants.
+
+(4)    (Dragon, 1974): The helium coolant leak rate detected during operation reached 2 kg
+       (4.4 lb) per day [52]. The leaks were eventually found in the SS pipework leading to the
+       helium purification plant. The leaks caused by chloride corrosion were small pits and
+       crevices in otherwise healthy lengths of pipe. All leaks occurred in narrow sections of
+       the pipes that were wrapped with polyvinyl chloride (PVC) insulating tape during
+       commissioning to mark the various flowpaths and components of the circuit. When the
+       circuit was approximately 80 to 120 degrees C (176 to 248 degrees F), the innermost
+
+6 also referred to as the Single Tube Test Facility
+
+
+
+
+                                                42
+       layer of PVC tape decomposed and trapped gaseous hydrochloric acid under the outer,
+       but still intact, layers of tape. (The PVC tape on pipe sections with temperatures of less
+       than 80 degrees C (176 degrees F) remained stable; however, the PVC tape on pipe
+       sections with temperatures above 120 degrees C (248 or degrees F) cracked and fell
+       off.) After discovery of the leaks, all accessible SS pipework was inspected, and more
+       than 200 tape markings were removed. All sections of SS pipework with tape markings
+       were cleaned, and sections operating above 80 degrees C (176 degrees F) were
+       replaced. This resulted in a 10-fold reduction of unaccounted helium losses, to 0.2 kg
+       (0.44 lb) per day. This demonstrates the need for proper quality control during initial
+       fabrication.
+
+4.6   Severe Accident
+
+(1)    (HTTR, 2005): The reactivity control system in Japan’s HTTR consists of two separate
+       systems: (1) a control rod system and (2) the reserve shutdown system (RSS), which
+       consists of boron. Pellets are released when necessary [45, 46, 53]. If the control rod
+       system fails to engage, the RSS system drops the pellets into the core to shut down the
+       reactor. During a periodic test of the RSS, a problem was observed. The oil seal at the
+       top of the drive motor was distorted, and a spring had failed. A factory fabrication error
+       of the seal caused the problem.
+
+(2)    (HTTR, general): The Great East Japan Earthquake disaster of March 2011 caused
+       accelerations in the HTTR greater than design values [45]. The HTTR was shut down at
+       the time for a periodic inspection that found several problems, including sludge
+       deposition in various components and a reduction in thickness of the combustor liner in
+       an emergency gas turbine generator. These problems were caused by a long-time wave
+       from the strong earthquake and were exacerbated by vibrations of fuel tanks and the
+       long-time operation of the emergency gas turbine generators after the event. Future
+       HTGRs would benefit by using this experience as an important lesson for protecting
+       against the effects of earthquakes. In particular, backup systems must be properly
+       designed to handle overloads as well. The comprehensive report from the Japan Atomic
+       Energy Research Institute [53] contains details of the HTTR design but does not provide
+       OpE.
+
+4.7   Other Topics
+
+The following other OpE topics do not necessarily fall into the component categories discussed
+above and cover more general OpE:
+
+(1)    (AVR, September 1971): While regenerating the cation exchanger of the condensate
+       desalination system, hydrochloric acid leaked into the gravel bed filter at the AVR [49].
+       This occurred because two shutoff valves in front of the gravel bed filter leaked, and
+       operator error caused the relief valve between the two shutoff valves to close. To avoid
+       corrosion damage, the power plant was shut down and the affected regions, including
+       the SG, were rinsed numerous times with deionized water.
+
+(2)    (HTTR, 2006): During a periodic inspection of the HTTR emergency gas turbine
+       generators [45], small cracks were found on one of the three turbine blade nozzles. The
+       cracks were attributed to fatigue from the long operating time of the emergency gas
+       turbine generator. Emergency generators used in other industries do not operate as
+       long, and this generator had 1,000 hours of operation. Therefore, generators that are
+
+
+
+                                               43
+      not specifically designed for nuclear operations should be avoided, and design-specific
+      backup generators for the nuclear industry should be used.
+
+(3)   Leak-before-break (LBB) issues are important for HTGR designs. Zhang et al. [54]
+      summarizes LBB considerations for HTR-10 that should largely apply to next-generation
+      HTGRs. Section 3 of Reference [35] provides a good overview of LBB considerations
+      for HTGRs. As with LWRs, if LBB cannot be satisfied in an HTGR, a piping break must
+      be postulated, and appropriate protection against the dynamic effects of the break must
+      be provided for the safety-related structures, systems, and components. LBB analyses
+      allow for the elimination of pipe whip restraints, jet impingement barriers, and other
+      safety features. Formally, the LBB methodology could not be applied to piping that was
+      degraded by an active degradation mechanism such as stress-corrosion cracking or
+      creep cracking. The development of the xLPR code to place the active degradation
+      mechanism of primary water stress-corrosion cracking in bimetallic welds in LWRs into a
+      probabilistic framework may permit LBB considerations to bypass this requirement. A
+      similar development could also be made for HTGR active degradation mechanisms such
+      as creep, creep fatigue, and corrosion. Enhancing the xLPR code 7 to account for these
+      degradation mechanisms is a logical step for the assessment of HTGR licenses. (See
+      References [35, 54] for more details on the LBB application in HTGRs.) Finally,
+      application of LBB requires robust leak detection methods.
+
+(4)   The white paper on Next Generation Nuclear Plant (NGNP) high-temperature materials
+      [55] provides an updated materials summary. The white paper discusses the candidate
+      materials for the NGNP and the material applicable to the different HTGR systems. In
+      addition, this summary includes composite applications and ceramic materials. This
+      report also provides an update on the applicability of the ASME Boiler and Pressure
+      Vessel Code (B&PVC) to HTGRs.
+
+4.8   Design Considerations
+
+(1)   The designers of the Dragon [52] frequently expressed concerns about prolonged
+      contact between metal components in a high-temperature and high-purity helium
+      environment causing a self-welding seizure; however, this concern did not materialize.
+      Even under load and operating at a temperature of approximately 650 degrees C (1,202
+      degrees F), frictional force was the only resistance to disengagement at the Nimonic
+      control rod shield tube interface with the Monel 400 reflector head assemblies.
+
+(2)   Power plant startup was carefully controlled in the AVR plant. To prevent high tensile
+      stresses in the graphite during startup, which heats from the outside to the core, the
+      hot-gas temperature could only be increased by 3 degrees C (37.4 degrees F) per
+      minute. Reference [49] summarizes the procedures used to control temperature during
+      startup (beginning on page 454) and summarizes the plant procedures used to control
+      thermal gradients in the core graphite during reactor shutdown (beginning on page 456).
+
+(3)   The coolant in HTGRs can result in flow-induced vibrations driven by energized gas flow.
+      This flow across heat exchanger tubes, reactor internals, and other flexible locations can
+      lead to damage and fatigue cracks if it is not properly managed. This problem also
+      occurred with the Magnox and advanced gas-cooled reactors (AGRs) with carbon
+
+7
+      A companion code, PROMETHEUS, might be more convenient for this purpose than the
+      xLPR code.
+
+
+                                              44
+         dioxide coolant [37], and it can also affect helium-cooled reactors. Indeed, damage and
+         crack development caused by unanticipated or incorrect loads have led to fatigue
+         problems in both Magnox and AGR these reactors.
+
+(4)      Graphite dust is produced in HTGRs from the contact and movement of graphite blocks.
+         Graphite dust production is exacerbated by thermal gradients, coolant flow, vibration,
+         and irradiation-induced swelling [37]. The generation of graphite dust is a particular
+         problem in pebble reactors. This dust can be transported to other locations (e.g., the
+         heat exchangers), reducing efficiency and possibly causing local “hot” spots that can
+         lead to damage. Additionally, the graphite dust has a high propensity to absorb fission
+         products, creating a radioactive graphite aerosol in the primary circuit. HTGR designers
+         should seek to minimize the production of graphite dust and have methods (e.g., a
+         filtering system) to remove the graphite dust from the helium loop.
+
+(5)      Control rod lubrication in HTGRs is challenging. At HTGR temperatures, conventional
+         lubricants (such as oils) cannot be used because of the high-temperature and the
+         high-radiation environment [37]. Dry lubricants can be used; however, tribology studies
+         of dry lubricants and their life performance is necessary and important to materials and
+         component integrity.
+
+(6)      Oil leaks in HTGRs were a persistent problem. The Peach Bottom HTGR experienced
+         many leaks in the hydraulic components that were attributed to manufacturing defects in
+         the sealing of surfaces [37]. Many of these leaks occurred in the compressor circulators.
+         HTGRs should eliminate the use of hydraulics and oils as much as possible to prevent
+         oil ingress from hydraulic components. This issue should be a source of scrutiny in
+         licensing.
+
+      (7) Research focused on the advancement of heat exchangers for HTGRs recommends the
+          use of Alloy 617 for temperatures above 850 degrees C (1,562 degrees F) and Alloy
+          800H for temperatures below 850 degrees C (1,562 degrees F) [37, 56]. This research
+          demonstrated the stress rupture behaviors of these alloys and how carburization or
+          decarburization can occur depending on the materials used and on the heat exchanger
+          flow rates. The reactions between the metal and the impurities in the helium coolant can
+          lead to carburization or decarburization, depending on the gas kinetics. Carburization
+          reduces low temperature ductility and decarburization leads to a severe loss in creep
+          strength, but control of the impurity contents can keep these effects within acceptable
+          limits [37]. Specific high performance alloys are needed for the temperatures and
+          environments experienced in HTGR reactor components. Alloy 617 and Alloy 800H are
+          being considered for use in the NGNP IHX. 8
+
+(8)      The preferred candidate materials for the hot duct are Alloy 617 or Alloy 800H,
+         depending on the temperature [37, 56]. For Alloy 617, one important issue to consider is
+         its high cobalt content. The activation of the cobalt could pose a problem in future
+         HTGRs; however, in Germany’s HTGRs, cobalt was not present in the oxide scale;
+         therefore, radioactive cobalt could not enter the hot-gas circuit even if the oxide spalled
+         off.
+
+(9)      The SG in Peach Bottom [37] was constructed of carbon steel, but the tubes were made
+         from Alloy 800H. The Alloy 800H incurred significant age-hardening damage during
+         operation but retained its ductility. These results were found acceptable and accurately
+
+8
+         ASME is presently adding Alloy 617 to the ASME B&PVC.
+
+
+                                                 45
+       predicted. One study showed that Alloy 800H has a lower oxidation rate if it is hot rolled
+       instead of cold rolled [37, Section 4.1.5]. Germany’s THTR used cold-rolled Alloy 800,
+       Grade 1, for the SG [37, Section 4.1.3]. The THTR header design required inelastic
+       computational analyses (elastic-plastic creep) of 30 different transients with
+       temperatures of about 560 degrees C (1,040 degrees F) [37]. The ASME B&PVC has
+       recently added a simplified nonlinear computational analysis procedure for
+       high-temperature designs. Although the THTR only operated for 6 years, Alloy 800,
+       Grade 1, performed well.
+
+(10)   The United Kingdom’s AGR SGs were predominantly helical coil and used carbon
+       dioxide coolant. The AGR had failures associated with dynamic stress generated by the
+       acoustic vibration (noise) from the gas circulators. SG designs must properly consider
+       acoustic vibrations.
+
+4.9    Lessons Learned (High-Temperature Gas-Cooled Reactors)
+
+(1)    High tensile stresses caused by irradiation swelling at high temperatures can develop in
+       the fuel elements, leading to the cracking of graphite fuel elements.
+
+(2)    Calculating HTGR core temperatures is challenging, particularly for pebble bed designs.
+       Although it is easy to attribute the overheating in the AVR to limitations of computational
+       codes in the 1980s, the core temperature of the prismatic HTTR has also been
+       underestimated. Inaccurate core temperatures have led to thermal fatigue and fuel
+       failure in pebble bed HTGRs.
+
+(3)    HTGRs must account for all sources of possible corrosion, and corresponding materials
+       and components must be designed appropriately. Early designers focused on the
+       impact of moisture ingress and consequent graphite oxidation; however, OpE has
+       demonstrated moisture ingress can also lead to structural component failures. Future
+       HTGRs must be designed to consider all aspects of potential moisture ingress and
+       incorporate methods for removing moisture from the core and primary loop.
+
+(4)    HTGRs must consider the accumulation of cycles during testing. Failure to account for
+       these additional cycles led to fatigue failures in both Peach Bottom and the AVR.
+
+(5)    Management of thermal stresses is important in HTGRs because thermal expansion
+       stresses can cause large loads and creep.
+
+(6)    Corrosion of the prestressed concrete tendons could weaken the integrity of the reactor
+       vessel and must be considered.
+
+(7)    Abnormal abrasion in helium coolant compressors can degrade the performance of
+       piston-ring seals and cause leakage. Compressors in HTGRs must be carefully chosen.
+
+(8)    HTGR should be designed to minimize sources of graphite dust (e.g., fretting) and
+       should include filters or other mitigating measures to address graphite dust.
+
+(9)    Coarse-grained alloys are used for improved creep resistance, but such alloys are more
+       vulnerable to cracking. Control of alloy grain sizes should be considered because alloys
+       with excessive grain sizes may have insufficient toughness.
+
+
+
+
+                                               46
+(10)   Oil-based lubricants should be avoided in HTGRs. Lubricants have repeatedly leaked
+       into the primary loop in HTGRs, and the high temperatures of the HTGRs are sufficient
+       to ignite these oils elsewhere in the plant, even when they are not associated with the
+       primary loop.
+
+(11)   The design lesson from the Dragon experience is to ensure that the impact of SG tube
+       ruptures in HTGRs will be limited (design-basis accident control).
+
+(12)   Lessons learned from AVR include (1) all HTGR vessels, particularly the reactor vessels,
+       must be equipped with drainage devices, and (2) “U-shaped” pipe lines are to be
+       avoided.
+
+(13)   HTGRs need to ensure the structural integrity of the RPV and the connecting vessels,
+       especially under low helium flow and loss-of-forced convection conditions, because
+       buckling may occur.
+
+(14)   Backup systems must be properly designed to handle overloads and system upsets,
+       such as seismic loads.
+
+5 SUMMARY
+5.1    Sodium-Cooled Fast Reactors
+
+SFR OpE is extensive and has resulted in the following conclusions with regard to materials and
+structural performance:
+
+•      As discussed in Reference [57], EBR-II never experienced a sodium/water reaction
+       because of the use of double-walled (concentric tubes brazed or swaged together) SG
+       tubes. This has not been the case with many other SFRs.
+
+•      Corrosion of immersed SS components is not a concern if sodium purity is maintained.
+       No significant corrosion of materials in the sodium circuits of BN-10 occurred during its
+       44 years of operation; therefore, a 60 year life of the piping circuits in future SFR designs
+       is possible.
+
+•      Weld design and quality control are critically important. Residual weld stresses, excess
+       weld metal, and weld constraints should be minimized, and direct tube-to-tube-plate
+       welds should be avoided entirely in SFR. Lowering the threshold for quality in welds and
+       secondary loops has resulted in operational problems.
+
+•      Reheat cracking is a concern in SFRs in components operating at high temperatures. In
+       particular, weld repairs should be carefully managed because they may give rise to very
+       high tensile residual stresses. Some types of austenitic SS (e.g., Type 321) are
+       significantly more prone to reheat cracking than other austenitic SS.
+
+•      Stresses induced by thermal expansion, particularly in areas of constraint, must be
+       carefully considered. The stresses have often been the source of structural integrity
+       issues in SFR operation.
+
+•      Thermal fatigue (i.e., thermal striping) caused by mixing sodium flows at different
+       temperatures is a significant issue in SFRs.
+
+
+
+                                                47
+•      The management of startup and cooldown transients in SFRs to control vibration,
+       thermal expansion loads, and possible fatigue issue is important.
+
+•      Shrink-fit parts should be avoided because they could loosen during thermal transients.
+
+•      Electromagnetic pumps have operated reliably.
+
+•      Oil-based lubricants should be avoided in SFRs.
+
+•      Possible valve failures (all system valves, especially those operating at high
+       temperature) are a concern for SFRs. Valve reliability under operating conditions should
+       be accurately determined.
+
+•      Austenitic steels are unsuitable for SFR SGs because of the potential for caustic
+       stress-corrosion damage following even small leaks.
+
+•      Testing should confirm the chemical compatibility between molten sodium and insulation
+       material.
+
+•      Secondary measurement devices (e.g., thermocouples) must be properly designed to
+       prevent leaks. Flow-induced vibrations and complex fluid flows in these areas can
+       cause failure and sodium leaks.
+
+•      Accurate detection methods of corrosion and leaks are necessary, particularly in regions
+       coated with insulation. The design phase should consider sensor placement and
+       reliability under operating conditions. Inadequate or unreliable leak detection systems
+       have resulted in extensive shutdowns because of sodium contamination and excessive
+       sodium leaks with consequent fires.
+
+•      The licensing process needs to scrutinize seismic and external dynamic loading events
+       of SFRs. During an emergency shutdown (scram), the IHX may experience thermal
+       shock caused by the influx of cold sodium. This could lead to buckling and structural
+       issues amplified by an external loading.
+
+5.2   High-Temperature Gas-Cooled Reactors
+
+HTGR reactor OpE is extensive and has resulted in the following conclusions with regard to
+materials and structural performance:
+
+•      An accurate prediction of core temperatures in HTGRs is technically challenging. Even
+       for more recent designs (e.g., the HTTR), core temperatures have exceeded anticipated
+       design temperatures.
+
+•      Moisture ingress and leakage events are a reoccurring problem with HTGRs. HTGRs
+       should be designed to accommodate and mitigate moisture ingress.
+
+•      Failures within the SG could introduce water into the primary loop and introduce the
+       potential for unanticipated reactivity.
+
+•      Management of thermal stresses is important in HTGRs because thermal expansion
+       stresses can cause large loads and creep.
+
+
+                                              48
+•   HTGRs must consider the accumulation of cycles during testing. Failure to account for
+    these additional cycles led to fatigue failures in both Peach Bottom and the AVR.
+
+•   Pumps, seals, and compressors have a history of poor reliability in HTGRs. The design
+    and testing of these components should be well scrutinized.
+
+•   HTGR should be designed to minimize sources of graphite dust (e.g., fretting) and
+    should include filters or other mitigating measures to address graphite dust.
+
+•   Coarse-grained alloys are used for improved creep resistance, but they are more
+    vulnerable to cracking. Control of alloy grain sizes should be considered because alloys
+    with excessive grain size may have insufficient toughness.
+
+•   Oil-based lubricants should be avoided in HTGRs.
+
+•   HTGRs need to ensure the structural integrity of the RPV and the connecting vessels,
+    especially under low helium flow and loss-of-forced convection conditions because
+    buckling may occur.
+
+•   Backup systems must be properly designed to handle overloads and system upsets,
+    such as seismic loads.
+
+
+
+
+                                           49
+6 REFERENCES
+[1]    U.S. Nuclear Regulatory Commission (NRC) and U.S. Department of Energy (DOE)
+       Workshop on Advanced Reactors, Proceedings and Power Point Slide Summary,
+       September 1–2, 2015, available at https://www.nrc.gov/public-involve/conference-
+       symposia/adv-rx-non-lwr-ws.html.
+
+[2]    NRC-DOE Workshop on Advanced Reactors, Proceedings and Power Point Slide
+       Summary, June 7–8, 2016, available at https://www.nrc.gov/public-involve/conference-
+       symposia/adv-rx-non-lwr-ws.html.
+
+[3]    NRC-DOE Workshop on Advanced Reactors, Proceedings and Power Point Slide
+       Summary, April 25–26, 2017, available at https://www.nrc.gov/public-involve/conference-
+       symposia/adv-rx-non-lwr-ws.html.
+
+[4]    Holcomb, D., “Module 1: History, Background, and Current MSR Developments,”
+       Presentation on Molten Salt Reactor Technology, November 7–8, 2017 (Agencywide
+       Documents Access and Management System (ADAMS) Accession No. ML17331B113).
+
+[5]    Busby, J.; Garrison, L.; Lin, Lianshan; Sham, S.; Raiman, S.; Silva, C.; Wang, H.,
+       "Technical Gap Assessment for Materials and Component Integrity Issues for Molten
+       Salt Reactors," Oak Ridge National Laboratory, March 2019. (Agencywide Documents
+       Access and Management System (ADAMS) Accession No. ML19077A137).
+
+[6]    Corwin, W.R., Ballinger, R., Majumdar, S., Weaver, K.D., and Basu, S., “Next
+       Generation Nuclear Plant Phenomena Identification and Ranking Tables (PIRTs)—
+       Volume 4: High-Temperature Materials PIRTS,” NUREG/CR-6944, U.S. Nuclear
+       Regulatory Commission, Washington, DC, March 2008 (ADAMS Accession
+       No. ML081140462).
+
+[7]    Flanagan, G.F., Mays, G.T., and Madni, I.K., “NRC Program on Knowledge
+       Management for Liquid-Metal-Cooled Reactors,” NUREG/KM-0007, U.S. Nuclear
+       Regulatory Commission, Washington, DC, April 2014 (Agencywide Documents Access
+       and Management System (ADAMS) Accession No. ML14128A346).
+
+[8]    King, T.L., Landry, R.R., Throm, E.D., and Wilson, J.N., “Preapplication Safety
+       Evaluation Report for the Sodium Advanced Fast Reactor (SAFR) Liquid-Metal Reactor,”
+       NUREG-1369, U.S. Nuclear Regulatory Commission, Washington, DC, December 1991
+       (Agencywide Documents Access and Management System (ADAMS) Accession
+       No. ML063410547).
+
+[9]    Guidez, J., and Prèle, G., “Superphénix—Technical and Scientific Achievements,”
+       Atlantis Press, Paris, France, 2017
+
+[10]   Sauvage, J.F., “Phénix—30 Years of History: The Heart of the Reactor,” Electricité de
+       France report, Commissariat à l’Energie Atomique, France, 1979, available at
+       http://fissilematerials.org/library/sau04.pdf.
+
+[11]   McDowell, B.K., Mitchell, M.R., Pugh, R., Nickolaus, J.R., and Swearingen, G.L., “High
+       Temperature Gas Reactors: Assessment of Applicable Codes and Standards,” Pacific
+       PNNL-20869, Pacific Northwest National Laboratory, Richland, WA, October 2011,
+
+
+
+
+                                              50
+       available at https://www.pnnl.gov/main/publications/external/technical_reports/pnnl-
+       20869.pdf
+
+[12]   International Atomic Energy Agency (IAEA) IAEA-TECDOC-1531, Fast Reactor
+       Database: 2006 Update, Vienna, Austria, December 2006, available at https://www-
+       pub.iaea.org/MTCD/Publications/PDF/te_1531_web.pdf
+
+[13]   Cochran, T.B., Feiveson, H.A., Patterson, W., Pshakin, G., Ramana, M.V.,
+       Schneider, M., Suzuki, T., and Von Hippel, F., “Fast Breeder Reactor Programs: History
+       and Status,” Research Report 8, International Panel on Fissile Materials, Princeton, NJ,
+       February 2010, available at www.fissilematerials.org.
+
+[14]   International Atomic Energy Agency (IAEA) IAEA-TECDOC-1180, Technical Committee
+       Meeting on Unusual Occurrences during the Liquid Metal Fuel Reactor (LMFR)
+       Operation; Vienna, Austria; November 9–13, 1998, available at https://www-
+       pub.iaea.org/MTCD/Publications/PDF/te_1180_prn.pdf
+
+[15]   Kochetkov, L.A., “Development of Fast Reactors in the USSR and the Russian
+       Federation; Malfunctions and Incidents in the Course of Their Operation and Solution of
+       Problems,” IAEA-CN245-579, in "Next generation nuclear systems for sustainable
+       development. Yekaterinburg, Russian Federation, June 26-29 2017. International
+       Atomic Energy Agency, Vienna, Austria, June 2017, available at
+       https://inis.iaea.org/collection/NCLCollectionStore/_Public/48/087/48087759.pdf?r=1&r=
+       1.
+
+[16]   Wootan, D.W., Omberg, R.P., and Grandy, C., “Lessons Learned from Fast Flux Test
+       Facility Experience,” PNNL report, International Conference on Fast Reactors and
+       Related Fuel Cycles, Yekaterinburg, Russian Federation, June 26–29, 2017, available at
+       https://gain.inl.gov/Shared%20Documents/Fast%20Flux%20Test%20Facility%20Docum
+       ents/02%20Lessons%20Learned-FFTF-IAEA-CN-245-13LLFR17.pdf
+
+[17]   Wootan, D.W., Omberg, R.P., and Grandy, C., “Case Study of Lessons Learned
+       from the Operation of the Fast Flux Test Facility,” IAEA/Organization for Economic
+       Cooperation and Development Third International Conference on Nuclear Knowledge
+       Management—Challenges and Approaches, Vienna, Austria, November 7–11, 2016.
+
+[18]   Srinivasan, G., Sureskumar, K. V., and Ramalingam, P. V., “Two Decades of Operating
+       Experience with the Fast Breeder Test Reactor,” International Atomic Energy Agency,
+       Vienna, Austria, November 2008, available at https://www-
+       pub.iaea.org/mtcd/Meetings/PDFplus/2007/cn156/cn156presentations/cn156_Iyengar.pd
+       f
+
+[19]   Cruikshank, A., and Judd, A.M., “Problems Experienced during Operation of the PFR
+       Dounreay (1974–1994),” International Atomic Energy Agency, Vienna, Austria, IAEA-
+       TECDOC-1180, Technical Committee Meeting on Unusual Occurrences during the
+       LMFR Operation, Vienna, Austria, November 9–13, 1998, available at https://www-
+       pub.iaea.org/MTCD/Publications/PDF/te_1180_prn.pdf.
+
+[20]   Schneider, M., “Fast Breeder Reactors in France,” Science and Global Security 17:35–
+       53 (2009), Routledge, Taylor, and Francis Group, New York, NY.
+
+
+
+
+                                              51
+[21]   Mikami, H., Shono, A., and Hiroi, H., “Sodium Leak at Monju (I)—Cause and
+       Consequences,” Reactor and System Engineering Section, Monju Construction Office,
+       Power Reactor and Nuclear Fuel Development Corporation, Japan, 1995.
+
+[22]   IAEA-TECDOC-907, “Conceptual Designs of Advanced Fast Reactors,” Proceedings of
+       the Technical Committee Meeting, Kalpakkam, India, October 3–6, 1995, available at
+       https://inis.iaea.org/collection/NCLCollectionStore/_Public/28/014/28014311.pdf.
+
+[23]   Buschman, H.W., Longua, K.J., and Penney, W.H., “Operating Experience of the EBR-II
+       Intermediate Heat Exchanger and the Steam Generator System,” presented at the
+       American Society for Mechanical Engineers (ASME)/Institute of Electrical and
+       Electronics Engineers Joint Power Generation Conference, Indianapolis, IN,
+       September 1983.
+
+[24]   IAEA-TECDOC-1691, “Status of Fast Reactor Research and Technology Development,”
+       International Atomic Energy Agency, Vienna, Austria, 2013, available at https://www-
+       pub.iaea.org/books/iaeabooks/8667/Status-of-Fast-Reactor-Research-and-Technology-
+       Development.
+
+[25]   Chetal, S.C., and Vaidyanathan, G., “Evolution of Design of Steam Generators for
+       Sodium Cooled Reactors,” Proceedings of the 3rd International Conference on Heat
+       Exchangers, Boilers and Pressure Vessels, Alexandria, Egypt, April 5–6, 1997.
+
+[26]   Kumar, K.V., Babu, A., Anandapadmanaban, B., and Srinivasan, G., “Twenty Five Years
+       of Operating Experience with the Fast Breeder Test Reactor,” Energy Prodedia, Asian
+       Nuclear Prospects 2010, 7: 323–332 (2011), Elsevier, Amsterdam, The Netherlands.
+
+[27]   Koch, L.J., “Experimental Breeder Reactor-II (EBR-II): An Integrated Experimental Fast
+       Reactor Nuclear Power Station,” ISBN-13:978-0894480423.
+
+[28]   Guidez, J., “Phénix: The Experience Feedback 2013,” September 2013, 300 p., EDP
+       Sciences, Les Ulis, France, ISBN 979-10-92041-04-0.
+
+[29]   Final report by the Joint Programme on Nuclear Materials, “Task Force 60 Years
+       Operational Life Future Reactors Review and Roadmap for Future Activities,” European
+       Energy Research Alliance, Brussels, Belgium, 2017.
+
+[30]   Sawai, S., and Hori, M., “Development, Operational Experience and Implications for
+       Future Design of Fast Breeder Reactors in Japan,” Philosophical Transactions of the
+       Royal Society of London A, 331:355–366 (1990).
+
+[31]   Mannan, S.L., Chetal, S.C., Baldev, R., and Bhoje, S.B., “Selection of Materials for
+       Prototype Fast Breeder Reactor,” Transactions of the Indian Institute of Metals, 2003.
+
+[32]   Gelineau, O., “Key Property Requirements for ASTRID Materials,” MATTER (Materials
+       Testing and Rules) Project, Grant Agreement No. 269706, 2011.
+
+[33]   Chetal, S.C., Chellapandi, P., Puthiyavinayagam, P., Raghupathy, S.,
+       Balasubramaniyan, V., Selvaraj, P., Mohanakrishnan, P., and Baldev, R., “Current
+       Status of Fast R to eactors and Future Plans in India,” Energy Procedia 7:64–73, 2011.
+
+
+
+
+                                              52
+[34]   Muhlheim, M.D., Flanagan, G.F., Poore, W.P., and Belles, R.J., “Assessment of
+       Applicability of Standards Endorsed by Regulatory Guides to Sodium Fast Reactors,”
+       ORNL/SR-2017/520, Oak Ridge National Laboratory, Oak Ridge, TN, September 2017.
+
+[35]   Longoni, G., Gates, R.O., and Mcdowell, B.K., “High Temperature Gas Reactors:
+       Assessment of Applicable Codes and Standards,” Revision 1, PNNL-20869, Pacific
+       Northwest National Laboratory, Richland, WA, October 2015, available at
+       https://gain.inl.gov/SiteAssets/HTGR/2015NRCHGTRWhitePaperPNNL20869Rev1.pdf.
+
+[36]   Copinger, D.A., and Moses, D.L., “Fort Saint Vrain Gas Cooled Reactor Operational
+       Experience,” NUREG/CR-6839, U.S. Nuclear Regulatory Commission, Washington, DC,
+       January 2004. (Agencywide Documents Access and Management System (ADAMS)
+       Accession No. ML040340070)
+
+[37]   Beck, J.M., and Pincock, L.F., “High Temperature Gas-Cooled Reactors Lessons
+       Learned and Applicable to the Next Generation Nuclear Plant,” Revision 1,
+       INL/EXT-10-19329, Idaho National Laboratory, Idaho Falls, ID, April 2011, available at
+       https://inldigitallibrary.inl.gov/sites/sti/sti/5026001.pdf.
+
+[38]   Shtrombakh, Y.I., Gurovich, B.A., Platonov, P.A., and Alekseev, V.M., “Radiation
+       Damage of Graphite and Carbon-Graphite Materials,” Journal of Nuclear Materials,
+       225:273–301 (August 1995).
+
+[39]   Fuller, C.H., “Fort Saint Vrain Operational Experience,” International Atomic Energy
+       Agency International Working Group on Gas-Cooled Reactors (IWGGCR/19),
+       International Atomic Energy Agency, Vienna, Austria, 1989, available at
+       https://inis.iaea.org/collection/NCLCollectionStore/_Public/20/085/20085896.pdf?r=1&r=
+       1.
+
+[40]   Final report of the Arbeitsgemeinschaft Versuchsreaktor (AVR) Expert Group, titled “Der
+       Versuchsreaktor AVR—Entstehung, Betrieb und Störfälle,” 2014.
+
+[41]   Moormann, R., “A Safety Re-evaluation of the AVR Pebble Bed Reactor Operation and
+       Its Consequences for Future HTR Concepts,” Proceedings of the 4th Fourth International
+       Topical Meeting on High-Temperature Reactor Technology, HTR2008-58336,
+       Washington, DC, September 28–October 1, 2008.
+
+[42]   Ledin, E., “Control Rod Drive System for a High Temperature Gas-Cooled Reactor,”
+       Nuclear Engineering and Design, 26:158–169, Issue 1 (January 1974).
+
+[43]   American Society for Testing and Materials, ASTM A421-70, “Standard Specification for
+       Stress-Relieved Steel Wire for Prestressed Concrete."
+
+[44]   Hildebrand, J.F., “Bulttonhead Anchorage of Tendon Wire for the FSV Pre-stressed
+       Concrete Reactor Vessel,” Atomic Energy Commission Research and Development
+       Report, Gulf General Atomic, Inc., prepared under Contract AT (04-3)-633,
+       June 22, 1970.
+
+[45]   Shimizu, A., Furusawa, T., Homma, F., Inoi, H., Umeda, M., Kondo, M., Isozaki, M.,
+       Fujimoto, N., and Iyoku, T., “Operation and Maintenance Experience from the HTTR
+       Database,” Journal of Nuclear Science and Technology, 51:1444–1451, Issues 11–12,
+       (2014).
+
+
+                                              53
+[46]   Hamamoto, S., Shimazaki, Y., Furusawa, T., Nemoto, T., and Inoi, H., “Dust Generation
+       and Transport Behavior in the Primary Circuit of HTTR,” Proceedings of 20th
+       International Conference on Nuclear Engineering and the ASME 2012 Power
+       Conference (accompanied by DVD-ROM), Anaheim, California, July 30–August 3, 2012.
+
+[47]   Oyama, S., Hamamoto, S., Kaneshiro, N., Nemoto, T., Sekita, K., Isozaki, M., Emori, K.,
+       Ito, Y., Yamamoto, H., Ohta, Y., and Mizushima, T., “Improvement in Oil Seal
+       Performance of Gas Compressor in HTTR,” JAEA-Technology 2007-047, Japan Atomic
+       Energy Agency, 2007.
+
+[48]   Rennie, C.A., “Achievements of the Dragon Project,” Annals of Nuclear Energy,
+       5:305–320, Issues 8–10 (1978).
+
+[49]   Ziermann, E., and Ivens, G., “Final Report on the Power Operation of the AVR
+       Experimental Nuclear Power Station,” Jülich Research Center Report 3448,
+       ISSN 0944-2952, NRC Translation 3638, October 1997 (Agencywide Document Access
+       Management System (ADAMS) Accession No. ML082130449).
+
+[50]   Ashworth, F.P.O., et al., “A Summary & Evaluation of the Achievements of the DRAGON
+       Project & its Contribution to the Development of the High Temperature Reactor (HTR),”
+       Dragon Project Report No. 1000, November 1978, obtained from a compact disc
+       containing Dragon Project reports (United Kingdom Nuclear Energy Agency 1726/01).
+
+[51]   Harth, Ralf; Jansing, Walter; Teubner, Herbert, "Experience gained from the EVA II and
+       KVK operation," Nuclear Engineering and Design, 121:173-182, Issue 2, (July 1990).
+
+[52]   Simon, R.A. and Capp, P.D., “Operating Experience with the Dragon High Temperature
+       Reactor Experiment,” Proceedings of the Conference on High Temperature Reactors,
+       International Atomic Energy Agency, Vienna, Austria, European Nuclear Society, Bern,
+       Switzerland, 695 p., 2002, HTR-2002: Conference on High Temperature Reactors,
+       Petten, The Netherlands, April 22–24, 2002, available at
+       https://inis.iaea.org/collection/NCLCollectionStore/_Public/33/033/33033056.pdf?r=1&r=
+       1.
+
+[53]   Saito, Shinzo; Tanaka, Toshiyuki; Sudo, Yukio, Japan Atomic Energy Research Institute
+       Report 1332, September 1994.
+
+[54]   Zhang, C., Wu, Z., Xu, Y., and Sun, Y., “Design Aspects of Chinese Modular High
+       Temperature Gas-Cooled Reactor HTR-PM,” 2nd International Topical Meeting on HTR
+       Technology, Beijing, China, September 22–24, 2004.
+
+[55]   INL/EXT-09-17187, “NGNP High Temperature Materials White Paper,” Revision 1, Idaho
+       National Laboratory, Idaho Falls, ID, August 2012, available at
+       https://art.inl.gov/NGNP/INL%20Documents/Year%202012/NGNP%20High%20Tempera
+       ture%20Materials%20White%20Paper.pdf.
+
+[56]   Makhele-Lekala, L., Ennis, P., and Schubert, F., “Candidate Materials for Advanced
+       HTGRs,” Forschungszentrum Jülich IWV-2, Jülich, Germany, Proceedings of the 18th
+       International Conference on Structural Mechanics in Reactor Technology (SMiRT 18),
+       SMiRT18-S06-3, Beijing, China, August 7–12, 2005.
+
+
+
+
+                                             54
+[57]   King, R.W., “Considerations for Advanced Reactor Design Base on EBR-II Experience,”
+       ANL/ED/CP-99117, Argonne National Laboratory, Argonne, IL, 1999, available at
+       https://www.osti.gov/servlets/purl/11828.
+
+
+
+
+                                            55
+

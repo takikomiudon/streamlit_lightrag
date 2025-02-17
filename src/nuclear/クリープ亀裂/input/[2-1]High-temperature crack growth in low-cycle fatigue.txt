@@ -1,0 +1,849 @@
+Enyinee,+q
+         ~,~,~,lrre,~r.~hnni~,,.
+                        1971,Vol.  403-420. PergamonPresr. Printed in GreatBritain
+                               3,pp.
+
+
+
+
+               HIGH-TEMPERATURE                            CRACK GROWTH                    IN
+                        LOW-CYCLE                          FATIGUE?
+                                         C. BRETT HARRISON
+                          General Electric Co.. Schenectady, New York. U.S.A.
+
+                                                     and
+
+                                         GEORGE      N. SANDOR
+                      Rensselaer Polytechnic Institute, Troy, New York 12 181, U.S.A.
+
+Abstract-The    rates of low-cycle fatigue crack propagation in 1 Cr-1 MO-0.25 V low alloy steel were
+determined under several types of loading at 1000 F. It was found that crack growth rates correlate well
+with the nominal crack tip stress. This method was also applied with good results to some published data
+where the fracture mechanics stress intensity factor had given only limited correlation. Several questions
+are thus raised regarding the relative importance of crack tip stress and crack length during crack growth in
+actual components.
+
+                                            INTRODUCTION
+WITHIN     THE  past twenty years numerous investigators have studied the parameters
+controlling fatigue crack growth. A number of the earlier authors, namely Head[l],
+Frost and Dugdale[2], McEvily and Illg[3], Liu[4]. Schijve[S], and Paris et a1.[6,7],
+were principally concerned with high-cycle fatigue at room temperature. As each
+experimenter obtained his results, he proposed a new relationship between fatigue
+crack growth rate and alternating stress level and crack length. Paris and Erdogan [S] re-
+viewed these relationships, and found that all the data could be well correlated by a
+fourth power equation involving the fracture mechanics stress intensity factor:
+
+                                               dL = (AK)4
+                                               dN=    c ’
+                                                                                                          (1)
+
+    where:     AK = range of stress intensity factor
+                 c = material constant
+                 L = crack length
+                N = number of cycles.
+
+This application was a major extension of fracture mechanics concepts beyond the
+analysis of brittle fracture.
+     Both Forman et af.[9], and Roberts and Erdogan [lo] have proposed modifications
+to (1) to better describe the effects of mean load.
+     Crooker and Lange [ 111, Brothers and Yukawa[ 121 and McEvily et al. [ 131 have
+investigated crack growth at higher stress levels, in a low-cycle fatigue range. The
+first two groups have used the stress intensity factor power relation to correlate their
+data, while the last group has used a similar ‘strain’ intensity factor. Thus, most authors
+
+
+    tpresented at the Third National Symposium on Fracture Mechanics,        Lehigh University.   Bethlehem.
+Pa., August 25-27.1969.
+                                                     403
+404                            C. B. HARRISON              and G. N. SANDOR
+
+recently studying fatigue crack growth have used basically the same type of approach.
+    The series of tests reported here take the next step in the study of fatigue crack
+growth, i.e. the effects of high-temperature     creep. Here the application of the brittle
+fracture-related  elastic stress intensity factor would be put to its severest test. And
+if a completely new parameter were required to correlate the data, perhaps it would
+shed light on crack growth under other conditions as well.
+
+
+                                           EXPERIMENTATION
+Material
+    The 1 Cr-1 MO-0.25V steel test material was machined from a disk parted from a
+steam turbine rotor. All of the specimens tested had an axial orientation in the disk,
+so that crack growth was always in a radial direction in the original rotor.
+    The average chemical composition of the test material is given in Table 1.
+    In its final heat treatment the steel was normalized at 1775 F for 6 hr and air cooled,
+then tempered at 1270 F for 12 hr and furnace cooled. The steel’s tensile properties
+were determined at room temperature and at 1000 F. The results are shown on Table 2.
+    The reduction in area after a 572 hr rupture test at 1000 F was 73.6 per cent.
+
+Test specimen
+    The test specimen used is shown in Fig. 1. It is 15 in. long, 5 in. wide, and 1 in.
+thick, with a 2 in. long, 0.25 in. thick gage section. The 0.5 in. center notch was electro-
+discharge-machined     allowing very accurate dimensioning of the notch without damag-
+ing surrounding material through excessive heating.
+    The specimens were coated with high-temperature            aluminum paint to prevent
+surface oxidation and to permit accurate measurement of crack length. Crack growth
+was measured using an aluminum coated scale graduated in 0.01 in. increments clamped
+to the specimen (see Fig. 2). The crack was monitored with a 2 X telemicroscope.
+Measuring accuracy for the crack length was of:0405 in.
+
+ Test equipment
+    A 200,000-lb, hydraulically operated, axial-load testing machine was employed in
+this study. Sawtooth waveform cycling was used in zero to tension loading with a-+
+
+                                   Table   1. Chemical    composition        (wt. %)
+
+
+               C      Cr           MO          V         Mn         Si             Ni           P    s
+
+              0.28   1.03          1.10      0.24        0.88      0.30         0.40      0.009     0.006
+
+
+
+                                           Table 2. Tensile     properties
+
+                                                                 Y.S., psi
+                           Temp.            T.S.               for offset of
+                             (F)            (psi)         (0.02%)        (0.2%)         % R.A
+
+                            R.T.           110,000        87,500          90.000         56.8
+                           1000 F           70,600        52,000          65,000         77,6
+                                       High temperature crack growth                                                          405
+
+250 lb possible error in maximum load at a 3 cpm rate with a maximum dwell of 5 set
+between cycles.
+    A three-zone, high-low controlled resistance type furnace maintained a 1000 F
+temperature for all tests. Three Chromel-Alumel thermocouples mounted at the top,
+center, and bottom of the specimen gage length were monitored to maintain a uniform
+temperature within -+ 2 F.
+
+                                                                     1.75”DIA
+                                                                                                            --
+                                                                                                   .
+                                                                                                  -I-
+
+
+                                                                       --I-          II
+
+
+                                                                            2;
+                                                                                                            --
+
+                                                                       1
+
+
+
+                                                                                                            --
+                                                                                          i
+
+
+
+
+       NOTCH   DETAIL
+
+
+                                                                        ;
+                                                                       1-                     1   15”
+                                                                                                            \
+
+                                                                       A-l
+                                                                                I,
+
+
+
+
+                                                                                                                _=:
+                                                                                                        -             1.25”
+                                                                                                            J
+
+
+
+
+                                                                                                            --
+
+
+                                                                                                            __
+
+
+
+
+                                      k-
+                                            2;” _-q
+                                                    cj”_-
+                                                                                                            c-t.
+                        Fig. 1. Specimen configuration for crack propagation studies.
+
+
+
+    Uniform loading of the specimen was monitored through rod and tube extenso-
+meters mounted on either side of the specimen (see Fig. 3). These were read out through
+both dial indicators and differential transformers. The load train was adjusted until
+there was less than it O*OOOlin. difference in the extension read on each side over the
+2 in. gage length as the specimen was loaded elastically to 50,000 psi at room
+temperature.
+406                             C. B. HARRISON              and G. N. SANDOR
+
+                                       RESULTS
+Crack growth data
+    Load controlled tests were run at 1000 F at gross section stress levels (excluding
+the crack width) from 0 to 40,000 psi. 50,000 psi, and 60,000 psi in an air environment,
+These data are shown in Fig. 4. An extension controlled test was also run, where the
+extension limit corresponded to a stress of 70,000 psi, and the specimen was cycled
+from zero stress to the maximum extension (see Fig. 5). Because the growing crack
+
+
+
+
+              0.5
+                 0     2000    4003        6000   6000      IO~OCXJ IZ..ooo 14,000     16,000   18.000 x).520
+
+                                       N,    number of cycles from 0.5 in. crock
+      Fig. 4. Plate crack growth during load controlled testing to three different gross section stress
+                                                  levels.
+
+
+
+
+                                                  00     6000   7000   8000   9000     IO.
+
+                                      N,    number of cycles from      0.5 in. crack
+
+                     Fig. 5. Plate crack growth under extension control from 70,000 psi.
+Fig. 2. Scale used for measuring   crack growth   through   aluminum   painted   specimen.
+Fig. 3. Photograph showing test specimen, with extensometers attached, mounted in the load
+                                          train.
+                                             Hightemperaturecrack growth                                             407
+
+decreased the net section of the specimen, and also because this material strain softens
+at 1000 F, the gross section stress decreased as the test progressed.
+     Figure 6 shows the results of a stepped load test, where the load was increased
+once crack growth curves were obtained at each step. Figure 7 shows the results of
+these tests plotted on the single load data of Figure 4. The crack length at start of cycling
+at a new load is used as the reference in all cases. The prior load level seems to have
+little effect on crack growth rate. Figure 8 shows data from a test that began as a decreas-
+ing stepped load test. Here the prior load level had a substantial effect, depressing the
+crack growth rate long after the load had been changed. After 62,500 lb the crack did
+not grow for 1500 cycles at 50,000 lb, and after the load was dropped to 37,500 lb,
+the crack did not grow for 4000 cycles. When the load was increased to 50,000 lb,
+growth proceeded normally.
+
+
+
+
+             056    ^    n      00
+                0       loco         2000   3000    4000       so00     6000      7000       8000    9000   IO,000
+
+                                      N.    number of cycles     from 0.5in.   crock
+
+                          Fig. 6. Plate crack growth under steps of increasing load.
+
+
+
+
+                                                           o’%i.      8tdecreosing       load)
+
+
+
+
+                                               N,    number      of cycles from      0 5 in. crack
+
+      Fig. 7. Compa~son        of increasing stepped load crack growth data (and data for one decreasing
+                                           load step) with single load curves.
+408                                          C. B. HARRISON                  and G. N. SANDOR
+
+               * 3 - 62,500 Ibs             50.000 Ibs               3ZSOOlbs                                         50,OOOlbs
+                *,, -laadCmax)--load            (mm1 e                load haxl              -                    ~   hod (mox) --             -
+
+          .c                                                                                                                                        !
+                19-                                                                                                                                I,
+          ;
+           g    17-                                                                                                                        0
+
+           k
+          z      15-                                       r                      1                                              m3i
+                                                                                                                            08
+          f     13.                                                                                                   000
+           P                                                                                              o pan
+          !?
+          i     II-                                                     00    a00       fl       oo 000
+               09.                                       @,ocDo”“o
+
+               07-              0&G     oooo~~om
+
+
+               058     .O@,                                                             I
+                  0           2000     4m        6000      6000         10.000        12.000        14.000        16.000     16,OaJ    20,000
+
+
+
+                                                   N,    number of cycles from 0.5 ITI crack
+
+                                Fig. 8. Plate crack growth under steps of decreasing load.
+
+
+
+Microstructure
+     Preliminary microstructural     examination has shown that all crack growth was
+transgranular. At the low stress levels, the cracks grew very straight normal to the load
+for up to O-8 in. total crack length. This period was followed in the low stress specimens
+by substantial short branching. The main crack, however, would continue straight
+until shear fracture started, at which time the crack direction would begin to change
+to 45” to the load. All tests were stopped at this point. As test load level increased,
+the frequency of branching decreased, until at o;, = 60,000 psi there was no branching
+from the main crack.
+    The size of the zone of gross plasticity at the crack tip, as evidenced by extensive
+deformation of the bainite phase, was limited to about O-15 in. from the edge of the crack
+in all tests.
+    There was a normal distribution of silicate particles lying in a plane normal to the
+forging direction. There appeared to be no interaction between these defects and the
+growing cracks.
+
+
+Fractography
+     Fractographic  work on the test specimens has only begun. The first specimens
+examined showed that a heavy oxide layer hid most fracture surface features in both
+the specimens with the tightest cracks (low stressed specimens), and in those tested
+for the shortest times (high stressed specimens). Fatigue striations could be seen only
+near the fast fracture area, and there only faintly. Removal of the oxide is being
+attempted using dilute HCl and an oxidation inhibitor. So far, this procedure
+has revealed small patches of striations to within about gin. from the notch,
+but few features of any kind closer to the notch. No evidence of ductile rupture has
+been found.
+    While crack growth is perpendicular to the load and generally straight across the
+thickness, the fracture surface changes from quite smooth in the low stress level
+tests to extremely rough at higher loads. The fracture surfaces become so rough that
+adequate replication has proved very difficult.
+                                 High temperature crack growth                         409
+
+                                         ANALYSIS
+Data reduction
+    Crack growth rates were calculated from a ‘least squares fit’ of the crack growth
+data using an orthogonal polynomial method. A two degree polynomial fit the data
+very well in all cases. The equation for N:
+
+                                    N=A+BL+CL”.                                        (2)
+
+   where: A, B, C = constants
+can be differentiated to give:
+
+                                       dL
+                                       -=         1
+                                                                                       (3)
+                                       dN     Bt2CL’
+
+A two degree fit was accurate for the load curve in the extension-controlled       test as
+well. These polynomial expressions were used in all subsequent correlations.
+
+Stress intensity factor correlation
+    To try to correlate the crack growth data, the most obvious parameter was the
+stress intensity factor range, AK, mentioned in the Introduction.  For the center-
+notched plate, the formula used for K was:
+
+                                                       7TL
+                                    K = q,
+                                             d   W tan 2~’                             (4)
+
+
+where: o’, = gross section stress
+       W = specimen width.
+
+     Figure 9 shows the results of applying this parameter to the widest range of
+data; the 40.000 psi and 60,000 psi tests, plus the extension-controlled        test using
+the instantaneous    stress level. Note that the two load-controlled      curves tend to
+deviate from straight lines on the log-log plot at high AK levels, as well as having
+different values for the apparent material constant c in (1). The extension-controlled
+data even go the wrong direction entirely, for the stress intensity range increases as the
+crack growth rate decreases. Certainly a different parameter is needed.
+
+Net section stress correlation
+     The parameter that proved to correlate best with the data was the simplest possible,
+the nominal crack tip stress. The nominal crack tip stress is defined as the stress at the
+tip of the crack calculated considering the geometrical concentration caused by the
+unloaded crack surfaces. but disregarding the infinite stresses caused by the mathemat-
+ical singularity at the junction of the opposing crack surfaces. Since the test specimen
+is loaded in uniform tension. the nominal crack tip stress is simply the stress on the net
+section remaining as the crack progresses:
+
+                                                 a,W
+                                             =
+                                        cT.VET   w_L.
+
+
+
+
+where: m.L.F;T
+            = net section stress.
+410                                    C. B. HARRISON               and G. N. SANDOR
+
+
+
+
+                                                                0
+
+                                                               800
+                                                                     0
+                                                                     0
+
+
+
+
+                                                           /
+                                                                                  0   O-60,000   psi
+                                                        8’                        l O-40.000     psi
+                                                      .O                          0 Deflection   controlbd
+
+
+
+
+                           IO                                               100                           400
+
+                                      AK, stress   tntenslty   factors   range,        ksifi
+
+            Fig.   9.   Lack of correlation   of crack growth       rate and stress intensity    factor    range.
+
+
+Then the proposed crack growth rate relation is:
+
+
+
+
+or
+                                                   dL=l
+                                                   -=-     &”
+                                                                                                                    (6)
+                                                   dN   c c W-L 1 .
+
+Note the similarity between (3) and (6) if c is a negative constant. The result of applying
+(6) is shown in Fig. 10. The agreement is very good, with the calculated points clustered
+about the average line with its slope of 3.25, which is the value of n in (6). The data from
+each separate test also have approximately the same slope. This is a requirement if the
+crack growth equation developed is ever to predict an L vs. N plot at a given load level.
+    The lack of success in applying the stress intensity factor is not surprising. Since it
+is based on a purely elastic peak stress distribution, it really has little chance of working
+in tests of a ductile material at high temperature. It is perhaps surprising that the crack
+growth rate is related simply to a nominal crack tip stress. Surely one would expect
+many complicating effects of size, shape, and intensity of the crack tip plastic zone in a
+strain softening material. A severe test of this parameter would be to apply it to
+published data at different test conditions.
+                                    High temperature         crack growth                   41 I
+
+
+
+
+                                      l    0-40.000     PSI
+                                      x    O-50,000    psi
+                                      0    O-60,000    psi
+                                      0    Deflection control
+
+
+
+
+                                                                   I  3-25
+
+
+
+
+                           IO ’                                                       ,
+                             IO                                                      100
+
+                                          mne+, net section stress,     IO00 psi
+
+
+                    Fig. 10. Correlation     of crack growth rate and net section stress.
+
+
+
+
+Crooker and Lange data
+     The low-cycle fatigue crack growth data published by Crooker and Lange in [ 111
+is probably different enough from the present test series to test the applicability of the
+nominal crack tip stress. These tests were performed on high strength 9Ni-4Co-0-02X
+steel (clUS= 180,000 psi) in air at room temperature. Instead of a center-notched tensile
+specimen, an edge-notched cantilever bend specimen was used (Fig. 11). All tests were
+run with a constant stress range, but with a varying mean stress. There was no compres-
+sive loading employed. Their crack growth data are shown in Fig. 12.
+     The appropriate stress intensity factor was used to correlate the data as shown in
+Fig. I 3. The data for different tests are layered on the graph, and the slopes of individual
+datasets varies from that of the whole. Crooker and Lange attributed these character-
+istics to the different mean stresses involved, and used the equations of Forman et uf.
+[93, and Roberts and Erdogan[lO], to adjust for their effects. This reduced the scatter
+somewhat, but did not eliminate the layering.
+     The crack-tip stress in this case is not an average net section stress, as the net
+section is in bending. Instead, the simple beam equation can be used:
+
+                                                        Md
+                                                fl!VET= -3
+                                                          I
+412                                     C. B. HARRISON             and G. N. SANDOR
+
+where: M = bending moment
+        d = distance from neutral axis of net section to crack tip
+        I = moment of inertia of net section.
+Then from Fig. 12:
+                                                                   PL( H-a)/2
+                                                       glvET= t( H_a)3/             12 ’
+
+
+                                                        r-unbroken       ligament          O-45”
+
+
+
+
+                                                          17-25”
+
+      Fig. 11. Details      of the NRL       single-edge-notched        (SEN)       cantilever       fatigue    specimen    with side-
+                                                           grooves     [ 111.
+
+
+
+                 I 6C
+                           9Ni-4Co-0   25c     steel
+                                                                                                              Falledat
+                           us =I80 KSI                                                                      _^__
+                           Air enwronment                     Failed at
+                                                            7 319 cycles
+
+                 l4C
+
+
+
+
+                          I?=
+                         00
+                           lb
+
+
+
+                06C
+                                                                                                                   0 Ibs
+
+
+                06C
+
+
+
+
+                                                                                                     I
+                                 2om         4000       6000          8000           10.000        12.000        14.000     16,CGO
+
+                                                                   Cycles.      N
+
+      Fig.   12. Fatigue        crack    propagation      data for specimens   cycled               zero-to-tension        (R = 0) and
+                                                  tension-to-tension  (R 3, O)[ 111.
+                                         Hightemperaturecrack growth                                                           413
+
+or
+
+                                                                                                                               (8)
+
+    Here the crack length term is squared, where in the center-notched specimen v.IFET
+varied linearly with the crack length. With this crack growth data, a four degree poly-
+nomial fit was needed, instead of the two degree used before. The result of applying
+(T.%rET
+      is shown in Fig. 14. These data points are well clustered. There is very little
+layering of the tests. And the slopes of individual tests closely match the over-all slope
+of 3.21. No reason is given for the similar slope of these data to that of the high-
+temperature data presented in this paper.
+    The use of the nominal crack-tip stress proved valuable in analyzing these data.
+Another source of abundant low-cycle fatigue crack propagation data is the Brothers
+and Yukawa paper [ 121.
+
+Brothers   and Yukawa data
+     These authors published quite good correlations of room temperature low-cycle
+fatigue crack growth data with the stress intensity factor. They found that for the low
+alloy steels tested (NiCrMoV and CrMoV), the slope of the crack growth rate curves
+varied from Paris’ [8] 4, and seemed to be a function of yield strength level. One of
+                                 5000-
+                                           9NI- 4 Co- 0.25        C steel
+                                           ~~9 180 ksi                         x
+                                           Air environment                ~        A
+
+                                 2000
+
+
+
+                                              0 R=O
+                                              A R=Ol4
+                                              0 R=O25
+                                              x R=040
+                                              0 R=O 50
+
+
+
+
+                                        Stress-Intensity      factor   range.          A~(ksi.fi)
+           Fig. 13. Fatigue   crack growth     rate plotted     against       stress intensity      factor   range   [ I 11.
+414                             C. B. HARRISON         and G. N. SANDOR
+
+
+
+
+                                                                . R-O o-1500#
+                                                                * R=OW 250-1750 #
+                                                                0 R-0.25 500-2000#
+                                                                CJR=0,4 IOQO-2500#
+                                                                0 R=0.5 ISOO-3000#
+
+
+
+
+                                            i%
+
+
+                                 ,2
+                                  30             60       loo
+
+                                             am,, net section    strese,
+                                                                                 300
+
+                                                                           1000 psi
+
+                  Fig. 14. Correlation   of fatigue crack growth rate with crack tip stress.
+
+
+
+their best data fits is shown in Fig. 16, obtained from the crack growth curves of Fig.
+ 15. (The two highest stress level curves are unpublished data obtained from the authors).
+The data of Fig. 16 are shown as published, and the points are not referred to specific
+test stress levels. No attempt was made to check the data reduction techniques used.
+Figure 17 shows the results of using the net section stress for these center-notched
+plate specimens. Here the correlation is not nearly as good as in the other data analyzed.
+There is layering of the data, and the individual data sets have higher slopes, although
+they are still all straight lines. The straight lines seem to indicate that the net section
+stress adequately defines the effect of crack length, but the c of (6) used must include
+an additional effect of (T,.
+
+Static   crack grcjwth tests
+    The General Electric Turbine Department has recently been investigating a very
+different type of crack growth: static crack growth under monotonic creep rupture at
+1000 F [ 141. The material is CrMoV steel taken from a steam turbine rotor after 72,000
+hr service. The chemical composition is shown in Table 3.
+    Its mechanical properties at the time of fatigue testing are listed in Table 4.
+    The reduction in area after a 156.3 hr rupture test at 1050 F was 13 per cent.
+     Crack growth curves from center-notched        plate specimens are shown in Fig. 18.
+A correlation of the data was made using the stress intensity factor (Fig. 19). Although
+there is little reason why K should be applied to this case, the results did not look
+                                              High temperature crack growth                                 415
+
+
+
+
+                                          I            I         I                                 I
+
+                                  0     2000         4000      6000    8000    10.000   12.cc0   14.000
+
+                                                N,         number of cycles from 0.5 in.crack
+                      Fig. I 5. Crack growth curves for NiCrMoV steel at (T,, = 117,000 psitl21.
+
+
+
+
+                                                            K,stress intensity factor, psi fi.
+           Fig. 16. Crack growth rate plotted against stress intensity factor for NiCrMoV at mua= 117,000
+                                                       psi[l2].
+
+
+EFM.   -   Vol. 3. No. 4-E
+416
+                                  C. B. HARRISON                  and G. N. SANDOR
+
+
+
+
+                                                                                         l    59.100   psi
+                                                                                         0 40,000      psi
+                                                                                         0 88.250psi
+                                                                                         A80.000 psi
+
+
+
+
+                                                                                    100,000
+
+
+                                             rnt,       , net   section stress,   psi
+      Fig. 17. Crack growth rate as a function of net section stress for NiCrMoV at u,,, = 117,000psi.
+
+
+
+
+                        3
+
+
+
+
+                                  OF30,OOO        psi
+                                              .
+
+
+
+
+                                                                 2000
+
+                                                            Time,       hr
+
+
+        Fig. 18. Crack growth curves for CrMoV steel at 1000 F under monotonic creep ruptureL141
+                                      High temperature crack growth                                         417
+
+
+
+
+                                                                             .I.
+                                                                            .*   I*
+
+
+
+
+                                                    IO                                        100
+
+                                           Stress intensity factor,   Ak,     ksifi
+
+    Fig. 19. Crack growth rate plotted against stress intensity factor under creep rupture[l4].
+
+                                 Table 3. Chemical composition (wt.%)
+
+                C       Cr      MO         V         Mn         Si          Ni            P           S
+
+               0.32    1.10     1.23      0.22       0.75     0.25          0.15         0.03       0.029
+
+
+                                        Table 4. Tensile properties
+
+                              Temp.       Ult. strength     0.02% Y.S.
+                               (F)             (psi)            (psi)  % R.A.
+
+                              R.T.             115.600        87.000             -: 2s
+
+
+unreasonable. But when the net section stress was used, the results were outstanding
+(Fig. 20). All the data are tightly grouped in a straight line. The slope of the line is steep
+indicating that the crack growth is extremely sensitive to stress level under these
+conditions.
+
+                                      DISCUSSION
+    A number of questions are raised by the Results and Analysis presented here. Why
+can a nominal crack tip stress correlate data so well in low-cycle fatigue at high and
+low temperatures, and even in monotonic creep rupture? How can this stress have any
+real significance in the face of the many, many tests that have correlated well with the
+418                          C. B. HARRISON         and G. N. SANDOR
+
+
+
+
+                                                                 ?
+
+
+                                                            x
+
+
+
+                                                                     dog-24000 psi
+                                                                     oag=30,000pst
+                                                            xi
+
+                                                          Slope = IO
+                                                        x0
+
+                                                            0
+                                                        x
+                                                         Cl
+                                                        ~
+
+
+
+                                             u,,,,net section stress,    psi
+            Fig. 20. Crack growth rate as a function of net section stress under creep rupture.
+
+
+stress intensity factor? If the nominal crack tip stress is an essential parameter, what
+effect will it have on actual component analysis?
+    The reasons for the success of the nominal crack tip stress do not appear obvious.
+One can conjecture that perhaps the plastic flow near the crack tip in a low-temperature
+test and the stress relaxation and creep damage there in a high-temperature test are
+fundamentally related to the underlying stress field. Certainly, however, in these
+applications the reasons are no more obvious why the elastic stress intensity factor has
+worked. Perhaps the situation is analogous to comparing smooth and notched rupture
+data; only the most brittle materials are notch sensitive in short-time tests. If a material
+behaves in a brittle fashion, then the elastically calculated peak stress is most likely
+the critical parameter. If it acts ductile, a nominal stress should be used.
+    Perhaps one reason why the crack tip stress has not been applied in more tests is
+that in more complicated test specimens than those discussed here, difficult stress
+analysis is required. Where non-uniform or point loadings are applied, strength-of-
+material solutions may not be adequate and elasticity analysis will be required. The
+mathematical problems at the crack tip can be ignored, but a fair job must still be done
+on the general stress field.
+    The most serious implications of this stress parameter arise in component applica-
+tions. If one is to believe that the nominal crack tip stress is the critical variable, then
+the significance of the crack length changes completely. If its effect is only to change the
+                                     High temperature crack growth                                     419
+
+crack   tip stress in a test specimen, then will it have any effect in a large component
+where it cannot unload the stress field? For a case where the stress intensity factor
+approach would predict an accelerating crack growth rate, the crack tip stress approach
+would perhaps predict a constant one. Thus much more care must be taken in specimen
+design to separate these effects of crack length.
+    The tests presented here are continuing. Tests are planned to investigate the effects
+of compressive loading, thickness, strain cycling, and hold time. A specimen will be
+designed to better assess the effect of crack length. Fractographic studies will continue
+in the hope of learning more about the fracture process involved. And efforts will
+continue in applying this method to other published fatigue crack growth data.
+    There has been no intent at suggesting that this crack tip stress is a universal para-
+meter that will replace the stress intensity factor in all cases. Instead. several interesting
+correlations have been presented in the hope that other investigators will compare them
+to their approaches. However, to continue to use the stress intensity factor, or any
+other variable. without anaiy~ing the way each and every test contributes to the whole,
+and without taking a resulting crack growth law and testing its ability to predict indi-
+vidual tests, can result in serious misapplications of test data to component design.
+
+                                       CONCLUSIONS
+    f 1) Limited load-controIled tension cycling data on CrMoV in low cycle fatigue at
+IO00 F show excellent correlation of crack growth rate with a parameter based on the
+nominal crack tip stress.
+    (2) The same parameter also shows good agreement with several samples of data
+on low-temperature,      low-cycle fatigue and monotonic creep rupture crack growth
+where use of the stress intensity factor had given only limited correlation.
+    (3) In high-temperature low-cycle fatigue of CrMoV, prior cycling at lower stress
+fevels causes little history effect, but prior cycling at higher stress levels greatly retards
+crack growth.
+    (4) These correlations discussed raise serious questions regarding the use of the
+stress intensity factor in correlating fatigue crack growth data.
+
+~~k~o~~~e~ge~e~?t-~e      first author wishes to acknowledge support under Genera! Electric’s graduate
+engineering education program conducted at Rensselaer Polytechnic Institute. Troy. N.Y.
+   The authors also thank A. .J. Brothers of General Electric’s Materials and Processes Laboratory for his
+work in conducting the static crack growth tests.
+
+
+                                            REFERENCES
+ 113A. K. Head, The growth of fatigue cracks. P&7. Mug. 44,925 (1953).
+ [Z] N. E. Frost and D. S. Dugdale, The propagation of fatigue cracks in sheet specimens. J. nife&. P&X
+     S&&6,92-1      10 (1858).
+ [3J A. J. McEvily. Jr., and W. I’tfg, The rate of fatigue-crack propagation for two aluminum alloys. NACA
+     Tech. Note No. 4394 (1958).
+ [4] H. W. Liu, Crack propagation in thin metal sheet under repeated loading, J. bas. Engng, Trans. ASME
+     83,23 (1961).
+ !Sl J. Schijye, Fatigue crack propagation in light alloy sheet material and structures. N.L.,!... Rep. NO.
+     ?ilP 195, National ~~ht~a~~aborstor~urn~ Amsterdam, The Netherlands (1960).
+ Z61 P. C. Paris, M. P. Gomez, and W. E. Anderson, A rationaf analytical theory of fatigue. Trend ~ngp~g
+     13,pi196t).
+ 171 P. C. Paris, Crack propagation caused by Auctuating toads. ASME &per No. 62-Met-3.
+ [81 P. C. Paris and F. E. Erdogan, A critical analysis of crack propagation laws. J. bus. Engvtg TWLY.
+     ASME 85,528 (1963).
+ [9] R. G. Forman, V. E. Kearney and R. M. En&, Numerical analysis of crack propagation in cyclic-
+     loaded sttuctures.ASME     Papct+No. 66-WA/Met-4.
+420                             C. B. HARRISON       and G. N. SANDOR
+
+[lo] R. Roberts and F. Erdogan, The effect of mean stress on fatigue crack propagation in plates under
+      extension and bending. ASME Paper No. 67-WA/Met-2.
+[l I] T. W. Crooker and E. A. Lange, Fatigue crack propagation in a high strength steel under constant cyclic
+      load with variable mean loads. NRL Rep. No. 6805 (1968).
+[12] A. J. Brothers and S. Yukawa, Fatigue crack propagation in low-alloy heat-treated steels. ASME Ptrpcr
+      No. 66-Met-2.
+[13] A. J. McEvily, Jr., R. C. Boettner. and C. Laird, Crack nucleation and growth in high strain-low cycle
+      fatigue. Trans. MetaN. Sm. AIME 233. 379 (1965).
+[14] Testing program supervised by A. J. Brothers in the Materials and Processes Laboratory. Large Steam
+      Turbine-Generator Division. General Electric Co.. Schenectady, N.Y.
+
+                                          (Received I5 May 1969)
+

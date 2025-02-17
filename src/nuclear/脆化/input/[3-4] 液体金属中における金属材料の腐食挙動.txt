@@ -1,0 +1,807 @@
+                                                   液体金属中における金属材料の腐食挙動                                                                              1991
+
+
+                                                                                                                                         C    1989 ISIJ
+
+
+                          液体金属 中 における金属 材料 の腐食挙動                                                                                         解         説
+
+                                                                                                       鈴          木                          正*
+
+                        Corrosion           Behavior       of Metallic         Materials          in Liquid       Metals
+
+
+                                                                                                                          Tadashi     SUZUKI
+
+
+
+
+                                                                              と吸 収 が少 な い な どの利 点 か ら,液 体 金 属 冷 却 高 速 増 殖
+                  1.    緒                    言
+                                                                              炉(LMFBR)の               冷 却 材 に な っ て い る.
+ 液体 金 属 は 熱伝 導 性,流 体 力 学 的性 質 な どが 良好 な た                                       最 初 に つ く ら れ たLMFBR,                     Clementine(1949‑52年,
+め 高温 冷 却 材 と して好 ま しい 。 考 え られ る 液体 金 属 冷 却                                   米 国),で         は 一 次 冷 却 系 にHg,ま                 た 二 次 系 に水 が 用 い
+材 お よ び そ の性 質 の 一部 をTable11)〜5)に                      示 す.Naは                ら れ た.つ            い で,一,二,三                次 系 が そ れ ぞ れNa‑K,
+化学 的 活 性 が 強 く,水,大            気 な ど と反応 す る 欠点 は あ る                          Na‑Kお        よ び 水 に な り,Na‑KがNaに                      代 え ら れ,Lam‑
+
+が,大 気 圧 下 で 液体 温 度 範 囲 が 広 い,熱 伝 導 お よ び流 体                                   pre(1961‑65年,米                国)以       降 の 炉 は,現           在 世界最 大 の
+力 学 的性 質 が 良好,資 源 が 豊 富,ま た 高速 中性 子 の減 速                                      Superphenix(1986年‑,フ                     ラ ン ス,出           力1200MWe,
+
+
+
+                                    Table     1.   Metal   coolants     and some      of their    properties.
+
+
+
+
+       平 成 元 年3月2日    受 付(Received Mar.2,1989)(依   頼 解 説)
+   *   金 属 材 料技 術 研 究 所 筑 波 支所 力学 特 性 研 究 部 第 二 研 究 室 長   工 博(Tsukuba                             Laboratories
+                                                                                                                 , National   Research       Institute
+       for Metals, 1-2-1 Sengen Tsukuba 305)
+       Key words : liquid metal ; metallic material ; corrosion       ; mechanical    property   ; high temperature    ; sodium ; lithium ;
+       ferrous alloy ; solubility ; chemical interaction.
+
+                                                                         35
+       1992                                   鉄   と    鋼      第75年(1989)            第11号
+
+
+
+Na4540t)を           含 め て 建 設 中 の も の もNa/Na/水            系 を採              Table 2. Solubility of Fe, Cr, Ni and Mo (wt ppm)
+用 し て い る1).な          お,初     期 にNa‑Kが      用 い られ た理 由 は                  in liquid sodium, lithium, lead and mercury.
+氷 点 以 下 の 融 点(‑12.6℃)を                  も つ た め で あ る.Naの
+
+他 の 応 用 に は 太 陽 エ ネ ル ギ ー 利 用 の 熱 媒 体,蓄                    熱 材,
+
+Pb‑ア     ル キ ル 化 合 物 製 造 用 のNa‑Pb合            金,Ti,Taな            ど
+のRefractory         metal製    造 用 の 還 元 剤,Na‑S電        池 な どが
+
+挙 げ ら れ る.
+  Liは         反 応,6Li+n→T(3He)+4Heお               よ び7Li+n
+→T+4He+n,に                 よ りTを    増 殖 す る た め,D‑Tサ         イク
+
+ル 核 融 合 炉 のT増             殖 用 ブ ラ ン ケ ッ トお よ び 冷 却 材 と して
+
+応 用 で き る.ま           た,Pbは      中 性 子 を 倍 増 し てTの         増殖 を
+
+加 速 す る た めPb‑Li系                  の 共 晶 組 成,Pb‑17at%Li
+
+(Pb‑0.68wt%Li,融              点235℃)が       良 好 と さ れ,欧       州で
+はPb‑17Li/水           系 の 利 用 が 図 ら れ て い る6).な         お,宇     宙
+
+空 間 用 核 分 裂 炉 は 高 温 で 運 転 す る 必 要 上,沸                  点が高 い
+Liに     よ る 冷 却 が 考 え ら れ る.
+
+  Hgア         マ ル ガ ム を用 い るAu被           覆技 術 は8世 紀 に建 造
+され た奈 良 の 大 仏 に 利 用 さ れ た よ うに,Hgは                     室温 にお
+け る実 用 液 体 金 属 と して長 い 歴 史 が あ る.最 近 で は,
+D‑T核       融 合 炉 の経 済 的 な熱/電 気 変換 用 に,少 量 の ア ル                            びHg中      の 溶 解 度 をTable2に      示 す.Na中       でFe,Cr,
+
+カ リ金 属 を加 え たHgの                ラ ンキ ンサ イ ク ル(例 え ば,汽                      Niお     よ びMoの700℃         に お け る 溶 解 度 は そ れ ぞ れ10
+
+力 発 電 の よ う に断 熱 変 化 と等 圧 変 化 か ら な る サ イ ク ル)                             ppm以    下 で,小     さ い.し    か し,Na中    の0濃     度 の増 加 と
+                                                                           と も に 大 き く な る も の が 多 い.PULHAMら18)は           実験 に用
+利 用 のMHD発             電 が提 案 され て い る7).
+                                                                           い たNa中      のO濃      度 と生 成 す る 三 成 分 酸 化 物 の 組 成 も示
+   以 上,主         に高 温 冷 却 材 と して の 液体 金属 の応 用 例 を述
+べ たが,以 下,液 体 金 属 中 の 腐 食 に影 響 す る 因子,著 者                                   し た.Li中      の 溶 解 度 はNa中      に 比 べ て 大 き く,Niで        と
+
+ら の 研 究 結 果 を 中心 に した 液 体Na中                   の金属材料 の腐                    く に 大 き い.ま       た,Li中     で は0濃    度 に 代 わ っ てN濃      度
+                                                                           の 影 響 が 大 き い.Pbお          よ びHg中    で はNiの     溶解度が
+食,欧 米 に お け る研 究 結 果 を基 に した 液 体Liお                          よび
+Pb‑17Li中          の 金 属 材 料 の 腐 食 な ど を概 観 す る.な お,                        大 き い.な     お,固      体 金 属 元 素 を含 む三 成 分 化 合物 が液 体
+
+液 体 ア ル カ リ金 属 中 の 腐 食 に 関 して は 多 数 の 解                                    金 属 中 に 生 成 す る と,溶        解 度 と 温 度(K)の      逆 数 との関
+
+説4)8)〜15)が
+         あ る.                                                              係 を 示 す 直 線 の 勾 配 が 小 さ く な る と予 想 さ れ る が,0を
+
+                                                                           含 むNa中       のFe溶      解 度 につ い て こ れ が 実 証 され て い
+                     2.    腐 食 に 影 響 す る因 子                                る19).
+
+2・1      元 素 の 液 体 金 属 中 の 溶解 度                                            2・2     液 体 アル カ リ金 属 系 に お け る非 金 属 元素 の影 響
+
+   固 体 材 料 を液 体 金 属 中 に浸 せ きす る と表 面 エ ネ ル ギ ー                               ア ル カ リ金 属 は化 学 親和 力 が 強 い.例 え ば,Naは                  室
+
+が 低 下 して 成 分 元 素 が 液体 金属 中 に溶 出 しやす くな る.                                  温 に お い て大 気 に触 れ る と表 面 に酸 化 物,水 酸 化 物 お よ
+
+元 素 の液 体 金 属 中 の 溶 解 度 は 温 度 上 昇 と と もに大 き くな                              び 炭 酸 塩 を生 成 す る た め 大 気 に触 れ な い よ うに取 り扱
+
+ る か ら溶 解 度 と その 温 度 変 化 が 問 題 にな る.                                       う.
+
+   等 温 液 体 金 属 系 で は,元 素 は溶 解 度 まで 溶 出 し,そ れ                                 2・2・1 酸 化 物 の生 成 と酸 素 溶解 度
+
+ 以 上 の変 化 は な いが,非 等 温 系 で は高 温 部 で 溶 出 した 元                                 金 属 酸 化 物 の標 準 生 成 自 由 エ ネ ル ギ ー変 化 △G° と温
+
+ 素 が拡 散 し,低 温 部 で過 飽 和 に な って 析 出 す る.液 体 金                                度 丁 との 関係,お           よ び金 属 中 の0の 溶 解 度Cも         と1/T
+
+ 属 を高 温 冷却 材 に す る場 合 に は非 等 温 の 循 環 系 と なる た                              (K)と      の 関 係 をFig.1に      示 す.こ こで,2種          以上 の原
+
+ め,溶 解 度 に よ る 高温 部 か ら低 温 部 へ の物 質 移 行 が 問 題                              子 価 を と る 金 属 で は 最 低 原 子 価 の 酸 化 物 につ いて 示 し
+
+ に な る.                                                                    た.一 点 鎖 線 は02ガ            ス の相 当分 圧 で,ア ル カ リ金属 の
+
+   溶 解 度 は実 験 に よ り求 め る が,液 体 金属 中 の不 純 物(と                               環 境 は還 元 性 が 強 い こ とが わ か る.反 応,
+
+ くに ア ル カ リ金属 の場 合 は微 量 の 非 金 属 元 素,O,Nお                                                             (Na中 で 未 飽和)
+
+ よ びC),液           体 金 属 中 に浮 遊 しや す い 固 体 微 粒 子 な どの                      で,Na20の         生 成 自 由 エ ネ ル ギ ー,Na中       の0の    濃度お
+
+ た め 正確 な値 を求 め に くいし 液 体 金 属 系 の 装 置 材 料 と し                               よ び 溶 解 度 を そ れ ぞ れ △GNa2O,Co(Na)お           よ びC°O(Na)
+                                                                           で 表 し,Na‑O希          薄 溶 液 にHenry則     が 成 り立 つ と す れ
+ て 最 も一般 的 な オ ー ス テ ナ イ トス テ ン レス鋼 の 主 成 分 元
+                                                                            ば,
+ 素,Fe,Cr,Niお                 よ びMo,の      液 体Na,Li,Pbお            よ
+                                                                      36
+                                                                                  液体金属 中にお ける金属材料の腐食挙動                                                                                                      1993
+
+
+
+
+                                                                                                                  Fig.       2.       [Upper]           Relationships                  between           standard
+
+                                                                                                                  free       energy         of    formation             of     metal        nitrides, •¢G•‹,
+  Fig.         1.       [Upper]            Relationships                between           standard
+                                                                                                                  and    temperature,                   T8)25)26).           [Lower]             Relationships
+  free         energy         of formation                 of   metal    oxides, •¢G•‹,              and
+                                                                                                                  between         nitrogen          solubility            in    metals,           C•‹N , and        re-
+  temperature,                     T8)25)26).         [Lower]           Relationships                be-
+                                                                                                                  ciprocal        of     temperature,                T8)26).
+  tween             oxygen         solubility         in     metals,     C•‹O, and        recipro-
+
+  cal     of        temperature,                T8)26)27).
+
+                                                                                                                反 応,
+
+                                                                                                ( 1)
+に な る.Co(Na)値                              を0.01‑1000ppmに                           した 場 合 の
+
+△GNa2O値                を求 め て 破 線 で 示 し た.                                                                      ま た低 温 部 にお い て 反 応,
+  Fig.1の                 △G°‑T関                 係 か ら,Co(Na)値                     が 小 さ いNa中
+
+でNi,Mn,Fe,Moな                                      ど は金 属 の ま ま安 定 で酸 化 され                                      を 起 こ し て 高 温 部 か ら 低 温 部 へFeお                                            よ びCrが                 運 ばれ
+な い こ と,一                    方,Ti,Zrな                        ど は酸 化 物 が安 定 な た め 酸                              る こ と,ま               たCo(Na)値             が 大 き いNa中                      で,Feは                 上 の2
+
+化 さ れ る こ と,言                         い か え れ ば 液 体Na系                            に お ける 装 置 材                  反 応 に よ り 低 温 部 へ 運 ば れ る が,Crは                                              高温部で三成分
+料 の 構 成 金 属 元 素 の 安 定 性 が わ か る.し                                              か し,二            成分酸             酸 化 物,NaCrO2(あ                          る い はCrO2‑イ                         オ ン)を              つ く り,
+化 物 よ り卑 な △G° 値 を も つ 三 成 分 酸 化 物 な ど の 生 成 に                                                                  こ れ が 低 温 部 へ 運 ば れ てNaCrO2と                                              して 析 出 す る と推
+
+基 づ く腐 食 を 考 え る 必 要 が あ る.                                                                                     定 して い る.
+  Na‑Fe‑0お                    よ びNa‑Ni‑O系                          の 詳 細 な 実 験 か ら,そ                              また,Li20は                       非 常 に安 定(△G°                          値 が非 常 に卑)な                        た
+れ ぞ れNa4FeO3(s)‑Fe(s)‑Na(1)系                                              が 存 在 す る条 件 お                        め,液 体Li系                    に お け る装 置 材 料 の 構 成 元 素 の 酸 化 に よ
+よ びNaを                 含 むNiの                   三 成 分 酸 化 物 はNa(1)の                         存在下で                る腐 食 は考 え に くい.
+生 成 し な い こ と が 明 ら か に さ れ て い る29).一                                                                方,          Fig.1のC°O‑1/T関                            係 か ら,液                体Naを                そ の融点 よ
+KoLsTER30)31)は,CO(Na)値                                 が 小 さ いNa中                   にNa+‑02‑                    り わ ず か に 高 い 温 度(110‑120℃)ま                                              で 下 げ て,イ                  オ ン
+ク ラ ス タ ー が 存 在 し,Feお                                        よ びCrは           高温部 において                          結 合 性 が 強 いNa20の                          結 晶 を 析 出 さ せ れ ば,CO(Na)値                                       は
+
+                                                                                                           37
+    1994                                        鉄    と    鋼      第75年(1989)                   第11号
+
+
+
+約1ppmに        な る こ と,一       方 液 体Liの          温 度 を下 げ て も
+C,)(Li)値 は 数10ppm以         下 に な ら な い こ と が わ か る.一
+
+般 に,液      体 の 温 度 を 下 げ て そ の 中 の 不 純 物 を トラ ッ プ す
+
+る 仕 組 み は コ ー ル ド ・ト ラ ッ プ と 呼 ば れ る.Tiお                       よび
+
+ZrはCら        値 が 大 き く,し        か もTiO2お            よ びZrO2は
+
+Na20よ      り安 定 な た め,Na中          で 加 熱 し て 微 量 の0の             除
+
+去 に 有 効 で あ る(ホ         ッ ト・ト ラ ッ プ).
+  2・2・2 窒 化 物 の 生 成 と窒 素 溶 解 度
+  金 属 窒 化 物 の △G° 値 お よ び金 属 のN溶 解 度C匙                         と温
+度 との 関係 をFig.2に            示 す.一 点 鎖 線 はN2ガ                 スの相
+当分 圧 で あ る.反 応,
+                        (Li中 で 未 飽 和)
+に つ い てCN(Li)値        が0.01‑1000ppmの            場 合 の △G値           を
+
+破 線 で 示 し た.Li,Naお             よ びKの      中で安定 な窒化物 を
+つ く る も の はLiの          み で あ り,液        体Li系       で はLi3Nが
+
+中 程 度 の 安 定 性 を も つ た めNが            液 体Na系         の0と       ほ ぼ同
+
+様 に 問 題 に な る.ま         た,Fe,Crな           ど はLi中        で三成分
+
+窒 化 物 を 生 成 す る と 考 え ら れ て い る(Table2参                       照).
+Fig.2のC°N‑1/T関           係 か ら,液        体Liは        温 度 を下 げ て
+
+もCN(Li)値      は 数100ppm以         下 に ならない ことが明 らか
+で,CNa(Li)値       の 制 御 に コ ー ル ド ・ト ラ ッ プ は 不 十 分 で あ
+
+る.Tiお       よ びZrはC°N値           が 大 き く,ま          たその窒化物
+
+はLi3Nに       比 べ て 安 定 な た め,Li中            のNの       除 去 に用 い
+
+ら れ る(ホ       ッ ト・ト ラ ッ プ).                                                    Fig.      3.     [Upper]            Relationships                  between        standard
+
+  2・2・3     炭 化 物 の 生 成 と炭 素 溶 解 度                                             free      energy          of   formation            of     metal       carbides, •¢          G•‹,
+
+  金 属 炭 化 物 の △G° 値,お             よ び 金 属 のC溶         解 度C°Cを                  and       temperature,              T8)25)26).           [Lower]          Relationships
+
+                                                                               between          carbon        solubility         in     metals,       C•‹c , and     recip-
+Fig.3に     示 す.Li,Naお          よ びKの      中 で 比 較 的 安 定 な炭
+                                                                               rocal      of temperature,                  T8)26)28).
+化 物 を つ く る も の はLiの           み で あ る.し         か し,Li2C2も
+Na2Oお      よ びLi3Nに      比 べ れ ば 不 安 定 で,し            か もCがO
+
+お よ びNに      比 べ て 液 体Li中         に混 人 す る場 合 が少 な い た                       れ そ れMxOyの                  標 準 生成 自 由エ ネ ルギ ー 変化,M中                                             のO
+
+め,LiとCと           の 相 互 作 用 はNと         の 場 合 ほ ど激 し くな い                    の 濃 度 お よ び溶 解 度 で あ る.平 衡 時 には式(2)と(1)と
+
+と予 想 で き る.                                                                  が 等 し くなる か ら,0の                              分配係数 κは
+  2・2・4      そ の他 の非 金 属 化 合 物
+
+  Naあ      る い はLiと      非 金 属 元 素 との 化 合 物 の 中 で 中 程                                                                                                                    ( 3)
+度 の安 定 性 を も っ て装 置 材 料 の 耐 食 性 に悪 影 響 を与 える                                 に な る.な              お,式(3)はNa中                                 のMが            酸 化 物 と して
+
+恐 れ が あ る も の と し て,Na2Oお               よ びLi3N以       外 にNaH,               MxOyの            み を生 成 す る 仮 定 も 含 ま れ る た め,K値                                            は 近似
+
+NaOH,NaCN,LiHお             よ びLi2NCNが           知 ら れ て い る18).              値 で あ る が,一                      般 に非 金属 元 素 の 溶 解 度 が 大 きい
+
+  2・2・5 固体 金 属 と液 体 ア ル カ リ金 属 と の 問 の 非 金 属                                 Refractory           metalに         つ い て 便 利 で あ る.Li‑M‑N系                                      に適
+
+             元素 の 分配                                                         用 し て1150℃                   の 液 体Li系                 の 装 置 材 料 にMo合                        金 を選
+
+  固 体 金 属 と液 体 ア ル カ リ金 属 との 問 のO,N,Cな                              ど        ん だ 例 が あ る32).
+
+の 移 行 を推 測 す る に は分 配係 数 が必 要 に な る.                                         2・3       固体 材 料 の 相 変 換
+  Na‑M‑O系(Mは             固 体 金 属)を        例 に し てOの           分配 を             液 体 金 属 系 の 一 般 的 な 装 置 材 料 と して オ ー ス テ ナ イ ト
+                                                                             ス テ ン レ ス 鋼 が 考 え ら れ る.Fe‑Ni‑Cr系                                                の 相 図(Fig.
+考 え る.MがNa中                に 不 溶 性 で,し          か もM‑O系             に
+Henry則     が 成 り 立 つ と す れ ば,Mの            最 低 原 子 価 の酸 化 物                  4)か       ら316鋼             の オ ー ス テ ナ イ ト相 は 約600。Cよ                                      り高 温
+
+MxOyの      生 成 自 由 エ ネ ル ギ ー 変 化AG°(1/y)MxOy[kJ/g原                           で 安 定,一            方 低 温 で 不 安 定 で あ る.316鋼                                     に 含 まれ る 少
+
+子O]は                                                                         量 のCも              境 界 温 度 に 影 響 す る が,大                                       き く な い.TAS
+
+                                                                             ら20)お        よ びBRocら6)は,温                               度 が 低 い(400‑500℃)液
+
+                                                              (2)            体Liお             よ びPb‑17at%Li中                            に 浸 せ き し た316鋼                       の表
+
+で 表 さ れ る.こ         こ で,△G°(1/y)MxOy,       Co(M),C°O(M)は           そ        面 に 多 孔 性 で 厚 い フ ェ ラ イ ト層 が 生 成 す る 現 象 を相 不 安
+
+                                                                        38
+                                                          液体金属中における金属材料の腐食挙動                                                                       1995
+
+
+
+
+                                        Fig.   4.     Isothermal       sections     of Fe-Ni-Cr      ternary     system33).
+
+
+
+ Table     3.   An     example     of     operating       conditions       of            連 続 的 に精 製 す れ ば,オ ー ス テ ナ イ トス テ ン レス鋼 な ど
+  the sodium    loop    system.                                                          の 鉄 鋼 材 料 の 腐 食 は 許 容 し う る 範 囲 内 にあ る こ とが わ
+                                                                                         か って きた た め,最 近 は研 究 が 少 な くな って い る.
+                                                                                           3・1・1     試 験 装 置34)
+
+                                                                                           Fig.5に     著 者 ら の 材 料 試 験 用Naル                  ー プ を 示 す.316
+                                                                                         ス テ ン レ ス 鋼 製 で,フ             ァ ラ デ ー 型 電 磁 ポ ン プ ,電          磁流量
+                                                                                         計,Naへ       直 接 通 電 し て 制 御 加 熱 す る 主 ヒ ー タ ー,高                    ・
+
+                                                                                         低 流 速Naの        試 験 部,バ          イ パ ス の コ ー ル ド・ト ラ ッ プ な
+                                                                                         ど を 備 え て い る.主            ヒ ー タ ー の 電 極Cか          ら 試 験 部 端Jま
+
+                                                                                         で の 最 高 等 温 域 お よ び コ ー ル ド ・トラ ッ プ の 外 側 に 巻 い
+
+定 に よ り説 明 し た.溶                 解 度 の 大 き いNiが              選 択 的 に溶 出                  た ヒ ー タ ー は 制 御 加 熱 し,そ の 外 の 配 管 は ト レ ー ス ・ヒ ー
+し て 表 面 が 準 安 定 フ ェ ラ イ ト(マ                    ル テ ン サ イ ト)相               にな            タ ー に よ り 補 助 加 熱 す る.高                流 速Na部       の 試 験 片(断      面
+る.こ      れ は 安 定 な フ ェ ラ イ トお よ び オ ー ス テ ナ イ ト相 中                                       10×0.5‑0.6mm,全              長400mm)は              ホ ル ダー の 中 心 部
+よ り もNi活        量 が 大 き い た め さ ら にNiが                       溶 出 し,つ            い        に 入 れ,試      験 片 の 両 側 の 空 間(片              側 の 断 面8×1.5mm)
+でFeよ       り も 溶 出 しや す いCrが                   選 択 的 に溶 出 して厚 い                          がNa流       路 に な る よ う に,ホ             ル ダ ー 下 端 のMo製         リン グ
+フ ェ ラ イ ト相 が 生 成 す る.                                                                    を 高 流 速 試 験 部 の 入 り 口 に 押 し付 け る(Fig.5のG).
+
+                                                                                           Naル     ー プ の 運 転 条 件 の 例 をTable3に                  示 す.高      流速
+                       3.   各                         論
+                                                                                         部 のNa流       速 は,経        験 的 に 求 め ら れ た,316鋼            の腐食速
+
+  液 体 金 属 中 の腐 食 は,装 置材 料 の 組 成,純 度,履 歴 お                                                度 が 定 常 に な る 下 限 値(3‑4m/s)35)を                     も と に4.0m/s
+よ び表 面 積,液 体 金 属 の組 成,純 度,総 量,流 量 お よ び                                                  に し た.
+
+流速,装 置 の最 高 温 度,温 度 差,幾 何 的 形状 な どに応 じ                                                     3・1・2 下 流 効 果36)
+て さま ざ まに現 れる.し た が って,実 際 的 に は プ ラ ン ト                                                   非 等 温Naル            ー プ の 最 高 等 温 域 で は下 流 側 の 腐 食 速 度
+の設 計 にで きる だ け近 い条 件 で調 べ る 必要 が あ り,一 方                                                 が小 さ くな る現 象,下 流 効 果 が あ る.試 験 片 の 単位 表 面
+基礎 的 に は 多 数 の シ ステ ム ・
+                      パ ラ メー ター を明 確 に して                                                積 の 腐 食 に よ る重 量 減 少 をR,下                   流 位 置 をL/D,定           数
+調べ,結 果 を重 要 なパ ラ メー ター と関 連 づ け て 合理 的 に                                                 をKで       表 せ ば,L/D=0に                お け る重 量 減 少Roは
+説明 す る必 要 が ある.
+3・1      液 体Na中        の腐食                                                               で 表 さ れ る.こ           こ で,Lは          最高 等温域 の上流 端か らの
+  LMFBRの          開 発 と と も に1950年                    代 か ら非 等 温 流 動                     Na流      路 の 長 さ,ま たDは               流 路 の相 当直 径 で あ る.
+Na中 の 腐 食 研 究 が 本 格 的 に開 始 され た.そ の結 果,不                                                   Fig.5のNaル             ー プ で 調 べ た316鋼             試 験 片 のRと
+
+純 物 含 有 量 が 少 な いNaを                    コ ー ル ド・トラ ップ に よ っ て                            L/Dと      の 関 係 をFig.6に              示 す.L/D=0は         電 極Cに      相
+
+                                                                                    39
+  1996                                    鉄   と   鋼       第75年(1989)                 第11号
+
+
+
+                                                                  当 す る が,こ こか ら試験 片 まで の流 路 の 形状 が違 うた め,
+                                                                  各 部 のL/D値                    を求 め,そ の 和 を試 験 片 のL/D値                                                          にし
+                                                                  た.
+                                                                    実 験 結 果(Table4)か                                     ら,K値                 は試 験 片 の組 成,浸
+                                                                  せ き時 間 お よ び温 度 に無 関係 に ほ ぼ一 定,0.0018に                                                                        なっ
+                                                                  た.こ の結 果 と,表 面 にNi,Feな                                                         ど を含 まな いMo被
+                                                                  覆鋼 試験 片(15CW+Mo)に                                           も これ らの 元 素 の 吸 着 が認
+                                                                  め られ た た め,最 高 等 温域 のNa中                                                       には 主 に ル ー プ配管
+                                                                  お よ び試 験 片 ホ ル ダー か ら溶 出 した腐 食 生成 物 が 飽 和 に
+                                                                  近 い濃 度 で存 在 し,下 流側 で吸 着 す るた め に下 流 効 果 が
+                                                                  起 こ る と説 明 した.
+                                                                    3・1・3             オ ー ス テ ナ イ ト ス テ ン レ ス 鋼 お よ びNi合                                                              金
+
+                                                                                     の 腐 食37)〜39)
+
+                                                                    316鋼             のRo値           と浸 せ き 時 間 と の 関 係(Fig.7),な                                                       ら
+
+                                                                  び に316鋼,15Cr‑(15‑30)Ni鋼                                                お よ びNi合                      金 の表 面
+
+                                                                  のNiお               よ びCrの             含 有 量 と 浸 せ き 時 間 と の 関 係(Fig.
+
+                                                                  8)か          ら,浸       せ き の 初 期 にFeもNa中                                              へ 溶 出 す る が,
+
+                                                                  NiとCrの                選 択 的 溶 出 が 著 し い た め 重 量 減 少 も 著 し く,
+
+
+
+
+                                                                    Fig.       6.      Relationships                between              logarithm                of   weight
+
+                                                                    loss       per    unit    surface            area,        R,      and        L/D      value        of cold
+
+                                                                    worked           Type      316      stainless             steel         at    600•Ž.          ( The     462
+                                                                    h,     1 249      h,•E•E•Eshow        exposed              hours,            and     specimens               of
+
+                                                                    ferritic            stainless               steels             ( •`5-13            wt%Cr)             were
+
+                                                                    simultaneously                  exposed              to   sodium              at    the     remaining
+Fig. 5.    Schematic   diagram   of sodium loop system.             positions           in   the     holder.)
+
+
+
+Table 4.    Obtained K values for various stainless steels by exposure to flowing sodium (4 .0 m/s, 1-2 ppm O).
+
+
+
+
+                                                             40
+                                                                           液体金属 中にお ける金属材料の腐食挙動                                                                              1997
+
+
+
+
+  Fig.    7.      Relationships             between             weight       loss       at    zero
+
+  downstream              position,         Ro,      and        exposure            time,      and
+
+  steady-state             corrosion          rate         of    cold      worked            Type
+
+  316    stainless          steel      at   700,     650        and      600•Ž        obtained
+
+  from     five      experimental           runs.
+
+
+
+                                                                                                                Fig. 9. Relationships between steady-state corro-
+                                                                                                                sion rate and reciprocal of temperature, T ( K ) , of
+                                                                                                                Type    316    stainless     steels    in    our39),    WEEKS'4°),
+                                                                                                                TnoRLErs41)and BAGNALUS42) works. ( THORLEY'S lines
+                                                                                                                were calculated by assuming that 1 and 2 ppm in
+                                                                                                                CO(Na)values in our and BAGNALUS     works, which
+                                                                                                                were determined on the vanadium scale, would cor-
+                                                                                                                respond to 4 and 5 ppm in THORLEY'S  work, respec-
+                                                                                                                tively, which were determined by the distillation
+                                                                                                                method43).)
+
+
+                                                                                                              腐 食 速 度 は700℃                に お い て も30μm/年               以 下 で,
+                                                                                                              LMFBRの       炉 心 材 料 と し て も 十 分 に 許 容 で き る こ と,
+
+                                                                                                              さ ら に 認 識 で き る 腐 食 速 度 の 下 限 値 を1μm/年(約9×
+
+                                                                                                              10‑5mg/cm2・h)と          仮 定 す れ ば,直            線 の 外 挿 か ら316鋼
+
+                                                                                                              が こ の 下 限 値 を 示 す 温 度 は 約500℃                   に な る.
+
+                                                                                                                Fig.8で     はNi含       有 量 の増 加 と と も に定 常 腐 食状 態 に
+                                                                                                              お い て も表 面 のNi含              有 量 が 高 くな る.し た が っ て,Cr
+  Fig. 8. Relationships   between contents   of chro-                                                         含 有 量 が ほ ぼ等 しい場 合 に は腐 食速 度 の 定 常 値 もNi含
+  mium and nickel in the surface region of austenitic                                                         有 量 の 増 加 と と も に大 き くな る.MoはNa中                               に溶 出 し
+  stainless steels and nickel base alloys and sodium
+                                                                                                              に くい た め,腐            食 表 面 に お け る 含 有 量 が 増 加 して
+  corrosion time.
+                                                                                                              Fe‑Mo金     属 間 化 合 物 の 小 粒(径1μm以                         下)が     無数 に
+                                                                                                              生 成 す る が,Co(Na)値             が1‑2ppmの          場 合 に は腐 食 表 面
+つ い で時 間 の経 過 と とも に表 面組 成 お よ び重 量 の 変 化 が                                                                   お よ び表 面 近 傍 の 粒 界 に は 変 質 部 が ほ と ん ど生 成 しな
+緩 や か に な り,約2000h後                                  か ら表 面 組 成 お よ び腐 食 速                                    い.ま た,0,Nお               よ びCの 平 均 含 有 量 もNa中                    の浸せ
+度 はそ れ ぞれ の 試料 の元 の 組 成 に よ っ て決 ま る定 常 値 に                                                                   きに よ っ て ほ とん ど変 化 しな い.
+なる こ とが わ か る.                                                                                                  3・1・4    フ ェ ラ イ       ト系Cr‑Moス             テ ン レ ス 鋼 の 腐
+
+  316鋼         に つ い て 求 め た 腐 食 速 度 の 定 常 値(Fig.7)の                                                                     食44)45)
+
+ア レ ニ ウ ス プ ロ ッ ト を既 に 報 告 さ れ て い る 腐 食 速 度                                                                    (5‑15)Cr‑1Mo‑0.1C鋼             お よ び 比 較 用 の316鋼                のNa
+式40)〜43)と            と も にFig.9に                    示 す.Fig.9に                      おいて速度                     ル ー プ の 高 流 速 部(流            速4.0m/s)お           よ び 低 流 速 部(流
+
+式6以      外 は い ず れ も相 互 に 近 い 値 に な っ て い る.ま                                                    た,           速0.02m/s)に        お け る 重 量 減 少R値               をTable5に           示 す.
+CO(Na)値        が2ppm以                 下 で あ れ ば,316鋼                       の 液 体Na中                  の        ま た,Fig.10に          浸 せ き 前 後 の 表 面 に お け るNiお                       よ び
+
+                                                                                                         41
+       1998                                                                     鉄          と       鋼         第75年(1989)                第11号
+
+
+
+  Table 5. Weight loss and gain (mg/cm2) of the
+  ferritic Cr-Mo and Type 316 stainless steels after
+  exposure to sodium (1-2 ppm O).
+
+
+
+
+                                                                                                                         Fig.      10.          Surface        content           of     Ni     and    Cr      of     ferritic
+
+                                                                                                                         Cr-Mo           stainless            steels         before          and     after         exposure
+
+                                                                                                                         to     sodium          (650°C,        4.0       and     0.02        ( low    velocity)            m/s,
+                                                                                                                         1-2     ppm      0).        (The      Steels          5Cr,      9Cr,•E•E•E correspond                  to
+  Table       6.        Behavior            of      elements              and      their          effects
+                                                                                                                         those         shown         in     Table       5,     respectively.             N.    D.      =    Not
+  on      weight        loss       of    ferritic         Cr-Mo             stainless               steels
+                                                                                                                         Determined)
+  exposed          to    sodium         (600-700•Ž,                 4.0     m/s,         1-2      ppm O)
+
+  in   a sodium            loop     constructed                of    Type          316         stainless
+
+ steel.                                                                                                                Crを       取 り 込 み,遊                   離 し たNa+‑O2‑ク                             ラ ス ター と 表 面
+
+                                                                                                                       のFeと            が 反 応 し てNa‑Fe‑O錯                                     体 を つ く りや す い た
+
+                                                                                                                       め,7Cr鋼               よ りRo値                  が 大 き く な る と考 え ら れ る.
+
+                                                                                                                         フ ェ ラ イ ト系Cr‑Moス                                    テ ン レ ス鋼 の 添加 元素 を変 え
+
+                                                                                                                       た 多 数 の 試 験 片 をNaル                               ー プ の 高 流 速 部 のNa中                                 に浸 せ
+
+                                                                                                                       き して 各 成 分 元 素 の 挙 動 お よ び 重 量 減 少 に 及 ぼ す 影 響 を
+
+                                                                                                                       調 べ た(Table6).Fe,Niお                                     よ びCr以               外 の 元 素 の 中 で,
+                                                                                                                       MoとWはNa中                           に 溶 出 し に く く,表                            面 に お け る含 有 量
+
+                                                                                                                       が 多 く な り,重                    量 減 少 を 小 さ く す る 傾 向 が あ る.Siと
+
+                                                                                                                       Mnは       選 択 的 に 溶 出 し や す く,重                                    量 減 少 を 大 き くす る.
+
+                                                                                                                       V,Nbお             よ びTiは                 そ れ ぞ れO,Nお                            よ びCと               の化 学
+
+                                                                                                                       的 相 互 作 用 が 強 い た め,Naお                                        よ び0と             と もに 錯体 を つ
+
+                                                                                                                       く っ て 溶 出 す る と 考 え ら れ る.ま                                           た,CとNは                   活 量 の差
+
+                                                                                                                       に よ り溶 出 あ る い は 吸 着 し,鋼                                         中 に お ける拡 散 速 度 が大
+
+Crの       含 有 量 を 示 す.                                                                                                 き い た め 移 行 が 著 し い.な                                   お,Table5に                      示 した非 安定
+
+  高 流 速 部 に お い てRo値                                  は316鋼                 に 比 べ て 小 さ く,                             化(5‑15)Cr‑1Mo‑0.1C鋼                                       で はNa中                へCが            溶 出 しや
+Cr含       有 量 が 少 な い ほ ど小 さ い.ま                                      た,Niを                    含 まないた                  す い.
+
+めNiを          吸 着 し,Crを                      選 択 的 に 溶 出 す る.し                                   た が っ て,                3・1・5           機 械 的 性 質 に 及 ぼ す 液 体Naの                                          影響
+
+.Ro値 が 小 さ い 理 由 はNiの                                 吸 着 お よ びCr含                             有 量 が316                  LMFBRの                   構 造 材 料 を 中 心 に 単 軸 ク リー プ,高                                                  ・低 サ
+
+鋼 よ り低 い た め で あ る.一                                 方,低            流 速部 に お い て重 量 減                                  イ ク ル 疲 労,内                    圧 ク リ ー プ 試 験 な どが 流 動Naお                                            よ び大
+
+少 は 著 し く小 さ く,重 量 増 加 に な っ た も の も あ る.ま                                                                   た,        気 中 で 行 わ れ,デ                          ー タ が 蓄 積 さ れ て き た.こ                                        こで は
+
+Niの 外 にCrも   吸 着 す る た め,低   流 速 部 のNaは   高流                                                                           1984年       以 降 の 報 告 に つ い て 述 べ る.
+.速部 のNaに   比 べ て 化 学 的 性 質 が 著 し く違 う こ と に な                                                                             日 本 で はNa(550℃                                を 中 心 に し た 温 度)中                             へ浸せ き
+
+る.                                                                                                                     し た304鋼              の 単 軸 ク リ ー プ47)お                                よ び 低 サ イ ク ル 疲 労48)
+
+  高 流 速 部 の5Cr鋼                           はCrを             選 択 的 に 溶 出 せ ず に吸 着                                        試 験,改      良9Cr‑1Mo鋼                             の 単 軸 ク リー プお よ び疲 労 試 験
+                                                                                                                       49)
+す る 特 異 な 挙 動 を 示 し,そ                                  のRo値                は7Cr鋼                   よ り大 き                 ,2.25Cr‑lMo鋼                          の 低 サ イ ク ル 疲 労 試 験50)な                                     どが 行
+い.KOLSTERら46)は316鋼                                     製Naル                 ー プ 中 の316鋼                      試         わ れ,単             軸 ク リ ー プ は 大 気 中 と ほ ぼ 同 様,一                                             方 疲労 は大
+
+験 片 お よ びMo製Naル                                  ー プ 中 の 純Fe試                         験 片の腐食速                          気 中 よ り 良 好 と い う 結 果 を 得 て い る.ま                                                      た,316鋼                 の
+
+度 を 比 較 し,Na系                           内 にCrが                 な い場 合 に腐 食 速 度 が 大                                     Na中       の 内 圧 ク リ ー プ 破 断 試 験 で は650℃                                                以 上 でC,B,
+
+き く な る こ と か らNa中                                  に 生 成 す るNa‑Cr‑O錯                                  体 はO            Pな        ど のNa中               へ の 溶 出 の た め破 断 強 度 が 大気 中 よ りも
+
+に 関 し て 緩 衝 作 用 を す る と 説 明 し た.5Cr鋼                                                               はCr活                低 下 し た51).
+
+量 がNa中                  の 活 量 よ り 小 さ い の でNa‑Cr‑O錯                                                   体 か ら              西 独 で はNa(550℃                                 を 中心 に した温 度)中 へ 浸 せ き
+
+                                                                                                                  42
+                                            液体 金属 中における金属材料の腐食挙動                                                            1999
+
+
+
+し た304鋼      の 単 軸 ク リー プ 破 断52),疲          労 お よ び ク リー
+
+プ き裂 伝 ぱ 速 度53),高        ・低 サ イ ク ル 疲 労 第4)55)な ど の 挙 動
+
+を調 べ た.ク       リ ー プ はNa中      のC活    量 に 依 存 し,脱       炭性
+
+が な いNa中       で は大 気 中 に 比 べ て や や深 い粒 界 き裂 が 発
+
+生 し て 加 速 ク リー プ 域 の 時 間 が 短 く な る が,LMFBR
+
+の 構 造 材 料 と し て 実 用 上 の 問 題 は な い と さ れ た.一             方,
+
+脱 炭 性 のNa中       で は ク リ ー プ 破 断 強 度 が 小 さ く な り,ク
+
+リ ー プ 速 度 も 大 き く な る.ま        た,高      ・低 サ イ ク ル 疲 労 は
+
+大 気 中 と同 等 か よ り 良 好 で あ っ た.
+
+  英 国 で はNa中         の 種 々 の オ ー ス テ ナ イ トお よ び フ ェ ラ
+
+イ ト ス テ ン レ ス 鋼 な ど の 単 軸 ク リ ー プ 破 断56)お               よ び
+
+316鋼    の ク リ ー プ‑疲 労 第7)の 挙 動 を 調 べ,316鋼             お よび
+
+9Cr‑1Mo鋼       に つ い てNa環     境 は 無 害,一      方304鋼      およ
+
+び2.25Cr‑1Mo鋼          に つ い て は 有 害 と した.し           か し,用
+い たNa中       の0お     よ びCの   活 量 がLMFBRの          環境 よ り
+
+大 きす ぎ る と も考 え ら れ る.ま            た,316鋼     の疲 労 試 験 で
+は 他 の 報 告50)54)55)と 同 様 にNa環         境 は 無 害 と した.
+
+  液 体Naに        水 が 混 入 し た 場 合 を想 定 して 液 体Na‑
+NaOH中      で オー ス テ ナ イ トス テ ン レ ス鋼 の 応 力 腐 食 割
+れ 発生 の 条 件 が調 べ られ た58)59).ま た,液 体Hg中                   の黄
+銅,液 体Zn中         の オ ー ス テ ナ イ トス テ ン レ ス鋼 な どに起
+こる液 体 金 属 脆 化 が 液体Na中              で起 こ った とす る報 告 は
+全 く見 当 た らな い.
+  3・1・6 液体Na中           の 腐 食 の ま とめ
+  Na環 境 で 最 も有 害 な0は           コー ル ド・トラ ップ を連 続
+                                                                     Fig.    11.    Corrosion    rate data reported    for austeni-
+的 に働 か せ れ ば そ の 濃 度 を1‑2ppm(バ               ナ ジ ウ ム平 衡              tic stainless steels in flowing sodium, lithium and
+法27))に 保 つ こ と が容 易 で あ る.オ ー ス テ ナ イ トス テ                           Pb-17 at%Li. All lithium data are situated between
+ン レ ス鋼 を装 置 材 料 に した 高純 度 液 体Na中                の オー ステ              dashed      lines ; all Pb-17 at%Li   data   between
+                                                                      "dash -dot" lines20).
+ナ イ トお よ び フ ェ ラ イ トス テ ン レス 鋼 の腐 食(速                   度1
+
+μm/年 以 上)は 約500℃ 以 上 の 温 度 で 進 み,Niお    よび
+Crの 選 択 的 溶 出 お よ び吸 着 が 重 要 な役 割 を果 た す.温                         れ ば放 射 性 腐 食 生 成 物 の 移 行 が 軽 減 され て炉 の保 守 が容
+
+度 の上 昇 と と も に腐 食 は激 し くな るが,316鋼                    の700℃         易 に な る と思 われ る.
+に お け る腐 食 速 度 も30μm/年            よ り小 さ く,許 容 で きる                3・2      液 体Li,Pb‑17at%Liお            よ びHg中       の腐 食
+
+値 で あ る.し       た が っ て,液 体Na系          の 材 料 の 選 択,Na               3・2・1         鉄 鋼 材 料 のLiお      よ びPb‑17Li中          の腐食
+
+中 のCの 活量 制 御 な ど も適 切 で あ れ ば,材 料 は損 耗 が 少                           316,304鋼         な ど の オ ー ス テ ナ イ トス テ ン レ ス鋼 の 液
+
+な い,変 質層 をほ とん どつ くら ない,機 械 的性 質 に有 害                              体Liお       よ びPb‑17Li中           の 腐 食 連 度 を 液 体Na中             の値
+
+な影 響 を ほ とん ど受 け な い な どの 理 由 か ら,液 体Na中                           と と も にTASら           が ま と め た 図20)を       示 す(Fig.11).各
+
+の腐 食 はほ とん ど問 題 な い と思 われ る.                                       研 究 者 が 用 い た 装 置,実            験 条 件,液      体 金 属 中 の 不純 物 濃
+
+  な お,高      速 中性 子 の照 射 に良 好 な耐性 を もつ酸 化 物 分                      度 な どが違 っ て い る た め値 も さ ま ざ まで 厳 密 に 比 較 で き
+
+散 強 化 フ ェ ラ イ ト鋼 をLMFBRの              炉 心 材 料 に 用 い る考             な い が,傾          向 を つ か む こ と は で き る.Li中             の腐食速 度
+
+え 方 が あ る60).こ        の 種 の 鋼 の 一 つ,Y2O3お        よ びTiを            は 高 温 側(約600℃                以 上)でNa中          の 値 よ り約1桁          大
+
+含 むIncoloy     MA957は     液 体Na中      で 他 の フ ェ ラ イ ト系             き く,一       方 低 温 側(約550℃             以 下)で        高 温側 とあ まり
+
+Cr‑Mo鋼     と 違 っ てCお      よ びNを     吸 収 す る特 異 な挙 動 を              変 わ ら ず,Na中            よ り1桁      以 上 大 き い.ま       た,Pb‑17Li
+
+示 す61).ま       た,イ    オ ン プ レ ー テ ィ ン グ 法 を 用 い てMo                中 で はLi中          よ り さ ら に 大 き い.
+
+の 薄 膜 を全 面 に 被 覆 した オ ー ステ ナ イ トス テ ン レ ス鋼                           Liお      よ びPb47Li中            の 腐 食 に お い て もNiお             よび
+
+(Fe45Cr45Ni‑2MoのMo被                覆 鋼,Table4の15CW                 Crの      選 択 的 溶 出 が 重 要 な 役 割 を果 た す20).ま た,約
++Mo)の       液 体Na中      の 腐 食 速 度 は被 覆 しな い もの に比                  600℃ 以 下 で は表 面 に厚 い 多孔 性 フ ェ ラ イ ト層 が 生 成 す
+べ て 約1/5に       な り,Moの      密 着 性 も良 好 な こ とが わ か っ               る.こ れ は,NiのLiお                  よ びPb中      の溶 解 度 がNa中            に
+て い る62).LMFBRの           炉 心 材 料 に こ の技 術 が 応 用 さ れ               比 べ て非 常 に 大 きい こ と(Table2参                    照)お     よ び600℃
+
+                                                              43
+    2000                                    鉄    と   鋼         第75年(1989)          第11号
+
+
+
+                                                                        料 に 有 望 と さ れ て い る81).
+                                                                          Ti,Crな        ど を 含 むV合    金 はLi81)お      よ びPb‑17Li82)
+
+                                                                        中 でOを      溶 出 し てNお       よ びCを     吸 収 し,Tiは       合 金表 面
+                                                                        に 窒 化 物 の 硬 化 層 を つ く り,腐           食 速 度 はLi中       で オー ス
+
+                                                                        テ ナ イ ト ス テ ン レ ス 鋼 と ほ ぼ 同 様81),ま             たPb‑17Li中
+
+                                                                        で フ ェ ラ イ トス テ ン レ ス 鋼 よ り小 さ い82)と 報 告 さ れ た.
+
+                                                                          3・2・3     機 械 的 性 質 に 及 ぼ すLiお         よ びPb‑17Liの         影
+
+                                                                                    響
+                                                                          Li中    の316鋼      の 低 サ イ ク ル疲 労 挙 動 は大 気 中 よ り良
+
+                                                                        好 な こ と83),ま        たPb‑17Li中         のFe‑11Cr‑1Mo(No.
+                                                                        1.4914鋼)の         ク リ ー プ 破 断 寿 命 は 大 気 中 よ り短 い 場 合
+
+                                                                        も あ る こ と84)が 報 告 さ れ て い る.Li中               で はNa中       と同
+
+                                                                        様 に 液 体 金 属 脆 化 の 報 告 が 見 当 た ら な い.ま              た,Pb‑Li
+
+                                                                        中 のNo.1.4914鋼         お よ びV合       金 に つ い て も液体 金 属 脆
+
+                                                                        化 が 認 め ら れ な い と 報 告 さ れ た85).
+
+                                                                          3・2・4     液 体Hg中     の腐食
+
+                                                                          米 国 で20年        以 上 前 に 核 分 裂 炉 とHgラ          ンキ ンサ イ ク
+                                                                        ル とを組 み合 わせ た 宇 宙 空 間用 の発 電 シ ステ ムが 計 画 さ
+
+                                                                        れ,Hgの       ラ ン キ ン サ イ ク ル ル ー プ86)お          よ び 還 流Hgカ
+                                                                        プ セ ル86)87)を 用 い る 構 造 材 料(Co合             金およびステンレ
+
+                                                                        ス 鋼)の       耐 食 性 が 調 べ ら れ た.還         流Hgカ      プ セ ル は,
+
+                                                                        Hgを     封 じ込 め た カ プセ ル上 部 を露 出 した ま ま加 熱 して
+
+                                                                        内 部 を 気/液2相         の 還 流Hg環        境 に す る も の で,Liお        よ
+                                                                        びPb‑17Li中         に 似 た 液 体Hgに        よ る激 しい腐 食 が 報 告
+  Fig. 12. Corrosion      rate data reported for ferritic               さ れ て い る86)87).著      者 ら88)は,304鋼         製 カ プ セ ル にHg
+  stainless    steels  in flowing sodium,      lithium and
+                                                                        お よ びセ ラ ミ ックス焼 結 材 を封 じ込 め て カ プセ ルお よ び
+  Pb-17 at%Li. All lithium data are situated between
+                                                                        セ ラ ミ ッ ク ス の 腐 食 を 調 べ て い る.600℃              に加 熱 した カ
+  dashed     lines ; all Pb-17 at%Li        data     between
+  "dash -dot" lines20)                                                  プ セ ル で はNi,Crな            ど のHg中     への選択的溶出および
+                        .
+                                                                        厚 い フ ェ ラ イ ト層 の 生 成 が 認 め ら れ る.
+以 下 で は オ ー ス テ ナ イ ト相 の 不 安 定 性 に 起 因 す る(2・3                            3・2・5     液 体Li,Pb‑17at%Liお              よ びHg中        の腐食
+
+節 参 照).                                                                             の ま とめ
+
+  フ ェ ラ イ ト系Cr‑Moス             テ ン レ ス 鋼 の 液 体Liお         よ び             固 体 金 属 の 液 体Li中           の 耐 食 性 に 最 も有 害 な 元 素 は
+Pb‑17Li中       の 腐 食 速 度 をFig.1220)に         示 す.腐     食速 度             Li中 のNお         よ び 固体 金 属 中 のNiと         考 え られ る.Li中
+はLi中       でNa中      よ り 大 き く,Pb‑17Li中         でLi中      より            のN濃 度 を低 くす る た め に コー ル ド・トラ ップ は有 効 で
+も さ ら に 大 き く な る こ と は オ ー ス テ ナ イ ト鋼 と 同 様 で あ                        な い.一 方,ホ           ッ ト・トラ ップ は 有 効 で あ るが,連 続 的
+る.ま     た,オ       ー ス テ ナ イ ト鋼 に 比 べ て 腐 食 速 度 が 小 さ い                   に働 か せ る とLi系        内 の 温 度 差 が 大 き くな る た め腐 食 が
+こ と はNa中          と 同 様 で あ る.                                          激 し くな る.し たが っ て,Li系                 に はNi,Nな        どの 有 害
+  Liお      よ びPb‑17Li中       の 腐 食 に お い て もCrの          選択的             な元 素 をで きる だ け含 有 させ な い よ う に す る必 要 が あ
+溶 出 が 重 要 な 役 割 を 果 た す20).ま            た,内     部 変 質層 は生               る.ま      た,Li中      の 腐 食 速 度 が 著 し く大 き い た め,温 度
+成 し な い が,Na中            の 腐 食 とは違 っ て 表 面 の 荒 れ が 著 し                   を低 く,ま た 温度 差 お よ び流 速 を小 さ くす る な どに よ り
+い.例     え ば,Fe‑11Cr‑1Mo(No.1.4914)鋼               をPb‑17Li              Li系 をで きる だ け穏 や か な条 件 で働 かせ る必 要 が あ る.
+(550℃,Reynolds数210000)中               に 浸 せ き す る と,時          間          液 体Pb‑17at%Li中            の 腐 食 で は 固 体 金 属 中 のNiが
+の 経 過 と と も に 表 面 の 荒 れ が 進 み,初             期 は 腐 食 速 度 が小               と く に 有 害 で あ り,腐         食 速 度 はLi中       よ り も さ らに大 き
+
+さ い 潜 伏 期 で 約2000h後            か ら腐 食 速 度 が大 きい定 常 状                     い.な     お,流      速 がLiと     同 じ 場 合 に はReynolds数          が大
+
+態 に な る.2000h後            の 腐 食 速 度 を 採 用 す れ ば,Fig.12                   き く な っ て 腐 食 が よ り激 し く な る こ と に 注 意 が 必 要 で あ
+の 文 献79)の         値 は2倍     以 上 に 訂 正 さ れ る80).                          る.
+  3・2・2      V合    金 のLiお     よ びPb‑17Li中       の腐 食                      液 体Hg中         の腐 食 は現 在 よ くわ か って い な い.た だ し,
+  V合    金 は 主 に 熱 伝 導 度 が 大 き い,熱             膨 張 が 小 さい な              気 体 金 属 中 に物 質 はほ とん ど溶 解 しない た め,気 化 後,
+ど の 利 点 の た め,D‑Tト             カ マ ク型 核 融 合 炉 の 第 一壁 材                  凝 固 に よ り生 成 した 液体 金属 中 に は腐 食 生成 物 が ほ とん
+                                                                   44
+                                                    液体金属中 における金属材料の腐 食挙動                                                       2001
+
+
+ど含 まれ な い.し た が って,ラ                      ンキ ンサ イ ク ル の 液 体              21) H. W. LEAVENWORTH    and R. E. CLEARY:Acta Metall., 9
+Hg中     の腐 食 は気 化 お よ び 凝 縮 の 過 程 が な い 液 体Hg中                               (1961), p. 519
+                                                                         22) A. L. MARSHALL,  L. F. EPSTEINand F. J. NORTON:  J.
+の腐 食 に比 べ て 激 しい はず で あ る.
+                                                                             Amer. Chem. Soc., 72 (1950), p. 3514
+                                                                         23) G. JANGGand H. PALMAN:Z. Metallkd., 54 (1963), p. 364
+                    4.    お       わ      り     に                         24) D. F. BOWERSOX   and J. A. LEARY:USAEC Report
+                                                                             LAMS-2518 (1961)
+ 以 上,腐 食 に影響 す る因 子 の 考 察,お よ び著 者 らの 液                                  25) C. E. WICKSand F. E. BLOCK:US Bereau of Mines Bul-
+体Na中      の腐 食 実 験 の 結 果 を中心 に して,液 体 金 属 中 の                                letin 605 (1963)
+腐 食研 究 の 現状 を解 説 した.                                                     26) D. L. SMITHand K. NATESAN:    Nucl. Technology, 22 (1974),
+                                                                             p. 392
+ 最 後 に,こ の研 究 を ご支 援 い た だ い て い る 中川 龍 一 前                              27) D. L. SMITHand R. H. LEE: USAEC Report ANL-7891
+所 長,河 部 義 邦 部長,共 同 研 究 者 の武 藤 功 主 任 研 究 官 を                                  (1972)
+                                                                         28) R. M. YONCOand M. I. HOMA:Trans. Amer. Nucl. Soc., 32
+始 め とす る金 属 材料 技 術 研 究 所 の 方 々,共 同研 究 契 約 を
+                                                                             (1979), p. 270
+通 じて 液 体Na中           の 腐 食 研 究 に ご支 援 い た だ い た動 力                      29) V.GANESAN,R. SRIDHARAN,      T. GNANASEKARAN   and C. K.
+炉・
+ 核 燃 料 開 発 事 業 団 の方 々,お よ び実 験 試 料 の 一 部 を                                   MATHEWS:    Proc. 4th Int. Conf. on Liquid Metal Engineer-
+ご提 供 い た だい た株 式 会 社 神 戸 製鋼 所 の方 々 に厚 くお 礼                                   ing and Technology, 3 (1988), p. 533-1
+                                                                         30) B. H. KOLSTER:J. Nucl. Mater., 55 (1975), p. 155
+申 し上 げ る.                                                                31) P. L. F. RADEMAKERS     and B. H. KOLSTER:J. Nucl. Mater.,
+                                                                             97 (1981), p. 309
+                           文            献                                32) T. FLAMENTand J. SANNIER:Proc. 4th Int. Conf. on Liq-
+ 1 ) W. MARTH:Proc. 4th Int. Conf. on Liquid Metal                           uid Metal Engineering and Technology, 2 (1988), p. 520-1
+     Engineering and Technology, ed. by Societe Francaise                33) V. G. RIVLINand G. V. RAYOR:ASM Metals Handbook,
+     d' Energie Atomique, 1 (1988), p. 8-1                                   Vol. 8, Matallography, Structure and Phase Diagrams
+ 2 ) R. B. HESLOPand P. L. ROBINSON:    Inorganic Chemistry, A               (1973), p. 377
+     Guide to Advanced Study (1960) [Elsevier]                           34)鈴     木   正,平 野 敏 幸,武 藤       功,吉 田平 太 郎,小 林 大 機,
+ 3 ) O. J. Foust: Sodium-Nak Engineering Handbook, Vol. 1                       石 田泰 一:金 属 材 料 技 術 研 究 所 研 究 報 告 集,4(1983),
+     Sodium Codium Chemistry and Physical Properties                            p.324
+      (1972) [Goldon and Breach]                                         35) A. R. KEETONand C. BAGNALL:     Proc. 2nd Int. Conf. on
+ 4 ) J. H. DEVANand C. BAGNALL:    Proc. 3 rd Int. Conf. on                  Liquid Metal Technology in Energy Production, 1 (1980) ,
+     Liquid Metal Engineering and Technology, ed. by British                 p. 7/18
+     Nuclear Energy Society, 3 (1984), p. 65                             36) T. SUZUKIand I. MUTOH:J. Nucl. Mater., 140 (1986), p. 56
+ 5 ) Gmelins Handbuch der anorganishen Chemie, Achte vollig              37) T. SUZUKI,I. MUTOH,T. YAGIand Y.IKENAGA:       J. Nucl.
+     bearbeitete Auflage (1960-1974) [Verlag Chemie-GMBH]                    Mater., 139 (1986), p. 97
+ 6 ) M. BROC,P. FAUVET,T. FLAMENT,      A. TERLAINand J.                 38) T. SUZUKIand I. MUTOH:J. Nucl. Mater., 152 (1988),
+     SANNIER:Proc. 4th Int. Conf. on Liquid Metal Engineer-                  p. 343
+     ing and Technology, 3 (1988), p. 527-1                              39) T. SUZUKIand I. MUTOH:J. Nucl. Mater., 165 ( 1989 ),
+ 7)吉     川   潔:日 本 原 子 力 学 会 誌,30(1988),p.851                                p. 83
+ 8)鈴     木   正,野    田 哲 二,渡      辺 亮 治:新     金 属 工 業,19(1974),           40) J.R.WEEKS and H.S.IsAAcs: Advances in Corrosion
+     p.229,20(1975),p.62,p.125                                               Science and Technology, Vol.3, ed. by M.G.FONTANA
+ 9)鈴    木    正,野 田 哲 二:防         食 技 術,24(1975),p.529,p.593                  and R. W. STAEHLE(1973), p. 1 [Plenum]
+ 10)鈴    木   正,勝    田 博 司:日      本 原 子 力 学 会 誌,27(1985),p.411            41) A. W. THORLEY,A. BLUNDELL,     J. A. BARDSLEY  and R.
+ 11)古    川 和 男:材 料 科 学,9(1972),p.141                                         LLOYD:Proc. 4th Int. Conf. on Liquid Metal Engineering
+ 12)柚    原 俊 一:日 本 原 子 力 学 会 誌,23(1981),p.324                                and Technology, 3 (1988), p. 532-1
+ 13)加    納 茂 機,森   下 正 樹:原       子 力 工 業,30(1984),p.36                   42) C. BAGNALL   and D. C. JACOBS:USERDA Report WARD-
+ 14) 0. K. CHOPRAand P. F. TORTORELLI:     J. Nucl. Mater., 122,             NA-3045-23 (1975)
+     123 (1984), p. 1201                                                 43) A. W. THORLEY:  Private Communication (1988) July
+ 15) H. U. BORGSTEDT     and C. K. MATHEWS:    Applied Chemistry         44)武    藤    功,鈴   木   正:日   本 金 属 学 会 誌,51(1987),p.350
+     of the Alkali Metals (1987) [Plenum]                                45) T. SUZUKIand I. MUTOH:J. Nucl. Mater., 149 (1987), p. 41
+ 16) R. L. EICHELBERGER    and R. L. McKIssoN: USAEC Report              46) B. H. KOLSTERand L. Bos: Proc. 3rd Int. Conf. on Liquid
+     AI-AEC-12671 (1968), 12834 (1969), 12955 (1970)                         Metal Engineering and Technology, 1 (1984), p. 235
+ 17) W. P. STANAWAY     and R. THOMPSON:  Proc. 2nd Int. Conf.           47) H. MIMURA,T. ITO, E. YOSHIDA,Y. TSUCHIDA,      S. KANOand
+     on Liquid Metal Technology in Energy Production, ed. by                 I. NIHEI:Proc. 4th Int. Conf. on Liquid Metal Engineering
+     J. M. DAHLKE,   2 (1980), p. 18/54                                      and Technology, 2 (1988), p. 505-1
+ 18) R. J. PALHAM   and P. HUBBERSTEY:  J. Nucl. Mater., 115             48) T. MARUYAMA,   S. KATO,R. KOMINE,    M. HIRANO,Y.WADA,
+     (1983), p. 239                                                          S. KANOand I. NIHEI:Proc. 4th Int. Conf. on Liquid Metal
+ 19) S. P. AWASTHI,    H. U. BORGSTEDT  and G. FREES:Proc. 3rd               Engineering and Technology, 2 (1988), p. 512-1
+     Int. Conf. on Liquid Metal Engineering and Technology, 1            49) S. KANO,T. MARUYAMA,     T. ITO, Y. WADA,I. NIHEI,M.
+     (1980), p. 265                                                          USAMI,H. TANABEand Y. HIMENO:       Proc. 4th Int. Conf. on
+     S. P. AWASTHI    and H. U. BORGSTEDT:   J. Nucl. Mater., 116            Liquid Metal Engineering and Technology, 3 (1988),
+     (1983), p. 103                                                          p. 536-1
+ 20) H.TAS, F.De.SCHUTTER, P.LEMAITREand Ja.DEKEYSER:                    50) M. HIRANO,K. KITAO,I. NIHEIand A. YOSHITOSHI:   Proc.
+     Proc. 4th Int. Conf. on Liquid Metal Engineering and                    3rd Int. Conf. on Liquid Metal Engineering and Technolo-
+     Technology, 3 (1988), p. 523-1                                          gy, 2 (1984), p. 479
+
+                                                                    45
+   2002                                      鉄    と   鋼      第75年(1989)          第11号
+
+
+51) E. YOSHIDA,T. FUNADA,M. HIRANO,K. NAKAYAMA,          I. NIHEI        69) D. G. BAUER,W. E. STEWART,      S. K. SZE and I. N.
+    and A. YOSHITOSHI:    Proc. 3rd Int. Conf. on Liquid Metal                SVISTOSLAVSKI:   USAEC Report UWFDM-274 (1979)
+    Engineering and Technology, 2 (1984), p. 463                         70) P. F. TORTORELLI    and J. H. DEVAN:J. Nucl. Mater.,
+52) H. HUTHMANN     and H. U. BORGSTEDT:  Proc. 4th Int. Conf.                141-143 (1986), p. 592
+    on Liquid Metal Engineering and Technology, 2 (1988),                71) 0. K. CHOPRAand D. L. SMITH:J. Nucl. Mater., 141-143
+    p. 510-1                                                                  (1986), p. 566
+53) H. HUTHMANN     and O. GOSSMANN:  Proc. 3rd Int. Conf. on            72) M. BROC,P. FAUVET,T. FLAMENT         and J. SANNIER:Proc.
+    Liquid Metal Engineering and Technology, 2 (1984),                        4th Int. ENS/ANS Conf., 3 (1986), p. 135
+    p. 453                                                               73) M. BROC,T. FLAMENT,P. FAUVETand J. SANNIER:          J. Nucl.
+54) H. HUTHMANN     and G. JENNER:Proc. 3rd Int. Conf. on Liq-                Mater., 155-157 (1988), p. 710
+    uid Metal Engineering and Technology, 2 (1984), p. 473               74) Ja. DEKEYSER,F. De. SCHUTTER      and H. TAS: Proc. 4th Int.
+55) H. U. BORGSTEDT      and H. HUTHMANN:   Proc. 4th Int. Conf.              ENS/ANS Conf., 3 (1986), p. 111
+    on Liquid Metal Engineering and Technology, 2 (1988),                75) F.De. SCHUTTER,     Ja. DEKEYSER,H.TAS and P.LEMAITRE:
+    p. 509-1                                                                  Proc. 15th Symp. on Fusion Technology, Utrecht (1988)
+56) C. A. P. HORTONand B. H. TARGETT:Proc. 4th Int. Conf.                76) P. F. TORTORELLI    and J. H. DEVAN:Proc. Topical Conf.
+    on Liquid Metal Engineering and Technology, 2 (1988),                     on Ferritic Alloys for Use in Nuclear Energy Technolo-
+    p. 513-1                                                                  gies, Snowbird, Utah (1983), p. 215
+57) D. S. WOODand A. B. BALDWIN:         Proc. 3rd Int. Conf. on         77) P. F. TORTORELLI:    Fusion Reactor Semi-annual Progress
+    Liquid Metal Engineering and Technology, 2 (1984),                        Report DOE-ER-0313/1 (1986)
+    p. 439                                                               78) P. F. TORTORELLI:    J. Nucl. Mater., 155-157 (1988), p. 722
+58) A. ARDELLIER    and J. RAFFAILHAC:  Proc. 3rd Int. Conf. on          79) H. U. BORGSTEDT,     G. DRECHSLER,   G. FREESand Z. PERIC:
+    Liquid Metal Engineering and Technology, 2 (1984),                        J. Nucl. Mater., 155-157 (1986), p. 728
+    p. 483                                                               80) Z. PERIL, G.DRECHSLER,G.FREES and H.U.BORGSTEDT:
+59) C. A. P. HORTON:Proc. 4th Int. Conf. on Liquid Metal                      Proc. 4th Int. Conf. on Liquid Metal Engineering and
+    Engineering and Technology, 3 (1988), p. 537-1                            Technology, 3 (1988), p. 522-1
+60) D. J. SHERWOOD,    A. L. WARDand G. D. JOHNSON:    Nucl.             81) 0. K. CHOPRAand D. L. SMITH:J. Nucl. Mater., 155-157
+    Technology, 78 (1987), p. 83                                              (1988), p. 683
+61) T. SUZUKIand I. MUTOH:     Proc. 4th Int. Conf. on Liquid            82) H. U. BORGSTEDT,     M. GRUNDMANN,    J. KONYSand Z. PERIC:
+     Metal Engineering and Technology, 3 (1988), p. 531-1                     J. Nucl. Mater., 155-157 (1988), p. 690
+62) T. SUZUKI,I. MUTOH     and M. FUKUTOMI:   J. Nucl. Mater.,           83) 0. K. CHOPRAand D. L. SMITH:J. Nucl. Mater., 122-123
+     144 (1987), p. 29                                                        (1984), p. 1213
+63) 0. K. CHOPRAand D. L. SMITH:J. Nucl. Mater., 141-143                 84) M. GRUNDMANN,       H. U. BORGSTEDT     and M. SCHIRRA: Proc.
+     (1986), p. 584                                                           4th Int. Conf. on Liquid Metal Engineering and Technolo-
+64) J. E. SELLE:Proc. Int. Conf. on Liquid Metal Technology                   gy, 2 (1988), p. 511-1
+     in Energy Production, ed. by M. H. COOPER,2 (1976),                 85) H. U BORGSTEDT      and M. GRUNDMANN:     Fusion Engineering
+    p. 453                                                                    and Design, 6 (1988), p. 155
+65) J. H. DEVANand J. R. DISTEFANO:USDOE Report                          86) A. VARYand C. M. SCHEUERMANN:         Corrosion by Liquid
+    ET-0058/1 (1978), p. 200                                                   Metals, Proc. of the Sessions of 1969 Fall Meeting of
+66) P. F. TORTORELLI  and J. H. DEVAN:J. Nucl. Mater., 85-86                  The Metallurgical Society of AIME, ed. by J.E.DRALEY
+    (1979), p. 289                                                             and J. R. WEEKS(1970), p. 271 [Plenum]
+67) F. CASTEELS,Ja. DEKEYSER,    M. SOENEN,H. TAS and J.                  87) L. ROSENBLUM,     C. M. SCHEUERMANN,     C. A. BARRETTand
+    DRESSELAERS:   Proc. 3rd Int. Conf. on Liquid Metal En-                    W. H. LOWDERMILK:    USNASA Report TN-4450 (1968)
+    gineering and Technology, 3 (1984), p. 73                            88)鈴 木 正,武 藤           功,星        勉:日 本 金 属 学 会 春 季 講 演 概
+68) G. A. WHITLOW,W. L. WILSON,W. E. RAYand M. G.                            要 集(1989),p.90
+    DOWN:J. Nucl. Mater., 85-86 (1979), p. 283
+
+
+
+
+                                                                    46
+

@@ -1,0 +1,570 @@
+                                                                                                       www.nature.com/scientificreports
+
+
+
+
+                OPEN             Atomistic weak interaction
+                                 criterion for the specificity of liquid
+                                 metal embrittlement
+                                 Masatake Yamaguchi1,2,3*, Tomohito Tsuru3,4, Mitsuhiro Itakura5 & Eiji Abe2,6
+
+                                 Liquid metal embrittlement (LME) occurs in some solid–liquid metal elements’ couples (e.g., Fe-Zn and
+                                 Al-Ga), called specificity. Although some material parameters like solubility and bonding energy were
+                                 suggested as controlling factors, none could be attributed satisfactorily. Here we have unveiled the
+                                 primary factor that governs the specificity of LME. From first-principles calculations compared with a
+                                 systematic surveillance test result, we found that the grain-boundary (GB) adsorption energy shows
+                                 near-zero values in all embrittling couples; the interaction between solid and liquid metal atoms is
+                                 weak when an atom from the liquid state penetrates the grain boundary of the solid. Furthermore, we
+                                 found that the calculated surface adsorption energy that promotes bond-breaking does not correlate
+                                 to the specificity. Therefore, we consider that the penetration of a liquid metal atom surrounded
+                                 by weakly interacting solid metal atoms is necessary before the bond-breaking assisted by surface
+                                 adsorption occurs at a microcrack tip. This mechanism is also applicable for transgranular cracking
+                                 along low-energy boundaries and crystal planes. While liquid metal atoms penetrate and diffuse
+                                 into solid GB macroscopically before cracking, liquid metal’s surface adsorption stronger than GB
+                                 adsorption should promote the bond-breaking of solid metal. In conclusion, the atomistic penetration
+                                 precedes the surface-adsorption-assisted bond-breaking and controls the specificity of LME.
+
+
+                                 Solid metals are susceptible to brittle fracture when they come in contact with certain liquid metals (e.g., Fe–Zn
+                                 and Al–Ga). This phenomenon is called liquid metal embrittlement, discovered in ­18741. One of the most severe
+                                 embrittling cases is polycrystalline aluminum alloys embrittled by liquid gallium; liquid gallium penetrates
+                                 aluminum GBs macroscopically at high s­ peed2. Zinc atoms’ penetration, diffusion, and subsequent liquid zinc
+                                 penetration into steel GBs have been observed because molten zinc embrittlement has attracted much attention
+                                 by increasing steels’ s­ trength3,4, especially in the automotive industry. Luo et al. have clarified that bismuth forms
+                                 bilayer interfacial phase along nickel G  ­ Bs5. In these cases, the subsequent embrittlement occurs due to the change
+                                 in GB strength induced by liquid metal atoms existing in the GB before cracking.
+                                     On the other hand, embrittlement occurs even when exposed to the liquid metal without detectable atomic
+                                 diffusion or liquid penetration into GBs, lath boundaries in martensitic steel, and crystal lattice planes. Although
+                                 liquid mercury atoms do not seem to penetrate and diffuse into high-strength steel’s GBs and lath boundaries,
+                                 embrittlement does occur along those b        ­ oundaries6. Even single crystal aluminum exhibits embrittlement by
+                                 liquid ­gallium7 after significant plastic deformation. The extremest example is the mercury embrittlement of
+                                 single and polycrystal zinc; fracture occurs within seconds after coating mercury on stress-loaded ­zinc8. In this
+                                 way, LME occurs even if liquid metal atoms do not exist along the cracking path before fracture.
+                                     One of the curious phenomena that many researchers have tried to solve is why embrittlement occurs or does
+                                 not occur depending on a given solid–liquid metal elements’ couple under a specific test condition. Such selectiv-
+                                                                  ­ ME9, which has been known for over a century, yet it is not well understood. Some
+                                 ity is called the specificity of L
+                                 material parameters suggested as controlling factors are solubility, interatomic bonding energy, and intermetallics
+                                 formation. However, none of them could be attributed to the specificity of LME s­ atisfactorily10,11. We considered
+                                 that the crucial atomistic mechanism of LME must be hidden behind the mystery of the LME specificity.
+
+                                 1
+                                  Center for Computational Science & e‑Systems, Japan Atomic Energy Agency, 2‑4 Shirakata, Tokai‑mura,
+                                 Naka‑gun, Ibaraki 319‑1195, Japan. 2Department of Materials Science and Engineering, The University of Tokyo,
+                                 7‑3‑1 Hongo, Bunkyo‑ku, Tokyo 113‑8656, Japan. 3Elements Strategy Initiative for Structural Materials, Kyoto
+                                 University, Yoshida‑honmachi, Sakyo‑ku, Kyoto 606‑8501, Japan. 4Nuclear Science and Engineering Center, Japan
+                                 Atomic Energy Agency, 2‑4 Shirakata, Tokai‑mura, Naka‑gun, Ibaraki 319‑1195, Japan. 5Center for Computational
+                                 Science & e‑Systems, Japan Atomic Energy Agency, 178‑4 Wakashiba, Kashiwa, Chiba 277‑0871, Japan. 6Research
+                                 Center for Structural Materials, National Institute of Materials Science, 1‑2‑1 Sengen, Tsukuba, Ibaraki 305‑0047,
+                                 Japan. *email: yamaguchi.masatake@jaea.go.jp
+
+
+Scientific Reports |   (2022) 12:10886                | https://doi.org/10.1038/s41598-022-10593-2                                                     1
+
+                                                                                                                                                  Vol.:(0123456789)
+          www.nature.com/scientificreports/
+
+
+                    a                                                                                                                                                     c
+                                                                                                                                                                                                   2.0
+                                            4.0
+                            Fe                                               Bi, 271, n           Pb, 328, n           Tl, 304, n
+                                                                                                                                                                                   Al                                                                            In, 157, n
+                                                                                                                                                                                                                                                                                                            Pb, 328, n
+                                                                                                                                                                                                   1.5                                Sn, 232, n                               Bi, 271,n
+                                            3.0
+                                                                                                                                                   Na, 98, n
+                                                                                                                                                                                                   1.0                                                                              Na ,98, n         Tl, 304, n
+                                                       Te, 450, n           In, 157, n
+                                            2.0                                                                                                                                                                                 Ga, 30, n
+
+
+
+
+                                                                                                                                                                               Lace dissolu­on
+                                                                                                                                                                               energy (eV/atom)
+                                                                                                                                                                                                                                                                                      Hg, -39, n
+                                                                                                                                    Hg, -39, n
+                                                                                                                                                                                                   0.5
+                         Lace dissolu­on
+                         energy (eV/atom)
+
+
+                                                       Sn, 232, e                                                                                                                                                          Se, 221, e                                           Cd, 321, n
+                                            1.0                                                                   Cd, 321, n
+                                                                                                                                      Embrilement                                                 0.0
+                                                          Ga, 30, e                              Li, 181, n                           Non-embrilement
+                                            0.0                                                                                                                                                    -0.5                                                          Zn, 420, n
+                                                                                                                                                                                                                                                                                                Embrilement
+                                                                           Se, 221, e                                                                                                                                                    Li, 181, e
+                                                                                                Zn, 420, e                                                                                                                                                                                      Non-embrilement
+                                            -1.0                                                                                                                                                   -1.0
+                                                   -1.5         -1.0        -0.5          0.0        0.5          1.0           1.5                        2.5                                               -0.6          -0.4          -0.2              0.0           0.2          0.4            0.6           0.8
+                                                                       Grain-boudary adsorp­on energy (eV/atom)                                                                                                              Grain-boundary adsorp­on energy (eV/atom)
+
+
+
+
+                     b                                                                                                                                                           d
+                                                                                                                                                                                                                           Zn      Cd       Hg        In     Ga        Tl      Pb      Sn       Bi     Li       Na       Se
+                                 Fe                        Hg         Cd   Zn      Tl      Na      Li        In    Pb      Sn       Ga        Bi      Te       Se                                 Al           0.0
+                                                0.0
+                                                                                                                                                                                                               -0.2
+                                                -0.5
+                                                                                                                                                                                                               -0.4
+
+                                                -1.0                                                                                                                                                           -0.6
+
+
+
+
+                                                                                                                                                                                         Surface adsorp­on
+                            Surface adsorp­on
+
+
+
+
+                                                                                                                                                                                         energy (eV/atom)
+                            energy (eV/atom)
+
+
+
+
+                                                                                                                                                                                                               -0.8
+                                                -1.5
+                                                                       Embrilement                                                                                                                            -1.0
+                                                -2.0                                                                                                                                                                                   Embrilement
+                                                                                                                                                                                                               -1.2
+                                                                       Non-embrilement                                                                                                                                                Non-embrilement
+                                                -2.5                                                                                                                                                           -1.4
+
+                                                                                                                                                                                                               -1.6
+                                                -3.0
+
+
+                                                                           Figure 1.  Calculated atomistic energies of liquid metal elements compared with the specificity of LME. (a)
+                                                                           GB adsorption energies on FeΣ3(111) symmetrical tilt GB and lattice dissolution energies in Fe of liquid metal
+                                                                           elements. (b) Surface adsorption energies of liquid metal elements on Fe(111) surface, which is a fracture
+                                                                           surface of FeΣ3(111) GB. Inserted figures show computational cells of the Fe-Pb case. (c) GB adsorption
+                                                                           energies on AlΣ5(012) symmetrical tilt GB and lattice dissolution energies in Al of liquid metal elements. (d)
+                                                                           Surface adsorption energies of liquid metal elements on Al(012) surface, which is a fracture surface of AlΣ5(012)
+                                                                           GB. Negative energy indicates attractive interaction between atoms. Embrittlement or Non-embrittlement refers
+                                                                           to Rostoker et al.’s specificity data of ­LME10, as shown in Table 1. The number in the label box is the melting
+                                                                           temperature (degrees of Celsius). The green box indicates that a binary intermetallic compound exists (e),
+                                                                           whereas the other box does not (n)22.
+
+                                                                            Test temperature (℃)
+                                                                                                    30            50        125          180          210           250   260            300            325           350         380       450        475
+                                                                            Melting point temperature, Tm (℃)
+                                                                                                    − 39          30        98           157          181           221   232            271            304           321         328       420        450
+                                                                            Liquid metal
+                                                                            Solid metal             Hg*           Ga        Na           In           Li            Se    Sn             Bi             Tl            Cd          Pb        Zn         Te
+                                                                            Steel (Fe)              N             N         N            E            E             N     N              N              N             E           N         E          E
+                                                                            Al alloy                E             E         E            E            N             N     E              N              N             N           N         E          -
+                                                                            Mg alloy                N             N         E            N            N             N     N              N              N             N           N         E          -
+                                                                            Ti alloy                E             N         N            N            N             N     N              N              N             E           N         N          N
+
+
+                                                                           Table 1.  A specificity data of LME. This table is taken from Rostoker et al.10 and modified. See text. Hg* 3%
+                                                                           Zn amalgam. E: embrittlement with no apparent prior plastic deformation (probably GB cracking). N: non-
+                                                                           embrittlement. Steel (Fe): The steel was an alloy constructional type quenched and tempered to Rc 45 hardness.
+                                                                           Al, Mg, and Ti alloys: The test was done using at least two high-strength commercial alloys for each metal.
+
+
+
+                                                                               Herein, for the first time, we have realized the primary factor that governs the specificity of LME. From
+                                                                           first-principles calculations, we found an excellent correlation between our calculated GB adsorption energy of
+                                                                           a liquid metal atom in solid metal and the specificity of LME, as shown in Fig. 1a–c. Compared with the system-
+                                                                           atic surveillance test result (Table 1) by Rostoker et al.10, our calculated GB adsorption energy shows near-zero
+                                                                           values in all the embrittling couples; this outcome provides an energy criterion that determines the occurrence of
+
+
+          Scientific Reports |                     (2022) 12:10886 |                                                  https://doi.org/10.1038/s41598-022-10593-2                                                                                                                                                              2
+
+Vol:.(1234567890)
+www.nature.com/scientificreports/
+
+
+
+         a                                                                                                         c
+                            7HQVLOHVWUHVV                         b                                                                      %RQGEUHDNLQJ
+              6XUIDFH                                                                       6WUHWFKHGDQG                                DVVLVWHGE\
+              DGVRUSWLRQ                 $WRPLVWLF                                          ZHDNHQHG ERQG                                 VXUIDFHDGVRUSWLRQ
+                                         SHQHWUDWLRQ                                        E\ SHQHWUDWLRQ
+
+
+             /LTXLG
+             PHWDO
+             DWRP
+
+
+                                      6ROLGPHWDO *%ODWK                               :HDNO\LQWHUDFWLQJ
+                                      DWRP         ERXQGDU\                              ZLWKVROLGDWRPV
+                                                   RUFU\VWDO                             1HDU]HURHQHUJ\
+                                                   ODWWLFHSODQH
+                      0LFURFUDFN
+                                                                                                                       0LFURFUDFN
+                                                                                                                       JURZWK
+
+                                        Figure 2.  A proposed atomistic process of bond-breaking at a microcrack tip. (a) Atomistic penetration of
+                                        liquid metal atom into GB, lath boundary, or lattice plane of solid metal at a microcrack tip under tensile stress.
+                                        (b) The atomistic penetration of liquid metal with weak interaction (near-zero energy) stretches and weakens
+                                        the solid metal bonding. (c) The subsequent surface adsorption of liquid metal atoms achieves the bond-
+                                        breaking of solid metals. The process of (a–c) repeats, and the microcrack grows when the weak interaction
+                                        criterion is satisfied.
+
+
+                                        embrittlement. On the other hand, surface adsorption must promote bond-breaking at a microcrack tip because
+                                        surface energy reduction is well known to enhance temper embrittlement by solute ­segregation12–16 (Supple-
+                                        mentary Note). However, our calculated surface adsorption energy of a liquid metal atom on solid metal does
+                                        not correlate with the specificity of LME, as shown in Fig. 1b–d. So, what is the atomistic picture that explains
+                                        these calculated results consistently?
+                                            We have further proposed an essential atomistic process necessary for bond-breaking at a microcrack tip,
+                                        which controls the specificity of LME, as shown in Fig. 2. We consider that when embrittlement occurs without
+                                        experimentally observing liquid metal atoms’ existence along the cracking path before fracture, it must be neces-
+                                        sary for the liquid metal atom to penetrate at least one or several atomic distances and then be surrounded by
+                                        weakly interacting solid metal atoms at a microcrack tip. The penetrated liquid metal atom probably stretches
+                                        highly and weakens chemically solid–solid metal bonds across the GB, lath boundary in martensitic steel, and
+                                        crystal lattice plane. Subsequently, not-yet-penetrated liquid metal atoms break the stretched and weakened
+                                        interatomic solid metal bonds by adsorbing on these solid atoms. As a result, solid metal bond-breaking occurs
+                                        irreversibly due to surface termination by liquid metal atoms, and therefore the microcrack grows. When the
+                                        GB adsorption energy shows far-from-zero values, an intense repulsive or attractive interaction prevents the
+                                        atomistic penetration or the subsequent bond-breaking, respectively, as shown in Fig. 3. Again to say, such an
+                                        atomistic process may be impossible to be detected by modern experimental technology. Computational simula-
+                                        tions will be necessary to make the process visible.For an experiment showing the specificity of LME, we paid
+                                        particular attention to the result by Rostoker et al.10, as shown in Table 1. Although the experimental details are
+                                        missing, this experiment conducted a bending test for more than 40 combinations (couples) under similar test
+                                        conditions (except temperature). In this respect, this experiment is an incomparable one. The solid metals used
+                                        are high-strength steel (Fe) and high-strength alloys of Al, Mg, and Ti, while liquid metals used are Hg, Ga,
+                                        Na, In, Li, Se, Sn, Bi, Tl, Cd, Pb, Zn, and Te. According to the test results, solid–liquid couples were classified as
+                                        either “Embrittlement” when a brittle fracture occurs with no apparent prior plastic deformation, probably GB
+                                        cracking, or “Non-embrittlement” when such a severe brittle fracture does not occur. It is important to note that
+                                        some non-embrittlement elements in Table 1 can cause embrittlement under other tests. For example, while Pb
+                                        and Bi are non-embrittlement elements in Table 1, these liquid metals (Pb and Bi) cause embrittlement on T91
+                                        martensitic steel, where cracking occurs mainly along its lath boundaries with significant plastic ­deformation17.
+                                            To elucidate the mystery of the specificity of LME, we considered that the GB and surface adsorption energy
+                                        of a liquid metal atom must be essential for the following reasons. In many cases, severe embrittlement occurs
+                                        along GBs with almost no prior plastic deformation. Additionally, the (fracture) surface adsorption of a liquid
+                                        metal atom must be necessary because the energy lowering effect by the adsorption can promote bond-breaking
+                                        at a microcrack tip of solid metal. Based on these ideas, we calculated the GB and surface adsorption energies
+                                        of a liquid metal atom in solid metals for many couples (Methods and Supplementary Fig. S2). The energies’
+                                        standard (zero value) for the liquid metal atom is the energy of its crystalline state at absolute zero temperature.
+                                        It is a good approximation for the liquid state because the energy difference between the liquid and its solid
+                                        states, i.e., the latent heat (enthalpy) of fusion (Supplementary Table S2)18, is insignificant compared with the
+                                        size of the GB and surface adsorption energy.
+                                            As another factor, the interstitial lattice dissolution energy of the liquid metal atom in solid metal might
+                                        be significant for the embrittlement along the low-energy lath boundary and crystal lattice plane. This type of
+                                        embrittlement occurs with a large amount of prior plastic deformation, which is necessary to cause microcrack
+                                        nucleation in non-GB cracking. Unfortunately, in our experiences, the interstitial lattice dissolution energy
+                                        becomes too large in positive to obtain the numerically converged value. Although the tensile stress concentra-
+                                        tion at the microcrack tip is critical, it is not easy to include that in the calculations. For this reason, we calculated
+
+
+Scientific Reports |       (2022) 12:10886 |                       https://doi.org/10.1038/s41598-022-10593-2                                                   3
+
+                                                                                                                                                           Vol.:(0123456789)
+          www.nature.com/scientificreports/
+
+
+
+                                                 6XUIDFHDGVRUSWLRQDVVLVWHGERQGEUHDNLQJ    /DWWLFHGLVVROXWLRQ(QHUJ\
+                                                     SUHFHGHGE\DWRPLVWLFSHQHWUDWLRQ             QRQ*%FUDFNLQJ
+
+
+
+
+                                                                                                                         *%DGVRUSWLRQ(QHUJ\
+                                                                                                                            *%FUDFNLQJ
+
+
+
+                                                                                                         :HDNLQWHUDFWLRQUHJLRQ
+                                                                                                                &ULWHULRQ
+
+
+
+                                                                                                  /LTXLGVWDWH =HURHQHUJ\
+
+
+                                            Figure 3.  Schematic illustration of the criterion for the specificity of LME. P: a penetrated liquid metal atom
+                                            into solid, NP: a not-yet-penetrated liquid metal atom that adsorbed on a solid metal atom, S: a solid metal
+                                            atom with broken solid–solid interatomic bond by the adsorption of liquid metal atom. The solid–liquid couples
+                                            that satisfy the weak interaction (near-zero energy) criterion show embrittlement. The atomistic embrittling
+                                            (bond-breaking) process is schematically shown in Fig. 2 (Supplementary Fig. S9b), where the weak interaction
+                                            criterion is satisfied. Contrarily, the atomistic penetration or the subsequent bond-breaking is suppressed in the
+                                            cases of non-embrittlement (Supplementary Fig. S9ac).
+
+
+                                             the substitutional lattice dissolution energy instead, which probably correlates to the interstitial one and lath
+                                             boundary adsorption energy of a liquid metal atom in solid metal.
+                                                  As stated in the fourth paragraph, we found an excellent correlation between the specificity of LME and
+                                             our calculated GB adsorption energies of liquid metal elements in iron (Fe) and aluminum (Al), as shown in
+                                             Fig. 1a–c. All the embrittling elements have near-zero GB adsorption energy, while non-embrittling elements
+                                             have far-from-zero GB adsorption energy, except Al-Cd. For iron (steel), indium causes more GB embrittlement
+                                             than lead and bismuth in Martin’s ­experiment17; indium consistently appears at near-zero energy more closely
+                                             than lead and bismuth (Fig. 1a). It is also reasonable for sodium to have far-from-zero GB adsorption energy
+                                             (Fig. 1a) because sodium rarely causes the embrittlement of ­steel19. The calculated GB adsorption energies of
+                                             zinc in iron (Fig. 1a) and gallium in aluminum (Fig. 1c) are slightly negative values; these imply the zinc and
+                                             gallium atoms feel weak attractive interaction from iron and aluminum GB, respectively, and can easily penetrate
+                                             the GBs. Therefore, zinc diffusion in iron GB and liquid gallium penetration in aluminum GB would realize
+                                            ­quickly2–4. In addition, we can see a similar trend as in iron and aluminum for both magnesium and titanium
+                                             cases (Supplementary Fig. S3 and S4). However, there are only two embrittling couples for each, magnesium or
+                                             titanium. Nickel also shows asimilar trend using other experimental data (Supplementary Note and Fig. S6).
+                                             Therefore, the trend of near-zero GB adsorption energy for the embrittling couples must be a necessary condition
+                                             and criterion for the occurrence of LME.
+                                                  Furthermore, we found an exciting trend; a continuous view from the calculated energies, as shown in
+                                             Fig. 1a–c (Supplementary Fig. S3, S4, and S6), indicates that the embrittlement seems to occur in a transition
+                                             region from where the intermetallic compounds exist to where they do not exist (Supplementary Note). The
+                                             greater the GB adsorption and lattice dissolution energies are negative, the more the solid–liquid couple forms
+                                             intermetallic compounds. Rostoker et al. pointed out that the embrittling couples tend not to form intermetal-
+                                             lic ­compounds10, while our criterion further narrowed down the allowed range of embrittling couples from the
+                                             viewpoint of interaction energy.
+                                                  Lowering the cohesive energy of the GB plane caused by surface adsorption by liquid metal can promote
+                                             interatomic bond-breaking in solid metal as in temper e­ mbrittlement12–16 (Supplementary Note). Figure 1b–d
+                                             shows the calculated surface adsorption energies of liquid metal atoms on iron’s (111) and aluminum’s (012)
+                                             surfaces. The surface adsorption energies were substantial negative values in all the couples, indicating that all
+                                             liquid metal elements decrease the surface energy by adsorption and thus assist bond-breaking. However, there
+                                             seems to be no correlation between the size of surface adsorption energy and the specificity of LME. It indicates
+                                             that the condition of near-zero GB adsorption energy is more significant for LME than the surface adsorption
+                                             strength. We expect the trend in Fig. 1b–d not to change if we could calculate solid–liquid interface energy
+                                             because the cohesion of low melting temperature metal may not be significant. Finally, the above energetic
+                                             considerations have led us to the following atomistic picture.
+
+
+          Scientific Reports |   (2022) 12:10886 |                https://doi.org/10.1038/s41598-022-10593-2                                                 4
+
+Vol:.(1234567890)
+www.nature.com/scientificreports/
+
+
+                                      We explain the atomistic process of bond-breaking of solid metal induced by liquid metal atoms at a micro-
+                                  crack tip (Fig. 2) in more detail than already stated in the fifth paragraph. When embrittlement occurs, the GB
+                                  adsorption energy of a liquid metal atom is near zero; the liquid metal atom weakly interacts with the surrounded
+                                  solid atoms. Thus, the liquid metal atom can penetrate inside the microcrack tip at least one or several atomic
+                                  distances through the stretched solid metal’s interatomic bonds under tensile stress concentration with the
+                                  help of thermal activation. This atomistic penetration of the liquid metal must have some weakening effects on
+                                  solid–solid bonds: a highly stretching effect and a chemical effect due to the change of atoms’ arrangement. Then,
+                                  not-yet-penetrated liquid metal atoms adsorb the solid metal atoms consisting of the weakened interatomic bonds
+                                  and then cause the bond-breaking at the microcrack tip. Although the energy reduction by surface adsorption
+                                  can promote bond-breaking, the strength of surface adsorption does not correlate with the specificity of LME,
+                                  as shown in Fig. 1b–d. Therefore, we conclude that the atomistic penetration of a liquid metal atom into solid
+                                  metal’s GB plane is necessary before surface-adsorption-assisted bond-breaking occurs. Even when we cannot
+                                  find liquid metal atoms experimentally along the cracking path before fracture, we consider that the atomistic
+                                  penetration of liquid metal atoms precedes the bond-breaking of solid metal. Further, we consider that a similar
+                                  atomistic penetration and the subsequent bond-breaking can occur at low-energy boundaries like lath in mar-
+                                  tensitic steel and crystal lattice planes, after significant prior plastic deformation and subsequent microcrack
+                                  nucleation having huge stress concentration at its tip in the case of non-GB cracking.
+                                      On the other hand, if the atomistic penetration and subsequent diffusion of liquid metal atoms into GBs are
+                                  experimentally observed, as in the case of galvanized (Zn) embrittlement of high-strength steel, the embrit-
+                                  tlement is triggered by grain boundary decohesion at a first stage. We can recognize a significant decohesion
+                                  effect of Zn on Fe GB in our calculated results; the surface adsorption energy of Zn (–0.8 eV/atom) is much
+                                  lower than the GB adsorption energy of Zn (–0.3 eV/atom), which data can be found in Fig. 1a,b. This energy
+                                  difference assists bond-breaking and surface formation in solid metal’s GB. Recent experimental and theoretical
+                                  studies confirm this decohesion m   ­ echanism4,20 in more detail. We emphasize here that our proposed criterion
+                                  of LME includes this type of embrittlement. When liquid metal atoms can penetrate and diffuse into solid met-
+                                  als’ GB macroscopically, the decohering effect on GB will emerge for almost all liquid metals because they have
+                                  a significant surface adsorption effect stronger than GB adsorption in solid metals. (Supplementary Fig. S10).
+                                      When the weak interaction (near-zero energy) criterion of atomistic penetration is not satisfied, we consider
+                                  the bond-breaking does not occur for the following reasons, as shown in Fig. 3 (Supplementary Fig. S9ac). When
+                                  the GB adsorption energy of liquid metal is enormously positive, the liquid metal atom cannot penetrate the GB
+                                  plane even at a microcrack tip because of the intense repulsive interaction between liquid and solid atoms. When
+                                  the GB adsorption energy is significantly negative, the attractive interaction (bonding) is so intense between
+                                  solid and liquid atoms that it prevents solid–solid bond-breaking near the liquid atom, even if the atomistic pen-
+                                  etration occurs. Therefore, the bond-breaking (embrittlement) does not occur when the GB adsorption energy
+                                  appears in the far-from-zero energy region, where the weak interaction criterion is not satisfied. The boundary
+                                  between embrittlement and non-embrittlement regions depends on various material and test parameters such
+                                  as hardness, grain size, temperature, strain rate, etc.
+                                      We should note our idea for the role of dislocations on LME. It comes from the analogy of the study of GB
+                                  decohesion by one of the authors (MY)16. We consider that the easier the bond-breaking occurs at a microcrack
+                                  tip, the lesser the dislocations emit from t­ here14,15, reducing fracture toughness and fracture stress in LME. The
+                                  present study assumes that surface and GB adsorption itself does not affect the dislocation emission because the
+                                  influence of liquid metal on dislocation is not evident theoretically and experimentally. Further investigation is
+                                  necessary on this point.Finally, we note that our study is not applicable for a different type of LME; it is primarily
+                                  a dissolution or corrosion reaction, the crack growth takes hundreds or thousands of hours. Recently, Norkett
+                                  et al.11 have classified LME into three categories: (a) solid metal seems to be brittle simply by touching liquid
+                                  metal (e.g., Fe-Hg, Fe-Pb, Fe-Bi, and Zn-Hg)6–8, (b) liquid metal atoms diffuse as an atom or penetrate as a liquid
+                                  along the GB plane of solid metal over a macroscopic distance (e.g., Fe-Zn, Al-Ga, and Ni-Bi)2–5, and (c) GBs
+                                  are selectively eroded by corrosion reactions (e.g., a preferential dissolution of Cr and Ni from stainless steel in
+                                  molten sodium)21. Our proposed weak interaction criterion based on experimentally unseen atomistic penetra-
+                                  tion adapts well to type (a) embrittlement. Furthermore, this criterion is also applicable to type (b) embrittlement;
+                                  the penetration of liquid atoms surrounded by weakly interacting solid atoms is necessary before it develops to a
+                                  macroscopic diffusion of atoms, interfacial phase, or liquid penetration, and then fracture occurs. On the other
+                                  hand, the criterion does not adapt to type (c) embrittlement due to corrosion and dissolution reactions, in which
+                                  solid metal atoms dissolve into liquid metal.
+
+                                  Methods
+                                  First‑principles calculations. We conducted density functional theory (DFT) calculations by using
+                                  Vienna Ab initio Simulation Packages (VASP)23,24 using the Projector-Augmented Wave method with Perdew-
+                                  Burke-Ernzerhof exchange–correlation (PAW-PBE) p        ­ otentials25,26. The cutoff parameter of the plane-wave basis
+                                  set was 360 eV. (For the Cu system, we use 385 eV).
+                                      We calculated the substitutional lattice dissolution (solid solution) energy of liquid metal elements in the solid
+                                  metal lattice using supercells. Supplementary Table S1 summarizes solid metal crystal structures, magnetism,
+                                  supercell size, and k-point sampling. The total energy of superlattice having n solid metal atoms is Etot   sc (n), and
+                                  that having n − 1 solid metal (M) atoms and one X atom Etot (n − 1, X). The total energy per one liquid metal
+                                                                                                  sc
+                                  atom in the most stable elemental substance is Eatom (X). Supplementary Table S2 shows the crystal structure of
+                                  each liquid metal in low temperatures. These cells were fully relaxed. The lattice dissolution energy of element
+                                  X in a solid metal is defined by.
+
+
+
+Scientific Reports |   (2022) 12:10886 |               https://doi.org/10.1038/s41598-022-10593-2                                                      5
+
+                                                                                                                                                  Vol.:(0123456789)
+          www.nature.com/scientificreports/
+
+
+                                                                                            sc                      n − 1 sc
+                                                                                Esol (X) = Etot (n − 1, X) −             E (n) − Eatom (X)                                            (1)
+                                                                                                                      n   tot
+
+                                                We calculated the grain boundary and surface adsorption energies of more than ten liquid metal elements
+                                            in five solid metals. Supplementary Table 1 shows the details of cell modeling for solid metals. The unit cells,
+                                            including grain or twin boundary and its two fracture surfaces, are shown in Supplementary Fig. S1. Supple-
+                                            mentary Table S3 summarizes the calculated grain boundary and surface energies. The grain or twin boundary
+                                            energy is about half of the surface energy for each solid metal except for titanium. Therefore, it indicates that
+                                            these boundaries are high-energy ones. On the other hand, the boundary energy is relatively low for titanium.
+                                            It may be why the calculated adsorption energies of grain boundary and surface correlate very well with each
+                                            other in the titanium case, as shown in Supplementary Fig. S4.
+                                                The total energy of these cells is denoted by Etot
+                                                                                               GB (n). We relaxed the atomic positions with fixed lattice param-
+                                            eters. The grain-boundary and surface adsorption energy Ead (X) is defined by.
+                                                                                                  GB            GB
+                                                                                       Ead (X) = Etot (n, X) − Etot (n) − Eatom (X),                                                  (2)
+                                            or
+                                                                                       GB                GB
+                                                                            Ead (X) = Etot (n − 1, X) − Etot (n) + Eatom (M) − Eatom (X).                                             (3)
+                                                The former and latter are in the cases of interstitial and substitutional X atoms, respectively. The energy per
+                                            atom for solid metal M, Eatom (M), is calculated by using a cell similar to the grain-boundary modeling cell to
+                                            reduce numerical inaccuracy. The most stable states are selected for GB and surface adsorption energies at GB
+                                            and surface, respectively.
+                                                When dealing with segregation in the atomistic model of the grain boundary, there are two equations to cal-
+                                            culate the segregation energy, i.e., interstitial or substitutional type for the Eqs. (2) or (3), respectively. However,
+                                            in the case of metal grain boundaries, the grain boundary energy often does not change significantly in response
+                                            to the insertion or removal of the atoms that construct the grain boundary. The distinction between substitutional
+                                            and interstitial types is not meaningful for the segregation of solute elements in disordered structures of metal
+                                            GB. For this reason, we choose the lower GB adsorption energy from the above two equations.
+                                                Supplementary Fig. S2 shows an example of the calculated grain-boundary and surface adsorption energies
+                                            of a Pb atom in the solid metal of iron. We can see that the lattice dissolution energy calculated by using the BCC
+                                            5 × 5 × 5 supercell is close to the corresponding energies calculated by using the grain boundary modeling cell.
+                                            Thus, it indicates that the cell size we used is sufficient. As explained below, we take the fcc solid-state energy of
+                                            Pb as an approximation of its liquid state energy.
+
+                                            Energies of liquid state. All of the liquid metals examined here are low-melting-point metals. Thus, the
+                                            latent heat, the difference in energy between solid and liquid, is on the order of at most 0.02–0.18 eV/atom18, as
+                                            shown in Supplementary Table S2, which is not significant compared with the scale of lattice dissolution and sur-
+                                            face adsorption energies. For example, the Pb energy difference between solid and liquid states is only 0.05 eV/
+                                            atom at melting temperature. This energy difference is too small to influence the interpretation of the calculated
+                                            results (Fig. 2). For this reason, we consider that there is no problem adopting the solid-state energy of the liquid
+                                            metal element as an approximation of the liquid state energy.
+
+                                            Data availability
+                                            All data are available in the main text or supplementary information.
+
+                                            Received: 18 December 2021; Accepted: 23 March 2022
+
+
+                                            References
+                                             1. W. H. Jonson, II. On some remarkable changes produced in iron and steel by the action of hydrogen and acids. Proc. R. Soc. Lond.
+                                                23, 168–179 (1874). https://​www.​jstor.​org/​stable/​113285
+                                             2. Ludwig, W. & Bellet, D. Penetration of liquid gallium into the grain boundaries of aluminum: A synchrotron radiation microto-
+                                                mographic investigation. Mater. Sci. Eng. A 281, 198–203. https://​doi.​org/​10.​1016/​S0921-​5093(99)​00733-9 (2000).
+                                             3. Z. Ling, M. Wang, L. Kong, “Liquid metal embrittlement of Galvanized steels during industrial processing: a review” in Transac-
+                                                tions on Intelligent Welding Manufacturing, S. Chen, Y. Zhang, Z. Feng, Eds. (Springer, Singapore, 2018), pp. 25–42. https://​link.​
+                                                sprin​ger.​com/​chapt​er/​10.​1007%​2F978-​981-​10-​8330-3_2
+                                             4. Razmpoosh, M. H. et al. Atomic-scale investigation of liquid-metal-embrittlement crack-path: Revealing mechanism and role of
+                                                grain boundary chemistry. Acta Mater. 204, 116519–116610 (2021).
+                                             5. Luo, J., Cheng, H., Meshinichi Asl, K., Kiely, C. J. & Hammer, M. P. The role of a bilayer interfacial phase on liquid metal embrit-
+                                                tlement. Science 333, 1730–1733. https://​doi.​org/​10.​1126/​scien​ce.​12087​74 (2011).
+                                             6. Lynch, S. P. A fractographic study of gaseous hydrogen embrittlement and liquid-metal embrittlement in a tempered-martensitic
+                                                steel. Acta Metall. 32, 79–90. https://​doi.​org/​10.​1016/​0001-​6160(84)​90204-9 (1984).
+                                             7. Old, C. F. & Trevena, P. Liquid metal embrittlement of aluminium single crystals by gallium. Metal Sci. 13, 591–596. https://​doi.​
+                                                org/​10.​1179/​msc.​1979.​13.​10.​591 (1979).
+                                             8. Bryukhanova, L. S., Andreeva, I. A. & Likhtman, V. I. The long-time strength of metals and how it is affected by surface-active
+                                                metallic melts. Soviet Phys. Solid State 3, 2025–2028 (1962).
+                                             9. Shunk, F. A. & Warke, W. R. Specificity as an aspect of liquid metal embrittlement. Scr. Metall. 8, 519–526. https://​doi.​org/​10.​1016/​
+                                                0036-​9748(74)​90062-3 (1974).
+                                            10. W. Rostoker, J.M. McCaughey, and H. Markus., Embrittlement by liquid metals. (Reinhold Publishing Corporation, New York,
+                                                1960). https://​babel.​hathi​trust.​org/​cgi/​pt?​id=​mdp.​39015​04740​3996&​view=​1up&​seq=​7&​skin=​2021
+
+
+
+          Scientific Reports |   (2022) 12:10886 |                   https://doi.org/10.1038/s41598-022-10593-2                                                                         6
+
+Vol:.(1234567890)
+www.nature.com/scientificreports/
+
+
+                                  11. Norkett, J. E., Dickey, M. D. & Miller, V. M. A review of liquid metal embrittlement: Cracking open the disparate mechanisms.
+                                      Metall. Mater. Trans. A 52, 2158–2172. https://​doi.​org/​10.​1007/​s11661-​021-​06256-y (2021).
+                                  12. Rice, J. R. & Wang, J.-S. Embrittlement of interfaces by solute segregation. Mater. Sci. Eng. A 107, 23–40. https://​doi.​org/​10.​1016/​
+                                      0921-​5093(89)​90372-9 (1989).
+                                  13. Yamaguchi, M. First-principles study on the grain boundary embrittlement of metals by solute segregation: Part I. Iron (Fe)-solute
+                                      (B, C, P, and S) systems. Metall. Mater. Trans. A 42A, 319–321. https://​doi.​org/​10.​1007/​s11661-​010-​0381-5 (2011).
+                                  14. Jokl, M. L., Vitek, V. & McMahon, C. J. Jr. A microscopic theory of brittle fracture in deformable solids: A relation between ideal
+                                      work to fracture and plastic work. Acta Metall. 28, 1479–1488. https://​doi.​org/​10.​1016/​0001-​6160(80)​90048-6 (1980).
+                                  15. Higashida, K. & Tanaka, M. Mechanism behind brittle-to-ductile transition understood by the interaction between a crack and
+                                      dislocations. ISIJ Int. 52, 704–709. https://​doi.​org/​10.​2355/​isiji​ntern​ation​al.​52.​704 (2012).
+                                  16. Yamaguchi, M. & Kameda, J. Multiscale thermodynamic analysis on fracture toughness loss induced by solute segregation in steel.
+                                      Phil. Mag. 94, 2131–2149. https://​doi.​org/​10.​1080/​14786​435.​2014.​906757 (2014).
+                                  17. Martin, M. L., Auger, T., Johnson, D. D. & Robertson, I. M. Liquid–metal-induced fracture mode of martensitic T91 steels. J. Nucl.
+                                      Mater. 426, 71–77. https://​doi.​org/​10.​1016/j.​jnucm​at.​2012.​03.​040 (2012).
+                                  18. Source: WebElements [http://​www.​webel​ements.​com/]
+                                  19. M. G. Nicholas, “A survey of literature on liquid metal embrittlement” in Embrittlement by Liquid and Solid Metals, M. H. Kamdar,
+                                      Ed., (The Metallurgical Society of AIME, 1983), pp. 27–50. https://​www.​osti.​gov/​biblio/​69720​92
+                                  20. Peng, W., Peng, H., Wu, G. & Zhang, J. Effect of zinc-doping on tensile strength of Sigma 5 bcc Fe symmetric tilt grain boundary.
+                                      Comp. Mater. Sci. 171, 109204–109207 (2020).
+                                  21. R. H. Hiltz, The corrosion of stainless steel in oxygen-contaminated sodium at 1200 F and 1400 F. in J. E. Draley and J. R. Weeks,
+                                      Ed., Corrosion by liquid metals (Springer US, 1970). doi:https://​doi.​org/​10.​1007/​978-1-​4684-​1845-3_5
+                                  22. T. B. Massalski, H. Okamoto, P. R. Subramanian, L. Kacprzak, Eds., Binary Alloy Phase Diagrams, 2nd edition. ASM International,
+                                      Materials Park Ohio, USA, 1990. doi:https://​doi.​org/​10.​1002/​adma.​19910​031215
+                                  23. Kresse, G. & Furthmüller, J. Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave
+                                      basis set. Comput. Mater. Sci. 6, 15–50. https://​doi.​org/​10.​1016/​0927-​0256(96)​00008-0 (1995).
+                                  24. Kresse, G. & Furthmüller, J. Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set. Phys.
+                                      Rev. B 54, 11169–11186. https://​doi.​org/​10.​1103/​PhysR​evB.​54.​11169 (1996).
+                                  25. Perdew, J. P., Burke, K. & Ernzerhof, M. Generalized gradient approximation made simple. Phys. Rev. Lett. 77, 3865–3868. https://​
+                                      doi.​org/​10.​1103/​PhysR​evLett.​77.​3865 (1996).
+                                  26. Blöchl, P. E. Projector augmented-wave method. Phys. Rev. B 50, 17953–17979. https://d            ​ oi.o
+                                                                                                                                             ​ rg/1​ 0.1​ 103/P
+                                                                                                                                                              ​ hysRe​ vB.5​ 0.1​ 7953 (1994).
+
+                                  Acknowledgements
+                                  We acknowledge JAEA(CCSE) for the use of the supercomputer system. We are grateful to Kenji Nishihara,
+                                  Yoshiyuki Kaji, Momoji Kubo, Tetsuo Mohri, and Isao Tanaka for helpful discussion and support.
+
+                                  Author contributions
+                                  Conceptualization: M.Y., E.A. Methodology: M.Y., T.T., M.I. Investigation: M.Y., M.I. Visualization: M.Y. Supervi-
+                                  sion: M.I. Writing—original draft: M.Y., E.A. Writing—review & editing: E.A., M.Y., T.T.
+
+                                  Funding
+                                  This research was partly supported by MEXT as “Exploratory Challenge on Post-K Computer” (Challenge of
+                                  Basic Science—Exploring Extremes through Multi-Physics and Multi-Scale Simulations).
+
+                                  Competing interests
+                                  The authors declare no competing interests.
+
+                                  Additional information
+                                  Supplementary Information The online version contains supplementary material available at https://​doi.​org/​
+                                  10.​1038/​s41598-​022-​10593-2.
+                                  Correspondence and requests for materials should be addressed to M.Y.
+                                  Reprints and permissions information is available at www.nature.com/reprints.
+                                  Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and
+                                  institutional affiliations.
+                                                Open Access This article is licensed under a Creative Commons Attribution 4.0 International
+                                                License, which permits use, sharing, adaptation, distribution and reproduction in any medium or
+                                  format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the
+                                  Creative Commons licence, and indicate if changes were made. The images or other third party material in this
+                                  article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the
+                                  material. If material is not included in the article’s Creative Commons licence and your intended use is not
+                                  permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from
+                                  the copyright holder. To view a copy of this licence, visit http://​creat​iveco​mmons.​org/​licen​ses/​by/4.​0/.
+
+                                  © The Author(s) 2022
+
+
+
+
+Scientific Reports |   (2022) 12:10886 |                      https://doi.org/10.1038/s41598-022-10593-2                                                                                   7
+
+                                                                                                                                                                                    Vol.:(0123456789)
+

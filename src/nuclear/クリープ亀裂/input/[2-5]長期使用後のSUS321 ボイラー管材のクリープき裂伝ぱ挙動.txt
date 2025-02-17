@@ -1,0 +1,396 @@
+                                                                                                                                                             185
+
+                                                                                                                                                 論            文
+
+                             長期 使 用 後のSUS                                      321ボ             イ ラー管 材 の
+
+                                                       ク リー プ き裂 伝 ぱ 挙 動 †
+
+                                                       新      田       明      人＊            北     村       隆          行＊       桑       原       和       夫＊
+
+
+                     Creep            Crack        Propagation             Behavior            of Type            321 Stainless
+                                               Steel      after      Long      Service          in Boiler
+
+                                                                             by
+
+                    Akito NITTA, Takayuki KITAMURA                                           and Kazuo KUWABARA
+                             (Central          Reseach Institute       of Electric         Power Industry,             Komae)
+
+
+       In order to investigate                 the behavior of creep           crack       propagation          in a boiler       superheater         tube
+ (Type 321 stainless steel) after long service, the unused and 120000 hours used materials produced
+ at the same lot were made into test specimens and creep tests on the smooth specimens and creep
+ crack propagation tests on the center notched plate specimens were carried out.
+        The results obtained were summarized as follows:
+        (1) The crack propagation rate, dl/dt, of the used material was faster than that of the unused
+ material at higher stress levels. However, this difference in dl/dt decreased as the applied stress
+ decreased.      These results arose from the difference in creep deformation property of two materials.
+        (2) Roughly, the crack propagation rate, dl/dt, was correlated well with the creep J integral
+  (i.e., C* parameter or modified J integral), Jc, and the correlation was identical for both materials.
+        (3) Strictly speaking, the crack propagation rate, dl/dt, was accelerated at lower stress levels,
+ because     of decrease         in    creep     fracture strain,      εf.    Therefore,        better       correlation    was   achieved       between
+
+ dl/dt and        thg fracture         strain modified creep           J    integral, Jc/εf.
+                                                                                                         (Received         Sep.   29,    1982)
+  キー ・ワ ード: ボ イ ラー管, 長 期 使 用, ク リー プ き裂 伝 ぱ, ク リー プJ積 分
+
+
+
+
+                       1    緒                     言                                経年変化 の把握 には不十分な点が多い.
+                                                                                                                                                      2)3)
+
+ 最 近, 鋼 の ク リー プ き裂 伝 ぱ に 関す る破 壊 力学 的 な                                               こ の よ うな情 況 に鑑 み, 本 研 究 で は, 筆 者 らが これ
+                                      1)
+
+検 討 が 数 多 く行 わ れ て い る. これ らの研 究 目的 の 一 つ                                          ま で に行 って き た火 力発 電 プ ラ ン ト用 高 温 熱 交 換 器 管
+
+と して, 部 材 中 の 潜 在 欠 陥 か らの き裂 伝 ぱ 寿命 を 推 定                                         の 経年 変 化 お よび残 存 寿命 評 価 に関 す る検 討 の 中 で,
+
+して, 機 器 の安 全 裕 度 を 確 保 す る こ とが 挙 げ られ る.                                          過 熱 器 管 と して 約12万 時 間 使 用 さ れ たSUS                                321管 材
+
+とこ ろ で, 実 機 器 に お いて 高 温 で 長 時 間 使 用 され た 部                                        とそ の 同 一 未 使 用 管 材 を 得 た の を機 会 に, これ らの両,
+
+材 は, ほ とん どの場 合 ク リー プ強 度 等 に関 す る諸 特 性                                            管 材 の基 礎 的 な ク リー プ特 性 を 調 べ た 後,                               10‑4mm/h
+
+が 経年 的 に変 化 して, 未 使 用 時 とは異 な る こ とが報 告                                            の比 較 的 低 い 伝 ぱ 速 度 域 を 含 む ク リー プ き裂 伝 ぱ試 験
+             2)
+
+さ れ て い る. した が って, ク リー プ に よる き裂 伝 ぱ寿                                            を 実 施 し, 長 時 間 使 用 に よ る き裂 伝 ぱ 特 性 の 変 化 に つ
+                                                                                   い て検 討 した.
+命 の推 定 に も, き裂 伝 ぱ特 性 の 経年 変 化 に 関す る検 討
+が不 可 欠 で あ る と考 え られ る. しか るに, 現 在 ま で に                                                                 2       供 試 材 お よび 試 験 方 法
+
+実 施 され た ク リー プ き裂 伝 ぱ に 関 す る研 究 の 大 半 は 未                                            2.1       供試材
+
+使 用 材 料 の み に 関 す る もの で あ った. しか も, これ ら                                              あ る火 力 発 電 プ ラ ン トに お い て約12万 時 間 (推定 メ
+
+の試 験 の多 くは,                伝 ぱ速 度 が10‑3mm/h以                        上の比較            タ ル温 度873K)                使 用 され たSUS              321 HTB過           熱器管
+
+的 高 い伝 ぱ速 度 域 (換言 す れ ば, 試 験 時 間 が比 較 的 短                                          材 (以下, 本 論 文 で は 「使 用 材 」 と記 す)                                と同 プ ラ ン
+
+い領 域) で実 施 され て お り, ク リー プ き裂 伝 ぱ 特 性 の                                            ト建 設 時 よ り保 存 され て い た 予 備 パ ネ ル か ら採 取 した
+
+                                                                                    同一 鋼 の未 使 用 管 材 (以 下, 本 論 文 で は 「未 使 用 材 」
+ † 原稿受理           昭和57年9月29日
+ ＊正 会 員           (財)電力 中央研究所              狛江市 岩戸 北                                 と記 す) を 供 試 材 とした. 両 材 の 光 学 顕 微 鏡 に よ る組
+
+昭 和59年2月                                                                    (79)
+186                                                           新 田明人, 北村隆行, 桑原和夫
+
+
+
+
+                           (a) Unused   material.
+
+                                                                                                (a) Unused   material   before   creep     test.
+
+
+
+
+                            (b) Used material.
+        Fig.    1.   Micrographs        of the    materials   tested.
+
+
+織 写 真 をFig.          1に 示 す.            使 用 材 で は, 粒 界 に炭 化物
+の 析 出 が 顕 著 で あ り, 未 使 用 材 の 組 織 と様 相 を 異 に し
+                     4)
+
+て い る.         耳 野 ら は,       SUS    321鋼        の923K,        1万 時 間 加
+
+熱      (Larson・Miller             パ ラ メ ー タ で 換 算 す る と873Kで
+
+約12万      時 間 に 相 当 す る)            に よ っ て 粒 界 に ネ ッ ト状 あ る
+
+い は デ ン ドラ イ ド状 のM23C6が                           析 出す る こ とを 報 告
+
+し て い る.         ま た,       同 鋼 で はM23C6の              他,     TiCが      析 出
+                     5)
+す る とい う報 告 もあ り, 本 供 試 使 用 材 の粒 界 に もM23
+C6あ      る い はTiCが            析 出 して い る も の と推 察 され る.
+      また, 両 供 試 材 の細 束X線                  回折 像 をFig. 2(a),(b)に
+
+示 す. さ ら に, 比 較 のた め 未 使 用 材 の平 滑 ク リー プ破                                                       (c) Near the fracture surface       of unused
+                                                                                                   material after creep test.
+断 試 験 片 (923K,σg=176.5MPa)                           の破 面 近 傍 の 回折
+                                                                                         Fig.   2.    Microbeam     X-ray    diffraction      patterns.
+像 をFig. 2(c)に 示 す. な お, X線 の照 射 条 件 はTable
+Iに 示 す とお りで あ る. ク リー プ破 断試 験 片 の 回 折像                                                 Table   I.   Microbeam     X-ray    diffraction       condition.
+
+は リ ン グ状 の拡 が りを示 して い る の に対 して, 未 使用
+
+材 お よび使 用 材 の 回折 像 は斑 点状 で あ る. こ の 回 折像
+の 円 周 方 向へ の 拡 が りは,トー タル ・ ミス オ リエ ンテ
+                   6)
+ー シ ョンβに 対 応 して お り, 未使 用 材 と使 用 材 の βは
+
+小 さ い が, ク リー プ破 断試 験 片 の βは 大 きい こ とに な
+                      7)
+ る. 一 方, 後 藤 は,                   オ ー ス テ ナ イ ト 系 ス テ ン レス鋼
+
+(SUS      304鋼)        の ク リー プ過 程 を 細 束X線 回折 法 を用
+い て観 察 し, トー タル ・ ミス オ リエ ンテ ー シ ョン βと
+ ク リー プ変形 量 の 間 に 良 い 相 関 関 係 が あ る こ とを 報 告
+ して い る. した が って, この 結 果 か ら類推 す る と, 本
+
+使 用 材 は ほ とん ど ク リー プ変 形 を生 じて い な い こ とに
+                             8)
+
+な る. 事 実, 田村 らは,                     6万 時 間 ク リー プ試 験 結 果 を                           にお け る使 用 材 も, そ の 使 用 中 に 大 きな ク リー プ変 形
+
+基 に,       許 容 応 力 (SUS             321 HTB鋼           の873Kで           は66           を 生 じて い ない もの と思 わ れ る.
+MPa)      程 度 で あ れ ば 約10万 時 間使 用 して も ク リー プ ひ                                        2.2      試験方法
+
+ず み は0.1%程                度 で あ る こ とを報 告 して お り, 本研 究                                 まず, 両 材 の基 本 的 な ク リー プ特 性 を 把 握 す るた め,
+
+                                                                              (80)「                                              材 料 」 第33巻           第365号
+                                           長 期 使 用 後 のSUS                     321ボ     イ ラ ー管 材 の ク リー プ き裂 伝 ぱ 挙動                                         187
+
+Fig. 3(a)に 示 す よ うな平 滑 試 験 片 を 用 い て ク リー プ試                                                         つ ぎに, ク リー プ き 裂伝 ぱ試 験 は, 縦 割 炉 を有 す る
+験 を 行 った. な お, 試 験 片 は 管軸 方 向 と し, 使用 材 は                                                        直 下型 ク リー プ試 験 機 を用 い て行 った. Fig. 3(b)に 試
+火 炎 側 か ら採 取 した. 試 験 温度 は, き 裂 伝ぱ 試 験 を 実                                                        験 片 の形 状 を示 す. 板 厚1mm,                  板 幅10mmの         平板
+施 した973Kの             他, 923K,            1023Kも            採 用 した. 具 体                          試 験 片 の 中 央 に 直 径0.8mmの               円孔 切 欠 き を設 け, き
+
+的 な 試 験 条 件 をTable               IIに 示 す.                                                        裂 の ス タ ー タ と した. な お, 試 験 片 は 管軸 方 向 と し,
+
+                                                                                                 使 用 材 で は 火 炎 側 近 傍 よ り採 取 した. き裂 長 さ2lお
+                                                                                                  よび き裂 中 央 開 口変 位Vは,                適 宜試 験 を 中 断 して 測 微
+
+                                                                                                 顕 微 鏡 で 測 定 した. き裂 伝 ぱ 速 度dl/dtお                  よび き裂 中
+                                                                                                 央 開 口変 位 速 度dV/dtは,                 それ ぞ れl‑tお      よびV‑t
+                                                                                                  曲線 の接 線 の こ う配 よ り 求 め た.                また, 試 験 温 度 は
+                                                                                                 973Kと      し, 公 称 応 力 を61.8,           91.2,   101.5,   111.3
+                                                                                                 MPaの4レ            ベ ル と した.
+
+                                                                                                                       3     試 験 結 果 お よび 考 察
+
+                                                                                                     3.1     平 滑 材 に お け る ク リー プ 特 性
+                                                                                                     ク リー プ試 験 結 果 をTable             II, Fig. 4お よびFig.
+                                                                                                 5に 示 す.
+                     (a) Smooth creep specimen.
+                                                                                                     まず, Fig. 4よ り使 用 材 の ク リー プ破 断 強 度 は, 未
+
+                                                                                                 使 用 材 よ り低 下 して い る こ とが わ か る. SUS                     321鋼4)
+                                                                                                  の ク リー プ破 断 強 度 は比 較 的 組 織 に 敏 感 で あ り, 使 用
+
+                                                                                                  中 の ク リー プ変 形 が 小 さい こ とを 考 え 合 せ る と, この
+                                                                                                 強度 差 は使 用 時 の時 効 等 に よる組 織 変 化 に 起 因 す る も
+                                                                                                  の と思 わ れ る.               また,   両 材 の ク リー プ破 断 ひず み εf
+                                                                                                  と破 断 時 間trの               関係 もFig. 4に 示 す. 両 材 と も破 断
+
+                                                 (b) Creep crack propagation
+                                                                      n.     specime             時 間trが 長 くな る に従 い, 破 断 ひ ず み εfは低 下 す る
+    Fig.      3.    Shapes     and   dimensions         of specimens.                            傾 向 を示 して い る. しか し, 使 用 材 と未 使 用 材 の相 異
+
+                                                      Table        II.       Creep     test   conditions   and   results.
+
+
+
+
+   UU:     Unused   material         U:   Used   material
+
+
+昭 和59年2月                                                                                 (81)
+188                                                                           新 田明人, 北村隆行, 桑原和夫
+
+                                                                                                          とな る.
+                                                                     Temp.      Unused    Used
+
+                                                                    923K ○          ●
+                                                                                                           3.2         ク リープ き裂 伝 ぱ特 性
+                                                                    973K            □         ■            Fig. 6に973K,                応 力 σg=61.8,            111.3MPaに          お
+                                                                    1023K △         ▲
+
+                                                                                                          け る 未 使 用 材 と使 用 材 の き 裂 半 長lと                           き 裂伝ぱ速度
+                                                                                                          dl/dtの 関 係 を示 す. σg=111.3MPaで                            は使 用 材 の き
+
+                                                                                                          裂 伝 ぱ 速度 は未 使 用 材 の そ れ よ り数 倍 速 い が, 応 力 が
+
+                                                                                                          小 さ くな るほ ど (換言 す れ ば, 試 験 時 間 が長 くな る ほ
+                                                                                                          ど),     そ の差 は小 さ くな り, σg=61.8MPaで                                は両 材
+                                                                                                          のl‑dl/dt関          係 は ほ ぼ一 致す る. 一 方, き裂 中央 開 口
+
+                                                                                                          変 位 速 度dV/dtも                両 材 の ク リー プ 変 形 特 性 の 相 異
+                                                                                                          (Fig. 5) に よ り, 高応 力 で は使 用 材 の 方 が未 使 用 材 よ
+
+
+
+
+      Fig.   4.     Creep         rupture        strength   and    fracture         strain.
+
+
+                    ●   Used     material
+
+                    ○   Unused      material
+
+
+
+
+                                                                                                                Fig.    6.    Relationship    between       half crack   length
+                                                                                                                       and   crack   propagation    rate.
+
+
+
+
+             Fig.    5.   Relationship                between     stress      and
+                    minimum      creep             rate.
+
+
+お よび 試 験 温 度 に よる相 異 は, ほ とん ど認 め られ ない.
+な お, 973Kに                おけ る εf〔1/1〕とtr〔h〕の 関 係 を 最 小
+二 乗 法 で近 似 す る と,
+                                  εf=0.902tr‑0.166                                       (1)
+
+とな る. 図 中 に 同関 係 を 実 線 で 示 す.
+  つ ぎ にFig. 5に 示 した973Kに                                    お け る両 材 の 最小 ク
+
+リー プ速 度 εminと 応 力 σの 関 係 よ り高 応 力 側 で は使
+
+用 材 の最 小 ク リー プ速 度 εminは 未 使 用 材 の そ れ よ り
+大 き く, 低 応 力 側 で はそ の 差 が 小 さ くな る傾 向が あ る
+こ とが わ か る. 両 材 の 最 小 ク リー プ速 度 εmin〔1/h〕
+                                        と
+
+応 力 σ〔MPa〕 の 関 係 (Norton 則) を最 小二 乗 法 を用
+い て 求 め る と, 各 々
+
+              未使用材                             εmin=2.16×10‑14σ4.0                       (2)
+                                                                                                                Fig.    7.    Relationship   between     creep     J integral
+              使 用 材                         εmin=5.34×10‑26σ10.8                         (3)                           and   crack propagation     rate.
+
+
+                                                                                                  (82)「                                                     材 料 」第33巻       第365号
+                                        長 期 使 用 後 のSUS         321ボ     イ ラ ー管 材 の ク リー プ き裂 伝 ぱ 挙 動                                              189
+
+
+り大 き く, 低 応 力 で は そ の 差 が 小 さ くな る傾 向 が あ る.                                       とな る. 破 線 は, 式(5)のdl/dtに                     対 す る factor of 2
+ つ ぎに, き裂 伝 ぱ 速 度dl/dtと                       そ の 支配 力 学 量 と し                     の 範 囲 を示 して い る. 同 図 よ り低 応 力試 験 (σg=91.2
+                                                   1)9)〜12)
+て 有 力 と され て い る ク リー プJ積 分Jcの                          関 係 をFig.                  MPa,      61.8MPa)           のdl/dt‑Jc関    係 は, 高 応 力 試 験 の
+7に示す. ただし, クリープJ積分Jcは, 大路13)ら                                           に          そ れ よ り高 伝 ぱ 速度 側 (危険 側) へ 偏 位 して い る こ と
+よ って 提 案 され た 次 式 の 簡 便 評 価 式 に よ り評 価 した.                                         が わ か る. この 原 因 の 一 つ と して, 低 応 力試 験 で は試
+
+                                                                                   験 時 間 が 長 くな るた め, Fig. 4に 見 られ る よ うに破 断
+                       Jc=α‑1/α+1σnetdV/dt                        (4)
+                                                                                   ひ ず み が 減 少 し, 伝 ぱ 速 度 を 速 め た こ とが 考 え られ る.
+  な お, αは Norton                  型 ク リー プ則 の ク リー プ指 数,
+                                                                                   例 え ば, 使 用 材 で は σg=111.3MPaお                     よび61.8MPa
+σnetは正味 断 面 公称 応 力, dV/dtは                      き裂 中 央 開 口変 位
+                                                                                   の 破 断 時 間 は 各 々104.5hお                 よび4536.3hで             あ り,
+速 度 で あ る. 同図 よ り, 使 用 材, 未 使 用 材 と もdl/dt
+                                                                                   平 滑 材 の 結 果 (式(1)) を そ の ま ま適 用す る とそ の破 断
+はJcと         お お むね 良 い対 応 関係 が あ り, かつ 両 材 のdl/                                   ひ ず み は各 々0.417お                よび0.222と      な る. ま た, Fig.
+dt‑Jc関 係 は ほぼ 一 致 して い る こ とが わ か る.                            と ころ
+                                                                                   8に 使 用 材 の 例 を 示 す よ うに, 応 力 が 低 くな る (試験
+で, ク リー プJ積 分Jcは,                        き裂 先 端 近 傍 のひ ず み 速
+                                                  9)                               時 間 が 長 くな る) と と もに 同 一 き裂 長 さに 対 す る き裂
+度 場 を代 表 す るパ ラメ ー タ であ るた め, Fig. 7は 両 材                                          中 央 開 口変 位 量 が 減 少 す る こ とか ら も破 断 ひ ず み の 減
+と もdl/dtが           き裂 先 端 近 傍 のひ ず み 速 度 に よ り律 速 さ
+                                                                                   少 が推 察 され る.
+れ て い る こ とを示 して い る. 一 方, Fig. 5に 示 した よ                                            ところで, 大谷ら14)15)は, クリープき裂伝ぱ速度dl/dt
+うに両 材 の ク リー プ 変形 特 性 は大 き く異 な っ て い るた
+                                                                                   とき裂 先 端 の ひず み速 度 εc.t.
+                                                                                                         お よび き 裂 先 端 のひ ず
+め,      同一 条 件 下 (同一 温 度,                 同 一 応 力,        同一 き裂 長
+                                                                                   み こ う配 (∂ε/∂r)c.t.
+                                                                                                   の間 に
+さ) に お い て も両 材 の き裂 先 端 近 傍 の ひず み速 度 (ま                                                               dl/dt=εc.t./‑(∂ε/∂r)c.t.                  (6)
+た は, ク リー プJ積 分値) は異 な る. つ ま り両 材 の 変                                             が 成 立す る こ とを示 して お り, さ らにF.E.M.解                               析
+形 特 性 の 相 異 がFig.             6に 示 した よ うな き 裂 伝 ぱ速 度                              により
+の 相 異 を招 来 した と考 え られ る.                                                                                        ‑(∂ε/∂r)c.t.∝εf                   (7)
+  さて, Fig. 7を さ らに 詳 細 に み る と低Jc領                              域にお                とな る こ とを 報 告 して い る. つ ま り, き裂 先 端 近傍 の
+い て試 験 結 果 が 高 き裂 伝 ぱ 速 度 側 へ 偏 位 す る傾 向が認                                         ひ ず み 速 度 が 一 定 で あ る場 合, dl/dtと                     εfの 間 に は
+め られ る. この 点 に つ い て 以 下 に 考 察 す る. まず, 高                                                                        dl/dt∝1/εf                       (8)
+応 力 試 験 (σg=111.3MPa, 101.5MPa,                         σg: 公 称応                   が 成 立 す る こ とに な る. そ こで, これ を 考 慮 して, ク
+力) のdl/dt〔mm/h〕‑Jc〔kN/m・h〕                        関係 を 最 小 二乗
+法 で 近 似 し, Fig. 7中 に 実線 で示 す. 同 関 係 は
+                     dl/dt=1.84×10‑2Jc0.974                        (5)
+
+
+
+
+                                                                                      Fig.     9.     Relationship  between   fracture strain
+     Fig.     8. Relationship      between   crack center     opening                        modified     creep J integral  and crack     pro-
+            displacement    and    half crack length.                                        pagation   rate.
+
+
+昭 和59年2月                                                                    (83)
+190                                            新田明人, 北村隆行, 桑原和夫
+
+リー プ破 断 ひ ず み εfの 減 少 の 影 響 を 加 味す るた め,                              度 は 未 使 用 材 の そ れ よ り速 い が,                                低 応 力下 で はそ の
+
+き裂 先 端 近 傍 の ひ ず み 速 度 場 を 示 す ク リー プJ積 分 を                           差 は 小 さ く な る.               こ れ は,           両 材 の ク リー プ変 形 特 性
+
+そ の時 点 にお け る εfで 除 したJc/εfな るパ ラメ ー タ                                の 相 異 に 起 因 し て い る.
+
+を 考 え, こ れ とdl/dtの            関 係 を 求 め た.    このdl/dt‑                  (2)       使 用 履 歴 の 有 無 に よ らず,                          両 材 の ク リー プ き
+Jc/εf関 係 をFig. 9に 示 す. た だ し, εfは式(1)の εf                             裂 伝 ぱ 速 度dl/dtは                   お お む ね ク リ ー プJ積                       分Jcと
+ ‑tr関係のtrにdl/dtを求めた時点における試験            時
+                                                                      良 い 対 応 関 係 が 認 め られ る.                           し か し,           詳細に検討す
+
+間tを 代 入 して 求 め た. Fig. 9中 の 実 線 は 高 応 力 試 験                           る と, 低 応 力 試 験                  (σg=61.8,              91.2MPa)            のdl/dt‑
+
+(σg=111.3MPa,        101.5MPa)    のdl/dt〔mm/h〕‑Jc/εf                  Jc関     係 は高 応 力 試 験                 (σg=101.5,                111.3MPa)          の
+〔kN/m・h〕 関 係 を最 小 二乗 法 で 近 似 した もの で あ り,                             dl/dt‑Jc関          係 と は 一 致 し な い.
+
+破 線 は き裂 伝 ぱ速 度 に対 す る factor of 2の 範 囲を 示                              (3)       (2)のdl/dt‑Jc関             係 の 不 一 致 の 一 因 と し て,
+して い る. このdl/dt‑Jc/εf関              係は                                破断ひずみ               εfの 低 下 が 考 え ら れ る.                           この       εfの 低
+                dl/dt=6.54×10‑3(Jc/εf)0.988         (9)               下 を 考 慮 して,               Jc/εfを        用 い てdl/dtを                  整 理 す る と,
+とな る. 同図 よ り, 低 応 力 試 験 (σg=91.2MPa,                61.8              応 力 レベ ルを 問 わ ず 両 者 に 良い 対 応 関 係 が 認 め られ
+MPa)        のdl/dt‑Jc/εf関      係 は 高応 力試 験 の 結 果 の ほ                   る.
+ぼ延 長 線 上 に あ り, factor of 2の           中 に ほぼ 収 ま って                  (昭和56年12月7日             第19回高 温強度 シンポジウムにて講 演)
+
+い る. つ ま り, き裂 伝 ぱ 速 度dl/dtは               応 力 レベ ル を 問
+わ ずJc/εfと        良 い 対 応 関 係 が あ る こ とが わ か る. な                                                  参       考         文        献
+
+お, 全 試 験 のdl/dtとJc/εfの               関係を最小二乗法 で                       1) 例 え ば,          平      修 二,       大 谷 隆 一,              材      料 の高 温 強 度 論
+
+近 似 す る と次 式 の よ うに な る.                                                    (1980)     オ ー ム社
+                                                                      2) 例 え ば, 桑 原 和 夫, 新 田明 人, 第16回 高温 強 度 シ ンポ ジ
+               dl/dt=8.23×10‑3(Jc/εf)0.908          (10)
+                                                                            ウ ム前 刷 集, p. 91 (1978).
+                     4    結            言
+                                                                      3) 桑 原 和 夫, 新 田明 人, 火 力 発 電, 29, 175                                  (1978).
+      こ こ で は, 過 熱 器 管 と して 約12万 時 間 使 用 さ れ た 材
+                                                                       4) 耳 野        享, 木 下 和 久, 峯 岸                    功, 篠 田隆 之,               日本 鋼 管 技
+料 (SUS        321 HTB鋼)       とプ ラ ン ト建 設 当時 か ら予 備
+                                                                            報, 45,       53 (1969).
+材 と して 保存 さ れ て い た 同一鋼 の未 使 用 管 材 の基 礎 的
+                                                                       5) 三 好 栄 次, 行 俊 照 夫, 住 友 金 属, 19, 503                                (1967).
+ な ク リー プ特 性 を 調 べ る と と もに, 両 材 に 対 して ク リ
+                                                                       6) 平       修 二 編,        X線      材料強度学                  (1973)     養賢堂
+ ー プ き裂 伝 ぱ 試 験 を 実 施 して 長 期 使 用 に よ る き裂 伝 ぱ
+                                                                       7) 後 藤        徹, 京 都 大 学 学位 論 文                       (1981).
+ 特 性 の 変 化 に つ い て 検 討 を 加 え た.                                        8) 田 村         学, 井 原 義人, 火 力 発 電, 13, 901 (1980).
+
+      得 られ た 結 果 を 要 約 す る と次 の よ うに な る.                              9) J.D.       Landes     and     J.A. Begley,             ASTM     STP      590, 128
+
+      (A)     ク リー プ特性                                                       (1976).
+
+        (1) 使 用 材 の ク リー プ破 断 強 度 は未 使 用 材 よ り低                       10) R. Koterazawa           and    T. Mori,        J. Engng.        Mater.     Tech.,
+                                                                            Trans.     ASME,          99, 298       (1977).
+      下 して い る.
+                                                                      11) 大 路 清 嗣, 小 倉 敬 二, 片 田康 行, 竹 本 昌 史, 中 島 英 夫,
+        (2) 破 断 時 間trが        長 くな る と,      ク リー プ破 断 ひ
+                                                                            材 料, 27, 1089             (1978).
+      ず み εfは 低 下 す る もの の, このtr‑εf関 係 は, 使
+                                                                      12) S. Taira,        R.     Ohtani      and       T.    Kitamura,          J. Engng.
+      用 履歴 の 有 無 お よび 試 験 温 度 (923〜1023K)            に依
+                                                                            Mater.      Tech.,     Trans.       ASME,            101, 154 (1979).
+      存 しな い.
+                                                                      13) 大 路 清 嗣, 小 倉 敬 二, 久 保 司 郎,                              日本 機 械 学 会 論 文 集,
+        (3) 高 応 力 側 で は,       使 用 材 の 最 小 ク リー プ 速 度
+                                                                            44,   1831    (1978).
+      εminは 未 使 用 材 よ り大 きい が,         低 応 力 側 で は,       そ
+                                                                      14) 大谷 隆 一, 中村 貞 行, 材 料, 25,                               738 (1976).
+      の 差 が 小 さ くな る傾 向が あ る.                                         15) R. Ohtani,            International        Union           of Theoretical     and
+        (B)     ク リー プ き裂 伝 ぱ特 性                                            Applied      Mechanics         3rd Symposium,                Creep    in Struc‑
+
+        (1) 高 応 力 条 件 下 の使 用 材 の ク リー プ き裂 伝 ぱ 速                            ture, 542 (1981).
+
+
+
+
+                                                              (84)「                                                               材 料 」 第33巻        第365号
+
