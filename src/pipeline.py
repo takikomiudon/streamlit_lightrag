@@ -110,7 +110,7 @@ class VisualizeQuery:
                 self.neo4j_connection = True
             except Exception as e:
                 print(f"Neo4jの接続に失敗しました: {e}")
-                self.neo4j_connected = False  # 失敗した場合
+                self.neo4j_connection = False  # 失敗した場合
 
     def extract_entity_relationship_ids(self, sentences):
         """
