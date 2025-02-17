@@ -2,7 +2,7 @@ import os
 from lightrag import LightRAG, QueryParam
 from lightrag.llm import gpt_4o_mini_complete
 from datetime import datetime
-from components import neo4j_settings_container, file_settings_container, start_neo4j_in_browser
+from components import neo4j_settings_container, start_neo4j_in_browser
 from neo4j import GraphDatabase
 import xml.etree.ElementTree as ET
 from streamlit_agraph import agraph, Node, Edge, Config
@@ -175,90 +175,82 @@ class VisualizeQuery:
 
             for node in root.findall(".//ns:node", ns):
                 node_id = node.get("id")
+                # ノードのプロパティ抽出
+                properties = self._extract_properties(node, ns)
 
-                # ノードIDが数値でない場合
                 if not node_id.isdigit():
-                    properties = {}
+                    # 数値でないノードIDの場合
                     labels = ["Node"]
-                    for data in node.findall("ns:data", ns):
-                        key = data.get("key")
-                        value = data.text.strip('"') if data.text else ""
-                        properties[key] = value
-                        if properties.get("d1") == "text unit" and node_id in sentence_ids:
-                            labels.append("UsedLabel")
-                    if properties:
-                        label_string = ":".join(labels)
-                        session.run(
-                            f"CREATE (n:{label_string} {{id: $id, {', '.join([f'{k}: ${k}' for k in properties.keys()])}}})",
-                            id=node_id,
-                            **properties
-                        )
-                    else:
-                        session.run(
-                            "CREATE (n:Node {id: $id})",
-                            id=node_id
-                        )
-                    continue
-
-                # ノードIDが数値の場合
-                node_id_int = int(node_id)
-                labels = ["Node"]
-                if node_id_int in entity_ids:
-                    labels.append("UsedLabel")
+                    if properties.get("d1") == "text unit" and node_id in sentence_ids:
+                        labels.append("UsedLabel")
+                    self._create_node(session, node_id, properties, labels)
                 else:
-                    labels.append("NotUsedLabel")
-
-                properties = {}
-                for data in node.findall("ns:data", ns):
-                    key = data.get("key")
-                    value = data.text.strip('"') if data.text else ""
-                    properties[key] = value
-
-                label_string = ":".join(labels)
-                session.run(
-                    f"CREATE (n:{label_string} {{id: $id, {', '.join([f'{k}: ${k}' for k in properties.keys()])}}})",
-                    id=node_id_int,
-                    **properties
-                )
+                    # ノードIDが数値の場合
+                    node_id_int = int(node_id)
+                    labels = ["Node", "UsedLabel" if node_id_int in entity_ids else "NotUsedLabel"]
+                    self._create_node(session, node_id_int, properties, labels)
 
         # --- エッジの処理 ---
         with self.driver.session() as session:
             for edge in root.findall(f".//{{{namespace}}}edge"):
-                properties = {}
-                edge_id = None
-                for data in edge.findall(f"./{{{namespace}}}data"):
-                    key = data.attrib["key"]
-                    value = data.text.strip('"') if data.text else ""
-                    properties[key] = value
-                    if key == "d4" and value.isdigit():
-                        edge_id = int(value)
-                if edge_id in relationship_ids:
-                    edge_labels = "UsedLabel"
-                else:
-                    edge_labels = "NotUsedLabel"
+                self._process_edge(session, edge, namespace, relationship_ids)
 
-                source = edge.attrib["source"]
-                target = edge.attrib["target"]
-                if source.isdigit():
-                    source = int(source)
-                if target.isdigit():
-                    target = int(target)
+        print("Nodes and edges imported successfully!")
 
-                # エッジのプロパティを再取得（必要に応じて）
-                properties = {data.attrib["key"]: data.text for data in edge.findall(f"./{{{namespace}}}data")}
-                session.run(
-                    f"""
-                    MATCH (source:Node {{id: $source}})
-                    MATCH (target:Node {{id: $target}})
-                    MERGE (source)-[r:{edge_labels}]->(target)
-                    SET r += $properties
-                    """,
-                    source=source,
-                    target=target,
-                    properties=properties
-                )
+    def _extract_properties(self, node, ns):
+        """
+        ノード内の <data> 要素からプロパティを抽出して辞書で返す
+        """
+        return {
+            data.get("key"): data.text.strip('"') if data.text else ""
+            for data in node.findall("ns:data", ns)
+        }
 
-            print("Nodes and edges imported successfully!")
+    def _create_node(self, session, node_id, properties, labels):
+        """
+        指定されたプロパティとラベルでノードを作成する
+        """
+        label_string = ":".join(labels)
+        if properties:
+            property_str = ", ".join([f"{k}: ${k}" for k in properties.keys()])
+            query = f"CREATE (n:{label_string} {{id: $id, {property_str}}})"
+            params = {"id": node_id, **properties}
+        else:
+            query = "CREATE (n:Node {id: $id})"
+            params = {"id": node_id}
+        session.run(query, **params)
+
+    def _process_edge(self, session, edge, namespace, relationship_ids):
+        """
+        エッジ（リレーションシップ）を作成する
+
+        :param session: Neo4jセッション
+        :param edge: XML要素 edge
+        :param namespace: XML名前空間
+        :param relationship_ids: 使用するリレーションシップのID集合
+        """
+        # エッジのプロパティを抽出
+        properties = {
+            data.attrib["key"]: data.text.strip('"') if data.text else ""
+            for data in edge.findall(f"./{{{namespace}}}data")
+        }
+        # エッジIDはプロパティ 'd4' から取得（数値の場合のみ）
+        edge_id = int(properties["d4"]) if properties.get("d4", "").isdigit() else None
+        edge_label = "UsedLabel" if edge_id in relationship_ids else "NotUsedLabel"
+
+        # source と target の取得（数値なら int に変換）
+        source = edge.attrib["source"]
+        target = edge.attrib["target"]
+        source = int(source) if source.isdigit() else source
+        target = int(target) if target.isdigit() else target
+
+        query = f"""
+            MATCH (source:Node {{id: $source}})
+            MATCH (target:Node {{id: $target}})
+            MERGE (source)-[r:{edge_label}]->(target)
+            SET r += $properties
+            """
+        session.run(query, source=source, target=target, properties=properties)
 
     def import_graphml_to_streamlit(self, entity_ids, relationship_ids, sentence_ids):
         """
@@ -341,7 +333,7 @@ class VisualizeQuery:
 # テスト
 if __name__ == "__main__":
     # データディレクトリの設定
-    working_dir = "./src/nuclear/脆化"
+    working_dir = "./src/nuclear/アルカリ応力腐食割れ"
     assert os.path.exists(working_dir), f"Directory not found: {working_dir}"
     assert os.path.exists(working_dir + "/input"), f"Directory not found: {working_dir}/input"
     
@@ -357,6 +349,9 @@ if __name__ == "__main__":
 
 
     # 可視化
+    ## Dockerで起動する場合以下を実行
+    # start_neo4j_in_browser()
+    # Neo4jの設定
     uri = "bolt://localhost:7687"
     username = "neo4j"
     password = ""
@@ -367,11 +362,5 @@ if __name__ == "__main__":
     working_dir = os.path.join(working_dir, Query.mode)
     Visualizer = VisualizeQuery(working_dir, driver)
     nodes, edges = Visualizer.run()
-    # config = Config(height=600, width=1000, directed=True, nodeHighlightBehavior=False, highlightColor="#F7A7A6")
-    # agraph(nodes, edges, config=config)
     
-
-    ## Neo4jブラウザにアクセス
-    #url = "http://localhost:7474/browser/"
-    #print(f"Neo4j Browser: {url}")
 
