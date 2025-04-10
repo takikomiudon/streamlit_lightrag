@@ -43,7 +43,12 @@ python src/pipeline.py
 <img width="1559" alt="スクリーンショット 2025-02-17 14 44 04" src="https://github.com/user-attachments/assets/387f134c-7359-451d-a9bf-36da1dbc458f" />
 
 ## GUI(streamlitアプリ)で実行 
-1. Neo4jを起動する。
+1. streamlitアプリをrunする
+```
+streamlit run app.py
+```
+
+2. Neo4jを起動する。
    
 Neo4jをローカルで(Dockerを使わずに)起動する場合は、以下のようにチェックボックスにチェックを入れ、URI、ユーザー名、パスワードを入力する。
  <img width="1545" alt="スクリーンショット 2025-02-17 14 23 03" src="https://github.com/user-attachments/assets/1f42dc6b-ee72-45f0-98b5-43d760a12d45" />
@@ -51,18 +56,18 @@ Neo4jをローカルで(Dockerを使わずに)起動する場合は、以下の�
  ※認証なしのNeo4jが起動されることに注意。
 <img width="1552" alt="スクリーンショット 2025-02-17 14 24 46" src="https://github.com/user-attachments/assets/3068e03f-2629-4680-831e-d83fc2710571" />
 
-2. OpenAI API Keyを入力し、劣化の種類、LLMモデルをそれぞれ選択する。
+3. OpenAI API Keyを入力し、劣化の種類、LLMモデルをそれぞれ選択する。
    
-3. `ナレッジグラフ作成`を選択する。
+4. `ナレッジグラフ作成`を選択する。
    
-4. 質問を送信すると、ナレッジグラフを使って回答が生成される。
+5. 質問を送信すると、ナレッジグラフを使って回答が生成される。
 <img width="1551" alt="スクリーンショット 2025-02-17 14 29 28" src="https://github.com/user-attachments/assets/807c4ac8-2a92-40f4-98bb-53d9cf72ee3c" />
 
-5. 回答とともに回答根拠となったグラフが表示される。より詳細なグラフ情報がみたい場合は、接続したNeo4jを参照する。Docker上にNeo4jを起動した場合は <http://localhost:7474/browser> にアクセスすれば良い。
+6. 回答とともに回答根拠となったグラフが表示される。より詳細なグラフ情報がみたい場合は、接続したNeo4jを参照する。Docker上にNeo4jを起動した場合は <http://localhost:7474/browser> にアクセスすれば良い。
 <img width="1525" alt="スクリーンショット 2025-02-17 14 34 45" src="https://github.com/user-attachments/assets/7dc59ab9-1718-4338-8570-bb7415298b39" />
 
 
-6. Docker上でNeo4jを起動していた場合は、`Neo4jサービスを停止`を選択した後に、タブを閉じる。(次回接続した際に、エラーが発生するため。)
+7. Docker上でNeo4jを起動していた場合は、`Neo4jサービスを停止`を選択した後に、タブを閉じる。(次回接続した際に、エラーが発生するため。)
 
 ## (Optional) RAGASでの評価
 `src/evaluation_ragas.py`を実行すると、評価結果がcsv形式で出力される。
