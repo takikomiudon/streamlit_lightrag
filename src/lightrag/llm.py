@@ -1,33 +1,32 @@
-import os
+import base64
 import copy
-from functools import lru_cache
 import json
+import os
+import struct
+from functools import lru_cache
+from typing import Any, Callable, Dict, List
+
 import aioboto3
 import aiohttp
 import numpy as np
 import ollama
-
+import torch
 from openai import (
-    AsyncOpenAI,
     APIConnectionError,
+    AsyncAzureOpenAI,
+    AsyncOpenAI,
     RateLimitError,
     Timeout,
-    AsyncAzureOpenAI,
 )
-
-import base64
-import struct
-
+from pydantic import BaseModel, Field
 from tenacity import (
     retry,
+    retry_if_exception_type,
     stop_after_attempt,
     wait_exponential,
-    retry_if_exception_type,
 )
-from transformers import AutoTokenizer, AutoModelForCausalLM
-import torch
-from pydantic import BaseModel, Field
-from typing import List, Dict, Callable, Any
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
 from .base import BaseKVStorage
 from .utils import compute_args_hash, wrap_embedding_func_with_attrs
 
@@ -335,16 +334,16 @@ def initialize_lmdeploy_pipeline(
     model_format="hf",
     quant_policy=0,
 ):
-    from lmdeploy import pipeline, ChatTemplateConfig, TurbomindEngineConfig
+    from lmdeploy import ChatTemplateConfig, TurbomindEngineConfig, pipeline
 
     lmdeploy_pipe = pipeline(
         model_path=model,
         backend_config=TurbomindEngineConfig(
             tp=tp, model_format=model_format, quant_policy=quant_policy
         ),
-        chat_template_config=ChatTemplateConfig(model_name=chat_template)
-        if chat_template
-        else None,
+        chat_template_config=(
+            ChatTemplateConfig(model_name=chat_template) if chat_template else None
+        ),
         log_level="WARNING",
     )
     return lmdeploy_pipe
@@ -390,7 +389,7 @@ async def lmdeploy_model_if_cache(
     """
     try:
         import lmdeploy
-        from lmdeploy import version_info, GenerationConfig
+        from lmdeploy import GenerationConfig, version_info
     except Exception:
         raise ImportError("Please install lmdeploy before intialize lmdeploy backend.")
 
@@ -717,25 +716,38 @@ class Model(BaseModel):
     This is a Pydantic model class named 'Model' that is used to define a custom language model.
 
     Attributes:
-        gen_func (Callable[[Any], str]): A callable function that generates the response from the language model.
-            The function should take any argument and return a string.
-        kwargs (Dict[str, Any]): A dictionary that contains the arguments to pass to the callable function.
-            This could include parameters such as the model name, API key, etc.
+        gen_func (Callable[[Any], str]): A callable function that generates the response
+            from the language model. The function should take any argument and return a string.
+        kwargs (Dict[str, Any]): A dictionary that contains the arguments to pass to the
+            callable function. This could include parameters such as the model name, API key, etc.
 
     Example usage:
-        Model(gen_func=openai_complete_if_cache, kwargs={"model": "gpt-4", "api_key": os.environ["OPENAI_API_KEY_1"]})
+        Model(
+            gen_func=openai_complete_if_cache,
+            kwargs={
+                "model": "gpt-4",
+                "api_key": os.environ["OPENAI_API_KEY_1"]
+            }
+        )
 
-    In this example, 'openai_complete_if_cache' is the callable function that generates the response from the OpenAI model.
-    The 'kwargs' dictionary contains the model name and API key to be passed to the function.
+    In this example, 'openai_complete_if_cache' is the callable function that generates
+    the response from the OpenAI model. The 'kwargs' dictionary contains the model name
+    and API key to be passed to the function.
     """
 
     gen_func: Callable[[Any], str] = Field(
         ...,
-        description="A function that generates the response from the llm. The response must be a string",
+        description=(
+            "A function that generates the response from the llm. "
+            "The response must be a string"
+        ),
     )
     kwargs: Dict[str, Any] = Field(
-        ...,
-        description="The arguments to pass to the callable function. Eg. the api key, model name, etc",
+        default_factory=dict,
+        description=(
+            "A dictionary that contains the arguments to pass to the callable function. "
+            "This could include parameters such as the model name, API key, etc."
+        ),
     )
 
     class Config:

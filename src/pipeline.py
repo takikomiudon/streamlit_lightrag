@@ -1,20 +1,19 @@
 import os
+import re
+import xml.etree.ElementTree as ET
+
+from neo4j import GraphDatabase
+from streamlit_agraph import Edge, Node
+
 from lightrag import LightRAG, QueryParam
 from lightrag.llm import gpt_4o_mini_complete
-from datetime import datetime
-from src.components import neo4j_settings_container, start_neo4j_in_browser
-from neo4j import GraphDatabase
-import xml.etree.ElementTree as ET
-from streamlit_agraph import agraph, Node, Edge, Config
-import re
-
-
 
 #########
 # Uncomment the below two lines if running in a jupyter notebook to handle the async nature of rag.insert()
 # import nest_asyncio
 # nest_asyncio.apply()
 #########
+
 
 class LightRAGIndexing:
     def __init__(self, working_dir, llm_model_func, api_key):
@@ -24,10 +23,7 @@ class LightRAGIndexing:
           - llm_model_func: LLMモデル
         """
         self.working_dir = working_dir
-        self.rag = LightRAG(
-            working_dir=self.working_dir,
-            llm_model_func=llm_model_func
-        )
+        self.rag = LightRAG(working_dir=self.working_dir, llm_model_func=llm_model_func)
         os.environ["OPENAI_API_KEY"] = api_key
 
     def load_documents(self):
@@ -39,7 +35,6 @@ class LightRAGIndexing:
         for file_name in os.listdir(source_folder):
             with open(os.path.join(source_folder, file_name), encoding="utf-8") as f:
                 self.rag.insert(f.read())
-
 
     def run(self):
         """
@@ -74,15 +69,19 @@ class LightRAGQuery:
                 mode=self.mode,
                 response_type=response_type,
                 working_dir=self.working_dir,
-                visualize_query_subgraph=True # クエリのサブグラフを可視化 context.gaphmlが出力される
-            )
+                visualize_query_subgraph=True,  # クエリのサブグラフを可視化 context.gaphmlが出力される
+            ),
         )
 
-        with open(os.path.join(output_dir, "output.txt"), "w", encoding="utf-8") as output_file:
+        with open(
+            os.path.join(output_dir, "output.txt"), "w", encoding="utf-8"
+        ) as output_file:
             output_file.write(answer)
-        with open(os.path.join(output_dir, "query.txt"), "w", encoding="utf-8") as output_file:
+        with open(
+            os.path.join(output_dir, "query.txt"), "w", encoding="utf-8"
+        ) as output_file:
             output_file.write(query)
-        
+
         print(f"結果は '{output_dir}' に保存されました。\n")
         print("output.txtは回答、context.graphmlは回答根拠、query.txtはクエリです。")
 
@@ -101,9 +100,9 @@ class VisualizeQuery:
             raise FileNotFoundError(f"GraphML file not found: {self.graphml_path}")
         if not os.path.exists(self.txt_path):
             raise FileNotFoundError(f"Text file not found: {self.txt_path}")
-        
+
         # 正しくNeo4jに接続できるか確認
-        self.neo4j_connection= False
+        self.neo4j_connection = False
         with self.driver.session() as session:
             try:
                 session.run("MATCH (n) RETURN n LIMIT 1")
@@ -129,7 +128,12 @@ class VisualizeQuery:
                 entities_part = sentence.split("Entities")[1].split(";")[0]
                 try:
                     # 余分な文字を取り除いた後、数値に変換してセットに追加
-                    entity_ids.update(map(int, entities_part.strip(" ()[]").replace(")].", "").split(",")))
+                    entity_ids.update(
+                        map(
+                            int,
+                            entities_part.strip(" ()[]").replace(")].", "").split(","),
+                        )
+                    )
                 except ValueError as e:
                     print("Error converting entity IDs to int:", e)
 
@@ -137,7 +141,14 @@ class VisualizeQuery:
             if "Relationships" in sentence:
                 relationships_part = sentence.split("Relationships")[1].split(";")[0]
                 try:
-                    relationship_ids.update(map(int, relationships_part.strip(" ()[]").replace(")].", "").split(",")))
+                    relationship_ids.update(
+                        map(
+                            int,
+                            relationships_part.strip(" ()[]")
+                            .replace(")].", "")
+                            .split(","),
+                        )
+                    )
                 except ValueError as e:
                     print("Error converting relationship IDs to int:", e)
 
@@ -145,14 +156,17 @@ class VisualizeQuery:
             if "Sources" in sentence:
                 sources_match = re.search(r"Sources \((.*?)\)", sentence)
                 if sources_match:
-                    sentence_id = ["sentence_" + s.strip() for s in sources_match.group(1).split(",")]
+                    sentence_id = [
+                        "sentence_" + s.strip()
+                        for s in sources_match.group(1).split(",")
+                    ]
                     sentence_ids.update(sentence_id)
 
         print("Entity IDs:", entity_ids)
         print("Relationship IDs:", relationship_ids)
         print("Sentence IDs:", sentence_ids)
         return entity_ids, relationship_ids, sentence_ids
-    
+
     def import_graphml_to_neo4j(self, entity_ids, relationship_ids, sentence_ids):
         """
         GraphML ファイルを解析し、Neo4j にインポートする
@@ -165,8 +179,8 @@ class VisualizeQuery:
         root = tree.getroot()
 
         # 名前空間の取得
-        namespace = root.tag.split('}')[0].strip('{')
-        ns = {'ns': namespace}
+        namespace = root.tag.split("}")[0].strip("{")
+        ns = {"ns": namespace}
 
         # --- ノードの処理 ---
         with self.driver.session() as session:
@@ -187,7 +201,10 @@ class VisualizeQuery:
                 else:
                     # ノードIDが数値の場合
                     node_id_int = int(node_id)
-                    labels = ["Node", "UsedLabel" if node_id_int in entity_ids else "NotUsedLabel"]
+                    labels = [
+                        "Node",
+                        "UsedLabel" if node_id_int in entity_ids else "NotUsedLabel",
+                    ]
                     self._create_node(session, node_id_int, properties, labels)
 
         # --- エッジの処理 ---
@@ -260,12 +277,12 @@ class VisualizeQuery:
         root = tree.getroot()
 
         # 名前空間の取得
-        namespace = root.tag.split('}')[0].strip('{')
-        ns = {'ns': namespace}
+        namespace = root.tag.split("}")[0].strip("{")
+        ns = {"ns": namespace}
 
         nodes = []
         nodes_name = {}
-        
+
         for node in root.findall(".//ns:node", ns):
             node_id = node.get("id")
             properties = {}
@@ -275,19 +292,22 @@ class VisualizeQuery:
                 value = data.text.strip('"') if data.text else ""
                 properties[key] = value
             nodes.append(properties)
-     
 
         fixed_nodes = []
         for node in nodes:
             if node["id"].isdigit():
-                nodes_name[node["id"]] = value=node["d0"]
+                nodes_name[node["id"]] = value = node["d0"]
             else:
-                nodes_name[node["id"]] = value=node["id"]
+                nodes_name[node["id"]] = value = node["id"]
             if node["id"].isdigit() and int(node["id"]) in entity_ids:
-                fixed_nodes.append(Node(id=node["id"], label=node["d0"], shape="circle", color="pink"))
+                fixed_nodes.append(
+                    Node(id=node["id"], label=node["d0"], shape="circle", color="pink")
+                )
             elif node["id"] in sentence_ids:
-                fixed_nodes.append(Node(id=node["id"], label=node["id"], shape="circle", color="pink"))
-        
+                fixed_nodes.append(
+                    Node(id=node["id"], label=node["id"], shape="circle", color="pink")
+                )
+
         edges = []
         for edge in root.findall(f".//{{{namespace}}}edge"):
             edge_source = edge.attrib["source"]
@@ -313,21 +333,23 @@ class VisualizeQuery:
                 fixed_edges.append(Edge(source=edge["source"], target=edge["target"]))
 
         return fixed_nodes, fixed_edges
-        
-    
+
     def run(self):
         with open(self.txt_path, "r", encoding="utf-8") as file:
             sentences = file.readlines()
         sentences = [line for line in sentences if line.startswith("-")]
-        
-        entity_ids, relationship_ids, sentence_ids = self.extract_entity_relationship_ids(sentences)
+
+        entity_ids, relationship_ids, sentence_ids = (
+            self.extract_entity_relationship_ids(sentences)
+        )
         if self.neo4j_connection:
             self.import_graphml_to_neo4j(entity_ids, relationship_ids, sentence_ids)
-        nodes, edges = self.import_graphml_to_streamlit(entity_ids, relationship_ids, sentence_ids)
+        nodes, edges = self.import_graphml_to_streamlit(
+            entity_ids, relationship_ids, sentence_ids
+        )
         self.driver.close()
 
         return nodes, edges
-        
 
 
 # テスト
@@ -335,32 +357,32 @@ if __name__ == "__main__":
     # データディレクトリの設定
     working_dir = "./src/nuclear/アルカリ応力腐食割れ"
     assert os.path.exists(working_dir), f"Directory not found: {working_dir}"
-    assert os.path.exists(working_dir + "/input"), f"Directory not found: {working_dir}/input"
-    
+    assert os.path.exists(
+        working_dir + "/input"
+    ), f"Directory not found: {working_dir}/input"
+
     # LightRAGのIndexing
     API_KEY = os.getenv("OPENAI_API_KEY")
     Indexing = LightRAGIndexing(working_dir, gpt_4o_mini_complete, API_KEY)
-    #Indexing.run()
+    # Indexing.run()
 
     # LightRAGのQuerying
     Query = LightRAGQuery(working_dir, Indexing.rag)
-    response = Query.run("Please provide the conditions under which Caustic Stress-Corrosion Cracking (CSCC) occurs.")
-    #print(response)
-
+    response = Query.run(
+        "Please provide the conditions under which Caustic Stress-Corrosion Cracking (CSCC) occurs."
+    )
+    # print(response)
 
     # 可視化
-    ## Dockerで起動する場合以下を実行
+    # Dockerで起動する場合以下を実行
     # start_neo4j_in_browser()
     # Neo4jの設定
     uri = "bolt://localhost:7687"
     username = "neo4j"
     password = ""
     driver = GraphDatabase.driver(uri, auth=None)
-    
 
-    ## 回答根拠の可視化
+    # 回答根拠の可視化
     working_dir = os.path.join(working_dir, Query.mode)
     Visualizer = VisualizeQuery(working_dir, driver)
     nodes, edges = Visualizer.run()
-    
-

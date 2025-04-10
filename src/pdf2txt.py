@@ -8,6 +8,7 @@ destination_folder = ""
 # 出力フォルダが存在しない場合は作成
 os.makedirs(destination_folder, exist_ok=True)
 
+
 def pdf_to_txt_with_pdftotext(pdf_path, txt_path):
     """pdftotext を使って PDF をテキストに変換"""
     try:
@@ -18,6 +19,7 @@ def pdf_to_txt_with_pdftotext(pdf_path, txt_path):
         print(f"Error converting {pdf_path}: {e}")
     except FileNotFoundError:
         print("pdftotext がインストールされていません。インストールしてください。")
+
 
 # PDFフォルダ内のすべてのファイルを処理
 for file_name in os.listdir(source_folder):

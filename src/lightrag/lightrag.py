@@ -5,48 +5,38 @@ from datetime import datetime
 from functools import partial
 from typing import Type, cast
 
-from .llm import (
-    gpt_4o_mini_complete,
-    openai_embedding,
+from .base import (
+    BaseGraphStorage,
+    BaseKVStorage,
+    BaseVectorStorage,
+    QueryParam,
+    StorageNameSpace,
 )
+from .kg.neo4j_impl import Neo4JStorage
+from .llm import gpt_4o_mini_complete, openai_embedding
 from .operate import (
     chunking_by_token_size,
     extract_entities,
-    local_query,
     global_query,
     hybrid_query,
+    local_query,
     naive_query,
 )
-
-from .storage import (
-    JsonKVStorage,
-    NanoVectorDBStorage,
-    NetworkXStorage,
+from .storage import JsonKVStorage, NanoVectorDBStorage, NetworkXStorage
+from .utils import (
+    EmbeddingFunc,
+    compute_mdhash_id,
+    convert_response_to_json,
+    limit_async_func_call,
+    logger,
+    set_logger,
 )
 
-from .kg.neo4j_impl import Neo4JStorage
 # future KG integrations
 
 # from .kg.ArangoDB_impl import (
 #     GraphStorage as ArangoDBStorage
 # )
-
-
-from .utils import (
-    EmbeddingFunc,
-    compute_mdhash_id,
-    limit_async_func_call,
-    convert_response_to_json,
-    logger,
-    set_logger,
-)
-from .base import (
-    BaseGraphStorage,
-    BaseKVStorage,
-    BaseVectorStorage,
-    StorageNameSpace,
-    QueryParam,
-)
 
 
 def always_get_an_event_loop() -> asyncio.AbstractEventLoop:
@@ -64,7 +54,9 @@ def always_get_an_event_loop() -> asyncio.AbstractEventLoop:
 @dataclass
 class LightRAG:
     working_dir: str = field(
-        default_factory=lambda: f"./lightrag_cache_{datetime.now().strftime('%Y-%m-%d-%H:%M:%S')}"
+        default_factory=lambda: (
+            f"./lightrag_cache_{datetime.now().strftime('%Y-%m-%d-%H:%M:%S')}"
+        )
     )
 
     kg: str = field(default="NetworkXStorage")
@@ -101,7 +93,9 @@ class LightRAG:
 
     # LLM
     llm_model_func: callable = gpt_4o_mini_complete  # hf_model_complete#
-    llm_model_name: str = "meta-llama/Llama-3.2-1B-Instruct"  #'meta-llama/Llama-3.2-1B'#'google/gemma-2-2b-it'
+    llm_model_name: str = (
+        "meta-llama/Llama-3.2-1B-Instruct"  # 'meta-llama/Llama-3.2-1B'#'google/gemma-2-2b-it'
+    )
     llm_model_max_token_size: int = 32768
     llm_model_max_async: int = 16
     llm_model_kwargs: dict = field(default_factory=dict)
@@ -126,7 +120,8 @@ class LightRAG:
         _print_config = ",\n  ".join([f"{k} = {v}" for k, v in asdict(self).items()])
         logger.debug(f"LightRAG init with param:\n  {_print_config}\n")
 
-        # @TODO: should move all storage setup here to leverage initial start params attached to self.
+        # @TODO: should move all storage setup here to leverage initial start params
+        # attached to self.
         self.graph_storage_cls: Type[BaseGraphStorage] = self._get_storage_class()[
             self.kg
         ]

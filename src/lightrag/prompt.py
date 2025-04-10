@@ -9,29 +9,54 @@ PROMPTS["process_tickers"] = ["⠋", "⠙", "⠹", "⠸", "⠼", "⠴", "⠦", "
 
 PROMPTS["DEFAULT_ENTITY_TYPES"] = ["organization", "person", "geo", "event"]
 
-PROMPTS["entity_extraction"] = """-Goal-
-Given a text document that is potentially relevant to this activity and a list of entity types, identify all entities of those types from the text and all relationships among the identified entities.
+PROMPTS[
+    "entity_extraction"
+] = """-Goal-
+Given a text document that is potentially relevant to this activity and a list of
+entity types, identify all entities of those types from the text and all
+relationships among the identified entities.
 
 -Steps-
-1. Identify all entities. For each identified entity, extract the following information:
+1. Identify all entities. For each identified entity, extract the following
+information:
 - entity_name: Name of the entity, capitalized
-- entity_type: One of the following types: [{entity_types}]
-- entity_description: Comprehensive description of the entity's attributes and activities
-Format each entity as ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>
+- entity_type: One of the following types:
+  [{entity_types}]
+- entity_description: Brief description of the entity's key attributes
 
-2. From the entities identified in step 1, identify all pairs of (source_entity, target_entity) that are *clearly related* to each other.
-For each pair of related entities, extract the following information:
-- source_entity: name of the source entity, as identified in step 1
-- target_entity: name of the target entity, as identified in step 1
-- relationship_description: explanation as to why you think the source entity and the target entity are related to each other
-- relationship_strength: a numeric score indicating strength of the relationship between the source entity and target entity
-- relationship_keywords: one or more high-level key words that summarize the overarching nature of the relationship, focusing on concepts or themes rather than specific details
-Format each relationship as ("relationship"{tuple_delimiter}<source_entity>{tuple_delimiter}<target_entity>{tuple_delimiter}<relationship_description>{tuple_delimiter}<relationship_keywords>{tuple_delimiter}<relationship_strength>)
+Format each entity as:
+("entity"
+{tuple_delimiter}<entity_name>
+{tuple_delimiter}<entity_type>
+{tuple_delimiter}<entity_description>)
 
-3. Identify high-level key words that summarize the main concepts, themes, or topics of the entire text. These should capture the overarching ideas present in the document.
-Format the content-level key words as ("content_keywords"{tuple_delimiter}<high_level_keywords>)
+2. From the entities identified in step 1, identify all pairs of entities that
+have clear relationships with each other.
 
-4. Return output in English as a single list of all the entities and relationships identified in steps 1 and 2. Use **{record_delimiter}** as the list delimiter.
+For each pair of related entities, extract:
+- source_entity: name of the source entity from step 1
+- target_entity: name of the target entity from step 1
+- relationship_description: brief explanation of how entities are connected
+- relationship_strength: numeric score from 1-10 indicating connection strength
+- relationship_keywords: key terms characterizing the relationship
+
+Format each relationship as:
+("relationship"
+{tuple_delimiter}<source_entity>
+{tuple_delimiter}<target_entity>
+{tuple_delimiter}<relationship_description>
+{tuple_delimiter}<relationship_keywords>
+{tuple_delimiter}<relationship_strength>)
+
+3. Identify key words that capture the main concepts and themes in the text.
+These words should represent the overarching ideas and topics discussed.
+
+Format the content-level key words as:
+("content_keywords"
+{tuple_delimiter}<high_level_keywords>)
+
+4. Return output in English as a list of entities and relationships from
+steps 1-2. Use **{record_delimiter}** as the list delimiter.
 
 5. When finished, output {completion_delimiter}
 
@@ -44,7 +69,7 @@ Entity_types: [person, technology, mission, organization, location]
 Text:
 while Alex clenched his jaw, the buzz of frustration dull against the backdrop of Taylor's authoritarian certainty. It was this competitive undercurrent that kept him alert, the sense that his and Jordan's shared commitment to discovery was an unspoken rebellion against Cruz's narrowing vision of control and order.
 
-Then Taylor did something unexpected. They paused beside Jordan and, for a moment, observed the device with something akin to reverence. “If this tech can be understood..." Taylor said, their voice quieter, "It could change the game for us. For all of us.”
+Then Taylor did something unexpected. They paused beside Jordan and, for a moment, observed the device with something akin to reverence. "If this tech can be understood..." Taylor said, their voice quieter, "It could change the game for us. For all of us."
 
 The underlying dismissal earlier seemed to falter, replaced by a glimpse of reluctant respect for the gravity of what lay in their hands. Jordan looked up, and for a fleeting heartbeat, their eyes locked with Taylor's, a wordless clash of wills softening into an uneasy truce.
 
@@ -120,8 +145,10 @@ PROMPTS[
     "summarize_entity_descriptions"
 ] = """You are a helpful assistant responsible for generating a comprehensive summary of the data provided below.
 Given one or two entities, and a list of descriptions, all related to the same entity or group of entities.
-Please concatenate all of these into a single, comprehensive description. Make sure to include information collected from all the descriptions.
-If the provided descriptions are contradictory, please resolve the contradictions and provide a single, coherent summary.
+Please concatenate all of these into a single, comprehensive description. Make sure to include information
+collected from all the descriptions.
+If the provided descriptions are contradictory, please resolve the contradictions and provide a single,
+coherent summary.
 Make sure it is written in third person, and include the entity names so we the have full context.
 
 #######
@@ -144,14 +171,18 @@ PROMPTS[
 
 PROMPTS["fail_response"] = "Sorry, I'm not able to provide an answer to that question."
 
-PROMPTS["rag_response"] = """---Role---
+PROMPTS[
+    "rag_response"
+] = """---Role---
 
 You are a helpful assistant responding to questions about data in the tables provided.
 
 
 ---Goal---
 
-Generate a response of the target length and format that responds to the user's question, summarizing all information in the input data tables appropriate for the response length and format, and incorporating any relevant general knowledge.
+Generate a response of the target length and format that responds to the user's question, summarizing
+all information in the input data tables appropriate for the response length and format, and incorporating
+any relevant general knowledge.
 If you don't know the answer, just say so. Do not make anything up.
 Do not include information where the supporting evidence for it is not provided.
 
@@ -166,7 +197,9 @@ Do not include information where the supporting evidence for it is not provided.
 Add sections and commentary to the response as appropriate for the length and format. Style the response in markdown.
 """
 
-PROMPTS["keywords_extraction"] = """---Role---
+PROMPTS[
+    "keywords_extraction"
+] = """---Role---
 
 You are a helpful assistant tasked with identifying both high-level and low-level keywords in the user's query.
 
@@ -222,7 +255,9 @@ Output:
 
 """
 
-PROMPTS["naive_rag_response"] = """You're a helpful assistant
+PROMPTS[
+    "naive_rag_response"
+] = """You're a helpful assistant
 Below are the knowledge you know:
 {content_data}
 ---
@@ -233,14 +268,18 @@ Do not include information where the supporting evidence for it is not provided.
 ---Target response length and format---
 {response_type}
 """
-PROMPTS["rag_response_visualization"] = """---Role---
+PROMPTS[
+    "rag_response_visualization"
+] = """---Role---
 
 You are a helpful assistant responding to questions about data in the tables provided.
 
 
 ---Goal---
 
-Generate a response of the target length and format that responds to the user's question, summarizing all information in the input data tables appropriate for the response length and format, and incorporating any relevant general knowledge.
+Generate a response of the target length and format that responds to the user's question, summarizing
+all information in the input data tables appropriate for the response length and format, and incorporating
+any relevant general knowledge.
 If you don't know the answer, just say so. Do not make anything up.
 Do not include information where the supporting evidence for it is not provided. Do not include any concluding statement.
 
@@ -249,11 +288,11 @@ Do not include information where the supporting evidence for it is not provided.
 
 Each sentence that includes data must list its supporting data references using the following format:
 
-	“This is an example sentence supported by multiple data references [Entities (record ids); Relationships (record ids); Sources (record ids)].”
+  "This is an example sentence supported by multiple data references [Entities (record ids); Relationships (record ids); Sources (record ids)].
 
 Ensure that the references include data only from Entities, Relationships, and Sources. For example:
 
-	“Person X is the owner of Company Y and is subject to many allegations of wrongdoing [Entities (5, 7); Relationships (23); Sources (7, 2, 34, 64)].”
+  "Person X is the owner of Company Y and is subject to many allegations of wrongdoing [Entities (5, 7); Relationships (23); Sources (7, 2, 34, 64)].
 
 Here, the numbers (e.g., 5, 7, 23, 2, 34, 64) represent the unique id (not the index) of the relevant data records.
 
