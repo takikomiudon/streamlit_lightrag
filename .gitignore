@@ -1,1 +1,15 @@
-README.md
+data/
+import/
+logs/
+src/__pycache__/
+src/lightrag/__pycache__/
+src/lightrag/kg/__pycache__/
+src/lightrag_hku.egg-info/
+src/nuclear/アルカリ応力腐食割れ/*
+!src/nuclear/アルカリ応力腐食割れ/input/
+src/nuclear/クリープ亀裂/*
+!src/nuclear/クリープ亀裂/input/
+src/nuclear/脆化/*
+!src/nuclear/脆化/input/
+src/nuclear/テスト/*
+!src/nuclear/テスト/input/
