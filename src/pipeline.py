@@ -2,7 +2,7 @@ import os
 from lightrag import LightRAG, QueryParam
 from lightrag.llm import gpt_4o_mini_complete
 from datetime import datetime
-from components import neo4j_settings_container, start_neo4j_in_browser
+from src.components import neo4j_settings_container, start_neo4j_in_browser
 from neo4j import GraphDatabase
 import xml.etree.ElementTree as ET
 from streamlit_agraph import agraph, Node, Edge, Config
