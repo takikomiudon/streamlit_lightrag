@@ -7,7 +7,7 @@ from streamlit_agraph import agraph, Node, Edge, Config
 import os 
 
 from src.components import neo4j_settings_container, start_neo4j_in_browser, end_neo4j_in_browser
-from pipeline import LightRAGIndexing, LightRAGQuery, VisualizeQuery
+from src.pipeline import LightRAGIndexing, LightRAGQuery, VisualizeQuery
 from neo4j import GraphDatabase
 
 
@@ -78,7 +78,7 @@ with st.sidebar:
     st.session_state["openai_api_key"] = openai_api_key
 
 
-degradation_type = st.selectbox("劣化の種類を選択", ["アルカリ応力腐食割れ", "クリープ亀裂", "脆化"])
+degradation_type = st.selectbox("劣化の種類を選択", ["アルカリ応力腐食割れ", "クリープ亀裂", "脆化", "テスト"])
 working_dir = f"./src/nuclear/{degradation_type}"
 llm = st.selectbox("LLMモデルを選択", ["gpt_4o_mini_complete", "gpt_4o_complete"])
 llm_model_mapping = {

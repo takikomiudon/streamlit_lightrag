@@ -40,7 +40,7 @@ def start_neo4j_in_browser():
         try:
             # docker-compose.yml に記述された neo4j サービスをバックグラウンドで起動
             result = subprocess.run(
-                ["docker-compose", "up", "-d", "neo4j"],
+                ["docker", "compose", "up", "-d", "neo4j"],
                 check=True,
                 capture_output=True,
                 text=True
@@ -58,7 +58,7 @@ def end_neo4j_in_browser():
         try:
             # docker-compose.yml に記述された neo4j サービスを停止
             result = subprocess.run(
-                ["docker-compose", "down"],
+                ["docker", "compose", "down"],
                 check=True,
                 capture_output=True,
                 text=True
