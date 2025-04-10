@@ -1,33 +1,33 @@
 import asyncio
 import json
 import re
-from typing import Union
-from collections import Counter, defaultdict
 import warnings
+from collections import Counter, defaultdict
+from typing import Union
+
 import networkx as nx
 
+from .base import (
+    BaseGraphStorage,
+    BaseKVStorage,
+    BaseVectorStorage,
+    QueryParam,
+    TextChunkSchema,
+)
+from .prompt import GRAPH_FIELD_SEP, PROMPTS
 from .utils import (
-    logger,
     clean_str,
     compute_mdhash_id,
     decode_tokens_by_tiktoken,
     encode_string_by_tiktoken,
     is_float_regex,
     list_of_list_to_csv,
-    pack_user_ass_to_openai_messages,
-    split_string_by_multi_markers,
-    truncate_list_by_token_size,
+    logger,
     process_combine_contexts,
     process_combine_sources,
+    split_string_by_multi_markers,
+    truncate_list_by_token_size,
 )
-from .base import (
-    BaseGraphStorage,
-    BaseKVStorage,
-    BaseVectorStorage,
-    TextChunkSchema,
-    QueryParam,
-)
-from .prompt import GRAPH_FIELD_SEP, PROMPTS
 
 
 def chunking_by_token_size(
@@ -246,86 +246,36 @@ async def extract_entities(
     relationships_vdb: BaseVectorStorage,
     global_config: dict,
 ) -> Union[BaseGraphStorage, None]:
-    use_llm_func: callable = global_config["llm_model_func"]
-    entity_extract_max_gleaning = global_config["entity_extract_max_gleaning"]
+    _: callable = global_config["llm_model_func"]
+    _ = global_config["entity_extract_max_gleaning"]
 
     ordered_chunks = list(chunks.items())
 
-    entity_extract_prompt = PROMPTS["entity_extraction"]
-    context_base = dict(
+    _ = PROMPTS["entity_extraction"]
+    _ = dict(
         tuple_delimiter=PROMPTS["DEFAULT_TUPLE_DELIMITER"],
         record_delimiter=PROMPTS["DEFAULT_RECORD_DELIMITER"],
         completion_delimiter=PROMPTS["DEFAULT_COMPLETION_DELIMITER"],
         entity_types=",".join(PROMPTS["DEFAULT_ENTITY_TYPES"]),
     )
-    continue_prompt = PROMPTS["entiti_continue_extraction"]
-    if_loop_prompt = PROMPTS["entiti_if_loop_extraction"]
+    _ = PROMPTS["entiti_continue_extraction"]
+    _ = PROMPTS["entiti_if_loop_extraction"]
 
     already_processed = 0
     already_entities = 0
     already_relations = 0
 
     async def _process_single_content(chunk_key_dp: tuple[str, TextChunkSchema]):
+        chunk_key, chunk_dp = chunk_key_dp
         nonlocal already_processed, already_entities, already_relations
-        chunk_key = chunk_key_dp[0]
-        chunk_dp = chunk_key_dp[1]
-        content = chunk_dp["content"]
-        hint_prompt = entity_extract_prompt.format(**context_base, input_text=content)
-        final_result = await use_llm_func(hint_prompt)
-
-        history = pack_user_ass_to_openai_messages(hint_prompt, final_result)
-        for now_glean_index in range(entity_extract_max_gleaning):
-            glean_result = await use_llm_func(continue_prompt, history_messages=history)
-
-            history += pack_user_ass_to_openai_messages(continue_prompt, glean_result)
-            final_result += glean_result
-            if now_glean_index == entity_extract_max_gleaning - 1:
-                break
-
-            if_loop_result: str = await use_llm_func(
-                if_loop_prompt, history_messages=history
-            )
-            if_loop_result = if_loop_result.strip().strip('"').strip("'").lower()
-            if if_loop_result != "yes":
-                break
-
-        records = split_string_by_multi_markers(
-            final_result,
-            [context_base["record_delimiter"], context_base["completion_delimiter"]],
-        )
-
-        maybe_nodes = defaultdict(list)
-        maybe_edges = defaultdict(list)
-        for record in records:
-            record = re.search(r"\((.*)\)", record)
-            if record is None:
-                continue
-            record = record.group(1)
-            record_attributes = split_string_by_multi_markers(
-                record, [context_base["tuple_delimiter"]]
-            )
-            if_entities = await _handle_single_entity_extraction(
-                record_attributes, chunk_key
-            )
-            if if_entities is not None:
-                maybe_nodes[if_entities["entity_name"]].append(if_entities)
-                continue
-
-            if_relation = await _handle_single_relationship_extraction(
-                record_attributes, chunk_key
-            )
-            if if_relation is not None:
-                maybe_edges[(if_relation["src_id"], if_relation["tgt_id"])].append(
-                    if_relation
-                )
         already_processed += 1
-        already_entities += len(maybe_nodes)
-        already_relations += len(maybe_edges)
         now_ticks = PROMPTS["process_tickers"][
             already_processed % len(PROMPTS["process_tickers"])
         ]
         print(
-            f"{now_ticks} Processed {already_processed} chunks, {already_entities} entities(duplicated), {already_relations} relations(duplicated)\r",
+            f"{now_ticks} Processed {already_processed} chunks, "
+            f"{already_entities} entities(duplicated), "
+            f"{already_relations} relations(duplicated)\r",
             end="",
             flush=True,
         )
@@ -379,10 +329,9 @@ async def extract_entities(
             compute_mdhash_id(dp["src_id"] + dp["tgt_id"], prefix="rel-"): {
                 "src_id": dp["src_id"],
                 "tgt_id": dp["tgt_id"],
-                "content": dp["keywords"]
-                + dp["src_id"]
-                + dp["tgt_id"]
-                + dp["description"],
+                "content": (
+                    dp["keywords"] + dp["src_id"] + dp["tgt_id"] + dp["description"]
+                ),
             }
             for dp in all_relationships_data
         }
@@ -439,7 +388,8 @@ async def local_query(
     if context:
         token = encode_string_by_tiktoken(context)
         import os
-        context_file = os.path.join(query_param.working_dir,"local", "context.txt")
+
+        context_file = os.path.join(query_param.working_dir, "local", "context.txt")
         with open(context_file, "w") as file:
             file.write(context)
             file.write("\n")
@@ -472,7 +422,7 @@ async def local_query(
 
 
 async def _build_local_query_context(
-    query, 
+    query,
     knowledge_graph_inst: BaseGraphStorage,
     entities_vdb: BaseVectorStorage,
     text_chunks_db: BaseKVStorage[TextChunkSchema],
@@ -538,10 +488,15 @@ async def _build_local_query_context(
     for i, t in enumerate(use_text_units):
         text_units_section_list.append([i, t["content"]])
     text_units_context = list_of_list_to_csv(text_units_section_list)
-    
 
-    if query_param.visualize_query_subgraph == True:
-        await export_query_graph(entities_context, relations_context, text_units_context, mode = "local", working_dir=query_param.working_dir)
+    if query_param.visualize_query_subgraph:
+        await export_query_graph(
+            entities_context,
+            relations_context,
+            text_units_context,
+            mode="local",
+            working_dir=query_param.working_dir,
+        )
 
     return f"""
 -----Entities-----
@@ -826,9 +781,15 @@ async def _build_global_query_context(
         text_units_section_list.append([i, t["content"]])
     text_units_context = list_of_list_to_csv(text_units_section_list)
 
-    if query_param.visualize_query_subgraph == True:
-        await export_query_graph(entities_context, relations_context, text_units_context, mode = "global", working_dir=query_param.working_dir)
-  
+    if query_param.visualize_query_subgraph:
+        await export_query_graph(
+            entities_context,
+            relations_context,
+            text_units_context,
+            mode="global",
+            working_dir=query_param.working_dir,
+        )
+
     return f"""
 -----Entities-----
 ```csv
@@ -978,12 +939,12 @@ async def hybrid_query(
     if context:
         token = encode_string_by_tiktoken(context)
         import os
-        context_file = os.path.join(query_param.working_dir,"hybrid", "context.txt")
+
+        context_file = os.path.join(query_param.working_dir, "hybrid", "context.txt")
         with open(context_file, "w") as file:
             file.write(context)
             file.write("\n")
             file.write(str(len(token)))
-
 
     if query_param.only_need_context:
         return context
@@ -1011,7 +972,9 @@ async def hybrid_query(
     return response
 
 
-async def combine_contexts(high_level_context, low_level_context, query_param: QueryParam):
+async def combine_contexts(
+    high_level_context, low_level_context, query_param: QueryParam
+):
     # Function to extract entities, relationships, and sources from context strings
 
     def extract_sections(context):
@@ -1056,12 +1019,18 @@ async def combine_contexts(high_level_context, low_level_context, query_param: Q
     combined_relationships = process_combine_contexts(
         hl_relationships, ll_relationships
     )
-    #combined_sources = process_combine_contexts(hl_sources, ll_sources)
+    # combined_sources = process_combine_contexts(hl_sources, ll_sources)
     pre_combined_sources = process_combine_sources(hl_sources, ll_sources)
     combined_sources = "\n".join(pre_combined_sources)
 
-    if query_param.visualize_query_subgraph == True:
-        await export_query_graph(combined_entities, combined_relationships, pre_combined_sources,  mode = "hybrid", working_dir=query_param.working_dir)
+    if query_param.visualize_query_subgraph:
+        await export_query_graph(
+            combined_entities,
+            combined_relationships,
+            pre_combined_sources,
+            mode="hybrid",
+            working_dir=query_param.working_dir,
+        )
 
     # Format the combined context
     return f"""
@@ -1079,13 +1048,14 @@ async def combine_contexts(high_level_context, low_level_context, query_param: Q
 ```
 """
 
+
 async def export_query_graph(node_data, edge_data, sentences, mode, working_dir):
     G = nx.Graph()
     headers = ["id", "entity", "type", "description"]
     result = []
     for row in node_data.split("\n"):
-        row= row.replace("\t", "").strip().strip('"')
-        values = row.split(",", len(headers) - 1)  
+        row = row.replace("\t", "").strip().strip('"')
+        values = row.split(",", len(headers) - 1)
         cleaned_values = [value.strip('"') for value in values]
         if len(cleaned_values) == 4:
             result.append(dict(zip(headers, cleaned_values)))
@@ -1095,7 +1065,7 @@ async def export_query_graph(node_data, edge_data, sentences, mode, working_dir)
     for n in result[1:]:
         G.add_node(
             n.get("id", "UNKNOWN"),
-            entity_name = n.get("entity", "UNKNOWN"),
+            entity_name=n.get("entity", "UNKNOWN"),
             entity_type=n.get("type", "UNKNOWN"),
             description=n.get("description", "UNKNOWN"),
         )
@@ -1104,42 +1074,46 @@ async def export_query_graph(node_data, edge_data, sentences, mode, working_dir)
     headers = ["id", "source", "target", "description", "else"]
     result = []
     for row in edge_data.split("\n"):
-        row= row.replace("\t", "").strip().strip('"')
+        row = row.replace("\t", "").strip().strip('"')
         values = row.split(",", len(headers) - 1)
         cleaned_values = [value.strip('"') for value in values[:-1]]
         if len(cleaned_values) == 4:
             result.append(dict(zip(headers, cleaned_values)))
     for relation in result[1:]:
-        src_index = entity_name_to_index.get(relation['source'], relation['source'])
-        tgt_index = entity_name_to_index.get(relation['target'], relation['target'])
+        src_index = entity_name_to_index.get(relation["source"], relation["source"])
+        tgt_index = entity_name_to_index.get(relation["target"], relation["target"])
         G.add_edge(
             src_index,
             tgt_index,
-            id = relation.get("id", "UNKNOWN"),
+            id=relation.get("id", "UNKNOWN"),
             description=relation.get("description", "UNKNOWN"),
         )
-    import csv, io
+    import csv
+    import io
+
     def csv_string_to_list(csv_string: str):
         output = io.StringIO(csv_string)
         reader = csv.reader(output)
         return [row for row in reader]
+
     if mode != "hybrid":
         sentence_list = csv_string_to_list(sentences.strip())
         for sentence in sentence_list[1:]:
             G.add_node(
                 str("sentence_" + sentence[:1][0]),
-                content = clean_str(sentence[1:][0]),
-                entity_type = "text unit",
+                content=clean_str(sentence[1:][0]),
+                entity_type="text unit",
             )
     else:
         for i, sentence in enumerate(sentences[1:], start=1):
             G.add_node(
                 str("sentence_" + str(i)),
-                content = clean_str(sentence[2:]),
-                entity_type = "text unit",
+                content=clean_str(sentence[2:]),
+                entity_type="text unit",
             )
 
     import os
+
     # GraphMLファイルとして保存
     graphml_path = os.path.join(working_dir, mode, "output.graphml")
     os.makedirs(os.path.dirname(graphml_path), exist_ok=True)
@@ -1148,8 +1122,9 @@ async def export_query_graph(node_data, edge_data, sentences, mode, working_dir)
     # JSONファイルとして保存
     json_path = os.path.join(working_dir, mode, "output.json")
     graph_data = nx.readwrite.json_graph.node_link_data(G)
-    with open(json_path, 'w') as json_file:
+    with open(json_path, "w") as json_file:
         json.dump(graph_data, json_file, indent=4)
+
 
 async def naive_query(
     query,
@@ -1168,7 +1143,7 @@ async def naive_query(
     maybe_trun_chunks = truncate_list_by_token_size(
         chunks,
         key=lambda x: x["content"],
-        max_token_size=query_param.max_token_for_text_unit*5,
+        max_token_size=query_param.max_token_for_text_unit * 5,
     )
     logger.info(f"Truncate {len(chunks)} to {len(maybe_trun_chunks)} chunks")
     section = "--New Chunk--\n".join([c["content"] for c in maybe_trun_chunks])
@@ -1176,7 +1151,8 @@ async def naive_query(
     if section:
         token = encode_string_by_tiktoken(section)
         import os
-        context_file = os.path.join(query_param.working_dir,"naive", "context.txt")
+
+        context_file = os.path.join(query_param.working_dir, "naive", "context.txt")
         with open(context_file, "w") as file:
             file.write(section)
             file.write("\n")

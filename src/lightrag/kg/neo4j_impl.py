@@ -1,24 +1,21 @@
 import asyncio
+import inspect
 import os
 from dataclasses import dataclass
-from typing import Any, Union, Tuple, List, Dict
-import inspect
-from lightrag.utils import logger
-from ..base import BaseGraphStorage
-from neo4j import (
-    AsyncGraphDatabase,
-    exceptions as neo4jExceptions,
-    AsyncDriver,
-    AsyncManagedTransaction,
-)
+from typing import Any, Dict, List, Tuple, Union
 
-
+from neo4j import AsyncDriver, AsyncGraphDatabase, AsyncManagedTransaction
+from neo4j import exceptions as neo4jExceptions
 from tenacity import (
     retry,
+    retry_if_exception_type,
     stop_after_attempt,
     wait_exponential,
-    retry_if_exception_type,
 )
+
+from lightrag.utils import logger
+
+from ..base import BaseGraphStorage
 
 
 @dataclass
@@ -61,12 +58,14 @@ class Neo4JStorage(BaseGraphStorage):
 
         async with self._driver.session() as session:
             query = (
-                f"MATCH (n:`{entity_name_label}`) RETURN count(n) > 0 AS node_exists"
+                f"MATCH (n:`{entity_name_label}`) " "RETURN count(n) > 0 AS node_exists"
             )
             result = await session.run(query)
             single_result = await result.single()
             logger.debug(
-                f'{inspect.currentframe().f_code.co_name}:query:{query}:result:{single_result["node_exists"]}'
+                f"{inspect.currentframe().f_code.co_name}:"
+                f"query:{query}:"
+                f'result:{single_result["node_exists"]}'
             )
             return single_result["node_exists"]
 
@@ -76,13 +75,16 @@ class Neo4JStorage(BaseGraphStorage):
 
         async with self._driver.session() as session:
             query = (
-                f"MATCH (a:`{entity_name_label_source}`)-[r]-(b:`{entity_name_label_target}`) "
+                f"MATCH (a:`{entity_name_label_source}`)-[r]-"
+                f"(b:`{entity_name_label_target}`) "
                 "RETURN COUNT(r) > 0 AS edgeExists"
             )
             result = await session.run(query)
             single_result = await result.single()
             logger.debug(
-                f'{inspect.currentframe().f_code.co_name}:query:{query}:result:{single_result["edgeExists"]}'
+                f"{inspect.currentframe().f_code.co_name}:"
+                f"query:{query}:"
+                f'result:{single_result["edgeExists"]}'
             )
             return single_result["edgeExists"]
 
