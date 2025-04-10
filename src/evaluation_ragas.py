@@ -91,6 +91,10 @@ if DEGRATION_TYPE == "脆化":
 - オーステナイトステンレス鋼での報告例はない。
 """
 
+if DEGRATION_TYPE == "テスト":
+    reference_eng = "hoge fuga piyo foo bar"
+    reference_jp = "ほげ ふが ぴよ ふー ばー"
+
 def clean_text(input_text: str) -> List[str]:
     # 改行コードを保持しながらセクションを分割
     lines = input_text.splitlines()
