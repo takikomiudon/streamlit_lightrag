@@ -1,4 +1,4 @@
-""" コンポーネントを定義するモジュール"""
+"""コンポーネントを定義するモジュール"""
 
 import subprocess
 from pathlib import Path

@@ -5,6 +5,7 @@
 ```
 git clone <repository_url>
 ```
+
 2. 新しいconda環境を作成し、必要なパッケージをinstallする。
 ```
 conda create --name lightrag python=3.11
@@ -13,6 +14,7 @@ cd src
 pip install -e .
 cd .. # 元のレポジトリに戻る
 ```
+
 3. 入力ファイル(txt形式)を適切なパスに配置する。デフォルトでは、`./src/nuclear/アルカリ応力腐食割れ/input`、`./src/nuclear/クリープ亀裂/input`、`./src/nuclear/脆化/input`に格納する必要がある。`./src/pdf2txt.py`を実行することで、pdfをtxtに変換できる。
 
 
@@ -66,12 +68,7 @@ Neo4jをローカルで(Dockerを使わずに)起動する場合は、以下の�
 6. 回答とともに回答根拠となったグラフが表示される。より詳細なグラフ情報がみたい場合は、接続したNeo4jを参照する。Docker上にNeo4jを起動した場合は <http://localhost:7474/browser> にアクセスすれば良い。
 <img width="1525" alt="スクリーンショット 2025-02-17 14 34 45" src="https://github.com/user-attachments/assets/7dc59ab9-1718-4338-8570-bb7415298b39" />
 
-
 7. Docker上でNeo4jを起動していた場合は、`Neo4jサービスを停止`を選択した後に、タブを閉じる。(次回接続した際に、エラーが発生するため。)
 
 ## (Optional) RAGASでの評価
 `src/evaluation_ragas.py`を実行すると、評価結果がcsv形式で出力される。
-
-
-
-
