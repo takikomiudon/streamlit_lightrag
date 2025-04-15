@@ -13,3 +13,4 @@ src/nuclear/脆化/*
 !src/nuclear/脆化/input/
 src/nuclear/テスト/*
 !src/nuclear/テスト/input/
+.env

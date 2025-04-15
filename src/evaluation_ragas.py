@@ -1,6 +1,7 @@
 import os
 import re
 from typing import List
+from dotenv import load_dotenv
 
 import openai
 import openai.cli
@@ -11,9 +12,15 @@ from ragas.embeddings.base import BaseEmbeddings
 from ragas.evaluation import EvaluationDataset
 from ragas.llms import OpenAI as RagasOpenAI
 from ragas.llms.base import BaseLLM
-from ragas.metrics import *
+from ragas.metrics import (
+    Faithfulness,
+    AnswerRelevancy,
+    ContextRecall,
+    SemanticSimilarity,
+    AnswerCorrectness,
+)
 
-os.environ["OPENAI_API_KEY"] = "sk-xxxxx"
+load_dotenv()
 
 evaluator_llm: BaseLLM = RagasOpenAI(model="gpt-4")
 evaluator_embeddings: BaseEmbeddings = OpenAIEmbeddings()

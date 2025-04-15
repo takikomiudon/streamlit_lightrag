@@ -1,8 +1,8 @@
 import os
-
 import streamlit as st
 from neo4j import GraphDatabase
 from streamlit_agraph import Config, agraph
+from dotenv import load_dotenv
 
 from lightrag.llm import gpt_4o_complete, gpt_4o_mini_complete
 from src.components import (
@@ -11,6 +11,8 @@ from src.components import (
     start_neo4j_in_browser,
 )
 from src.pipeline import LightRAGIndexing, LightRAGQuery, VisualizeQuery
+
+load_dotenv()
 
 # -----------------------
 # 初期設定
@@ -47,8 +49,6 @@ with st.sidebar:
         st.session_state["neo4j_user"] = "neo4j"
     if "neo4j_password" not in st.session_state:
         st.session_state["neo4j_password"] = ""
-    if "openai_api_key" not in st.session_state:
-        st.session_state["openai_api_key"] = "sk-xxxxx"
     if "local" not in st.session_state:
         st.session_state["local"] = False
 
@@ -76,10 +76,6 @@ with st.sidebar:
     st.session_state["neo4j_user"] = user
     st.session_state["neo4j_password"] = password
 
-    # OpenAI API Key の入力欄
-    openai_api_key = st.text_input("OpenAI API Key", None, type="password")
-    st.session_state["openai_api_key"] = openai_api_key
-
 
 degradation_type = st.selectbox(
     "劣化の種類を選択", ["テスト", "アルカリ応力腐食割れ", "クリープ亀裂", "脆化"]
@@ -98,7 +94,7 @@ llm_function = llm_model_mapping.get(llm)  # 関数に変換する
 if button := st.button("ナレッジグラフ作成"):
     st.write("ナレッジグラフ作成中...")
     st.session_state["Indexing"] = LightRAGIndexing(
-        working_dir, llm_function, st.session_state["openai_api_key"]
+        working_dir, llm_function, os.getenv("OPENAI_API_KEY")
     )
     st.session_state["Indexing"].run()
     st.write("ナレッジグラフ作成完了！")

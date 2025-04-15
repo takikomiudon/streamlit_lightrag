@@ -1,12 +1,15 @@
 import os
 import re
 import xml.etree.ElementTree as ET
+from dotenv import load_dotenv
 
 from neo4j import GraphDatabase
 from streamlit_agraph import Edge, Node
 
 from lightrag import LightRAG, QueryParam
 from lightrag.llm import gpt_4o_mini_complete
+
+load_dotenv()
 
 #########
 # Uncomment the below two lines if running in a jupyter notebook to handle the async nature of rag.insert()
@@ -16,15 +19,16 @@ from lightrag.llm import gpt_4o_mini_complete
 
 
 class LightRAGIndexing:
-    def __init__(self, working_dir, llm_model_func, api_key):
+    def __init__(self, working_dir, llm_model_func):
         """
         LightRAGの初期化
-          - working_dir: 作業ディレクトリのパス(working_dir以下にinputフォルダを作成し、ドキュメントを格納する)
+          - working_dir: 作業ディレクトリのパス
+            (working_dir以下にinputフォルダを作成し、ドキュメントを格納する)
           - llm_model_func: LLMモデル
+          - api_key: OpenAI APIキー（Noneの場合は環境変数から取得）
         """
         self.working_dir = working_dir
         self.rag = LightRAG(working_dir=self.working_dir, llm_model_func=llm_model_func)
-        os.environ["OPENAI_API_KEY"] = api_key
 
     def load_documents(self):
         """
@@ -363,7 +367,7 @@ if __name__ == "__main__":
 
     # LightRAGのIndexing
     API_KEY = os.getenv("OPENAI_API_KEY")
-    Indexing = LightRAGIndexing(working_dir, gpt_4o_mini_complete, API_KEY)
+    Indexing = LightRAGIndexing(working_dir, gpt_4o_mini_complete)
     # Indexing.run()
 
     # LightRAGのQuerying
