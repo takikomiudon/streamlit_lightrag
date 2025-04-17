@@ -1,10 +1,10 @@
 import os
 import re
 from typing import List
-from dotenv import load_dotenv
 
 import openai
 import openai.cli
+from dotenv import load_dotenv
 from ragas import evaluate
 from ragas.dataset_schema import SingleTurnSample
 from ragas.embeddings import OpenAIEmbeddings
@@ -13,11 +13,11 @@ from ragas.evaluation import EvaluationDataset
 from ragas.llms import OpenAI as RagasOpenAI
 from ragas.llms.base import BaseLLM
 from ragas.metrics import (
-    Faithfulness,
+    AnswerCorrectness,
     AnswerRelevancy,
     ContextRecall,
+    Faithfulness,
     SemanticSimilarity,
-    AnswerCorrectness,
 )
 
 load_dotenv()
@@ -133,6 +133,10 @@ if DEGRATION_TYPE == "脆化":
     )
 
 if DEGRATION_TYPE == "テスト":
+    reference_eng = "hoge fuga piyo foo bar"
+    reference_jp = "ほげ ふが ぴよ ふー ばー"
+
+if DEGRATION_TYPE == "歌詞":
     reference_eng = "hoge fuga piyo foo bar"
     reference_jp = "ほげ ふが ぴよ ふー ばー"
 
