@@ -1,8 +1,9 @@
 import os
+
 import streamlit as st
+from dotenv import load_dotenv
 from neo4j import GraphDatabase
 from streamlit_agraph import Config, agraph
-from dotenv import load_dotenv
 
 from lightrag.llm import gpt_4o_complete, gpt_4o_mini_complete
 from src.components import (
@@ -51,6 +52,12 @@ with st.sidebar:
         st.session_state["neo4j_password"] = ""
     if "local" not in st.session_state:
         st.session_state["local"] = False
+    if "index_created" not in st.session_state:
+        st.session_state["index_created"] = False
+    if "current_degradation_type" not in st.session_state:
+        st.session_state["current_degradation_type"] = ""
+    if "current_llm" not in st.session_state:
+        st.session_state["current_llm"] = ""
 
     # ユーザーにDocker上でNeo4jを起動するかどうかを選択させる
     st.session_state["local"] = st.checkbox(
@@ -77,8 +84,15 @@ with st.sidebar:
     st.session_state["neo4j_password"] = password
 
 
+nuclear_dir = "./src/nuclear"
+degradation_types = [
+    d for d in os.listdir(nuclear_dir)
+    if os.path.isdir(os.path.join(nuclear_dir, d))
+]
+
+
 degradation_type = st.selectbox(
-    "劣化の種類を選択", ["テスト", "アルカリ応力腐食割れ", "クリープ亀裂", "脆化"]
+    "劣化の種類を選択", degradation_types
 )
 working_dir = f"./src/nuclear/{degradation_type}"
 llm = st.selectbox("LLMモデルを選択", ["gpt_4o_mini_complete", "gpt_4o_complete"])
@@ -88,22 +102,19 @@ llm_model_mapping = {
 }
 llm_function = llm_model_mapping.get(llm)  # 関数に変換する
 
-# 入力ファイルが存在するか確認
-# Work in progress
-
-if button := st.button("ナレッジグラフ作成"):
-    st.write("ナレッジグラフ作成中...")
-    st.session_state["Indexing"] = LightRAGIndexing(
-        working_dir, llm_function, os.getenv("OPENAI_API_KEY")
-    )
-    st.session_state["Indexing"].run()
-    st.write("ナレッジグラフ作成完了！")
+current_type = st.session_state["current_degradation_type"]
+is_degradation_type_changed = degradation_type != current_type
+is_llm_changed = llm != st.session_state["current_llm"]
+if is_degradation_type_changed or is_llm_changed:
+    st.session_state["index_created"] = False
+    st.session_state["current_degradation_type"] = degradation_type
+    st.session_state["current_llm"] = llm
 
 
 # Chat interface
 if "messages" not in st.session_state:
     st.session_state["messages"] = [
-        {"role": "assistant", "content": "ナレッジグラフから回答を生成します！"}
+        {"role": "assistant", "content": "ナレッジグラフから回答を生成します！質問を入力してください。"}
     ]
 
 for msg in st.session_state["messages"]:
@@ -112,6 +123,21 @@ for msg in st.session_state["messages"]:
 if prompt := st.chat_input(placeholder="質問を入力してください"):
     st.session_state["messages"].append({"role": "user", "content": prompt})
     st.chat_message("user").write(prompt)
+
+    if "Indexing" not in st.session_state or not st.session_state["index_created"]:
+        with st.spinner("ナレッジグラフを確認中..."):
+            st.session_state["Indexing"] = LightRAGIndexing(
+                working_dir, llm_function
+            )
+
+            if st.session_state["Indexing"].index_exists:
+                st.info("既存のナレッジグラフを再利用します")
+            else:
+                st.info("新しいナレッジグラフを作成します")
+
+            st.session_state["Indexing"].run()
+            st.session_state["index_created"] = True
+
     # クエリを実行
     Query = LightRAGQuery(working_dir, st.session_state["Indexing"].rag)
     response = Query.run(prompt)

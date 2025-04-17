@@ -1,8 +1,8 @@
 import os
 import re
 import xml.etree.ElementTree as ET
-from dotenv import load_dotenv
 
+from dotenv import load_dotenv
 from neo4j import GraphDatabase
 from streamlit_agraph import Edge, Node
 
@@ -25,10 +25,28 @@ class LightRAGIndexing:
           - working_dir: 作業ディレクトリのパス
             (working_dir以下にinputフォルダを作成し、ドキュメントを格納する)
           - llm_model_func: LLMモデル
-          - api_key: OpenAI APIキー（Noneの場合は環境変数から取得）
         """
         self.working_dir = working_dir
-        self.rag = LightRAG(working_dir=self.working_dir, llm_model_func=llm_model_func)
+        self.rag = None
+        self.llm_model_func = llm_model_func
+
+        self.index_exists = self._check_index_exists()
+
+    def _check_index_exists(self):
+        """既存のインデックスファイルが存在するか確認する"""
+        required_files = [
+            "kv_store_full_docs.json",
+            "kv_store_text_chunks.json",
+            "graph_chunk_entity_relation.graphml",
+            "vdb_entities.json",
+            "vdb_relationships.json",
+            "vdb_chunks.json"
+        ]
+
+        for file in required_files:
+            if not os.path.exists(os.path.join(self.working_dir, file)):
+                return False
+        return True
 
     def load_documents(self):
         """
@@ -43,8 +61,18 @@ class LightRAGIndexing:
     def run(self):
         """
         全体処理を実行する
+        既存のインデックスがある場合は再利用し、なければ新規作成する
         """
-        self.load_documents()
+        self.rag = LightRAG(
+            working_dir=self.working_dir, 
+            llm_model_func=self.llm_model_func
+        )
+
+        if not self.index_exists:
+            print(f"Creating new index in {self.working_dir}")
+            self.load_documents()
+        else:
+            print(f"Reusing existing index from {self.working_dir}")
 
 
 class LightRAGQuery:
